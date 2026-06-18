@@ -1,0 +1,526 @@
+{
+  "type": "FeatureCollection",
+  "name": "milestones",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6536904,
+          31.25661
+        ]
+      },
+      "properties": {
+        "event_id": "bdq_001",
+        "title": "王仲舒捐带建桥",
+        "start_year": "816",
+        "end_year": "819",
+        "period_label": "唐元和十一年至十四年",
+        "event_type": "culture",
+        "gazetteer_place": "宝带桥",
+        "spatial_layer": "宝带桥社区志地名_OSM匹配与待校对",
+        "visual_action": "highlight",
+        "source_text": "元和十一年至十四年（816—819），苏州刺史王仲舒变卖束身宝带，募集资金，延工规划构筑长桥。",
+        "source_ref": "概述/大事记",
+        "confidence": "high",
+        "duration_s": "2.0",
+        "narration": "一座桥，连起运河与地方记忆。",
+        "gazetteer_name": "宝带桥",
+        "time_type": "古代-清末",
+        "milestone_significance": "宝带桥奠定社区最核心的历史地标，连接运河交通、地方记忆与后续景区叙事。",
+        "significance_short": "宝带桥奠定社区最核心的历史地标，连接运河交通...",
+        "map_label": "816 王仲舒捐带建桥",
+        "story_label": "816｜宝带桥｜宝带桥奠定社区最核心的历史地标，连接运河交通、地方记忆与后续...",
+        "milestone_popup": "王仲舒捐带建桥\n地点：宝带桥\n意义：宝带桥奠定社区最核心的历史地标，连接运河交通、地方记忆与后续景区叙事。\n志文：元和十一年至十四年（816—819），苏州刺史王仲舒变卖束身宝带，募集资金，延工规划构筑长桥。",
+        "coord_source": "osm_wgs84_to_gcj02",
+        "coord_status": "fallback_coord",
+        "coord_crs": "GCJ-02",
+        "coord_note": "OSM exact -> GCJ-02; 宝带桥",
+        "order": 1,
+        "color": "#8b5e34",
+        "label_web": "816 王仲舒捐带建桥"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6536904,
+          31.25661
+        ]
+      },
+      "properties": {
+        "event_id": "bdq_002",
+        "title": "林则徐主持修桥",
+        "start_year": "1831",
+        "end_year": "",
+        "period_label": "道光十一年",
+        "event_type": "culture",
+        "gazetteer_place": "宝带桥",
+        "spatial_layer": "宝带桥社区志地名_OSM匹配与待校对",
+        "visual_action": "highlight",
+        "source_text": "道光十一年（1831）林则徐主持修缮宝带桥。",
+        "source_ref": "大事记",
+        "confidence": "high",
+        "duration_s": "1.8",
+        "narration": "古桥几经修缮，延续为运河地标。",
+        "gazetteer_name": "宝带桥",
+        "time_type": "古代-清末",
+        "milestone_significance": "林则徐主持修桥，使古桥在清代水运体系中继续发挥地标与交通作用。",
+        "significance_short": "林则徐主持修桥，使古桥在清代水运体系中继续发...",
+        "map_label": "1831 林则徐主持修桥",
+        "story_label": "1831｜宝带桥｜林则徐主持修桥，使古桥在清代水运体系中继续发挥地标与交通作用...",
+        "milestone_popup": "林则徐主持修桥\n地点：宝带桥\n意义：林则徐主持修桥，使古桥在清代水运体系中继续发挥地标与交通作用。\n志文：道光十一年（1831）林则徐主持修缮宝带桥。",
+        "coord_source": "osm_wgs84_to_gcj02",
+        "coord_status": "fallback_coord",
+        "coord_crs": "GCJ-02",
+        "coord_note": "OSM exact -> GCJ-02; 宝带桥",
+        "order": 2,
+        "color": "#8b5e34",
+        "label_web": "1831 林则徐主持修桥"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6536904,
+          31.25661
+        ]
+      },
+      "properties": {
+        "event_id": "bdq_003",
+        "title": "宝带桥重建",
+        "start_year": "1872",
+        "end_year": "",
+        "period_label": "同治十一年",
+        "event_type": "culture",
+        "gazetteer_place": "宝带桥",
+        "spatial_layer": "宝带桥社区志地名_OSM匹配与待校对",
+        "visual_action": "reveal",
+        "source_text": "同治十一年（1872）水利工程局重建宝带桥，并在南北两堍各置石狮一对。",
+        "source_ref": "大事记",
+        "confidence": "high",
+        "duration_s": "1.8",
+        "narration": "重建后的宝带桥，重新嵌入水运交通。",
+        "gazetteer_name": "宝带桥",
+        "time_type": "古代-清末",
+        "milestone_significance": "同治年间重建强化了宝带桥的工程形态和文化遗存，延续古桥生命。",
+        "significance_short": "同治年间重建强化了宝带桥的工程形态和文化遗存...",
+        "map_label": "1872 宝带桥重建",
+        "story_label": "1872｜宝带桥｜同治年间重建强化了宝带桥的工程形态和文化遗存，延续古桥生命。",
+        "milestone_popup": "宝带桥重建\n地点：宝带桥\n意义：同治年间重建强化了宝带桥的工程形态和文化遗存，延续古桥生命。\n志文：同治十一年（1872）水利工程局重建宝带桥，并在南北两堍各置石狮一对。",
+        "coord_source": "osm_wgs84_to_gcj02",
+        "coord_status": "fallback_coord",
+        "coord_crs": "GCJ-02",
+        "coord_note": "OSM exact -> GCJ-02; 宝带桥",
+        "order": 3,
+        "color": "#8b5e34",
+        "label_web": "1872 宝带桥重建"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6444783,
+          31.2503652
+        ]
+      },
+      "properties": {
+        "event_id": "bdq_004",
+        "title": "境域解放",
+        "start_year": "1949",
+        "end_year": "",
+        "period_label": "1949年",
+        "event_type": "governance",
+        "gazetteer_place": "宝带桥社区",
+        "spatial_layer": "宝带桥社区志地名_OSM匹配与待校对",
+        "visual_action": "reveal",
+        "source_text": "1949年4月27日，境域解放。",
+        "source_ref": "大事记",
+        "confidence": "high",
+        "duration_s": "1.6",
+        "narration": "地方建置进入新的历史阶段。",
+        "gazetteer_name": "宝带桥社区",
+        "time_type": "集体化与农业建设",
+        "milestone_significance": "境域解放标志地方社会进入新的政权与基层治理阶段。",
+        "significance_short": "境域解放标志地方社会进入新的政权与基层治理阶...",
+        "map_label": "1949 境域解放",
+        "story_label": "1949｜宝带桥社区｜境域解放标志地方社会进入新的政权与基层治理阶段。",
+        "milestone_popup": "境域解放\n地点：宝带桥社区\n意义：境域解放标志地方社会进入新的政权与基层治理阶段。\n志文：1949年4月27日，境域解放。",
+        "coord_source": "osm_wgs84_to_gcj02",
+        "coord_status": "fallback_coord",
+        "coord_crs": "GCJ-02",
+        "coord_note": "OSM exact -> GCJ-02; 宝带桥社区",
+        "order": 4,
+        "color": "#4f8a54",
+        "label_web": "1949 境域解放"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6536904,
+          31.25661
+        ]
+      },
+      "properties": {
+        "event_id": "bdq_005",
+        "title": "全境通电与文保",
+        "start_year": "1956",
+        "end_year": "",
+        "period_label": "1956年",
+        "event_type": "service",
+        "gazetteer_place": "宝带桥",
+        "spatial_layer": "宝带桥社区志地名_OSM匹配与待校对",
+        "visual_action": "highlight",
+        "source_text": "1956年4月，长桥乡在金星25高级农业生产合作社开展农村用电试点，年内，境域全境通电；10月8日，宝带桥被列为江苏省文物保护单位。",
+        "source_ref": "大事记",
+        "confidence": "high",
+        "duration_s": "2.0",
+        "narration": "现代设施与文物保护同步进入社区生活。",
+        "gazetteer_name": "宝带桥",
+        "time_type": "集体化与农业建设",
+        "milestone_significance": "全境通电与省级文保并行，体现社区从生产生活现代化走向遗产保护。",
+        "significance_short": "全境通电与省级文保并行，体现社区从生产生活现...",
+        "map_label": "1956 全境通电与文保",
+        "story_label": "1956｜宝带桥｜全境通电与省级文保并行，体现社区从生产生活现代化走向遗产保护...",
+        "milestone_popup": "全境通电与文保\n地点：宝带桥\n意义：全境通电与省级文保并行，体现社区从生产生活现代化走向遗产保护。\n志文：1956年4月，长桥乡在金星25高级农业生产合作社开展农村用电试点，年内，境域全境通电；10月8日，宝带桥被列为江苏省文物保护单位。",
+        "coord_source": "osm_wgs84_to_gcj02",
+        "coord_status": "fallback_coord",
+        "coord_crs": "GCJ-02",
+        "coord_note": "OSM exact -> GCJ-02; 宝带桥",
+        "order": 5,
+        "color": "#4f8a54",
+        "label_web": "1956 全境通电与文保"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6444783,
+          31.2503652
+        ]
+      },
+      "properties": {
+        "event_id": "bdq_006",
+        "title": "高产水稻示范",
+        "start_year": "1962",
+        "end_year": "",
+        "period_label": "1962年",
+        "event_type": "economy",
+        "gazetteer_place": "宝带桥社区",
+        "spatial_layer": "宝带桥社区志地名_OSM匹配与待校对",
+        "visual_action": "reveal",
+        "source_text": "1962年，江苏农科院副院长陈永康率科技人员至长桥大队做水稻高产示范试验，并多次至境内指导推广。",
+        "source_ref": "概述/大事记",
+        "confidence": "high",
+        "duration_s": "1.8",
+        "narration": "水网农田成为江南高产稳产地区。",
+        "gazetteer_name": "宝带桥社区",
+        "time_type": "集体化与农业建设",
+        "milestone_significance": "高产水稻示范把水网农田转化为农业科技推广空间，形成江南高产稳产记忆。",
+        "significance_short": "高产水稻示范把水网农田转化为农业科技推广空间...",
+        "map_label": "1962 高产水稻示范",
+        "story_label": "1962｜宝带桥社区｜高产水稻示范把水网农田转化为农业科技推广空间，形成江南高产稳...",
+        "milestone_popup": "高产水稻示范\n地点：宝带桥社区\n意义：高产水稻示范把水网农田转化为农业科技推广空间，形成江南高产稳产记忆。\n志文：1962年，江苏农科院副院长陈永康率科技人员至长桥大队做水稻高产示范试验，并多次至境内指导推广。",
+        "coord_source": "osm_wgs84_to_gcj02",
+        "coord_status": "fallback_coord",
+        "coord_crs": "GCJ-02",
+        "coord_note": "OSM exact -> GCJ-02; 宝带桥社区",
+        "order": 6,
+        "color": "#4f8a54",
+        "label_web": "1962 高产水稻示范"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6444783,
+          31.2503652
+        ]
+      },
+      "properties": {
+        "event_id": "bdq_007",
+        "title": "划归经济开发区",
+        "start_year": "1992",
+        "end_year": "",
+        "period_label": "1992年8月",
+        "event_type": "economy",
+        "gazetteer_place": "宝带桥社区",
+        "spatial_layer": "宝带桥社区志地名_OSM匹配与待校对",
+        "visual_action": "grow",
+        "source_text": "1992年8月，境域划归吴县经济技术开发区；境域制订建设规划蓝图，全面大开发、大建设。",
+        "source_ref": "概述/建置沿革",
+        "confidence": "high",
+        "duration_s": "2.0",
+        "narration": "从乡村空间转向开发建设空间。",
+        "gazetteer_name": "宝带桥社区",
+        "time_type": "开发区建设",
+        "milestone_significance": "划归经济技术开发区开启空间开发、道路桥梁建设和旧村改造的城市化阶段。",
+        "significance_short": "划归经济技术开发区开启空间开发、道路桥梁建设...",
+        "map_label": "1992 划归经济开发区",
+        "story_label": "1992｜宝带桥社区｜划归经济技术开发区开启空间开发、道路桥梁建设和旧村改造的城市...",
+        "milestone_popup": "划归经济开发区\n地点：宝带桥社区\n意义：划归经济技术开发区开启空间开发、道路桥梁建设和旧村改造的城市化阶段。\n志文：1992年8月，境域划归吴县经济技术开发区；境域制订建设规划蓝图，全面大开发、大建设。",
+        "coord_source": "osm_wgs84_to_gcj02",
+        "coord_status": "fallback_coord",
+        "coord_crs": "GCJ-02",
+        "coord_note": "OSM exact -> GCJ-02; 宝带桥社区",
+        "order": 7,
+        "color": "#d45b43",
+        "label_web": "1992 划归经济开发区"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6444783,
+          31.2503652
+        ]
+      },
+      "properties": {
+        "event_id": "bdq_008",
+        "title": "宝带桥社区居委会成立",
+        "start_year": "2004",
+        "end_year": "",
+        "period_label": "2004年6月",
+        "event_type": "governance",
+        "gazetteer_place": "宝带桥社区",
+        "spatial_layer": "宝带桥社区志地名_OSM匹配与待校对",
+        "visual_action": "highlight",
+        "source_text": "2004年6月20日，吴中区城南街道办事处成立，宝带桥居委会划归城南街道，更名为宝带桥社区居委会。",
+        "source_ref": "建置沿革",
+        "confidence": "high",
+        "duration_s": "1.8",
+        "narration": "社区治理单元正式成形。",
+        "gazetteer_name": "宝带桥社区",
+        "time_type": "社区成立与城市更新",
+        "milestone_significance": "宝带桥社区居委会成立，社区作为现代基层治理单元正式成形。",
+        "significance_short": "宝带桥社区居委会成立，社区作为现代基层治理单...",
+        "map_label": "2004 宝带桥社区居委会成立",
+        "story_label": "2004｜宝带桥社区｜宝带桥社区居委会成立，社区作为现代基层治理单元正式成形。",
+        "milestone_popup": "宝带桥社区居委会成立\n地点：宝带桥社区\n意义：宝带桥社区居委会成立，社区作为现代基层治理单元正式成形。\n志文：2004年6月20日，吴中区城南街道办事处成立，宝带桥居委会划归城南街道，更名为宝带桥社区居委会。",
+        "coord_source": "osm_wgs84_to_gcj02",
+        "coord_status": "fallback_coord",
+        "coord_crs": "GCJ-02",
+        "coord_note": "OSM exact -> GCJ-02; 宝带桥社区",
+        "order": 8,
+        "color": "#3867b7",
+        "label_web": "2004 宝带桥社区居委会成立"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6481527,
+          31.2498725
+        ]
+      },
+      "properties": {
+        "event_id": "bdq_009",
+        "title": "轨交宝带桥南站联动",
+        "start_year": "2011",
+        "end_year": "",
+        "period_label": "2011年",
+        "event_type": "transport",
+        "gazetteer_place": "宝带桥南",
+        "spatial_layer": "宝带桥社区志地名_OSM匹配与待校对",
+        "visual_action": "path",
+        "source_text": "2011年，宝带桥社区配合轨交二号线的开设和宝带桥南站的设定，动员石湖东路两侧企业和居民迁移。",
+        "source_ref": "大事记",
+        "confidence": "medium",
+        "duration_s": "1.8",
+        "narration": "轨道交通改变社区出行与空间组织。",
+        "gazetteer_name": "宝带桥南",
+        "time_type": "社区成立与城市更新",
+        "milestone_significance": "轨交宝带桥南站带动迁移和出行结构变化，社区空间接入城市轨道网络。",
+        "significance_short": "轨交宝带桥南站带动迁移和出行结构变化，社区空...",
+        "map_label": "2011 轨交宝带桥南站联动",
+        "story_label": "2011｜宝带桥南｜轨交宝带桥南站带动迁移和出行结构变化，社区空间接入城市轨道网...",
+        "milestone_popup": "轨交宝带桥南站联动\n地点：宝带桥南\n意义：轨交宝带桥南站带动迁移和出行结构变化，社区空间接入城市轨道网络。\n志文：2011年，宝带桥社区配合轨交二号线的开设和宝带桥南站的设定，动员石湖东路两侧企业和居民迁移。",
+        "coord_source": "osm_wgs84_to_gcj02",
+        "coord_status": "fallback_coord",
+        "coord_crs": "GCJ-02",
+        "coord_note": "OSM exact -> GCJ-02; 宝带桥南",
+        "order": 9,
+        "color": "#3867b7",
+        "label_web": "2011 轨交宝带桥南站联动"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6536904,
+          31.25661
+        ]
+      },
+      "properties": {
+        "event_id": "bdq_010",
+        "title": "大运河申遗成功",
+        "start_year": "2014",
+        "end_year": "",
+        "period_label": "2014年6月",
+        "event_type": "culture",
+        "gazetteer_place": "宝带桥",
+        "spatial_layer": "宝带桥社区志地名_OSM匹配与待校对",
+        "visual_action": "highlight",
+        "source_text": "2014年6月，第38届世界遗产委员会会议同意将中国大运河列入《世界遗产名录》，宝带桥为其中重要遗产之一。",
+        "source_ref": "大事记",
+        "confidence": "high",
+        "duration_s": "2.0",
+        "narration": "宝带桥成为世界文化遗产的重要节点。",
+        "gazetteer_name": "宝带桥",
+        "time_type": "运河文旅更新",
+        "milestone_significance": "大运河申遗成功使宝带桥从地方古桥上升为世界文化遗产节点。",
+        "significance_short": "大运河申遗成功使宝带桥从地方古桥上升为世界文...",
+        "map_label": "2014 大运河申遗成功",
+        "story_label": "2014｜宝带桥｜大运河申遗成功使宝带桥从地方古桥上升为世界文化遗产节点。",
+        "milestone_popup": "大运河申遗成功\n地点：宝带桥\n意义：大运河申遗成功使宝带桥从地方古桥上升为世界文化遗产节点。\n志文：2014年6月，第38届世界遗产委员会会议同意将中国大运河列入《世界遗产名录》，宝带桥为其中重要遗产之一。",
+        "coord_source": "osm_wgs84_to_gcj02",
+        "coord_status": "fallback_coord",
+        "coord_crs": "GCJ-02",
+        "coord_note": "OSM exact -> GCJ-02; 宝带桥",
+        "order": 10,
+        "color": "#7b4ab8",
+        "label_web": "2014 大运河申遗成功"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6499934,
+          31.2556431
+        ]
+      },
+      "properties": {
+        "event_id": "bdq_011",
+        "title": "澹台湖景区一期竣工",
+        "start_year": "2016",
+        "end_year": "",
+        "period_label": "2016年9月2日",
+        "event_type": "construction",
+        "gazetteer_place": "澹台湖",
+        "spatial_layer": "宝带桥社区志地名_OSM匹配与待校对",
+        "visual_action": "reveal",
+        "source_text": "2016年9月2日，宝带桥·澹台湖景区第一期项目竣工。",
+        "source_ref": "大事记",
+        "confidence": "high",
+        "duration_s": "1.8",
+        "narration": "运河、古桥与湖景空间形成新的公共景观。",
+        "gazetteer_name": "澹台湖",
+        "time_type": "运河文旅更新",
+        "milestone_significance": "宝带桥·澹台湖景区一期竣工，把古桥、运河、湖景组织为公共景观空间。",
+        "significance_short": "宝带桥·澹台湖景区一期竣工，把古桥、运河、湖...",
+        "map_label": "2016 澹台湖景区一期竣工",
+        "story_label": "2016｜澹台湖｜宝带桥·澹台湖景区一期竣工，把古桥、运河、湖景组织为公共景观...",
+        "milestone_popup": "澹台湖景区一期竣工\n地点：澹台湖\n意义：宝带桥·澹台湖景区一期竣工，把古桥、运河、湖景组织为公共景观空间。\n志文：2016年9月2日，宝带桥·澹台湖景区第一期项目竣工。",
+        "coord_source": "osm_wgs84_to_gcj02",
+        "coord_status": "fallback_coord",
+        "coord_crs": "GCJ-02",
+        "coord_note": "OSM exact -> GCJ-02; 澹台湖",
+        "order": 11,
+        "color": "#7b4ab8",
+        "label_web": "2016 澹台湖景区一期竣工"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6484138,
+          31.2536539
+        ]
+      },
+      "properties": {
+        "event_id": "bdq_012",
+        "title": "吴中博物馆开馆",
+        "start_year": "2020",
+        "end_year": "",
+        "period_label": "2020年6月28日",
+        "event_type": "culture",
+        "gazetteer_place": "吴文化博物馆",
+        "spatial_layer": "宝带桥社区志地名_OSM匹配与待校对",
+        "visual_action": "grow",
+        "source_text": "2020年6月28日，全国第一座全面展示吴地文化的吴中博物馆建成开馆。",
+        "source_ref": "大事记",
+        "confidence": "high",
+        "duration_s": "2.0",
+        "narration": "社区南堍新增吴地文化展示核心。",
+        "gazetteer_name": "吴文化博物馆",
+        "time_type": "运河文旅更新",
+        "milestone_significance": "吴中博物馆开馆，使社区南堍成为吴地文化展示和文旅传播节点。",
+        "significance_short": "吴中博物馆开馆，使社区南堍成为吴地文化展示和...",
+        "map_label": "2020 吴中博物馆开馆",
+        "story_label": "2020｜吴文化博物馆｜吴中博物馆开馆，使社区南堍成为吴地文化展示和文旅传播节点。",
+        "milestone_popup": "吴中博物馆开馆\n地点：吴文化博物馆\n意义：吴中博物馆开馆，使社区南堍成为吴地文化展示和文旅传播节点。\n志文：2020年6月28日，全国第一座全面展示吴地文化的吴中博物馆建成开馆。",
+        "coord_source": "osm_wgs84_to_gcj02",
+        "coord_status": "fallback_coord",
+        "coord_crs": "GCJ-02",
+        "coord_note": "OSM exact -> GCJ-02; 吴文化博物馆",
+        "order": 12,
+        "color": "#7b4ab8",
+        "label_web": "2020 吴中博物馆开馆"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6518419,
+          31.2561265
+        ]
+      },
+      "properties": {
+        "event_id": "bdq_013",
+        "title": "核心展示园更名",
+        "start_year": "2020",
+        "end_year": "",
+        "period_label": "2020年12月",
+        "event_type": "construction",
+        "gazetteer_place": "宝带桥·澹台湖核心展示园",
+        "spatial_layer": "宝带桥社区志地名_OSM匹配与待校对",
+        "visual_action": "reveal",
+        "source_text": "2020年12月，宝带桥·澹台湖景区更名为大运河国家文化公园——宝带桥·澹台湖核心展示园。",
+        "source_ref": "大事记",
+        "confidence": "high",
+        "duration_s": "1.6",
+        "narration": "社区空间进入大运河国家文化公园叙事。",
+        "gazetteer_name": "宝带桥·澹台湖核心展示园",
+        "time_type": "运河文旅更新",
+        "milestone_significance": "核心展示园更名把社区空间纳入大运河国家文化公园的整体叙事。",
+        "significance_short": "核心展示园更名把社区空间纳入大运河国家文化公...",
+        "map_label": "2020 核心展示园更名",
+        "story_label": "2020｜宝带桥·澹台湖核心展示园｜核心展示园更名把社区空间纳入大运河国家文化公园的整体叙事。",
+        "milestone_popup": "核心展示园更名\n地点：宝带桥·澹台湖核心展示园\n意义：核心展示园更名把社区空间纳入大运河国家文化公园的整体叙事。\n志文：2020年12月，宝带桥·澹台湖景区更名为大运河国家文化公园——宝带桥·澹台湖核心展示园。",
+        "coord_source": "synthetic_centroid",
+        "coord_status": "derived_coord",
+        "coord_crs": "GCJ-02",
+        "coord_note": "以宝带桥与澹台湖坐标均值作为景区临时中心点，需人工复核",
+        "order": 13,
+        "color": "#7b4ab8",
+        "label_web": "2020 核心展示园更名"
+      }
+    }
+  ]
+}

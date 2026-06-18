@@ -8,6 +8,7 @@
 
 - 稳定版网页地图：`web/baodaiqiao_aigc_map`
 - 网页游戏 3D 引擎实验分支：`web/baodaiqiao_game3d_map_lab`
+- 3d城市版 Babylon.js 原型：`web/baodaiqiao_3d_city_engine`
 - 宝带桥地名、时间线、里程碑和高频地名柱形数据：`data/baodaiqiao`
 - QGIS 自动加载与 3D 实践脚本：`scripts/pyqgis/load_baodaiqiao_*.py`
 - 数据生成脚本：`scripts/tools/build_baodaiqiao_*.py`
@@ -26,6 +27,21 @@ http://127.0.0.1:8282/
 ```
 
 也可以直接双击 `web/baodaiqiao_aigc_map/一键启动_宝带桥AIGC地图.bat`。
+
+3d城市版运行方式：
+
+```powershell
+cd web/baodaiqiao_3d_city_engine
+python -m http.server 8383 --bind 127.0.0.1
+```
+
+然后打开：
+
+```text
+http://127.0.0.1:8383/
+```
+
+也可以直接双击 `web/baodaiqiao_3d_city_engine/一键启动_宝带桥3D城市版.bat`。
 
 当前 POC 的核心流程是：
 

@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>宝带桥历史里程碑3D城市版</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <canvas id="renderCanvas" aria-label="宝带桥历史里程碑3D城市场景"></canvas>
+
+      <header class="top-bar">
+        <div>
+          <h1>宝带桥历史里程碑3D城市版</h1>
+          <p>基于社区志地名统计与里程碑时间轴的游戏引擎沙盘</p>
+        </div>
+        <div class="status-strip" aria-label="运行状态">
+          <span>Babylon.js</span>
+          <span>GCJ-02</span>
+          <span>8383</span>
+        </div>
+      </header>
+
+      <aside class="panel left-panel" aria-label="图层与地名排行">
+        <section class="panel-section">
+          <h2>图层</h2>
+          <label class="toggle-row">
+            <input id="togglePlaces" type="checkbox" checked />
+            <span>高频地名柱体</span>
+          </label>
+          <label class="toggle-row">
+            <input id="toggleMilestones" type="checkbox" checked />
+            <span>里程碑光柱</span>
+          </label>
+          <label class="toggle-row">
+            <input id="toggleTimeline" type="checkbox" checked />
+            <span>时间路径</span>
+          </label>
+          <label class="toggle-row">
+            <input id="toggleLabels" type="checkbox" checked />
+            <span>3D 标注</span>
+          </label>
+        </section>
+
+        <section class="panel-section">
+          <h2>时期</h2>
+          <div id="timeTypeFilters" class="filter-grid" aria-label="时期筛选"></div>
+        </section>
+
+        <section class="panel-section rank-section">
+          <h2>高频地名</h2>
+          <div id="rankList" class="rank-list"></div>
+        </section>
+      </aside>
+
+      <aside class="panel right-panel" aria-label="当前对象信息">
+        <section class="inspector">
+          <p id="inspectorKicker" class="kicker">当前选择</p>
+          <h2 id="inspectorTitle">宝带桥社区志 3D 沙盘</h2>
+          <p id="inspectorMeta" class="meta-line">拖拽旋转，滚轮缩放，点击柱体或光柱查看详情。</p>
+          <div id="inspectorBody" class="inspector-body">
+            <div class="metric-pair">
+              <span>地名柱体</span>
+              <strong id="placeCount">-</strong>
+            </div>
+            <div class="metric-pair">
+              <span>里程碑</span>
+              <strong id="milestoneCount">-</strong>
+            </div>
+            <div class="metric-pair">
+              <span>当前年份</span>
+              <strong id="currentYearMetric">-</strong>
+            </div>
+          </div>
+        </section>
+      </aside>
+
+      <footer class="timeline-bar" aria-label="时间轴控制">
+        <button id="playButton" class="icon-button" type="button" aria-label="播放时间轴">播放</button>
+        <button id="resetCameraButton" class="icon-button" type="button" aria-label="重置相机">重置视角</button>
+        <div class="timeline-field">
+          <div class="timeline-labels">
+            <span id="minYearLabel">-</span>
+            <strong id="yearLabel">-</strong>
+            <span id="maxYearLabel">-</span>
+          </div>
+          <input id="yearSlider" type="range" min="0" max="100" value="100" />
+        </div>
+        <div id="runtimeHint" class="runtime-hint">正在载入 3D 城市场景...</div>
+      </footer>
+    </main>
+
+    <script src="./vendor/babylon/babylon.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
