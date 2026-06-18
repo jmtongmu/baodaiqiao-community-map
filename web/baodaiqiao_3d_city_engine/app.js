@@ -122,10 +122,10 @@ function buildWorld(columns, milestones) {
   const projected = allCoords.map((p) => project(p.lon, p.lat));
   const xs = projected.map((p) => p.x);
   const zs = projected.map((p) => p.z);
-  const minX = Math.min(...xs) - 36;
-  const maxX = Math.max(...xs) + 36;
-  const minZ = Math.min(...zs) - 36;
-  const maxZ = Math.max(...zs) + 36;
+  const minX = Math.min(...xs) - 74;
+  const maxX = Math.max(...xs) + 74;
+  const minZ = Math.min(...zs) - 64;
+  const maxZ = Math.max(...zs) + 64;
 
   return {
     centerLon,
@@ -191,55 +191,389 @@ function deterministicRandom(seed) {
   };
 }
 
+function buildBasemapPaths(world) {
+  const { minX, maxX, minZ, maxZ } = world.bounds;
+  const width = maxX - minX;
+  const depth = maxZ - minZ;
+  const cx = world.center.x;
+  const cz = world.center.z;
+
+  const point = (x, z, y = 0.22) => new BABYLON.Vector3(x, y, z);
+
+  return {
+    water: [
+      {
+        name: "grand-canal",
+        width: Math.max(7, width * 0.038),
+        points: [
+          point(minX - width * 0.08, cz + depth * 0.31),
+          point(minX + width * 0.18, cz + depth * 0.23),
+          point(cx - width * 0.08, cz + depth * 0.08),
+          point(cx + width * 0.17, cz - depth * 0.03),
+          point(maxX + width * 0.08, cz - depth * 0.21),
+        ],
+      },
+      {
+        name: "community-canal",
+        width: Math.max(4.6, width * 0.024),
+        points: [
+          point(cx - width * 0.22, maxZ + depth * 0.04),
+          point(cx - width * 0.12, cz + depth * 0.21),
+          point(cx - width * 0.04, cz + depth * 0.02),
+          point(cx + width * 0.02, cz - depth * 0.16),
+          point(cx + width * 0.15, minZ - depth * 0.04),
+        ],
+      },
+      {
+        name: "taitai-lake-arm",
+        width: Math.max(3.6, width * 0.018),
+        points: [
+          point(cx + width * 0.05, cz + depth * 0.34),
+          point(cx + width * 0.19, cz + depth * 0.26),
+          point(cx + width * 0.34, cz + depth * 0.27),
+          point(cx + width * 0.46, cz + depth * 0.2),
+        ],
+      },
+    ],
+    roads: [
+      {
+        name: "urban-artery-east-west",
+        width: 4.8,
+        points: [
+          point(minX - 24, cz + depth * 0.08),
+          point(cx - width * 0.18, cz + depth * 0.05),
+          point(cx + width * 0.12, cz + depth * 0.02),
+          point(maxX + 24, cz - depth * 0.03),
+        ],
+      },
+      {
+        name: "urban-artery-north-south",
+        width: 5.2,
+        points: [
+          point(cx + width * 0.09, minZ - 22),
+          point(cx + width * 0.05, cz - depth * 0.12),
+          point(cx + width * 0.02, cz + depth * 0.11),
+          point(cx - width * 0.02, maxZ + 22),
+        ],
+      },
+      {
+        name: "ring-road-west",
+        width: 3.8,
+        points: [
+          point(minX + width * 0.08, cz - depth * 0.24),
+          point(minX + width * 0.25, cz - depth * 0.15),
+          point(minX + width * 0.33, cz + depth * 0.07),
+          point(minX + width * 0.28, cz + depth * 0.31),
+        ],
+      },
+      {
+        name: "ring-road-east",
+        width: 3.8,
+        points: [
+          point(maxX - width * 0.12, cz - depth * 0.32),
+          point(maxX - width * 0.24, cz - depth * 0.07),
+          point(maxX - width * 0.19, cz + depth * 0.18),
+          point(maxX - width * 0.08, cz + depth * 0.33),
+        ],
+      },
+      {
+        name: "community-spine",
+        width: 3.2,
+        points: [
+          point(cx - width * 0.34, cz - depth * 0.04),
+          point(cx - width * 0.17, cz - depth * 0.01),
+          point(cx + width * 0.03, cz - depth * 0.06),
+          point(cx + width * 0.24, cz - depth * 0.13),
+          point(cx + width * 0.43, cz - depth * 0.12),
+        ],
+      },
+    ],
+  };
+}
+
+function createWorldMapper(world, textureSize) {
+  const padding = Math.max(world.width, world.depth) * 0.06;
+  const minX = world.bounds.minX - padding;
+  const maxX = world.bounds.maxX + padding;
+  const minZ = world.bounds.minZ - padding;
+  const maxZ = world.bounds.maxZ + padding;
+  return (point) => ({
+    x: ((point.x - minX) / (maxX - minX)) * textureSize,
+    y: ((point.z - minZ) / (maxZ - minZ)) * textureSize,
+  });
+}
+
+function strokeMapPath(ctx, mapper, points, width, color, options = {}) {
+  if (!points.length) return;
+  ctx.save();
+  ctx.lineCap = "round";
+  ctx.lineJoin = "round";
+  ctx.globalAlpha = options.alpha ?? 1;
+  ctx.strokeStyle = color;
+  ctx.lineWidth = width;
+  if (options.blur) {
+    ctx.shadowBlur = options.blur;
+    ctx.shadowColor = options.shadowColor || color;
+  }
+  ctx.beginPath();
+  points.forEach((point, index) => {
+    const mapped = mapper(point);
+    if (index === 0) ctx.moveTo(mapped.x, mapped.y);
+    else ctx.lineTo(mapped.x, mapped.y);
+  });
+  ctx.stroke();
+  ctx.restore();
+}
+
+function createGroundMapMaterial(scene, world, paths) {
+  const size = 4096;
+  const texture = new BABYLON.DynamicTexture("procedural-city-map", { width: size, height: size }, scene, false);
+  const ctx = texture.getContext();
+  const mapper = createWorldMapper(world, size);
+  const random = deterministicRandom(9127);
+  const background = ctx.createLinearGradient(0, 0, size, size);
+  background.addColorStop(0, "#11242f");
+  background.addColorStop(0.45, "#182d36");
+  background.addColorStop(1, "#0e1a24");
+  ctx.fillStyle = background;
+  ctx.fillRect(0, 0, size, size);
+
+  ctx.save();
+  ctx.globalAlpha = 0.18;
+  for (let index = 0; index < 1100; index += 1) {
+    const x = random() * size;
+    const y = random() * size;
+    const w = 18 + random() * 120;
+    const h = 12 + random() * 90;
+    ctx.fillStyle = random() > 0.72 ? "#49605b" : "#263c43";
+    ctx.fillRect(x, y, w, h);
+  }
+  ctx.restore();
+
+  ctx.save();
+  ctx.globalAlpha = 0.23;
+  ctx.strokeStyle = "#6f8386";
+  ctx.lineWidth = 2;
+  for (let x = 90; x < size; x += 126) {
+    ctx.beginPath();
+    ctx.moveTo(x + (random() - 0.5) * 36, 0);
+    ctx.lineTo(x + (random() - 0.5) * 48, size);
+    ctx.stroke();
+  }
+  for (let y = 80; y < size; y += 118) {
+    ctx.beginPath();
+    ctx.moveTo(0, y + (random() - 0.5) * 34);
+    ctx.lineTo(size, y + (random() - 0.5) * 46);
+    ctx.stroke();
+  }
+  ctx.restore();
+
+  paths.water.forEach((path) => {
+    const width = path.width * 12.5;
+    strokeMapPath(ctx, mapper, path.points, width + 34, "rgba(0, 0, 0, 0.34)");
+    strokeMapPath(ctx, mapper, path.points, width + 12, "#0a3c4d", { alpha: 0.95 });
+    strokeMapPath(ctx, mapper, path.points, width, "#0d6575", { alpha: 0.86 });
+    strokeMapPath(ctx, mapper, path.points, Math.max(5, width * 0.1), "#57d5db", { alpha: 0.18, blur: 10 });
+  });
+
+  paths.roads.forEach((path) => {
+    const width = path.width * 10;
+    strokeMapPath(ctx, mapper, path.points, width + 18, "rgba(5, 9, 12, 0.48)");
+    strokeMapPath(ctx, mapper, path.points, width, "#54666b", { alpha: 0.82 });
+    strokeMapPath(ctx, mapper, path.points, Math.max(4, width * 0.12), "#9fb3b0", { alpha: 0.38 });
+  });
+
+  ctx.save();
+  ctx.globalAlpha = 0.22;
+  for (let index = 0; index < 180; index += 1) {
+    const x = random() * size;
+    const y = random() * size;
+    const r = 10 + random() * 44;
+    const glow = ctx.createRadialGradient(x, y, 0, x, y, r);
+    glow.addColorStop(0, "rgba(248, 172, 78, 0.65)");
+    glow.addColorStop(1, "rgba(248, 172, 78, 0)");
+    ctx.fillStyle = glow;
+    ctx.beginPath();
+    ctx.arc(x, y, r, 0, Math.PI * 2);
+    ctx.fill();
+  }
+  ctx.restore();
+
+  texture.update();
+
+  const material = new BABYLON.StandardMaterial("mat-procedural-city-map", scene);
+  material.diffuseTexture = texture;
+  material.emissiveTexture = texture;
+  material.diffuseColor = new BABYLON.Color3(0.82, 0.9, 0.94);
+  material.emissiveColor = new BABYLON.Color3(0.18, 0.25, 0.28);
+  material.specularColor = new BABYLON.Color3(0.06, 0.08, 0.09);
+  material.alpha = 0.34;
+  material.transparencyMode = BABYLON.Material.MATERIAL_ALPHABLEND;
+  return material;
+}
+
+function createAerialBaseMaterial(scene) {
+  const texture = new BABYLON.Texture("./assets/baodaiqiao-aerial-basemap.png", scene);
+  texture.wrapU = BABYLON.Texture.CLAMP_ADDRESSMODE;
+  texture.wrapV = BABYLON.Texture.CLAMP_ADDRESSMODE;
+  const material = new BABYLON.StandardMaterial("mat-aerial-city-basemap", scene);
+  material.diffuseTexture = texture;
+  material.emissiveTexture = texture;
+  material.diffuseColor = new BABYLON.Color3(0.98, 1, 1);
+  material.emissiveColor = new BABYLON.Color3(0.42, 0.47, 0.52);
+  material.specularColor = new BABYLON.Color3(0.08, 0.09, 0.1);
+  return material;
+}
+
+function createRibbonPath(scene, name, points, width, material, y = 0.25) {
+  const left = [];
+  const right = [];
+  points.forEach((point, index) => {
+    const previous = points[Math.max(0, index - 1)];
+    const next = points[Math.min(points.length - 1, index + 1)];
+    const dx = next.x - previous.x;
+    const dz = next.z - previous.z;
+    const length = Math.hypot(dx, dz) || 1;
+    const px = -dz / length;
+    const pz = dx / length;
+    left.push(new BABYLON.Vector3(point.x + px * width * 0.5, y, point.z + pz * width * 0.5));
+    right.push(new BABYLON.Vector3(point.x - px * width * 0.5, y, point.z - pz * width * 0.5));
+  });
+  const mesh = BABYLON.MeshBuilder.CreateRibbon(
+    name,
+    { pathArray: [left, right], closeArray: false, sideOrientation: BABYLON.Mesh.DOUBLESIDE },
+    scene,
+  );
+  mesh.material = material;
+  return mesh;
+}
+
+function distancePointToSegment(x, z, a, b) {
+  const dx = b.x - a.x;
+  const dz = b.z - a.z;
+  const lengthSq = dx * dx + dz * dz || 1;
+  const t = clamp(((x - a.x) * dx + (z - a.z) * dz) / lengthSq, 0, 1);
+  const px = a.x + t * dx;
+  const pz = a.z + t * dz;
+  return Math.hypot(x - px, z - pz);
+}
+
+function distanceToPath(x, z, points) {
+  let min = Infinity;
+  for (let index = 1; index < points.length; index += 1) {
+    min = Math.min(min, distancePointToSegment(x, z, points[index - 1], points[index]));
+  }
+  return min;
+}
+
+function isClearOfCorridors(x, z, paths, margin) {
+  const nearWater = paths.water.some((path) => distanceToPath(x, z, path.points) < path.width * 0.72 + margin);
+  const nearRoad = paths.roads.some((path) => distanceToPath(x, z, path.points) < path.width * 0.65 + margin * 0.55);
+  return !nearWater && !nearRoad;
+}
+
+function addPathLightDots(scene, path, material, count, y = 0.62) {
+  for (let index = 0; index < count; index += 1) {
+    const segmentIndex = index % (path.points.length - 1);
+    const a = path.points[segmentIndex];
+    const b = path.points[segmentIndex + 1];
+    const t = (index + 0.5) / count;
+    const localT = (t * (path.points.length - 1)) % 1;
+    const x = a.x + (b.x - a.x) * localT;
+    const z = a.z + (b.z - a.z) * localT;
+    const dot = BABYLON.MeshBuilder.CreateSphere(`path-light-${path.name}-${index}`, { diameter: 0.55, segments: 12 }, scene);
+    dot.position = new BABYLON.Vector3(x, y, z);
+    dot.material = material;
+  }
+}
+
+function createBridge(scene, name, position, rotation, width, length, materials) {
+  const deck = BABYLON.MeshBuilder.CreateBox(`${name}-deck`, { width, height: 0.42, depth: length }, scene);
+  deck.position = new BABYLON.Vector3(position.x, 1.05, position.z);
+  deck.rotation.y = rotation;
+  deck.material = materials.bridge;
+
+  const railOffset = width * 0.43;
+  [-1, 1].forEach((side) => {
+    const rail = BABYLON.MeshBuilder.CreateBox(`${name}-rail-${side}`, { width: 0.22, height: 0.72, depth: length }, scene);
+    rail.position = new BABYLON.Vector3(position.x + Math.cos(rotation) * railOffset * side, 1.55, position.z - Math.sin(rotation) * railOffset * side);
+    rail.rotation.y = rotation;
+    rail.material = materials.bridgeRail;
+  });
+}
+
 function createContextCity(scene, world, materials) {
+  const paths = buildBasemapPaths(world);
+  materials.ground = createGroundMapMaterial(scene, world, paths);
+  const groundWidth = world.width * 1.78;
+  const groundDepth = world.depth * 1.68;
+  const cityBounds = {
+    minX: world.center.x - groundWidth / 2,
+    maxX: world.center.x + groundWidth / 2,
+    minZ: world.center.z - groundDepth / 2,
+    maxZ: world.center.z + groundDepth / 2,
+  };
+  const aerialBase = BABYLON.MeshBuilder.CreateGround(
+    "aerial-city-basemap",
+    { width: groundWidth, height: groundDepth, subdivisions: 2 },
+    scene,
+  );
+  aerialBase.position = world.center.add(new BABYLON.Vector3(0, -0.04, 0));
+  aerialBase.material = createAerialBaseMaterial(scene);
+  aerialBase.isPickable = false;
+
   const ground = BABYLON.MeshBuilder.CreateGround(
     "city-ground",
-    { width: world.width, height: world.depth, subdivisions: 4 },
+    { width: groundWidth, height: groundDepth, subdivisions: 18 },
     scene,
   );
   ground.position = world.center.clone();
   ground.material = materials.ground;
 
-  const canal = BABYLON.MeshBuilder.CreateBox(
-    "grand-canal-band",
-    { width: world.width * 1.18, height: 0.12, depth: 11 },
-    scene,
-  );
-  canal.position = world.center.add(new BABYLON.Vector3(2, 0.08, -2));
-  canal.rotation.y = -0.58;
-  canal.material = materials.water;
+  paths.water.forEach((path) => {
+    createRibbonPath(scene, `${path.name}-surface`, path.points, path.width, materials.water, 0.32);
+    const edgeLine = BABYLON.MeshBuilder.CreateLines(`${path.name}-edge`, { points: path.points }, scene);
+    edgeLine.color = BABYLON.Color3.FromHexString("#72e9ec");
+  });
 
-  const river = BABYLON.MeshBuilder.CreateBox(
-    "community-water-band",
-    { width: world.width * 0.78, height: 0.1, depth: 5.8 },
-    scene,
-  );
-  river.position = world.center.add(new BABYLON.Vector3(-14, 0.1, 18));
-  river.rotation.y = 0.22;
-  river.material = materials.waterDark;
-
-  const roadA = BABYLON.MeshBuilder.CreateBox("road-east-west", { width: world.width * 0.94, height: 0.09, depth: 4 }, scene);
-  roadA.position = world.center.add(new BABYLON.Vector3(0, 0.15, 15));
-  roadA.rotation.y = 0.08;
-  roadA.material = materials.road;
-
-  const roadB = BABYLON.MeshBuilder.CreateBox("road-north-south", { width: 4.5, height: 0.09, depth: world.depth * 0.86 }, scene);
-  roadB.position = world.center.add(new BABYLON.Vector3(28, 0.16, 0));
-  roadB.rotation.y = -0.12;
-  roadB.material = materials.road;
+  paths.roads.forEach((path) => {
+    createRibbonPath(scene, `${path.name}-road`, path.points, path.width, materials.road, 0.38);
+    addPathLightDots(scene, path, materials.streetLight, 11, 0.64);
+  });
 
   const random = deterministicRandom(20260618);
-  for (let index = 0; index < 95; index += 1) {
-    const x = world.bounds.minX + random() * (world.bounds.maxX - world.bounds.minX);
-    const z = world.bounds.minZ + random() * (world.bounds.maxZ - world.bounds.minZ);
-    const width = 2.4 + random() * 8.6;
-    const depth = 2.4 + random() * 7.4;
-    const height = 0.8 + random() * 5.8;
+  const buildingMaterials = [materials.block, materials.blockCool, materials.blockWarm, materials.blockDark];
+  for (let index = 0; index < 860; index += 1) {
+    let x = 0;
+    let z = 0;
+    let tries = 0;
+    do {
+      x = cityBounds.minX + random() * (cityBounds.maxX - cityBounds.minX);
+      z = cityBounds.minZ + random() * (cityBounds.maxZ - cityBounds.minZ);
+      tries += 1;
+    } while (!isClearOfCorridors(x, z, paths, 3.8) && tries < 16);
+
+    if (tries >= 16) continue;
+
+    const width = 1.2 + random() * 6.4;
+    const depth = 1.2 + random() * 5.8;
+    const height = 0.45 + Math.pow(random(), 2.0) * 10.4;
     const block = BABYLON.MeshBuilder.CreateBox(`context-block-${index}`, { width, height, depth }, scene);
-    block.position = new BABYLON.Vector3(x, height / 2 + 0.15, z);
-    block.rotation.y = (random() - 0.5) * 0.35;
-    block.material = index % 5 === 0 ? materials.blockWarm : materials.block;
+    block.position = new BABYLON.Vector3(x, height / 2 + 0.45, z);
+    block.rotation.y = (random() - 0.5) * 0.58;
+    block.material = buildingMaterials[index % buildingMaterials.length];
+
+    if (index % 5 === 0) {
+      const roof = BABYLON.MeshBuilder.CreateBox(`context-roof-${index}`, { width: width * 0.92, height: 0.08, depth: depth * 0.92 }, scene);
+      roof.position = new BABYLON.Vector3(x, height + 0.52, z);
+      roof.rotation.y = block.rotation.y;
+      roof.material = materials.roof;
+    }
   }
+
+  createBridge(scene, "baodaiqiao-bridge", world.center.add(new BABYLON.Vector3(-1, 0, 1)), -0.52, 7.2, 22, materials);
+  createBridge(scene, "canal-crossing-east", world.center.add(new BABYLON.Vector3(world.width * 0.18, 0, -world.depth * 0.06)), -0.38, 5.4, 16, materials);
+  addPathLightDots(scene, paths.water[0], materials.waterLight, 18, 0.58);
 }
 
 function createPlaceColumns(scene, world, columns) {
@@ -336,7 +670,10 @@ function createScene(columns, milestones) {
   });
 
   const scene = new BABYLON.Scene(state.engine);
-  scene.clearColor = new BABYLON.Color4(0.018, 0.028, 0.043, 1);
+  scene.clearColor = new BABYLON.Color4(0.012, 0.02, 0.032, 1);
+  scene.fogMode = BABYLON.Scene.FOGMODE_EXP2;
+  scene.fogDensity = 0.0022;
+  scene.fogColor = new BABYLON.Color3(0.035, 0.06, 0.082);
   state.scene = scene;
   state.world = buildWorld(columns, milestones);
 
@@ -358,23 +695,28 @@ function createScene(columns, milestones) {
   state.camera = camera;
 
   const hemi = new BABYLON.HemisphericLight("hemi", new BABYLON.Vector3(0, 1, 0), scene);
-  hemi.intensity = 0.72;
-  hemi.groundColor = new BABYLON.Color3(0.08, 0.12, 0.14);
+  hemi.intensity = 0.9;
+  hemi.groundColor = new BABYLON.Color3(0.08, 0.15, 0.17);
 
   const sun = new BABYLON.DirectionalLight("sun", new BABYLON.Vector3(-0.6, -1, -0.35), scene);
   sun.position = new BABYLON.Vector3(90, 120, 80);
-  sun.intensity = 1.6;
+  sun.intensity = 1.35;
 
   const glow = new BABYLON.GlowLayer("city-glow", scene);
-  glow.intensity = 0.42;
+  glow.intensity = 0.5;
 
   const materials = {
-    ground: makeStandardMaterial(scene, "mat-ground", "#111a20"),
-    water: makeStandardMaterial(scene, "mat-water", "#1aa9a8", { alpha: 0.82, emissive: 0.18 }),
-    waterDark: makeStandardMaterial(scene, "mat-water-dark", "#176b85", { alpha: 0.7, emissive: 0.11 }),
-    road: makeStandardMaterial(scene, "mat-road", "#2b3438"),
-    block: makeStandardMaterial(scene, "mat-block", "#1f2c31", { alpha: 0.82 }),
-    blockWarm: makeStandardMaterial(scene, "mat-block-warm", "#34403a", { alpha: 0.78 }),
+    water: makeStandardMaterial(scene, "mat-water", "#0b5d6b", { alpha: 0.56, emissive: 0.08 }),
+    road: makeStandardMaterial(scene, "mat-road", "#52666b", { alpha: 0.88, emissive: 0.04 }),
+    block: makeStandardMaterial(scene, "mat-block", "#263b42", { alpha: 0.95 }),
+    blockCool: makeStandardMaterial(scene, "mat-block-cool", "#304953", { alpha: 0.95 }),
+    blockWarm: makeStandardMaterial(scene, "mat-block-warm", "#485848", { alpha: 0.92 }),
+    blockDark: makeStandardMaterial(scene, "mat-block-dark", "#18272e", { alpha: 0.96 }),
+    roof: makeStandardMaterial(scene, "mat-roof", "#70857b", { alpha: 0.88, emissive: 0.03 }),
+    bridge: makeStandardMaterial(scene, "mat-bridge", "#d8b46e", { alpha: 0.96, emissive: 0.1 }),
+    bridgeRail: makeStandardMaterial(scene, "mat-bridge-rail", "#ffe2a0", { alpha: 0.9, emissive: 0.16 }),
+    streetLight: makeStandardMaterial(scene, "mat-street-light", "#ffd783", { emissive: 0.9 }),
+    waterLight: makeStandardMaterial(scene, "mat-water-light", "#75eff5", { emissive: 0.85 }),
   };
 
   createContextCity(scene, state.world, materials);
