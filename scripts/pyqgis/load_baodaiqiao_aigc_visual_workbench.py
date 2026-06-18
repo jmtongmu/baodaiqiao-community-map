@@ -3,7 +3,7 @@ from pathlib import Path
 from qgis.core import QgsProject, QgsRasterLayer
 
 
-PROJECT_ROOT = Path(r"\\10.100.66.31\tongmu_file\2025\AIwork\地方志\社区志")
+PROJECT_ROOT = Path(r"F:\AIGC\baodaiqiao-community-map")
 PYQGIS_DIR = PROJECT_ROOT / "scripts" / "pyqgis"
 
 WORKBENCH_GROUP = "宝带桥社区志_AIGC可视化工作台"

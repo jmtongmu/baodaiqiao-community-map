@@ -28,7 +28,7 @@
 ## 1. 从全量候选自动抽样
 
 ```powershell
-$root="\\10.100.66.31\tongmu_file\2025\AIwork\地方志\社区志"
+$root="F:\AIGC\baodaiqiao-community-map"
 
 python "$root\scripts\tools\select_ocr_review_sample.py" `
   --candidates "$root\data\ocr\<map_id>_text_candidates.json" `

@@ -34,11 +34,11 @@ python -m pip install paddleocr paddlepaddle
 
 ```powershell
 paddleocr ocr `
-  -i "\\10.100.66.31\tongmu_file\2025\AIwork\地方志\社区志\assets\maps\京城图.png" `
+  -i "F:\AIGC\baodaiqiao-community-map\assets\maps\京城图.png" `
   --use_doc_orientation_classify False `
   --use_doc_unwarping False `
   --use_textline_orientation True `
-  --save_path "\\10.100.66.31\tongmu_file\2025\AIwork\地方志\社区志\data\ocr\paddle_output" `
+  --save_path "F:\AIGC\baodaiqiao-community-map\data\ocr\paddle_output" `
   --device cpu
 ```
 

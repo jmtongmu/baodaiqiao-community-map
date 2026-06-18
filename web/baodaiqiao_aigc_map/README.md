@@ -52,5 +52,5 @@ http://127.0.0.1:8787/
 数据来自 `data/` 目录下的 GeoJSON 和 JSON 文件。如重新提取志书地名，先在原项目目录运行：
 
 ```powershell
-python "\\10.100.66.31\tongmu_file\2025\AIwork\地方志\社区志\scripts\tools\build_baodaiqiao_web_map_data.py"
+python "F:\AIGC\baodaiqiao-community-map\scripts\tools\build_baodaiqiao_web_map_data.py"
 ```

@@ -43,7 +43,7 @@
 在 QGIS Python Console 运行：
 
 ```python
-exec(open(r"\\10.100.66.31\tongmu_file\2025\AIwork\地方志\社区志\scripts\pyqgis\load_baodaiqiao_aigc_visual_workbench.py", encoding="utf-8").read())
+exec(open(r"F:\AIGC\baodaiqiao-community-map\scripts\pyqgis\load_baodaiqiao_aigc_visual_workbench.py", encoding="utf-8").read())
 ```
 
 脚本会加载：

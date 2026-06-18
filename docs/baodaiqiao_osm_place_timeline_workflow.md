@@ -28,7 +28,7 @@
 
 ```python
 from pathlib import Path
-script = Path(r"\\10.100.66.31\tongmu_file\2025\AIwork\地方志\社区志\scripts\pyqgis\load_baodaiqiao_place_matches.py")
+script = Path(r"F:\AIGC\baodaiqiao-community-map\scripts\pyqgis\load_baodaiqiao_place_matches.py")
 exec(script.read_text(encoding="utf-8"))
 ```
 
