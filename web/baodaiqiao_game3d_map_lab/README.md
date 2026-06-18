@@ -19,11 +19,11 @@
 运行方式与稳定版一致：
 
 ```powershell
-python -m http.server 8787 --bind 127.0.0.1
+python -m http.server 8282 --bind 127.0.0.1
 ```
 
 然后打开：
 
 ```text
-http://127.0.0.1:8787/
+http://127.0.0.1:8282/
 ```

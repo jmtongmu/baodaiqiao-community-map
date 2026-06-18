@@ -2,7 +2,7 @@
 setlocal
 chcp 65001 >nul
 cd /d "%~dp0"
-set "PORT=8787"
+set "PORT=8282"
 
 where python >nul 2>nul
 if %errorlevel%==0 (
