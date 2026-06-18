@@ -1,0 +1,16 @@
+﻿category,target_layer,display_name,qgis_geometry,semantic_geometry,geometry_level,shape,width_m,height_m,radius_m,segments,color_rgba,default_visible,notes
+城门,places_city_gate,临安_城门,Polygon,point,symbolic,rect,70,70,,,"190,60,45,145",true,十三城门等强锚点
+宫城,places_palace,临安_宫城,Polygon,polygon,symbolic,rect,180,140,,,"210,150,40,145",true,皇城和宫苑相关对象
+衙署,places_office,临安_衙署,Polygon,polygon,symbolic,rect,80,80,,,"85,120,190,145",true,官署机构
+坊巷,places_block,临安_坊巷,Polygon,polygon,symbolic,rect,140,35,,,"160,120,80,130",true,坊巷和街区
+桥梁,places_bridge,临安_桥梁,Polygon,point,symbolic,rect,60,20,,,"90,160,190,145",true,桥梁点位的符号面
+寺观,places_temple,临安_寺观,Polygon,point,symbolic,circle,,,45,24,"120,170,90,145",true,寺庙宫观
+仓储,places_storage,临安_仓储,Polygon,polygon,symbolic,rect,90,70,,,"140,110,70,145",true,仓储设施
+市场,places_market,临安_市场,Polygon,polygon,symbolic,rect,100,60,,,"210,120,80,145",true,市场和商业节点
+水体,places_water,临安_水体,Polygon,polygon,symbolic,rect,160,50,,,"70,150,210,125",true,水体或水域代表对象
+山体,places_mountain,临安_山体,Polygon,polygon,symbolic,circle,,,80,28,"90,140,75,145",true,山体或山地节点
+园苑,places_garden,临安_园苑,Polygon,polygon,symbolic,rect,120,90,,,"110,175,110,135",true,园苑空间
+军事,places_military,临安_军事,Polygon,polygon,symbolic,rect,100,80,,,"120,120,120,150",true,军事设施
+道路,places_road,临安_道路,Polygon,line,symbolic,rect,160,25,,,"200,110,50,135",true,道路轴线的符号面
+其他,places_other,临安_其他,Polygon,point,symbolic,rect,60,60,,,"160,160,160,130",false,未分类对象
+ocr_text,places_ocr_text,京城图_OCR文字,Polygon,point,symbolic,rect,90,35,,,"30,30,30,190",true,从旧地图图片真实 OCR 获取的原文文字框

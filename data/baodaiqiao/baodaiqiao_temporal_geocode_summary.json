@@ -1,0 +1,28 @@
+{
+  "places_total": 1275,
+  "places_with_coords": 55,
+  "places_missing_coords": 1220,
+  "curated_total": 188,
+  "curated_with_coords": 42,
+  "curated_missing_coords": 146,
+  "amap_geocoded": 0,
+  "points_geojson_features": 55,
+  "curated_points_geojson_features": 42,
+  "milestone_points_geojson_features": 13,
+  "time_type_counts": {
+    "古代-清末": 37,
+    "民国时期": 26,
+    "集体化与农业建设": 144,
+    "改革开放初期": 72,
+    "开发区建设": 118,
+    "社区成立与城市更新": 34,
+    "运河文旅更新": 48,
+    "无明确时间": 796
+  },
+  "coord_status_counts": {
+    "missing": 1220,
+    "local_anchor_coord": 6,
+    "fallback_coord": 46,
+    "derived_coord": 3
+  }
+}

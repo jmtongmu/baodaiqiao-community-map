@@ -1,0 +1,45 @@
+﻿control_id,enabled,name,role,pixel_x,pixel_y,map_x,map_y,source_ocr_id,source_text,ocr_confidence,osm_reference,weight,notes
+cp_001,false,浙江病院,ocr_寺观,299.500,941.000,,,1937_rapidocr_0001,浙江病院,0.786453,,1.0,Fill map_x/map_y from OSM/QGIS and set enabled=true only after manual verification.
+cp_002,false,址亭水巷,ocr_街巷道路,635.165,984.665,,,1937_rapidocr_0002,址亭水巷,0.783923,,1.0,Fill map_x/map_y from OSM/QGIS and set enabled=true only after manual verification.
+cp_003,false,百井坊巷,ocr_街巷道路,401.000,283.830,,,1937_rapidocr_0003,巷坊井百,0.775137,,1.0,Fill map_x/map_y from OSM/QGIS and set enabled=true only after manual verification.
+cp_004,false,中正河下街,ocr_街巷道路,262.335,254.665,,,1937_rapidocr_0004,中正河下街,0.751108,,1.0,Fill map_x/map_y from OSM/QGIS and set enabled=true only after manual verification.
+cp_005,false,十五奎巷,ocr_街巷道路,505.165,1176.500,,,1937_rapidocr_0005,巷奎五十,0.74823,,1.0,Fill map_x/map_y from OSM/QGIS and set enabled=true only after manual verification.
+cp_006,false,東太平巷,ocr_街巷道路,467.335,1051.665,,,1937_rapidocr_0006,東太平巷,0.735802,,1.0,Fill map_x/map_y from OSM/QGIS and set enabled=true only after manual verification.
+cp_007,false,街前府,ocr_街巷道路,256.500,1105.335,,,1937_rapidocr_0007,街前府,0.743975,,1.0,Fill map_x/map_y from OSM/QGIS and set enabled=true only after manual verification.
+cp_008,false,南板巷,ocr_街巷道路,707.000,795.165,,,1937_rapidocr_0008,巷板南,0.741819,,1.0,Fill map_x/map_y from OSM/QGIS and set enabled=true only after manual verification.
+cp_009,false,郭通园巷,ocr_街巷道路,750.335,1015.165,,,1937_rapidocr_0009,巷园通郭,0.716263,,1.0,Fill map_x/map_y from OSM/QGIS and set enabled=true only after manual verification.
+cp_010,false,石板巷,ocr_街巷道路,830.500,371.500,,,1937_rapidocr_0010,巷板石,0.724272,,1.0,Fill map_x/map_y from OSM/QGIS and set enabled=true only after manual verification.
+cp_011,false,海潮寺,ocr_寺观,814.665,1350.335,,,1937_rapidocr_0011,寺潮海,0.722531,,1.0,Fill map_x/map_y from OSM/QGIS and set enabled=true only after manual verification.
+cp_012,false,大友巷,ocr_街巷道路,305.665,252.835,,,1937_rapidocr_0012,大友巷,0.720605,,1.0,Fill map_x/map_y from OSM/QGIS and set enabled=true only after manual verification.
+cp_013,false,姚国寺巷,ocr_街巷道路,725.335,1065.000,,,1937_rapidocr_0013,巷寺国姚,0.701155,,1.0,Fill map_x/map_y from OSM/QGIS and set enabled=true only after manual verification.
+cp_014,false,下刀茅巷,ocr_街巷道路,943.000,463.330,,,1937_rapidocr_0014,下刀茅巷,0.725969,,1.0,Fill map_x/map_y from OSM/QGIS and set enabled=true only after manual verification.
+cp_015,false,金刷寺巷,ocr_街巷道路,762.830,986.500,,,1937_rapidocr_0015,巷寺刷金,0.695255,,1.0,Fill map_x/map_y from OSM/QGIS and set enabled=true only after manual verification.
+cp_016,false,延定港,ocr_水系,528.500,581.500,,,1937_rapidocr_0016,延定港,0.704416,,1.0,Fill map_x/map_y from OSM/QGIS and set enabled=true only after manual verification.
+cp_017,false,龍张御史巷,ocr_街巷道路,716.330,266.330,,,1937_rapidocr_0017,巷史御张龍,0.684059,,1.0,Fill map_x/map_y from OSM/QGIS and set enabled=true only after manual verification.
+cp_018,false,柳营巷,ocr_街巷道路,635.330,458.000,,,1937_rapidocr_0018,柳营巷,0.702128,,1.0,Fill map_x/map_y from OSM/QGIS and set enabled=true only after manual verification.
+cp_019,false,工兵营,ocr_城防官署,677.000,178.500,,,1937_rapidocr_0019,工兵营,0.688039,,1.0,Fill map_x/map_y from OSM/QGIS and set enabled=true only after manual verification.
+cp_020,false,青雲街,ocr_街巷道路,581.335,397.500,,,1937_rapidocr_0020,青雲街,0.686889,,1.0,Fill map_x/map_y from OSM/QGIS and set enabled=true only after manual verification.
+cp_021,false,火药后街,ocr_街巷道路,465.000,961.000,,,1937_rapidocr_0021,火药后街,0.706608,,1.0,Fill map_x/map_y from OSM/QGIS and set enabled=true only after manual verification.
+cp_022,false,孩兒巷,ocr_街巷道路,432.665,439.170,,,1937_rapidocr_0022,巷兒孩,0.68448,,1.0,Fill map_x/map_y from OSM/QGIS and set enabled=true only after manual verification.
+cp_023,false,余官巷,ocr_街巷道路,437.500,321.500,,,1937_rapidocr_0023,余官巷,0.680911,,1.0,Fill map_x/map_y from OSM/QGIS and set enabled=true only after manual verification.
+cp_024,false,大塔兑巷,ocr_街巷道路,624.000,709.500,,,1937_rapidocr_0024,巷兑塔大,0.661856,,1.0,Fill map_x/map_y from OSM/QGIS and set enabled=true only after manual verification.
+cp_025,false,房国街,ocr_街巷道路,517.665,279.000,,,1937_rapidocr_0025,街国房,0.671671,,1.0,Fill map_x/map_y from OSM/QGIS and set enabled=true only after manual verification.
+cp_026,false,外学士桥,ocr_街巷道路,93.000,1184.000,,,1937_rapidocr_0026,桥士学外,0.66117,,1.0,Fill map_x/map_y from OSM/QGIS and set enabled=true only after manual verification.
+cp_027,false,中孝巷,ocr_街巷道路,620.000,836.000,,,1937_rapidocr_0027,中孝巷,0.666774,,1.0,Fill map_x/map_y from OSM/QGIS and set enabled=true only after manual verification.
+cp_028,false,高香巷,ocr_街巷道路,643.000,838.500,,,1937_rapidocr_0028,高香巷,0.663894,,1.0,Fill map_x/map_y from OSM/QGIS and set enabled=true only after manual verification.
+cp_029,false,楼牌西,ocr_文字,307.665,409.830,,,1937_rapidocr_0029,楼牌西,0.742256,,1.0,Fill map_x/map_y from OSM/QGIS and set enabled=true only after manual verification.
+cp_030,false,石牌楼行,ocr_文字,788.170,834.500,,,1937_rapidocr_0030,石牌楼行,0.729148,,1.0,Fill map_x/map_y from OSM/QGIS and set enabled=true only after manual verification.
+cp_031,false,管庙,ocr_寺观,1058.500,926.000,,,1937_rapidocr_0031,庙管,0.66601,,1.0,Fill map_x/map_y from OSM/QGIS and set enabled=true only after manual verification.
+cp_032,false,三授营,ocr_城防官署,682.000,102.500,,,1937_rapidocr_0032,营授三,0.654865,,1.0,Fill map_x/map_y from OSM/QGIS and set enabled=true only after manual verification.
+cp_033,false,海巷,ocr_街巷道路,605.000,1031.000,,,1937_rapidocr_0033,海巷,0.663317,,1.0,Fill map_x/map_y from OSM/QGIS and set enabled=true only after manual verification.
+cp_034,false,大营,ocr_城防官署,648.500,223.165,,,1937_rapidocr_0034,营大,0.661381,,1.0,Fill map_x/map_y from OSM/QGIS and set enabled=true only after manual verification.
+cp_035,false,法院,ocr_寺观,332.335,510.000,,,1937_rapidocr_0035,院法,0.660201,,1.0,Fill map_x/map_y from OSM/QGIS and set enabled=true only after manual verification.
+cp_036,false,清波门,ocr_城防官署,209.830,1182.665,13375550.1,3534472.5,1937_rapidocr_0059,清波门,0.586631,standard_place_exact_match,1.0,Fill map_x/map_y from OSM/QGIS and set enabled=true only after manual verification.
+cp_037,false,紫陽山,ocr_山体,429.665,1284.335,,,1937_rapidocr_0084,紫陽山,0.524553,,1.0,Fill map_x/map_y from OSM/QGIS and set enabled=true only after manual verification.
+cp_038,false,武林,ocr_文字,190.000,152.335,,,1937_rapidocr_0085,武林,0.644229,,1.0,Fill map_x/map_y from OSM/QGIS and set enabled=true only after manual verification.
+cp_039,false,西湖东北岸线控制点,shoreline,,,,,,,,,1.0,Optional structural control point. Pick pixel on 1937 source image and map coordinate on OSM.
+cp_040,false,西湖东南岸线控制点,shoreline,,,,,,,,,1.0,Optional structural control point. Pick pixel on 1937 source image and map coordinate on OSM.
+cp_041,false,钱塘江北岸控制点,shoreline,,,,,,,,,1.0,Optional structural control point. Pick pixel on 1937 source image and map coordinate on OSM.
+cp_042,false,北城墙西角控制点,wall_corner,,,,,,,,,1.0,Optional structural control point. Pick pixel on 1937 source image and map coordinate on OSM.
+cp_043,false,北城墙东角控制点,wall_corner,,,,,,,,,1.0,Optional structural control point. Pick pixel on 1937 source image and map coordinate on OSM.
+cp_044,false,东城墙中段控制点,wall,,,,,,,,,1.0,Optional structural control point. Pick pixel on 1937 source image and map coordinate on OSM.

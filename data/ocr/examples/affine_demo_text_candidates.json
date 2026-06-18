@@ -1,0 +1,25 @@
+{
+  "map_id": "affine_demo",
+  "image_file": "assets/maps/demo.png",
+  "crs": "EPSG:3857",
+  "candidates": [
+    {
+      "text": "示例城门",
+      "category": "城门",
+      "bbox_pixel": [90, 190, 110, 210],
+      "orientation": "vertical",
+      "confidence": "high",
+      "reference_logic": "仿射转换测试点，中心像素为 [100, 200]",
+      "notes": ""
+    },
+    {
+      "text": "示例寺观",
+      "category": "寺观",
+      "bbox_pixel": [390, 490, 410, 510],
+      "orientation": "vertical",
+      "confidence": "medium",
+      "reference_logic": "仿射转换测试点，中心像素为 [400, 500]",
+      "notes": ""
+    }
+  ]
+}

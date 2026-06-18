@@ -1,0 +1,107 @@
+﻿ocr_id,text,ocr_text_raw_order,reading_rule,alternative_texts,confidence,quality,orientation,category,source_stage,pixel_x1,pixel_y1,pixel_x2,pixel_y2
+1937_rapidocr_0041,家塘,塘家,reverse_suffix_first,酒家塘,0.650831,0.780831,horizontal,ocr_水系,rapidocr_gray3x_sharp_tile,1037.33,62.0,1079.0,81.67
+1937_rapidocr_0032,三授营,营授三,reverse_suffix_first,,0.654865,0.794865,horizontal,ocr_城防官署,rapidocr_adaptive3x_tile,656.67,89.33,707.33,115.67
+1937_rapidocr_0062,火葉局,局葉火,reverse_suffix_first,火菜局,0.580218,0.720218,horizontal,ocr_城防官署,rapidocr_gray3x_sharp_tile,488.33,99.0,535.0,116.0
+1937_rapidocr_0085,武林,武林,as_detected,,0.644229,0.664229,vertical,ocr_文字,rapidocr_gray3x_sharp_full,183.33,140.0,196.67,164.67
+1937_rapidocr_0019,工兵营,工兵营,as_detected,工兵管,0.688039,0.828039,vertical,ocr_城防官署,rapidocr_original_tile,668.0,154.0,686.0,203.0
+1937_rapidocr_0073,桶水天,桶水天,as_detected,橘水天 | 弱水天,0.628688,0.688688,horizontal,ocr_文字,rapidocr_gray3x_sharp_tile,388.0,180.33,428.0,193.0
+1937_rapidocr_0043,福高东梅,福高东梅,as_detected,,0.737692,0.777692,horizontal,ocr_文字,rapidocr_gray3x_sharp_full,565.0,196.67,608.67,210.33
+1937_rapidocr_0065,林武,林武,as_detected,武林門,0.658793,0.708793,horizontal,ocr_文字,rapidocr_gray3x_sharp_tile,280.0,204.33,313.67,226.67
+1937_rapidocr_0038,奥福寺巷,巷寺福奥,reverse_suffix_first,地興福寺巷 | 梦寺福,0.634854,0.784854,horizontal,ocr_街巷道路,rapidocr_gray3x_sharp_tile,348.0,209.33,447.67,237.33
+1937_rapidocr_0036,道街,街道,reverse_suffix_first,,0.656975,0.786975,horizontal,ocr_街巷道路,rapidocr_gray3x_sharp_tile,246.33,210.0,271.0,226.0
+1937_rapidocr_0034,大营,营大,reverse_suffix_first,盘营大 | 盈营大,0.661381,0.791381,horizontal,ocr_城防官署,rapidocr_adaptive3x_tile,624.67,215.0,672.33,231.33
+1937_rapidocr_0012,大友巷,大友巷,as_detected,大打友巷 | 大行友巷,0.720605,0.860605,vertical,ocr_街巷道路,rapidocr_gray3x_sharp_tile,292.0,219.0,319.33,286.67
+1937_rapidocr_0060,兄理街,兄理街,as_detected,,0.581818,0.721818,vertical,ocr_街巷道路,rapidocr_original_tile,482.0,220.0,512.0,280.0
+1937_rapidocr_0004,中正河下街,中正河下街,as_detected,中正河,0.751108,0.911108,vertical,ocr_街巷道路,rapidocr_gray3x_sharp_tile,248.67,223.0,276.0,286.33
+1937_rapidocr_0068,中正,中正,as_detected,,0.649929,0.699929,vertical,ocr_文字,rapidocr_original_tile,249.0,223.0,271.0,259.0
+1937_rapidocr_0045,瑞兵辣,瑞兵辣,as_detected,场兵辣 | 辣兵,0.633382,0.773382,horizontal,ocr_城防官署,rapidocr_gray3x_sharp_tile,632.67,232.67,683.33,246.0
+1937_rapidocr_0017,龍张御史巷,巷史御张龍,reverse_suffix_first,强御史巷 | 张御史巷 | 史巷,0.684059,0.844059,horizontal,ocr_街巷道路,rapidocr_gray3x_sharp_tile,678.33,257.33,754.33,275.33
+1937_rapidocr_0104,御张,御张,as_detected,,0.521595,0.571595,horizontal,ocr_文字,rapidocr_original_tile,707.0,258.0,737.0,273.0
+1937_rapidocr_0055,大樹巷,巷樹大,reverse_suffix_first,大树巷 | 大榭巷,0.603637,0.743637,horizontal,ocr_街巷道路,rapidocr_gray3x_sharp_tile,809.67,259.33,851.0,274.33
+1937_rapidocr_0088,台马打,台马打,as_detected,台馬打,0.592815,0.652815,horizontal,ocr_文字,rapidocr_gray3x_sharp_tile,1025.67,262.33,1077.33,280.33
+1937_rapidocr_0025,房国街,街国房,reverse_suffix_first,出房国街 | 社房国街 | 国街,0.671671,0.811671,horizontal,ocr_街巷道路,rapidocr_gray3x_sharp_tile,496.33,272.67,539.0,285.33
+1937_rapidocr_0003,百井坊巷,巷坊井百,reverse_suffix_first,井百 | 进百,0.775137,0.925137,horizontal,ocr_街巷道路,rapidocr_gray3x_sharp_tile,370.0,273.33,432.0,294.33
+1937_rapidocr_0051,水庙巷,巷庙水,reverse_suffix_first,巷庙 | 港庙,0.616914,0.756914,horizontal,ocr_街巷道路,rapidocr_gray3x_sharp_tile,680.67,287.33,727.67,306.0
+1937_rapidocr_0023,余官巷,余官巷,as_detected,徐官巷 | 余官港,0.680911,0.820911,vertical,ocr_街巷道路,rapidocr_original_tile,424.0,293.0,451.0,350.0
+1937_rapidocr_0099,大束,大束,as_detected,,0.557042,0.607042,vertical,ocr_文字,rapidocr_gray3x_sharp_tile,683.0,311.0,708.33,364.33
+1937_rapidocr_0042,文龍港,港龍文,reverse_suffix_first,文龍巷 | 文巷 | 龍文,0.637771,0.777771,horizontal,ocr_水系,rapidocr_gray3x_sharp_tile,605.0,312.33,651.0,329.67
+1937_rapidocr_0079,孤兄院,孤兄院,as_detected,,0.533419,0.673419,vertical,ocr_寺观,rapidocr_original_tile,212.0,352.0,230.0,394.0
+1937_rapidocr_0037,文星巷,巷星文,reverse_suffix_first,星巷 | 交星巷,0.64683,0.78683,horizontal,ocr_街巷道路,rapidocr_gray3x_sharp_tile,636.67,357.0,682.67,371.0
+1937_rapidocr_0010,石板巷,巷板石,reverse_suffix_first,石板港 | 板石,0.724272,0.864272,horizontal,ocr_街巷道路,rapidocr_original_tile,811.0,363.0,850.0,380.0
+1937_rapidocr_0092,林道,林道,as_detected,,0.589318,0.639318,horizontal,ocr_文字,rapidocr_gray3x_sharp_tile,659.33,373.0,709.33,395.33
+1937_rapidocr_0020,青雲街,青雲街,as_detected,青云街 | 青雪街 | 青营街,0.686889,0.826889,vertical,ocr_街巷道路,rapidocr_gray3x_sharp_tile,573.0,373.33,589.67,421.67
+1937_rapidocr_0061,照废寺,寺废照,reverse_suffix_first,照度寺,0.611089,0.721089,horizontal,ocr_寺观,rapidocr_gray3x_sharp_full,75.0,384.67,113.33,399.0
+1937_rapidocr_0080,20街,街02,reverse_suffix_first,,0.551195,0.671195,horizontal,ocr_街巷道路,rapidocr_adaptive3x_tile,689.0,386.33,730.33,415.33
+1937_rapidocr_0069,黄巷,巷黄,reverse_suffix_first,,0.569547,0.699547,horizontal,ocr_街巷道路,rapidocr_original_tile,416.0,388.0,453.0,407.0
+1937_rapidocr_0054,同街六克巷,同街六克巷,as_detected,,0.613799,0.743799,vertical,ocr_街巷道路,rapidocr_gray3x_sharp_full,654.0,390.67,681.33,536.0
+1937_rapidocr_0029,楼牌西,楼牌西,as_detected,,0.742256,0.802256,horizontal,ocr_文字,rapidocr_gray3x_sharp_tile,285.0,398.33,330.33,421.33
+1937_rapidocr_0074,池塘,塘池,reverse_suffix_first,,0.551918,0.681918,horizontal,ocr_水系,rapidocr_gray3x_sharp_tile,614.0,410.0,656.33,433.33
+1937_rapidocr_0022,孩兒巷,巷兒孩,reverse_suffix_first,孩兒港,0.68448,0.82448,diagonal,ocr_街巷道路,rapidocr_gray3x_sharp_tile,403.0,417.67,462.33,460.67
+1937_rapidocr_0014,下刀茅巷,下刀茅巷,as_detected,刀茅巷 | 下刀巷 | 下刀苯巷 | 下刀茅,0.725969,0.845969,vertical,ocr_街巷道路,rapidocr_gray3x_sharp_full,931.33,427.33,954.67,499.33
+1937_rapidocr_0018,柳营巷,柳营巷,as_detected,,0.702128,0.842128,vertical,ocr_街巷道路,rapidocr_gray3x_sharp_tile,625.33,433.67,645.33,482.33
+1937_rapidocr_0078,翼事领本日,翼事领本日,as_detected,雾事领本日,0.59564,0.67564,horizontal,ocr_文字,rapidocr_gray3x_sharp_tile,44.33,461.67,102.67,478.0
+1937_rapidocr_0039,潮喝寺巷,巷寺喝潮,reverse_suffix_first,潮鸣寺巷,0.664497,0.784497,horizontal,ocr_街巷道路,rapidocr_gray3x_sharp_full,793.0,462.67,853.67,481.33
+1937_rapidocr_0077,花烟巷,花烟巷,as_detected,,0.535832,0.675832,vertical,ocr_街巷道路,rapidocr_gray3x_sharp_tile,774.33,477.33,791.67,525.0
+1937_rapidocr_0049,克巷,克巷,as_detected,,0.632782,0.762782,vertical,ocr_街巷道路,rapidocr_gray3x_sharp_tile,657.67,485.67,676.0,532.0
+1937_rapidocr_0066,楚妃巷,楚妃巷,as_detected,楚妮巷 | 楚巷 | 楚旭巷,0.597986,0.707986,vertical,ocr_街巷道路,rapidocr_gray3x_sharp_full,512.67,492.0,530.67,541.33
+1937_rapidocr_0076,忠清巷燕,忠清巷燕,as_detected,,0.558599,0.678599,vertical,ocr_街巷道路,rapidocr_gray3x_sharp_full,681.67,494.0,701.67,584.0
+1937_rapidocr_0035,法院,院法,reverse_suffix_first,,0.660201,0.790201,horizontal,ocr_寺观,rapidocr_adaptive3x_tile,320.67,502.0,344.0,518.0
+1937_rapidocr_0091,上清营花,上清营花,as_detected,,0.522552,0.642552,vertical,ocr_城防官署,rapidocr_gray3x_sharp_full,1033.67,516.67,1050.67,568.0
+1937_rapidocr_0097,梅限公限,梅限公限,as_detected,,0.575802,0.615802,vertical,ocr_文字,rapidocr_gray3x_sharp_full,59.33,520.33,76.0,568.33
+1937_rapidocr_0086,度春门,门春度,reverse_suffix_first,,0.547931,0.657931,horizontal,ocr_城防官署,rapidocr_original_full,965.0,536.0,1006.0,558.0
+1937_rapidocr_0016,延定港,延定港,as_detected,延定巷,0.704416,0.844416,vertical,ocr_水系,rapidocr_original_tile,516.0,555.0,541.0,608.0
+1937_rapidocr_0098,政财,政财,as_detected,航政财,0.594229,0.614229,horizontal,ocr_文字,rapidocr_adaptive3x_full,863.67,573.67,897.0,587.67
+1937_rapidocr_0050,紫金冠巷,紫金冠巷,as_detected,佛金冠巷 | 冰金冠港 | 徐金冠巷 | 金冠 | 徐金冠港 | 朱金冠港 | 东金冠巷,0.610602,0.760602,vertical,ocr_街巷道路,rapidocr_original_tile,621.0,611.0,646.0,673.0
+1937_rapidocr_0075,颂码四第,颂码四第,as_detected,顺码四第 | 溪四第,0.609709,0.679709,horizontal,ocr_文字,rapidocr_gray3x_sharp_tile,215.33,635.67,260.67,649.33
+1937_rapidocr_0070,頭磊三第,頭磊三第,as_detected,頭础三第 | 頭碍三第 | 頭研二第 | 頭在三,0.65792,0.69792,horizontal,ocr_文字,rapidocr_original_full,233.0,671.0,283.0,688.0
+1937_rapidocr_0024,大塔兑巷,巷兑塔大,reverse_suffix_first,华巷克塔大 | 华巷兄塔大 | 兄塔大 | 兄塔,0.661856,0.811856,horizontal,ocr_街巷道路,rapidocr_original_tile,595.0,698.0,653.0,721.0
+1937_rapidocr_0071,頭码第,頭码第,as_detected,,0.632165,0.692165,horizontal,ocr_文字,rapidocr_original_tile,251.0,708.0,301.0,725.0
+1937_rapidocr_0008,南板巷,巷板南,reverse_suffix_first,板巷 | 黄板南,0.741819,0.881819,horizontal,ocr_街巷道路,rapidocr_gray3x_sharp_tile,680.67,781.0,733.33,809.33
+1937_rapidocr_0046,束平巷,巷平束,reverse_suffix_first,,0.632485,0.772485,horizontal,ocr_街巷道路,rapidocr_original_tile,474.0,790.0,515.0,804.0
+1937_rapidocr_0030,石牌楼行,石牌楼行,as_detected,石牌楼 | 石牌檬行,0.729148,0.799148,vertical,ocr_文字,rapidocr_gray3x_sharp_tile,774.67,797.0,801.67,872.0
+1937_rapidocr_0089,長明寿港,長明寿港,as_detected,,0.50073,0.65073,vertical,ocr_水系,rapidocr_gray3x_sharp_tile,841.33,804.0,863.33,859.0
+1937_rapidocr_0063,三禾港,三禾港,as_detected,禾港,0.579916,0.719916,vertical,ocr_水系,rapidocr_adaptive3x_tile,680.33,810.67,693.67,846.67
+1937_rapidocr_0027,中孝巷,中孝巷,as_detected,,0.666774,0.806774,vertical,ocr_街巷道路,rapidocr_original_tile,611.0,812.0,629.0,860.0
+1937_rapidocr_0053,黑拔港,黑拔港,as_detected,,0.637012,0.747012,vertical,ocr_水系,rapidocr_gray3x_sharp_full,878.67,812.33,901.67,870.0
+1937_rapidocr_0028,高香巷,高香巷,as_detected,香巷,0.663894,0.803894,vertical,ocr_街巷道路,rapidocr_gray3x_sharp_tile,634.33,816.0,651.67,861.0
+1937_rapidocr_0083,棋焦,棋焦,as_detected,,0.64698,0.66698,horizontal,ocr_文字,rapidocr_gray3x_sharp_full,718.67,855.67,760.67,871.33
+1937_rapidocr_0105,新开,新开,as_detected,,0.517645,0.567645,vertical,ocr_文字,rapidocr_gray3x_sharp_tile,817.33,877.33,851.33,920.67
+1937_rapidocr_0047,民巷,巷民,reverse_suffix_first,,0.641123,0.771123,horizontal,ocr_街巷道路,rapidocr_original_tile,766.0,885.0,793.0,899.0
+1937_rapidocr_0058,園市街,街市園,reverse_suffix_first,園市道街,0.616666,0.726666,horizontal,ocr_街巷道路,rapidocr_gray3x_sharp_full,308.33,895.0,386.33,923.33
+1937_rapidocr_0031,管庙,庙管,reverse_suffix_first,,0.66601,0.79601,horizontal,ocr_寺观,rapidocr_original_tile,1038.0,912.0,1079.0,940.0
+1937_rapidocr_0001,浙江病院,浙江病院,as_detected,浙江病院目 | 浙江病院巴 | 浙江病院包,0.786453,0.936453,vertical,ocr_寺观,rapidocr_original_tile,291.0,917.0,308.0,965.0
+1937_rapidocr_0052,保佑坊,保佑坊,as_detected,保佑,0.614036,0.754036,vertical,ocr_街巷道路,rapidocr_gray3x_sharp_tile,528.33,924.0,550.33,987.67
+1937_rapidocr_0021,火药后街,火药后街,as_detected,药后街,0.706608,0.826608,vertical,ocr_街巷道路,rapidocr_original_full,452.0,925.0,478.0,997.0
+1937_rapidocr_0100,火药,火药,as_detected,,0.545006,0.595006,vertical,ocr_文字,rapidocr_original_tile,458.0,931.0,473.0,963.0
+1937_rapidocr_0015,金刷寺巷,巷寺刷金,reverse_suffix_first,,0.695255,0.845255,diagonal,ocr_街巷道路,rapidocr_gray3x_sharp_tile,729.33,965.33,796.33,1007.67
+1937_rapidocr_0103,性事同柜计,性事同柜计,as_detected,,0.527174,0.577174,vertical,ocr_文字,rapidocr_original_full,263.0,973.0,283.0,1040.0
+1937_rapidocr_0093,站州杭,站州杭,as_detected,,0.576661,0.636661,horizontal,ocr_文字,rapidocr_gray3x_sharp_tile,859.33,973.0,890.33,984.0
+1937_rapidocr_0087,钱王间,钱王间,as_detected,,0.597502,0.657502,vertical,ocr_文字,rapidocr_gray3x_sharp_tile,196.0,974.0,215.33,1013.0
+1937_rapidocr_0056,高量测革,高量测革,as_detected,高量测革隆,0.696626,0.736626,horizontal,ocr_文字,rapidocr_gray3x_sharp_full,358.67,974.67,417.0,987.0
+1937_rapidocr_0002,址亭水巷,址亭水巷,as_detected,,0.783923,0.933923,horizontal,ocr_街巷道路,rapidocr_gray3x_sharp_tile,595.33,975.0,675.0,994.33
+1937_rapidocr_0106,址亭开,址亭开,as_detected,,0.520989,0.550989,horizontal,ocr_文字,rapidocr_adaptive3x_full,596.0,976.67,634.0,993.67
+1937_rapidocr_0090,下河,河下,reverse_suffix_first,,0.546032,0.646032,vertical,ocr_水系,rapidocr_original_full,323.0,992.0,341.0,1028.0
+1937_rapidocr_0009,郭通园巷,巷园通郭,reverse_suffix_first,通园巷,0.716263,0.866263,diagonal,ocr_街巷道路,rapidocr_gray3x_sharp_tile,715.67,992.0,785.0,1038.33
+1937_rapidocr_0101,梅龙码,梅龙码,as_detected,梅龙硬,0.560818,0.590818,vertical,ocr_文字,rapidocr_gray3x_sharp_full,640.0,1000.67,666.0,1054.0
+1937_rapidocr_0033,海巷,海巷,as_detected,凝海巷 | 淮海巷,0.663317,0.793317,vertical,ocr_街巷道路,rapidocr_original_tile,596.0,1014.0,614.0,1048.0
+1937_rapidocr_0006,東太平巷,東太平巷,as_detected,,0.735802,0.885802,vertical,ocr_街巷道路,rapidocr_gray3x_sharp_tile,458.67,1025.33,476.0,1078.0
+1937_rapidocr_0013,姚国寺巷,巷寺国姚,reverse_suffix_first,姚园寺巷,0.701155,0.851155,diagonal,ocr_街巷道路,rapidocr_gray3x_sharp_tile,686.67,1038.33,764.0,1091.67
+1937_rapidocr_0095,上精营新,上精营新,as_detected,,0.502269,0.622269,horizontal,ocr_城防官署,rapidocr_gray3x_sharp_full,560.67,1067.67,619.33,1082.33
+1937_rapidocr_0048,河坊,河坊,as_detected,清河坊,0.63762,0.76762,vertical,ocr_街巷道路,rapidocr_gray3x_sharp_tile,532.67,1073.67,552.67,1117.33
+1937_rapidocr_0044,前院,前院,as_detected,,0.644707,0.774707,horizontal,ocr_寺观,rapidocr_gray3x_sharp_tile,283.67,1076.33,365.67,1110.67
+1937_rapidocr_0096,福板酒,福板酒,as_detected,,0.56069,0.62069,horizontal,ocr_文字,rapidocr_gray3x_sharp_tile,837.0,1076.33,869.67,1089.0
+1937_rapidocr_0007,街前府,街前府,as_detected,街府 | 前街,0.743975,0.883975,horizontal,ocr_街巷道路,rapidocr_gray3x_sharp_tile,227.67,1095.0,285.33,1115.67
+1937_rapidocr_0082,内黔士桥,内黔士桥,as_detected,内翠士桥 | 丙學士 | 丙摩士情 | 内學士橘,0.520004,0.670004,vertical,ocr_街巷道路,rapidocr_adaptive3x_tile,131.0,1124.67,146.67,1175.0
+1937_rapidocr_0072,牌楼,牌楼,as_detected,,0.64115,0.69115,vertical,ocr_文字,rapidocr_gray3x_sharp_tile,303.0,1132.0,327.67,1208.0
+1937_rapidocr_0067,隆官巷,隆官巷,as_detected,陆官巷,0.567596,0.707596,vertical,ocr_街巷道路,rapidocr_gray3x_sharp_tile,278.67,1135.33,297.67,1188.67
+1937_rapidocr_0005,十五奎巷,巷奎五十,reverse_suffix_first,,0.74823,0.89823,diagonal,ocr_街巷道路,rapidocr_gray3x_sharp_tile,473.33,1154.67,537.0,1198.33
+1937_rapidocr_0059,清波门,清波门,as_detected,,0.586631,0.726631,vertical,ocr_城防官署,rapidocr_gray3x_sharp_tile,202.33,1164.33,217.33,1201.0
+1937_rapidocr_0026,外学士桥,桥士学外,reverse_suffix_first,橘士学外,0.66117,0.81117,horizontal,ocr_街巷道路,rapidocr_gray3x_sharp_tile,60.0,1174.33,126.0,1193.67
+1937_rapidocr_0040,前街,前街,as_detected,师前街,0.65146,0.78146,vertical,ocr_街巷道路,rapidocr_adaptive3x_tile,540.67,1183.67,560.33,1217.33
+1937_rapidocr_0102,江部,江部,as_detected,,0.530692,0.580692,horizontal,ocr_文字,rapidocr_gray3x_sharp_tile,741.67,1221.33,765.0,1233.33
+1937_rapidocr_0084,紫陽山,紫陽山,as_detected,,0.524553,0.664553,vertical,ocr_山体,rapidocr_gray3x_sharp_tile,417.0,1248.0,442.33,1320.67
+1937_rapidocr_0057,护安保,护安保,as_detected,安保 | 持安保,0.673608,0.733608,horizontal,ocr_文字,rapidocr_adaptive3x_tile,616.0,1263.33,650.33,1277.0
+1937_rapidocr_0094,苔峰雷,苔峰雷,as_detected,,0.576148,0.636148,horizontal,ocr_文字,rapidocr_gray3x_sharp_tile,0.0,1311.0,34.33,1327.0
+1937_rapidocr_0081,精駕车,精駕车,as_detected,,0.641013,0.671013,horizontal,ocr_文字,rapidocr_gray3x_sharp_full,596.33,1339.33,634.67,1354.33
+1937_rapidocr_0011,海潮寺,寺潮海,reverse_suffix_first,,0.722531,0.862531,horizontal,ocr_寺观,rapidocr_gray3x_sharp_tile,796.33,1342.67,833.0,1358.0
+1937_rapidocr_0064,屏南,屏南,as_detected,,0.662946,0.712946,horizontal,ocr_文字,rapidocr_gray3x_sharp_tile,0.0,1354.67,29.0,1369.67

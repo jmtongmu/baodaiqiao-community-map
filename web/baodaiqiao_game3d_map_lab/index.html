@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>宝带桥社区志 Game3D 实验地图</title>
+    <link rel="stylesheet" href="./vendor/maplibre/maplibre-gl.css" />
+    <link rel="stylesheet" href="./styles.css?v=20260618a" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <div id="map" class="map-canvas" aria-label="宝带桥社区志 Game3D 实验地图"></div>
+
+      <section class="side-panel" aria-label="社区志地名统计控制台">
+        <header class="panel-header">
+          <div>
+            <p class="overline">Game3D 实验分支</p>
+            <h1>AIGC 地图工作台</h1>
+          </div>
+          <button class="icon-button" id="resetView" type="button" title="重置视角" aria-label="重置视角">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4.6 10.2a7.5 7.5 0 1 1 2 7.2" />
+              <path d="M4 16.2h4.2V12" />
+            </svg>
+          </button>
+        </header>
+
+        <div class="summary-grid" id="summaryGrid" aria-label="数据摘要"></div>
+
+        <div class="control-group">
+          <div class="group-title">底图</div>
+          <div class="segmented" id="baseSwitch">
+            <button class="is-active" data-base="satellite" type="button">高德卫星</button>
+            <button data-base="vector" type="button">高德纯图</button>
+            <button data-base="osm" type="button">OSM备份</button>
+          </div>
+        </div>
+
+        <div class="control-group">
+          <div class="group-title">图层</div>
+          <div class="toggle-list">
+            <label><input type="checkbox" data-layer-toggle="columns" checked /> 高频地名柱形</label>
+            <label><input type="checkbox" data-layer-toggle="labels" checked /> 数值标注</label>
+            <label><input type="checkbox" data-layer-toggle="milestones" checked /> 里程碑</label>
+            <label><input type="checkbox" data-layer-toggle="temporal" /> 时间分类地名</label>
+          </div>
+        </div>
+
+        <div class="control-row">
+          <label class="select-wrap">
+            <span>频次</span>
+            <select id="levelFilter">
+              <option value="全部">全部</option>
+              <option value="极高频">极高频</option>
+              <option value="高频">高频</option>
+              <option value="中高频">中高频</option>
+              <option value="中频">中频</option>
+              <option value="低频">低频</option>
+            </select>
+          </label>
+          <label class="select-wrap">
+            <span>时间</span>
+            <select id="timeFilter">
+              <option value="全部">全部</option>
+              <option value="古代-清末">古代-清末</option>
+              <option value="民国时期">民国时期</option>
+              <option value="集体化与农业建设">集体化与农业建设</option>
+              <option value="改革开放初期">改革开放初期</option>
+              <option value="开发区建设">开发区建设</option>
+              <option value="社区成立与城市更新">社区成立与城市更新</option>
+              <option value="运河文旅更新">运河文旅更新</option>
+            </select>
+          </label>
+        </div>
+
+        <label class="search-box">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="10.8" cy="10.8" r="6.5" />
+            <path d="m16 16 4 4" />
+          </svg>
+          <input id="placeSearch" type="search" placeholder="搜索志书地名" autocomplete="off" />
+        </label>
+
+        <nav class="tab-strip" aria-label="数据面板">
+          <button class="is-active" data-tab="ranking" type="button">高频地名</button>
+          <button data-tab="milestone" type="button">里程碑</button>
+          <button data-tab="missing" type="button">待补坐标</button>
+        </nav>
+
+        <section class="list-region" id="rankingPanel" aria-label="高频地名列表">
+          <div class="rank-list" id="rankList"></div>
+        </section>
+        <section class="list-region is-hidden" id="milestonePanel" aria-label="里程碑列表">
+          <div class="milestone-list" id="milestoneList"></div>
+        </section>
+        <section class="list-region is-hidden" id="missingPanel" aria-label="待补坐标列表">
+          <div class="missing-list" id="missingList"></div>
+        </section>
+      </section>
+
+      <aside class="detail-panel" id="detailPanel" aria-live="polite">
+        <p class="detail-kicker">当前选中</p>
+        <h2>加载中</h2>
+        <p>正在读取社区志地名统计。</p>
+      </aside>
+
+      <section class="timeline-panel" aria-label="20秒社区发展时间线">
+        <div class="timeline-top">
+          <button class="play-button" id="playTimeline" type="button">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" /></svg>
+            <span>播放20秒</span>
+          </button>
+          <div class="timeline-copy">
+            <strong id="timelineTitle">社区发展里程碑</strong>
+            <span id="timelineSubtitle">按志书时间顺序浏览地点与意义</span>
+          </div>
+        </div>
+        <div class="progress-rail" aria-hidden="true"><span id="progressFill"></span></div>
+        <div class="timeline-track" id="timelineTrack"></div>
+      </section>
+
+      <button class="mobile-panel-toggle" id="panelToggle" type="button">控制台</button>
+    </main>
+
+    <script src="./vendor/maplibre/maplibre-gl.js"></script>
+    <script src="./app.js?v=20260618a" defer></script>
+  </body>
+</html>

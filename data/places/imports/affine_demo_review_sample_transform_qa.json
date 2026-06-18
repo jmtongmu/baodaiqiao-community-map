@@ -1,0 +1,73 @@
+{
+  "map_id": "affine_demo",
+  "imported_place_count": 2,
+  "transform_quality": {
+    "status": "loaded",
+    "source": "data\\maps\\transforms\\affine_demo_pixel_to_map.json",
+    "method": "affine_pixel_to_map",
+    "pixel_space": "ocr_image_pixels",
+    "notes": "示例转换：x=13375000+5*px, y=3539000-5*py。残差应接近 0。",
+    "control_point_count": 4,
+    "rmse_m": 0.0,
+    "mean_error_m": 0.0,
+    "max_error_m": 0.0,
+    "residuals": [
+      {
+        "name": "左上控制点",
+        "pixel": [
+          0,
+          0
+        ],
+        "map": [
+          13375000,
+          3539000
+        ],
+        "dx_m": 0.0,
+        "dy_m": 0.0,
+        "error_m": 0.0
+      },
+      {
+        "name": "右上控制点",
+        "pixel": [
+          1000,
+          0
+        ],
+        "map": [
+          13380000,
+          3539000
+        ],
+        "dx_m": 0.0,
+        "dy_m": 0.0,
+        "error_m": 0.0
+      },
+      {
+        "name": "左下控制点",
+        "pixel": [
+          0,
+          1000
+        ],
+        "map": [
+          13375000,
+          3534000
+        ],
+        "dx_m": 0.0,
+        "dy_m": 0.0,
+        "error_m": 0.0
+      },
+      {
+        "name": "右下控制点",
+        "pixel": [
+          1000,
+          1000
+        ],
+        "map": [
+          13380000,
+          3534000
+        ],
+        "dx_m": 0.0,
+        "dy_m": 0.0,
+        "error_m": 0.0
+      }
+    ]
+  }
+}

@@ -1,0 +1,5699 @@
+{
+  "type": "FeatureCollection",
+  "name": "jingchengtu_windows_ocr_ocr_image_space",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:3857"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0001",
+        "text": "觀",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_1; kind=line",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 40.0,
+        "pixel_y1": 163.0,
+        "pixel_x2": 52.0,
+        "pixel_y2": 175.0,
+        "pixel_cx": 46.0,
+        "pixel_cy": 169.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              40.0,
+              -163.0
+            ],
+            [
+              52.0,
+              -163.0
+            ],
+            [
+              52.0,
+              -175.0
+            ],
+            [
+              40.0,
+              -175.0
+            ],
+            [
+              40.0,
+              -163.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0002",
+        "text": "山",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_1; kind=line",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 100.33,
+        "pixel_y1": 156.67,
+        "pixel_x2": 118.33,
+        "pixel_y2": 174.67,
+        "pixel_cx": 109.33,
+        "pixel_cy": 165.67
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.33,
+              -156.67
+            ],
+            [
+              118.33,
+              -156.67
+            ],
+            [
+              118.33,
+              -174.67
+            ],
+            [
+              100.33,
+              -174.67
+            ],
+            [
+              100.33,
+              -156.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0003",
+        "text": "丿寶寶杰英黑",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_1; kind=line",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 217.33,
+        "pixel_y1": 135.67,
+        "pixel_x2": 354.0,
+        "pixel_y2": 159.33,
+        "pixel_cx": 285.665,
+        "pixel_cy": 147.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              217.33,
+              -135.67
+            ],
+            [
+              354.0,
+              -135.67
+            ],
+            [
+              354.0,
+              -159.33
+            ],
+            [
+              217.33,
+              -159.33
+            ],
+            [
+              217.33,
+              -135.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0004",
+        "text": "丿",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_1; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 217.33,
+        "pixel_y1": 137.33,
+        "pixel_x2": 229.33,
+        "pixel_y2": 146.67,
+        "pixel_cx": 223.33,
+        "pixel_cy": 142.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              217.33,
+              -137.33
+            ],
+            [
+              229.33,
+              -137.33
+            ],
+            [
+              229.33,
+              -146.67
+            ],
+            [
+              217.33,
+              -146.67
+            ],
+            [
+              217.33,
+              -137.33
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0005",
+        "text": "寶",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_1; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 250.33,
+        "pixel_y1": 139.67,
+        "pixel_x2": 261.33,
+        "pixel_y2": 152.33,
+        "pixel_cx": 255.82999999999998,
+        "pixel_cy": 146.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              250.33,
+              -139.67
+            ],
+            [
+              261.33,
+              -139.67
+            ],
+            [
+              261.33,
+              -152.33
+            ],
+            [
+              250.33,
+              -152.33
+            ],
+            [
+              250.33,
+              -139.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0006",
+        "text": "寶",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_1; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 282.33,
+        "pixel_y1": 145.0,
+        "pixel_x2": 293.33,
+        "pixel_y2": 159.33,
+        "pixel_cx": 287.83,
+        "pixel_cy": 152.16500000000002
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              282.33,
+              -145.0
+            ],
+            [
+              293.33,
+              -145.0
+            ],
+            [
+              293.33,
+              -159.33
+            ],
+            [
+              282.33,
+              -159.33
+            ],
+            [
+              282.33,
+              -145.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0007",
+        "text": "杰",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_1; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 295.67,
+        "pixel_y1": 135.67,
+        "pixel_x2": 307.33,
+        "pixel_y2": 155.67,
+        "pixel_cx": 301.5,
+        "pixel_cy": 145.67
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              295.67,
+              -135.67
+            ],
+            [
+              307.33,
+              -135.67
+            ],
+            [
+              307.33,
+              -155.67
+            ],
+            [
+              295.67,
+              -155.67
+            ],
+            [
+              295.67,
+              -135.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0008",
+        "text": "英",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_1; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 321.0,
+        "pixel_y1": 141.0,
+        "pixel_x2": 336.67,
+        "pixel_y2": 155.67,
+        "pixel_cx": 328.83500000000004,
+        "pixel_cy": 148.33499999999998
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              321.0,
+              -141.0
+            ],
+            [
+              336.67,
+              -141.0
+            ],
+            [
+              336.67,
+              -155.67
+            ],
+            [
+              321.0,
+              -155.67
+            ],
+            [
+              321.0,
+              -141.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0009",
+        "text": "黑",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_1; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 341.67,
+        "pixel_y1": 137.33,
+        "pixel_x2": 354.0,
+        "pixel_y2": 149.33,
+        "pixel_cx": 347.83500000000004,
+        "pixel_cy": 143.33
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              341.67,
+              -137.33
+            ],
+            [
+              354.0,
+              -137.33
+            ],
+            [
+              354.0,
+              -149.33
+            ],
+            [
+              341.67,
+              -149.33
+            ],
+            [
+              341.67,
+              -137.33
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0010",
+        "text": "礻承城",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_1; kind=line",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 298.0,
+        "pixel_y1": 190.33,
+        "pixel_x2": 341.33,
+        "pixel_y2": 204.33,
+        "pixel_cx": 319.66499999999996,
+        "pixel_cy": 197.33
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              298.0,
+              -190.33
+            ],
+            [
+              341.33,
+              -190.33
+            ],
+            [
+              341.33,
+              -204.33
+            ],
+            [
+              298.0,
+              -204.33
+            ],
+            [
+              298.0,
+              -190.33
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0011",
+        "text": "礻",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_1; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 298.0,
+        "pixel_y1": 192.0,
+        "pixel_x2": 303.33,
+        "pixel_y2": 204.0,
+        "pixel_cx": 300.66499999999996,
+        "pixel_cy": 198.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              298.0,
+              -192.0
+            ],
+            [
+              303.33,
+              -192.0
+            ],
+            [
+              303.33,
+              -204.0
+            ],
+            [
+              298.0,
+              -204.0
+            ],
+            [
+              298.0,
+              -192.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0012",
+        "text": "承",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_1; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 312.67,
+        "pixel_y1": 192.0,
+        "pixel_x2": 325.67,
+        "pixel_y2": 204.0,
+        "pixel_cx": 319.17,
+        "pixel_cy": 198.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              312.67,
+              -192.0
+            ],
+            [
+              325.67,
+              -192.0
+            ],
+            [
+              325.67,
+              -204.0
+            ],
+            [
+              312.67,
+              -204.0
+            ],
+            [
+              312.67,
+              -192.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0013",
+        "text": "城",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_1; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 327.67,
+        "pixel_y1": 190.33,
+        "pixel_x2": 341.33,
+        "pixel_y2": 204.33,
+        "pixel_cx": 334.5,
+        "pixel_cy": 197.33
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              327.67,
+              -190.33
+            ],
+            [
+              341.33,
+              -190.33
+            ],
+            [
+              341.33,
+              -204.33
+            ],
+            [
+              327.67,
+              -204.33
+            ],
+            [
+              327.67,
+              -190.33
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0014",
+        "text": "寶类黑毛",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_2; kind=line",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 282.33,
+        "pixel_y1": 136.0,
+        "pixel_x2": 393.33,
+        "pixel_y2": 159.33,
+        "pixel_cx": 337.83,
+        "pixel_cy": 147.66500000000002
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              282.33,
+              -136.0
+            ],
+            [
+              393.33,
+              -136.0
+            ],
+            [
+              393.33,
+              -159.33
+            ],
+            [
+              282.33,
+              -159.33
+            ],
+            [
+              282.33,
+              -136.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0015",
+        "text": "类",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_2; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 321.0,
+        "pixel_y1": 141.0,
+        "pixel_x2": 337.0,
+        "pixel_y2": 155.67,
+        "pixel_cx": 329.0,
+        "pixel_cy": 148.33499999999998
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              321.0,
+              -141.0
+            ],
+            [
+              337.0,
+              -141.0
+            ],
+            [
+              337.0,
+              -155.67
+            ],
+            [
+              321.0,
+              -155.67
+            ],
+            [
+              321.0,
+              -141.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0016",
+        "text": "毛",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_2; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 381.33,
+        "pixel_y1": 136.0,
+        "pixel_x2": 393.33,
+        "pixel_y2": 145.67,
+        "pixel_cx": 387.33,
+        "pixel_cy": 140.83499999999998
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              381.33,
+              -136.0
+            ],
+            [
+              393.33,
+              -136.0
+            ],
+            [
+              393.33,
+              -145.67
+            ],
+            [
+              381.33,
+              -145.67
+            ],
+            [
+              381.33,
+              -136.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0017",
+        "text": "礻承城太坊",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_2; kind=line",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 297.67,
+        "pixel_y1": 190.0,
+        "pixel_x2": 396.33,
+        "pixel_y2": 211.0,
+        "pixel_cx": 347.0,
+        "pixel_cy": 200.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              297.67,
+              -190.0
+            ],
+            [
+              396.33,
+              -190.0
+            ],
+            [
+              396.33,
+              -211.0
+            ],
+            [
+              297.67,
+              -211.0
+            ],
+            [
+              297.67,
+              -190.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0018",
+        "text": "太",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_2; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 363.0,
+        "pixel_y1": 200.33,
+        "pixel_x2": 374.0,
+        "pixel_y2": 211.0,
+        "pixel_cx": 368.5,
+        "pixel_cy": 205.66500000000002
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              363.0,
+              -200.33
+            ],
+            [
+              374.0,
+              -200.33
+            ],
+            [
+              374.0,
+              -211.0
+            ],
+            [
+              363.0,
+              -211.0
+            ],
+            [
+              363.0,
+              -200.33
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0019",
+        "text": "坊",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_2; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 383.67,
+        "pixel_y1": 190.67,
+        "pixel_x2": 396.33,
+        "pixel_y2": 202.33,
+        "pixel_cx": 390.0,
+        "pixel_cy": 196.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              383.67,
+              -190.67
+            ],
+            [
+              396.33,
+              -190.67
+            ],
+            [
+              396.33,
+              -202.33
+            ],
+            [
+              383.67,
+              -202.33
+            ],
+            [
+              383.67,
+              -190.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0020",
+        "text": "歲南山",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_2; kind=line",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 362.33,
+        "pixel_y1": 211.0,
+        "pixel_x2": 421.67,
+        "pixel_y2": 223.67,
+        "pixel_cx": 392.0,
+        "pixel_cy": 217.33499999999998
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              362.33,
+              -211.0
+            ],
+            [
+              421.67,
+              -211.0
+            ],
+            [
+              421.67,
+              -223.67
+            ],
+            [
+              362.33,
+              -223.67
+            ],
+            [
+              362.33,
+              -211.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0021",
+        "text": "歲",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_2; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 362.33,
+        "pixel_y1": 211.0,
+        "pixel_x2": 374.33,
+        "pixel_y2": 221.67,
+        "pixel_cx": 368.33,
+        "pixel_cy": 216.33499999999998
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              362.33,
+              -211.0
+            ],
+            [
+              374.33,
+              -211.0
+            ],
+            [
+              374.33,
+              -221.67
+            ],
+            [
+              362.33,
+              -221.67
+            ],
+            [
+              362.33,
+              -211.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0022",
+        "text": "南",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_2; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 397.33,
+        "pixel_y1": 211.67,
+        "pixel_x2": 407.0,
+        "pixel_y2": 223.0,
+        "pixel_cx": 402.16499999999996,
+        "pixel_cy": 217.33499999999998
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              397.33,
+              -211.67
+            ],
+            [
+              407.0,
+              -211.67
+            ],
+            [
+              407.0,
+              -223.0
+            ],
+            [
+              397.33,
+              -223.0
+            ],
+            [
+              397.33,
+              -211.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0023",
+        "text": "山",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_2; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 411.0,
+        "pixel_y1": 212.67,
+        "pixel_x2": 421.67,
+        "pixel_y2": 223.67,
+        "pixel_cx": 416.33500000000004,
+        "pixel_cy": 218.17
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              411.0,
+              -212.67
+            ],
+            [
+              421.67,
+              -212.67
+            ],
+            [
+              421.67,
+              -223.67
+            ],
+            [
+              411.0,
+              -223.67
+            ],
+            [
+              411.0,
+              -212.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0024",
+        "text": "水",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_3; kind=line",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 655.33,
+        "pixel_y1": 27.0,
+        "pixel_x2": 665.0,
+        "pixel_y2": 38.0,
+        "pixel_cx": 660.165,
+        "pixel_cy": 32.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              655.33,
+              -27.0
+            ],
+            [
+              665.0,
+              -27.0
+            ],
+            [
+              665.0,
+              -38.0
+            ],
+            [
+              655.33,
+              -38.0
+            ],
+            [
+              655.33,
+              -27.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0025",
+        "text": "水水楊",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_3; kind=line",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 701.0,
+        "pixel_y1": 28.0,
+        "pixel_x2": 748.33,
+        "pixel_y2": 39.33,
+        "pixel_cx": 724.665,
+        "pixel_cy": 33.665
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              701.0,
+              -28.0
+            ],
+            [
+              748.33,
+              -28.0
+            ],
+            [
+              748.33,
+              -39.33
+            ],
+            [
+              701.0,
+              -39.33
+            ],
+            [
+              701.0,
+              -28.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0026",
+        "text": "水",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_3; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 701.0,
+        "pixel_y1": 28.0,
+        "pixel_x2": 712.33,
+        "pixel_y2": 39.0,
+        "pixel_cx": 706.665,
+        "pixel_cy": 33.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              701.0,
+              -28.0
+            ],
+            [
+              712.33,
+              -28.0
+            ],
+            [
+              712.33,
+              -39.0
+            ],
+            [
+              701.0,
+              -39.0
+            ],
+            [
+              701.0,
+              -28.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0027",
+        "text": "水",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_3; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 728.0,
+        "pixel_y1": 28.33,
+        "pixel_x2": 737.67,
+        "pixel_y2": 39.0,
+        "pixel_cx": 732.835,
+        "pixel_cy": 33.665
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              728.0,
+              -28.33
+            ],
+            [
+              737.67,
+              -28.33
+            ],
+            [
+              737.67,
+              -39.0
+            ],
+            [
+              728.0,
+              -39.0
+            ],
+            [
+              728.0,
+              -28.33
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0028",
+        "text": "楊",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_3; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 737.0,
+        "pixel_y1": 28.67,
+        "pixel_x2": 748.33,
+        "pixel_y2": 39.33,
+        "pixel_cx": 742.665,
+        "pixel_cy": 34.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              737.0,
+              -28.67
+            ],
+            [
+              748.33,
+              -28.67
+            ],
+            [
+              748.33,
+              -39.33
+            ],
+            [
+              737.0,
+              -39.33
+            ],
+            [
+              737.0,
+              -28.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0029",
+        "text": "司山池水營",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_5; kind=line",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 282.0,
+        "pixel_y1": 272.0,
+        "pixel_x2": 358.33,
+        "pixel_y2": 290.0,
+        "pixel_cx": 320.16499999999996,
+        "pixel_cy": 281.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              282.0,
+              -272.0
+            ],
+            [
+              358.33,
+              -272.0
+            ],
+            [
+              358.33,
+              -290.0
+            ],
+            [
+              282.0,
+              -290.0
+            ],
+            [
+              282.0,
+              -272.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0030",
+        "text": "司",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_5; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 282.0,
+        "pixel_y1": 278.33,
+        "pixel_x2": 291.33,
+        "pixel_y2": 289.33,
+        "pixel_cx": 286.66499999999996,
+        "pixel_cy": 283.83
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              282.0,
+              -278.33
+            ],
+            [
+              291.33,
+              -278.33
+            ],
+            [
+              291.33,
+              -289.33
+            ],
+            [
+              282.0,
+              -289.33
+            ],
+            [
+              282.0,
+              -278.33
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0031",
+        "text": "山",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_5; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 305.33,
+        "pixel_y1": 275.67,
+        "pixel_x2": 315.67,
+        "pixel_y2": 284.67,
+        "pixel_cx": 310.5,
+        "pixel_cy": 280.17
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              305.33,
+              -275.67
+            ],
+            [
+              315.67,
+              -275.67
+            ],
+            [
+              315.67,
+              -284.67
+            ],
+            [
+              305.33,
+              -284.67
+            ],
+            [
+              305.33,
+              -275.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0032",
+        "text": "池",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_5; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 320.67,
+        "pixel_y1": 278.33,
+        "pixel_x2": 331.33,
+        "pixel_y2": 289.33,
+        "pixel_cx": 326.0,
+        "pixel_cy": 283.83
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              320.67,
+              -278.33
+            ],
+            [
+              331.33,
+              -278.33
+            ],
+            [
+              331.33,
+              -289.33
+            ],
+            [
+              320.67,
+              -289.33
+            ],
+            [
+              320.67,
+              -278.33
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0033",
+        "text": "水",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_5; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 332.67,
+        "pixel_y1": 278.0,
+        "pixel_x2": 343.33,
+        "pixel_y2": 290.0,
+        "pixel_cx": 338.0,
+        "pixel_cy": 284.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              332.67,
+              -278.0
+            ],
+            [
+              343.33,
+              -278.0
+            ],
+            [
+              343.33,
+              -290.0
+            ],
+            [
+              332.67,
+              -290.0
+            ],
+            [
+              332.67,
+              -278.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0034",
+        "text": "營",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_5; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 347.33,
+        "pixel_y1": 272.0,
+        "pixel_x2": 358.33,
+        "pixel_y2": 285.33,
+        "pixel_cx": 352.83,
+        "pixel_cy": 278.66499999999996
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              347.33,
+              -272.0
+            ],
+            [
+              358.33,
+              -272.0
+            ],
+            [
+              358.33,
+              -285.33
+            ],
+            [
+              347.33,
+              -285.33
+            ],
+            [
+              347.33,
+              -272.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0035",
+        "text": "太司",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_5; kind=line",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 322.33,
+        "pixel_y1": 339.0,
+        "pixel_x2": 347.0,
+        "pixel_y2": 352.0,
+        "pixel_cx": 334.66499999999996,
+        "pixel_cy": 345.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              322.33,
+              -339.0
+            ],
+            [
+              347.0,
+              -339.0
+            ],
+            [
+              347.0,
+              -352.0
+            ],
+            [
+              322.33,
+              -352.0
+            ],
+            [
+              322.33,
+              -339.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0036",
+        "text": "太",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_5; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 322.33,
+        "pixel_y1": 339.33,
+        "pixel_x2": 334.0,
+        "pixel_y2": 351.67,
+        "pixel_cx": 328.16499999999996,
+        "pixel_cy": 345.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              322.33,
+              -339.33
+            ],
+            [
+              334.0,
+              -339.33
+            ],
+            [
+              334.0,
+              -351.67
+            ],
+            [
+              322.33,
+              -351.67
+            ],
+            [
+              322.33,
+              -339.33
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0037",
+        "text": "司",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_5; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 338.33,
+        "pixel_y1": 339.0,
+        "pixel_x2": 347.0,
+        "pixel_y2": 352.0,
+        "pixel_cx": 342.66499999999996,
+        "pixel_cy": 345.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              338.33,
+              -339.0
+            ],
+            [
+              347.0,
+              -339.0
+            ],
+            [
+              347.0,
+              -352.0
+            ],
+            [
+              338.33,
+              -352.0
+            ],
+            [
+              338.33,
+              -339.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0038",
+        "text": "醫山池水營康",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_6; kind=line",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 280.0,
+        "pixel_y1": 267.67,
+        "pixel_x2": 376.67,
+        "pixel_y2": 290.0,
+        "pixel_cx": 328.33500000000004,
+        "pixel_cy": 278.83500000000004
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              280.0,
+              -267.67
+            ],
+            [
+              376.67,
+              -267.67
+            ],
+            [
+              376.67,
+              -290.0
+            ],
+            [
+              280.0,
+              -290.0
+            ],
+            [
+              280.0,
+              -267.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0039",
+        "text": "醫",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_6; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 280.0,
+        "pixel_y1": 268.0,
+        "pixel_x2": 293.33,
+        "pixel_y2": 289.33,
+        "pixel_cx": 286.66499999999996,
+        "pixel_cy": 278.66499999999996
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              280.0,
+              -268.0
+            ],
+            [
+              293.33,
+              -268.0
+            ],
+            [
+              293.33,
+              -289.33
+            ],
+            [
+              280.0,
+              -289.33
+            ],
+            [
+              280.0,
+              -268.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0040",
+        "text": "康",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_6; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 365.67,
+        "pixel_y1": 267.67,
+        "pixel_x2": 376.67,
+        "pixel_y2": 280.67,
+        "pixel_cx": 371.17,
+        "pixel_cy": 274.17
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              365.67,
+              -267.67
+            ],
+            [
+              376.67,
+              -267.67
+            ],
+            [
+              376.67,
+              -280.67
+            ],
+            [
+              365.67,
+              -280.67
+            ],
+            [
+              365.67,
+              -267.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0041",
+        "text": "軍片",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_6; kind=line",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 280.67,
+        "pixel_y1": 301.33,
+        "pixel_x2": 354.67,
+        "pixel_y2": 315.0,
+        "pixel_cx": 317.67,
+        "pixel_cy": 308.16499999999996
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              280.67,
+              -301.33
+            ],
+            [
+              354.67,
+              -301.33
+            ],
+            [
+              354.67,
+              -315.0
+            ],
+            [
+              280.67,
+              -315.0
+            ],
+            [
+              280.67,
+              -301.33
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0042",
+        "text": "軍",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_6; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 280.67,
+        "pixel_y1": 301.33,
+        "pixel_x2": 292.67,
+        "pixel_y2": 315.0,
+        "pixel_cx": 286.67,
+        "pixel_cy": 308.16499999999996
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              280.67,
+              -301.33
+            ],
+            [
+              292.67,
+              -301.33
+            ],
+            [
+              292.67,
+              -315.0
+            ],
+            [
+              280.67,
+              -315.0
+            ],
+            [
+              280.67,
+              -301.33
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0043",
+        "text": "片",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_6; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 345.67,
+        "pixel_y1": 304.0,
+        "pixel_x2": 354.67,
+        "pixel_y2": 315.0,
+        "pixel_cx": 350.17,
+        "pixel_cy": 309.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              345.67,
+              -304.0
+            ],
+            [
+              354.67,
+              -304.0
+            ],
+            [
+              354.67,
+              -315.0
+            ],
+            [
+              345.67,
+              -315.0
+            ],
+            [
+              345.67,
+              -304.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0044",
+        "text": "太司將軍",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_6; kind=line",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 322.67,
+        "pixel_y1": 339.0,
+        "pixel_x2": 375.67,
+        "pixel_y2": 352.0,
+        "pixel_cx": 349.17,
+        "pixel_cy": 345.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              322.67,
+              -339.0
+            ],
+            [
+              375.67,
+              -339.0
+            ],
+            [
+              375.67,
+              -352.0
+            ],
+            [
+              322.67,
+              -352.0
+            ],
+            [
+              322.67,
+              -339.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0045",
+        "text": "將",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_6; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 350.33,
+        "pixel_y1": 339.67,
+        "pixel_x2": 361.67,
+        "pixel_y2": 351.67,
+        "pixel_cx": 356.0,
+        "pixel_cy": 345.67
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              350.33,
+              -339.67
+            ],
+            [
+              361.67,
+              -339.67
+            ],
+            [
+              361.67,
+              -351.67
+            ],
+            [
+              350.33,
+              -351.67
+            ],
+            [
+              350.33,
+              -339.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0046",
+        "text": "軍",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_6; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 365.0,
+        "pixel_y1": 339.0,
+        "pixel_x2": 375.67,
+        "pixel_y2": 351.67,
+        "pixel_cx": 370.33500000000004,
+        "pixel_cy": 345.33500000000004
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              365.0,
+              -339.0
+            ],
+            [
+              375.67,
+              -339.0
+            ],
+            [
+              375.67,
+              -351.67
+            ],
+            [
+              365.0,
+              -351.67
+            ],
+            [
+              365.0,
+              -339.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0047",
+        "text": "府作器訁",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_6; kind=line",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 321.67,
+        "pixel_y1": 352.33,
+        "pixel_x2": 383.33,
+        "pixel_y2": 365.67,
+        "pixel_cx": 352.5,
+        "pixel_cy": 359.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              321.67,
+              -352.33
+            ],
+            [
+              383.33,
+              -352.33
+            ],
+            [
+              383.33,
+              -365.67
+            ],
+            [
+              321.67,
+              -365.67
+            ],
+            [
+              321.67,
+              -352.33
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0048",
+        "text": "府",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_6; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 321.67,
+        "pixel_y1": 353.0,
+        "pixel_x2": 334.0,
+        "pixel_y2": 365.67,
+        "pixel_cx": 327.83500000000004,
+        "pixel_cy": 359.33500000000004
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              321.67,
+              -353.0
+            ],
+            [
+              334.0,
+              -353.0
+            ],
+            [
+              334.0,
+              -365.67
+            ],
+            [
+              321.67,
+              -365.67
+            ],
+            [
+              321.67,
+              -353.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0049",
+        "text": "作",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_6; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 350.33,
+        "pixel_y1": 352.33,
+        "pixel_x2": 361.67,
+        "pixel_y2": 365.33,
+        "pixel_cx": 356.0,
+        "pixel_cy": 358.83
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              350.33,
+              -352.33
+            ],
+            [
+              361.67,
+              -352.33
+            ],
+            [
+              361.67,
+              -365.33
+            ],
+            [
+              350.33,
+              -365.33
+            ],
+            [
+              350.33,
+              -352.33
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0050",
+        "text": "器",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_6; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 366.0,
+        "pixel_y1": 352.67,
+        "pixel_x2": 375.33,
+        "pixel_y2": 364.67,
+        "pixel_cx": 370.66499999999996,
+        "pixel_cy": 358.67
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              366.0,
+              -352.67
+            ],
+            [
+              375.33,
+              -352.67
+            ],
+            [
+              375.33,
+              -364.67
+            ],
+            [
+              366.0,
+              -364.67
+            ],
+            [
+              366.0,
+              -352.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0051",
+        "text": "訁",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_6; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 378.33,
+        "pixel_y1": 354.33,
+        "pixel_x2": 383.33,
+        "pixel_y2": 364.0,
+        "pixel_cx": 380.83,
+        "pixel_cy": 359.16499999999996
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              378.33,
+              -354.33
+            ],
+            [
+              383.33,
+              -354.33
+            ],
+            [
+              383.33,
+              -364.0
+            ],
+            [
+              378.33,
+              -364.0
+            ],
+            [
+              378.33,
+              -354.33
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0052",
+        "text": "南山",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_6; kind=line",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 397.33,
+        "pixel_y1": 211.67,
+        "pixel_x2": 421.67,
+        "pixel_y2": 223.67,
+        "pixel_cx": 409.5,
+        "pixel_cy": 217.67
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              397.33,
+              -211.67
+            ],
+            [
+              421.67,
+              -211.67
+            ],
+            [
+              421.67,
+              -223.67
+            ],
+            [
+              397.33,
+              -223.67
+            ],
+            [
+              397.33,
+              -211.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0053",
+        "text": "相令",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_7; kind=line",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 691.67,
+        "pixel_y1": 203.0,
+        "pixel_x2": 774.33,
+        "pixel_y2": 216.0,
+        "pixel_cx": 733.0,
+        "pixel_cy": 209.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              691.67,
+              -203.0
+            ],
+            [
+              774.33,
+              -203.0
+            ],
+            [
+              774.33,
+              -216.0
+            ],
+            [
+              691.67,
+              -216.0
+            ],
+            [
+              691.67,
+              -203.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0054",
+        "text": "相",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_7; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 691.67,
+        "pixel_y1": 203.0,
+        "pixel_x2": 705.0,
+        "pixel_y2": 216.0,
+        "pixel_cx": 698.335,
+        "pixel_cy": 209.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              691.67,
+              -203.0
+            ],
+            [
+              705.0,
+              -203.0
+            ],
+            [
+              705.0,
+              -216.0
+            ],
+            [
+              691.67,
+              -216.0
+            ],
+            [
+              691.67,
+              -203.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0055",
+        "text": "令",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_7; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 765.33,
+        "pixel_y1": 203.0,
+        "pixel_x2": 774.33,
+        "pixel_y2": 211.67,
+        "pixel_cx": 769.83,
+        "pixel_cy": 207.33499999999998
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              765.33,
+              -203.0
+            ],
+            [
+              774.33,
+              -203.0
+            ],
+            [
+              774.33,
+              -211.67
+            ],
+            [
+              765.33,
+              -211.67
+            ],
+            [
+              765.33,
+              -203.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0056",
+        "text": "毛万坊俯方片",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_7; kind=line",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 633.67,
+        "pixel_y1": 272.0,
+        "pixel_x2": 737.33,
+        "pixel_y2": 284.0,
+        "pixel_cx": 685.5,
+        "pixel_cy": 278.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              633.67,
+              -272.0
+            ],
+            [
+              737.33,
+              -272.0
+            ],
+            [
+              737.33,
+              -284.0
+            ],
+            [
+              633.67,
+              -284.0
+            ],
+            [
+              633.67,
+              -272.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0057",
+        "text": "毛",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_7; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 633.67,
+        "pixel_y1": 275.0,
+        "pixel_x2": 645.67,
+        "pixel_y2": 283.33,
+        "pixel_cx": 639.67,
+        "pixel_cy": 279.16499999999996
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              633.67,
+              -275.0
+            ],
+            [
+              645.67,
+              -275.0
+            ],
+            [
+              645.67,
+              -283.33
+            ],
+            [
+              633.67,
+              -283.33
+            ],
+            [
+              633.67,
+              -275.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0058",
+        "text": "万",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_7; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 665.0,
+        "pixel_y1": 275.0,
+        "pixel_x2": 673.67,
+        "pixel_y2": 283.33,
+        "pixel_cx": 669.335,
+        "pixel_cy": 279.16499999999996
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              665.0,
+              -275.0
+            ],
+            [
+              673.67,
+              -275.0
+            ],
+            [
+              673.67,
+              -283.33
+            ],
+            [
+              665.0,
+              -283.33
+            ],
+            [
+              665.0,
+              -275.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0059",
+        "text": "坊",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_7; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 696.33,
+        "pixel_y1": 273.0,
+        "pixel_x2": 707.0,
+        "pixel_y2": 283.33,
+        "pixel_cx": 701.665,
+        "pixel_cy": 278.16499999999996
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              696.33,
+              -273.0
+            ],
+            [
+              707.0,
+              -273.0
+            ],
+            [
+              707.0,
+              -283.33
+            ],
+            [
+              696.33,
+              -283.33
+            ],
+            [
+              696.33,
+              -273.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0060",
+        "text": "俯",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_7; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 706.67,
+        "pixel_y1": 272.0,
+        "pixel_x2": 716.67,
+        "pixel_y2": 283.0,
+        "pixel_cx": 711.67,
+        "pixel_cy": 277.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              706.67,
+              -272.0
+            ],
+            [
+              716.67,
+              -272.0
+            ],
+            [
+              716.67,
+              -283.0
+            ],
+            [
+              706.67,
+              -283.0
+            ],
+            [
+              706.67,
+              -272.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0061",
+        "text": "方",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_7; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 719.67,
+        "pixel_y1": 273.0,
+        "pixel_x2": 728.0,
+        "pixel_y2": 284.0,
+        "pixel_cx": 723.835,
+        "pixel_cy": 278.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              719.67,
+              -273.0
+            ],
+            [
+              728.0,
+              -273.0
+            ],
+            [
+              728.0,
+              -284.0
+            ],
+            [
+              719.67,
+              -284.0
+            ],
+            [
+              719.67,
+              -273.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0062",
+        "text": "片",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_7; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 728.33,
+        "pixel_y1": 272.33,
+        "pixel_x2": 737.33,
+        "pixel_y2": 284.0,
+        "pixel_cx": 732.83,
+        "pixel_cy": 278.16499999999996
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              728.33,
+              -272.33
+            ],
+            [
+              737.33,
+              -272.33
+            ],
+            [
+              737.33,
+              -284.0
+            ],
+            [
+              728.33,
+              -284.0
+            ],
+            [
+              728.33,
+              -272.33
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0063",
+        "text": "待孝閤曉六三封玉壽白瑞太五真",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=line",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 159.33,
+        "pixel_y1": 453.0,
+        "pixel_x2": 359.33,
+        "pixel_y2": 476.67,
+        "pixel_cx": 259.33,
+        "pixel_cy": 464.83500000000004
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              159.33,
+              -453.0
+            ],
+            [
+              359.33,
+              -453.0
+            ],
+            [
+              359.33,
+              -476.67
+            ],
+            [
+              159.33,
+              -476.67
+            ],
+            [
+              159.33,
+              -453.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0064",
+        "text": "待",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 159.33,
+        "pixel_y1": 453.0,
+        "pixel_x2": 173.67,
+        "pixel_y2": 468.67,
+        "pixel_cx": 166.5,
+        "pixel_cy": 460.83500000000004
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              159.33,
+              -453.0
+            ],
+            [
+              173.67,
+              -453.0
+            ],
+            [
+              173.67,
+              -468.67
+            ],
+            [
+              159.33,
+              -468.67
+            ],
+            [
+              159.33,
+              -453.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0065",
+        "text": "孝",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 173.67,
+        "pixel_y1": 454.0,
+        "pixel_x2": 184.67,
+        "pixel_y2": 469.67,
+        "pixel_cx": 179.17,
+        "pixel_cy": 461.83500000000004
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              173.67,
+              -454.0
+            ],
+            [
+              184.67,
+              -454.0
+            ],
+            [
+              184.67,
+              -469.67
+            ],
+            [
+              173.67,
+              -469.67
+            ],
+            [
+              173.67,
+              -454.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0066",
+        "text": "閤",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 186.33,
+        "pixel_y1": 456.0,
+        "pixel_x2": 196.33,
+        "pixel_y2": 473.33,
+        "pixel_cx": 191.33,
+        "pixel_cy": 464.66499999999996
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              186.33,
+              -456.0
+            ],
+            [
+              196.33,
+              -456.0
+            ],
+            [
+              196.33,
+              -473.33
+            ],
+            [
+              186.33,
+              -473.33
+            ],
+            [
+              186.33,
+              -456.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0067",
+        "text": "曉",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 198.33,
+        "pixel_y1": 454.33,
+        "pixel_x2": 210.0,
+        "pixel_y2": 468.67,
+        "pixel_cx": 204.16500000000002,
+        "pixel_cy": 461.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              198.33,
+              -454.33
+            ],
+            [
+              210.0,
+              -454.33
+            ],
+            [
+              210.0,
+              -468.67
+            ],
+            [
+              198.33,
+              -468.67
+            ],
+            [
+              198.33,
+              -454.33
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0068",
+        "text": "六",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 211.67,
+        "pixel_y1": 456.67,
+        "pixel_x2": 226.33,
+        "pixel_y2": 472.67,
+        "pixel_cx": 219.0,
+        "pixel_cy": 464.67
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              211.67,
+              -456.67
+            ],
+            [
+              226.33,
+              -456.67
+            ],
+            [
+              226.33,
+              -472.67
+            ],
+            [
+              211.67,
+              -472.67
+            ],
+            [
+              211.67,
+              -456.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0069",
+        "text": "三",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 227.0,
+        "pixel_y1": 458.0,
+        "pixel_x2": 243.0,
+        "pixel_y2": 473.33,
+        "pixel_cx": 235.0,
+        "pixel_cy": 465.66499999999996
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              227.0,
+              -458.0
+            ],
+            [
+              243.0,
+              -458.0
+            ],
+            [
+              243.0,
+              -473.33
+            ],
+            [
+              227.0,
+              -473.33
+            ],
+            [
+              227.0,
+              -458.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0070",
+        "text": "封",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 242.67,
+        "pixel_y1": 455.67,
+        "pixel_x2": 256.33,
+        "pixel_y2": 470.33,
+        "pixel_cx": 249.5,
+        "pixel_cy": 463.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              242.67,
+              -455.67
+            ],
+            [
+              256.33,
+              -455.67
+            ],
+            [
+              256.33,
+              -470.33
+            ],
+            [
+              242.67,
+              -470.33
+            ],
+            [
+              242.67,
+              -455.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0071",
+        "text": "玉",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 256.67,
+        "pixel_y1": 456.33,
+        "pixel_x2": 269.33,
+        "pixel_y2": 467.67,
+        "pixel_cx": 263.0,
+        "pixel_cy": 462.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              256.67,
+              -456.33
+            ],
+            [
+              269.33,
+              -456.33
+            ],
+            [
+              269.33,
+              -467.67
+            ],
+            [
+              256.67,
+              -467.67
+            ],
+            [
+              256.67,
+              -456.33
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0072",
+        "text": "壽",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 270.0,
+        "pixel_y1": 455.67,
+        "pixel_x2": 282.33,
+        "pixel_y2": 470.33,
+        "pixel_cx": 276.16499999999996,
+        "pixel_cy": 463.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              270.0,
+              -455.67
+            ],
+            [
+              282.33,
+              -455.67
+            ],
+            [
+              282.33,
+              -470.33
+            ],
+            [
+              270.0,
+              -470.33
+            ],
+            [
+              270.0,
+              -455.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0073",
+        "text": "白",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 285.33,
+        "pixel_y1": 455.67,
+        "pixel_x2": 296.0,
+        "pixel_y2": 469.0,
+        "pixel_cx": 290.66499999999996,
+        "pixel_cy": 462.33500000000004
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              285.33,
+              -455.67
+            ],
+            [
+              296.0,
+              -455.67
+            ],
+            [
+              296.0,
+              -469.0
+            ],
+            [
+              285.33,
+              -469.0
+            ],
+            [
+              285.33,
+              -455.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0074",
+        "text": "瑞",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 297.33,
+        "pixel_y1": 455.0,
+        "pixel_x2": 310.33,
+        "pixel_y2": 469.67,
+        "pixel_cx": 303.83,
+        "pixel_cy": 462.33500000000004
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              297.33,
+              -455.0
+            ],
+            [
+              310.33,
+              -455.0
+            ],
+            [
+              310.33,
+              -469.67
+            ],
+            [
+              297.33,
+              -469.67
+            ],
+            [
+              297.33,
+              -455.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0075",
+        "text": "太",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 312.67,
+        "pixel_y1": 456.67,
+        "pixel_x2": 330.0,
+        "pixel_y2": 476.67,
+        "pixel_cx": 321.33500000000004,
+        "pixel_cy": 466.67
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              312.67,
+              -456.67
+            ],
+            [
+              330.0,
+              -456.67
+            ],
+            [
+              330.0,
+              -476.67
+            ],
+            [
+              312.67,
+              -476.67
+            ],
+            [
+              312.67,
+              -456.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0076",
+        "text": "五",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 330.33,
+        "pixel_y1": 459.33,
+        "pixel_x2": 348.67,
+        "pixel_y2": 476.0,
+        "pixel_cx": 339.5,
+        "pixel_cy": 467.66499999999996
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              330.33,
+              -459.33
+            ],
+            [
+              348.67,
+              -459.33
+            ],
+            [
+              348.67,
+              -476.0
+            ],
+            [
+              330.33,
+              -476.0
+            ],
+            [
+              330.33,
+              -459.33
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0077",
+        "text": "真",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 348.33,
+        "pixel_y1": 455.33,
+        "pixel_x2": 359.33,
+        "pixel_y2": 470.33,
+        "pixel_cx": 353.83,
+        "pixel_cy": 462.83
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              348.33,
+              -455.33
+            ],
+            [
+              359.33,
+              -455.33
+            ],
+            [
+              359.33,
+              -470.33
+            ],
+            [
+              348.33,
+              -470.33
+            ],
+            [
+              348.33,
+              -455.33
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0078",
+        "text": "班仁示樁牒域馬石",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=line",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 159.33,
+        "pixel_y1": 470.67,
+        "pixel_x2": 309.0,
+        "pixel_y2": 486.67,
+        "pixel_cx": 234.16500000000002,
+        "pixel_cy": 478.67
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              159.33,
+              -470.67
+            ],
+            [
+              309.0,
+              -470.67
+            ],
+            [
+              309.0,
+              -486.67
+            ],
+            [
+              159.33,
+              -486.67
+            ],
+            [
+              159.33,
+              -470.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0079",
+        "text": "班",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 159.33,
+        "pixel_y1": 470.67,
+        "pixel_x2": 172.67,
+        "pixel_y2": 484.33,
+        "pixel_cx": 166.0,
+        "pixel_cy": 477.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              159.33,
+              -470.67
+            ],
+            [
+              172.67,
+              -470.67
+            ],
+            [
+              172.67,
+              -484.33
+            ],
+            [
+              159.33,
+              -484.33
+            ],
+            [
+              159.33,
+              -470.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0080",
+        "text": "仁",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 173.0,
+        "pixel_y1": 471.33,
+        "pixel_x2": 185.33,
+        "pixel_y2": 485.33,
+        "pixel_cx": 179.16500000000002,
+        "pixel_cy": 478.33
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              173.0,
+              -471.33
+            ],
+            [
+              185.33,
+              -471.33
+            ],
+            [
+              185.33,
+              -485.33
+            ],
+            [
+              173.0,
+              -485.33
+            ],
+            [
+              173.0,
+              -471.33
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0081",
+        "text": "示",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 197.67,
+        "pixel_y1": 471.67,
+        "pixel_x2": 209.67,
+        "pixel_y2": 484.33,
+        "pixel_cx": 203.67,
+        "pixel_cy": 478.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              197.67,
+              -471.67
+            ],
+            [
+              209.67,
+              -471.67
+            ],
+            [
+              209.67,
+              -484.33
+            ],
+            [
+              197.67,
+              -484.33
+            ],
+            [
+              197.67,
+              -471.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0082",
+        "text": "樁",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 242.33,
+        "pixel_y1": 471.67,
+        "pixel_x2": 255.67,
+        "pixel_y2": 486.0,
+        "pixel_cx": 249.0,
+        "pixel_cy": 478.83500000000004
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              242.33,
+              -471.67
+            ],
+            [
+              255.67,
+              -471.67
+            ],
+            [
+              255.67,
+              -486.0
+            ],
+            [
+              242.33,
+              -486.0
+            ],
+            [
+              242.33,
+              -471.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0083",
+        "text": "牒",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 256.0,
+        "pixel_y1": 471.33,
+        "pixel_x2": 269.0,
+        "pixel_y2": 485.33,
+        "pixel_cx": 262.5,
+        "pixel_cy": 478.33
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              256.0,
+              -471.33
+            ],
+            [
+              269.0,
+              -471.33
+            ],
+            [
+              269.0,
+              -485.33
+            ],
+            [
+              256.0,
+              -485.33
+            ],
+            [
+              256.0,
+              -471.33
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0084",
+        "text": "域",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 269.33,
+        "pixel_y1": 471.67,
+        "pixel_x2": 283.33,
+        "pixel_y2": 486.67,
+        "pixel_cx": 276.33,
+        "pixel_cy": 479.17
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              269.33,
+              -471.67
+            ],
+            [
+              283.33,
+              -471.67
+            ],
+            [
+              283.33,
+              -486.67
+            ],
+            [
+              269.33,
+              -486.67
+            ],
+            [
+              269.33,
+              -471.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0085",
+        "text": "馬",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 284.33,
+        "pixel_y1": 472.33,
+        "pixel_x2": 295.67,
+        "pixel_y2": 486.33,
+        "pixel_cx": 290.0,
+        "pixel_cy": 479.33
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              284.33,
+              -472.33
+            ],
+            [
+              295.67,
+              -472.33
+            ],
+            [
+              295.67,
+              -486.33
+            ],
+            [
+              284.33,
+              -486.33
+            ],
+            [
+              284.33,
+              -472.33
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0086",
+        "text": "石",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 296.67,
+        "pixel_y1": 473.33,
+        "pixel_x2": 309.0,
+        "pixel_y2": 485.0,
+        "pixel_cx": 302.83500000000004,
+        "pixel_cy": 479.16499999999996
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              296.67,
+              -473.33
+            ],
+            [
+              309.0,
+              -473.33
+            ],
+            [
+              309.0,
+              -485.0
+            ],
+            [
+              296.67,
+              -485.0
+            ],
+            [
+              296.67,
+              -473.33
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0087",
+        "text": "閤亭部省庫所坊廟泉廟府廟",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=line",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 160.0,
+        "pixel_y1": 479.33,
+        "pixel_x2": 358.0,
+        "pixel_y2": 503.0,
+        "pixel_cx": 259.0,
+        "pixel_cy": 491.16499999999996
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              160.0,
+              -479.33
+            ],
+            [
+              358.0,
+              -479.33
+            ],
+            [
+              358.0,
+              -503.0
+            ],
+            [
+              160.0,
+              -503.0
+            ],
+            [
+              160.0,
+              -479.33
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0088",
+        "text": "閤",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 160.0,
+        "pixel_y1": 487.0,
+        "pixel_x2": 171.0,
+        "pixel_y2": 501.67,
+        "pixel_cx": 165.5,
+        "pixel_cy": 494.33500000000004
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              160.0,
+              -487.0
+            ],
+            [
+              171.0,
+              -487.0
+            ],
+            [
+              171.0,
+              -501.67
+            ],
+            [
+              160.0,
+              -501.67
+            ],
+            [
+              160.0,
+              -487.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0089",
+        "text": "亭",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 197.33,
+        "pixel_y1": 486.67,
+        "pixel_x2": 208.67,
+        "pixel_y2": 502.33,
+        "pixel_cx": 203.0,
+        "pixel_cy": 494.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              197.33,
+              -486.67
+            ],
+            [
+              208.67,
+              -486.67
+            ],
+            [
+              208.67,
+              -502.33
+            ],
+            [
+              197.33,
+              -502.33
+            ],
+            [
+              197.33,
+              -486.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0090",
+        "text": "部",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 209.67,
+        "pixel_y1": 479.33,
+        "pixel_x2": 225.0,
+        "pixel_y2": 501.0,
+        "pixel_cx": 217.33499999999998,
+        "pixel_cy": 490.16499999999996
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              209.67,
+              -479.33
+            ],
+            [
+              225.0,
+              -479.33
+            ],
+            [
+              225.0,
+              -501.0
+            ],
+            [
+              209.67,
+              -501.0
+            ],
+            [
+              209.67,
+              -479.33
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0091",
+        "text": "省",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 226.0,
+        "pixel_y1": 480.67,
+        "pixel_x2": 240.67,
+        "pixel_y2": 500.67,
+        "pixel_cx": 233.33499999999998,
+        "pixel_cy": 490.67
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              226.0,
+              -480.67
+            ],
+            [
+              240.67,
+              -480.67
+            ],
+            [
+              240.67,
+              -500.67
+            ],
+            [
+              226.0,
+              -500.67
+            ],
+            [
+              226.0,
+              -480.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0092",
+        "text": "庫",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 242.0,
+        "pixel_y1": 488.33,
+        "pixel_x2": 254.33,
+        "pixel_y2": 502.67,
+        "pixel_cx": 248.16500000000002,
+        "pixel_cy": 495.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              242.0,
+              -488.33
+            ],
+            [
+              254.33,
+              -488.33
+            ],
+            [
+              254.33,
+              -502.67
+            ],
+            [
+              242.0,
+              -502.67
+            ],
+            [
+              242.0,
+              -488.33
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0093",
+        "text": "所",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 255.67,
+        "pixel_y1": 488.33,
+        "pixel_x2": 268.67,
+        "pixel_y2": 502.67,
+        "pixel_cx": 262.17,
+        "pixel_cy": 495.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              255.67,
+              -488.33
+            ],
+            [
+              268.67,
+              -488.33
+            ],
+            [
+              268.67,
+              -502.67
+            ],
+            [
+              255.67,
+              -502.67
+            ],
+            [
+              255.67,
+              -488.33
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0094",
+        "text": "坊",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 269.33,
+        "pixel_y1": 488.33,
+        "pixel_x2": 282.67,
+        "pixel_y2": 502.33,
+        "pixel_cx": 276.0,
+        "pixel_cy": 495.33
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              269.33,
+              -488.33
+            ],
+            [
+              282.67,
+              -488.33
+            ],
+            [
+              282.67,
+              -502.33
+            ],
+            [
+              269.33,
+              -502.33
+            ],
+            [
+              269.33,
+              -488.33
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0095",
+        "text": "廟",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 283.0,
+        "pixel_y1": 488.0,
+        "pixel_x2": 295.33,
+        "pixel_y2": 502.67,
+        "pixel_cx": 289.16499999999996,
+        "pixel_cy": 495.33500000000004
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              283.0,
+              -488.0
+            ],
+            [
+              295.33,
+              -488.0
+            ],
+            [
+              295.33,
+              -502.67
+            ],
+            [
+              283.0,
+              -502.67
+            ],
+            [
+              283.0,
+              -488.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0096",
+        "text": "泉",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 297.67,
+        "pixel_y1": 487.67,
+        "pixel_x2": 310.33,
+        "pixel_y2": 503.0,
+        "pixel_cx": 304.0,
+        "pixel_cy": 495.33500000000004
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              297.67,
+              -487.67
+            ],
+            [
+              310.33,
+              -487.67
+            ],
+            [
+              310.33,
+              -503.0
+            ],
+            [
+              297.67,
+              -503.0
+            ],
+            [
+              297.67,
+              -487.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0097",
+        "text": "廟",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 310.67,
+        "pixel_y1": 482.0,
+        "pixel_x2": 327.0,
+        "pixel_y2": 503.0,
+        "pixel_cx": 318.83500000000004,
+        "pixel_cy": 492.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              310.67,
+              -482.0
+            ],
+            [
+              327.0,
+              -482.0
+            ],
+            [
+              327.0,
+              -503.0
+            ],
+            [
+              310.67,
+              -503.0
+            ],
+            [
+              310.67,
+              -482.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0098",
+        "text": "府",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 329.67,
+        "pixel_y1": 482.0,
+        "pixel_x2": 347.0,
+        "pixel_y2": 503.0,
+        "pixel_cx": 338.33500000000004,
+        "pixel_cy": 492.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              329.67,
+              -482.0
+            ],
+            [
+              347.0,
+              -482.0
+            ],
+            [
+              347.0,
+              -503.0
+            ],
+            [
+              329.67,
+              -503.0
+            ],
+            [
+              329.67,
+              -482.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0099",
+        "text": "廟",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 347.33,
+        "pixel_y1": 488.67,
+        "pixel_x2": 358.0,
+        "pixel_y2": 502.67,
+        "pixel_cx": 352.66499999999996,
+        "pixel_cy": 495.67
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              347.33,
+              -488.67
+            ],
+            [
+              358.0,
+              -488.67
+            ],
+            [
+              358.0,
+              -502.67
+            ],
+            [
+              347.33,
+              -502.67
+            ],
+            [
+              347.33,
+              -488.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0100",
+        "text": "白瑞太五算天焘",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_10; kind=line",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 288.67,
+        "pixel_y1": 427.67,
+        "pixel_x2": 395.67,
+        "pixel_y2": 455.67,
+        "pixel_cx": 342.17,
+        "pixel_cy": 441.67
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              288.67,
+              -427.67
+            ],
+            [
+              395.67,
+              -427.67
+            ],
+            [
+              395.67,
+              -455.67
+            ],
+            [
+              288.67,
+              -455.67
+            ],
+            [
+              288.67,
+              -427.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0101",
+        "text": "白",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_10; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 288.67,
+        "pixel_y1": 427.67,
+        "pixel_x2": 299.33,
+        "pixel_y2": 441.33,
+        "pixel_cx": 294.0,
+        "pixel_cy": 434.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              288.67,
+              -427.67
+            ],
+            [
+              299.33,
+              -427.67
+            ],
+            [
+              299.33,
+              -441.33
+            ],
+            [
+              288.67,
+              -441.33
+            ],
+            [
+              288.67,
+              -427.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0102",
+        "text": "瑞",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_10; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 300.33,
+        "pixel_y1": 429.0,
+        "pixel_x2": 313.33,
+        "pixel_y2": 444.0,
+        "pixel_cx": 306.83,
+        "pixel_cy": 436.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              300.33,
+              -429.0
+            ],
+            [
+              313.33,
+              -429.0
+            ],
+            [
+              313.33,
+              -444.0
+            ],
+            [
+              300.33,
+              -444.0
+            ],
+            [
+              300.33,
+              -429.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0103",
+        "text": "太",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_10; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 314.33,
+        "pixel_y1": 432.67,
+        "pixel_x2": 331.33,
+        "pixel_y2": 453.67,
+        "pixel_cx": 322.83,
+        "pixel_cy": 443.17
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              314.33,
+              -432.67
+            ],
+            [
+              331.33,
+              -432.67
+            ],
+            [
+              331.33,
+              -453.67
+            ],
+            [
+              314.33,
+              -453.67
+            ],
+            [
+              314.33,
+              -432.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0104",
+        "text": "五",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_10; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 332.0,
+        "pixel_y1": 438.0,
+        "pixel_x2": 349.67,
+        "pixel_y2": 454.33,
+        "pixel_cx": 340.83500000000004,
+        "pixel_cy": 446.16499999999996
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              332.0,
+              -438.0
+            ],
+            [
+              349.67,
+              -438.0
+            ],
+            [
+              349.67,
+              -454.33
+            ],
+            [
+              332.0,
+              -454.33
+            ],
+            [
+              332.0,
+              -438.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0105",
+        "text": "算",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_10; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 350.67,
+        "pixel_y1": 435.67,
+        "pixel_x2": 362.0,
+        "pixel_y2": 450.67,
+        "pixel_cx": 356.33500000000004,
+        "pixel_cy": 443.17
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              350.67,
+              -435.67
+            ],
+            [
+              362.0,
+              -435.67
+            ],
+            [
+              362.0,
+              -450.67
+            ],
+            [
+              350.67,
+              -450.67
+            ],
+            [
+              350.67,
+              -435.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0106",
+        "text": "天",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_10; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 362.0,
+        "pixel_y1": 439.0,
+        "pixel_x2": 373.0,
+        "pixel_y2": 452.0,
+        "pixel_cx": 367.5,
+        "pixel_cy": 445.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              362.0,
+              -439.0
+            ],
+            [
+              373.0,
+              -439.0
+            ],
+            [
+              373.0,
+              -452.0
+            ],
+            [
+              362.0,
+              -452.0
+            ],
+            [
+              362.0,
+              -439.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0107",
+        "text": "焘",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_10; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 385.0,
+        "pixel_y1": 441.67,
+        "pixel_x2": 395.67,
+        "pixel_y2": 455.67,
+        "pixel_cx": 390.33500000000004,
+        "pixel_cy": 448.67
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              385.0,
+              -441.67
+            ],
+            [
+              395.67,
+              -441.67
+            ],
+            [
+              395.67,
+              -455.67
+            ],
+            [
+              385.0,
+              -455.67
+            ],
+            [
+              385.0,
+              -441.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0108",
+        "text": "蕃導哮",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_13; kind=line",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 282.0,
+        "pixel_y1": 714.67,
+        "pixel_x2": 343.33,
+        "pixel_y2": 729.33,
+        "pixel_cx": 312.66499999999996,
+        "pixel_cy": 722.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              282.0,
+              -714.67
+            ],
+            [
+              343.33,
+              -714.67
+            ],
+            [
+              343.33,
+              -729.33
+            ],
+            [
+              282.0,
+              -729.33
+            ],
+            [
+              282.0,
+              -714.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0109",
+        "text": "蕃",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_13; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 282.0,
+        "pixel_y1": 714.67,
+        "pixel_x2": 293.67,
+        "pixel_y2": 725.67,
+        "pixel_cx": 287.83500000000004,
+        "pixel_cy": 720.17
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              282.0,
+              -714.67
+            ],
+            [
+              293.67,
+              -714.67
+            ],
+            [
+              293.67,
+              -725.67
+            ],
+            [
+              282.0,
+              -725.67
+            ],
+            [
+              282.0,
+              -714.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0110",
+        "text": "導",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_13; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 293.67,
+        "pixel_y1": 714.67,
+        "pixel_x2": 301.0,
+        "pixel_y2": 726.33,
+        "pixel_cx": 297.33500000000004,
+        "pixel_cy": 720.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              293.67,
+              -714.67
+            ],
+            [
+              301.0,
+              -714.67
+            ],
+            [
+              301.0,
+              -726.33
+            ],
+            [
+              293.67,
+              -726.33
+            ],
+            [
+              293.67,
+              -714.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0111",
+        "text": "哮",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_13; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 330.33,
+        "pixel_y1": 717.67,
+        "pixel_x2": 343.33,
+        "pixel_y2": 729.33,
+        "pixel_cx": 336.83,
+        "pixel_cy": 723.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              330.33,
+              -717.67
+            ],
+            [
+              343.33,
+              -717.67
+            ],
+            [
+              343.33,
+              -729.33
+            ],
+            [
+              330.33,
+              -729.33
+            ],
+            [
+              330.33,
+              -717.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0112",
+        "text": "哮艹",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_14; kind=line",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 329.0,
+        "pixel_y1": 705.67,
+        "pixel_x2": 369.0,
+        "pixel_y2": 719.33,
+        "pixel_cx": 349.0,
+        "pixel_cy": 712.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              329.0,
+              -705.67
+            ],
+            [
+              369.0,
+              -705.67
+            ],
+            [
+              369.0,
+              -719.33
+            ],
+            [
+              329.0,
+              -719.33
+            ],
+            [
+              329.0,
+              -705.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0113",
+        "text": "哮",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_14; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 329.0,
+        "pixel_y1": 705.67,
+        "pixel_x2": 342.0,
+        "pixel_y2": 717.33,
+        "pixel_cx": 335.5,
+        "pixel_cy": 711.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              329.0,
+              -705.67
+            ],
+            [
+              342.0,
+              -705.67
+            ],
+            [
+              342.0,
+              -717.33
+            ],
+            [
+              329.0,
+              -717.33
+            ],
+            [
+              329.0,
+              -705.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0114",
+        "text": "艹",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_14; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 342.33,
+        "pixel_y1": 706.0,
+        "pixel_x2": 369.0,
+        "pixel_y2": 719.33,
+        "pixel_cx": 355.66499999999996,
+        "pixel_cy": 712.665
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              342.33,
+              -706.0
+            ],
+            [
+              369.0,
+              -706.0
+            ],
+            [
+              369.0,
+              -719.33
+            ],
+            [
+              342.33,
+              -719.33
+            ],
+            [
+              342.33,
+              -706.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0115",
+        "text": "#嚀吉軍",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_15; kind=line",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 806.67,
+        "pixel_y1": 561.33,
+        "pixel_x2": 867.67,
+        "pixel_y2": 584.67,
+        "pixel_cx": 837.17,
+        "pixel_cy": 573.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              806.67,
+              -561.33
+            ],
+            [
+              867.67,
+              -561.33
+            ],
+            [
+              867.67,
+              -584.67
+            ],
+            [
+              806.67,
+              -584.67
+            ],
+            [
+              806.67,
+              -561.33
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0116",
+        "text": "#",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_15; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 806.67,
+        "pixel_y1": 561.33,
+        "pixel_x2": 820.0,
+        "pixel_y2": 584.33,
+        "pixel_cx": 813.335,
+        "pixel_cy": 572.83
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              806.67,
+              -561.33
+            ],
+            [
+              820.0,
+              -561.33
+            ],
+            [
+              820.0,
+              -584.33
+            ],
+            [
+              806.67,
+              -584.33
+            ],
+            [
+              806.67,
+              -561.33
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0117",
+        "text": "嚀",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_15; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 826.33,
+        "pixel_y1": 574.0,
+        "pixel_x2": 840.0,
+        "pixel_y2": 583.67,
+        "pixel_cx": 833.165,
+        "pixel_cy": 578.835
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              826.33,
+              -574.0
+            ],
+            [
+              840.0,
+              -574.0
+            ],
+            [
+              840.0,
+              -583.67
+            ],
+            [
+              826.33,
+              -583.67
+            ],
+            [
+              826.33,
+              -574.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0118",
+        "text": "吉",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_15; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 844.33,
+        "pixel_y1": 570.67,
+        "pixel_x2": 855.0,
+        "pixel_y2": 584.67,
+        "pixel_cx": 849.665,
+        "pixel_cy": 577.67
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              844.33,
+              -570.67
+            ],
+            [
+              855.0,
+              -570.67
+            ],
+            [
+              855.0,
+              -584.67
+            ],
+            [
+              844.33,
+              -584.67
+            ],
+            [
+              844.33,
+              -570.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0119",
+        "text": "軍",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_15; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 857.0,
+        "pixel_y1": 571.67,
+        "pixel_x2": 867.67,
+        "pixel_y2": 584.0,
+        "pixel_cx": 862.335,
+        "pixel_cy": 577.835
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              857.0,
+              -571.67
+            ],
+            [
+              867.67,
+              -571.67
+            ],
+            [
+              867.67,
+              -584.0
+            ],
+            [
+              857.0,
+              -584.0
+            ],
+            [
+              857.0,
+              -571.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0120",
+        "text": "f哮",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_18; kind=line",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 270.0,
+        "pixel_y1": 710.33,
+        "pixel_x2": 346.0,
+        "pixel_y2": 723.67,
+        "pixel_cx": 308.0,
+        "pixel_cy": 717.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              270.0,
+              -710.33
+            ],
+            [
+              346.0,
+              -710.33
+            ],
+            [
+              346.0,
+              -723.67
+            ],
+            [
+              270.0,
+              -723.67
+            ],
+            [
+              270.0,
+              -710.33
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ocr_id": "ocr_0121",
+        "text": "f",
+        "category": "ocr_text",
+        "confidence": "medium",
+        "orientation": "unknown",
+        "source_map": "jingchengtu_windows_ocr",
+        "source_stage": "windows_ocr_tiles",
+        "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_18; kind=word",
+        "notes": "raw_ocr_asset",
+        "pixel_x1": 270.0,
+        "pixel_y1": 710.33,
+        "pixel_x2": 276.33,
+        "pixel_y2": 723.0,
+        "pixel_cx": 273.16499999999996,
+        "pixel_cy": 716.665
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              270.0,
+              -710.33
+            ],
+            [
+              276.33,
+              -710.33
+            ],
+            [
+              276.33,
+              -723.0
+            ],
+            [
+              270.0,
+              -723.0
+            ],
+            [
+              270.0,
+              -710.33
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

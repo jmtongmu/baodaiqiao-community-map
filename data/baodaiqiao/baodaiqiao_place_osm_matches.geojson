@@ -1,0 +1,3261 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6402801,
+          31.252537
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "宝带桥社区",
+        "place_type": "community",
+        "source": "seed",
+        "match_status": "matched",
+        "match_method": "exact",
+        "match_score": 1.0,
+        "osm_name": "宝带桥社区",
+        "osm_type": "node",
+        "osm_id": 5403148866,
+        "osm_class": "named"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "宝带桥",
+        "place_type": "heritage",
+        "source": "seed",
+        "match_status": "matched",
+        "match_method": "exact",
+        "match_score": 1.0,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6457856,
+          31.2578039
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "澹台湖",
+        "place_type": "water",
+        "source": "seed",
+        "match_status": "matched",
+        "match_method": "exact",
+        "match_score": 1.0,
+        "osm_name": "澹台湖",
+        "osm_type": "relation",
+        "osm_id": 7359510,
+        "osm_class": "natural:water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6442089,
+          31.2558181
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "吴中博物馆",
+        "place_type": "culture",
+        "source": "seed",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.727,
+        "osm_name": "吴文化博物馆",
+        "osm_type": "way",
+        "osm_id": 1049631300,
+        "osm_class": "tourism:museum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6442089,
+          31.2558181
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "吴文化博物馆",
+        "place_type": "culture",
+        "source": "seed",
+        "match_status": "matched",
+        "match_method": "exact",
+        "match_score": 1.0,
+        "osm_name": "吴文化博物馆",
+        "osm_type": "way",
+        "osm_id": 1049631300,
+        "osm_class": "tourism:museum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6449042,
+          31.2770083
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "大运河",
+        "place_type": "waterway",
+        "source": "seed",
+        "match_status": "matched",
+        "match_method": "exact",
+        "match_score": 1.0,
+        "osm_name": "大运河",
+        "osm_type": "way",
+        "osm_id": 293947723,
+        "osm_class": "waterway:river"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6569172,
+          31.1275905
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "京杭大运河",
+        "place_type": "waterway",
+        "source": "seed",
+        "match_status": "matched",
+        "match_method": "exact",
+        "match_score": 1.0,
+        "osm_name": "京杭大运河",
+        "osm_type": "way",
+        "osm_id": 148701483,
+        "osm_class": "waterway:canal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6252582,
+          31.2638651
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "东吴南路",
+        "place_type": "road",
+        "source": "seed",
+        "match_status": "matched",
+        "match_method": "exact",
+        "match_score": 1.0,
+        "osm_name": "东吴南路",
+        "osm_type": "way",
+        "osm_id": 147991185,
+        "osm_class": "highway:primary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6438266,
+          31.2520953
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "石湖东路",
+        "place_type": "road",
+        "source": "seed",
+        "match_status": "matched",
+        "match_method": "exact",
+        "match_score": 1.0,
+        "osm_name": "石湖东路",
+        "osm_type": "way",
+        "osm_id": 443616410,
+        "osm_class": "highway:secondary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6323266,
+          31.2473515
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "天灵路",
+        "place_type": "road",
+        "source": "seed",
+        "match_status": "matched",
+        "match_method": "exact",
+        "match_score": 1.0,
+        "osm_name": "天灵路",
+        "osm_type": "way",
+        "osm_id": 343176075,
+        "osm_class": "highway:secondary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6381702,
+          31.2436063
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "澄湖中路",
+        "place_type": "road",
+        "source": "seed",
+        "match_status": "matched",
+        "match_method": "exact",
+        "match_score": 1.0,
+        "osm_name": "澄湖中路",
+        "osm_type": "way",
+        "osm_id": 541359954,
+        "osm_class": "highway:tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6498656,
+          31.2434819
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "澄湖东路",
+        "place_type": "road",
+        "source": "seed",
+        "match_status": "matched",
+        "match_method": "exact",
+        "match_score": 1.0,
+        "osm_name": "澄湖东路",
+        "osm_type": "way",
+        "osm_id": 523332294,
+        "osm_class": "highway:tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6367146,
+          31.2541242
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "迎春南路",
+        "place_type": "road",
+        "source": "seed",
+        "match_status": "matched",
+        "match_method": "exact",
+        "match_score": 1.0,
+        "osm_name": "迎春南路",
+        "osm_type": "way",
+        "osm_id": 523621575,
+        "osm_class": "highway:tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6468,
+          31.2436335
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "宝通路",
+        "place_type": "road",
+        "source": "seed",
+        "match_status": "matched",
+        "match_method": "exact",
+        "match_score": 1.0,
+        "osm_name": "宝通路",
+        "osm_type": "way",
+        "osm_id": 343176077,
+        "osm_class": "highway:tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6374388,
+          31.2416867
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "宝丰路",
+        "place_type": "road",
+        "source": "seed",
+        "match_status": "matched",
+        "match_method": "exact",
+        "match_score": 1.0,
+        "osm_name": "宝丰路",
+        "osm_type": "way",
+        "osm_id": 523332285,
+        "osm_class": "highway:tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.625324,
+          31.2553757
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "石湖东路公路桥",
+        "place_type": "bridge",
+        "source": "seed",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.727,
+        "osm_name": "石湖东路",
+        "osm_type": "relation",
+        "osm_id": 7719901,
+        "osm_class": "named"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6438266,
+          31.2520953
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "石湖东路桥",
+        "place_type": "bridge",
+        "source": "seed",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.8,
+        "osm_name": "石湖东路",
+        "osm_type": "way",
+        "osm_id": 443616410,
+        "osm_class": "highway:secondary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6417547,
+          31.2435817
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "金家桥",
+        "place_type": "bridge",
+        "source": "seed",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.857,
+        "osm_name": "金家桥南",
+        "osm_type": "relation",
+        "osm_id": 18358653,
+        "osm_class": "named"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6106184,
+          31.2584772
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "新家桥",
+        "place_type": "bridge",
+        "source": "seed",
+        "match_status": "matched",
+        "match_method": "exact",
+        "match_score": 1.0,
+        "osm_name": "新家桥",
+        "osm_type": "node",
+        "osm_id": 2716415638,
+        "osm_class": "railway:station"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6535801,
+          31.2745093
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "钱家新村",
+        "place_type": "residential",
+        "source": "seed",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.75,
+        "osm_name": "姜家新村",
+        "osm_type": "way",
+        "osm_id": 1230040495,
+        "osm_class": "landuse:residential"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6372185,
+          31.2712671
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "宝尹花园",
+        "place_type": "residential",
+        "source": "seed",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.75,
+        "osm_name": "嘉宝花园",
+        "osm_type": "way",
+        "osm_id": 154409707,
+        "osm_class": "landuse:residential"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6427471,
+          31.2544472
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "下田",
+        "place_type": "settlement",
+        "source": "seed",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.8,
+        "osm_name": "下田路",
+        "osm_type": "way",
+        "osm_id": 1049631301,
+        "osm_class": "highway:tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6378519,
+          31.2524076
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "碧波中学",
+        "place_type": "education",
+        "source": "seed",
+        "match_status": "matched",
+        "match_method": "exact",
+        "match_score": 1.0,
+        "osm_name": "碧波中学",
+        "osm_type": "way",
+        "osm_id": 449710711,
+        "osm_class": "amenity:school"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6505396,
+          31.2635548
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "宝带桥公园",
+        "place_type": "park",
+        "source": "seed",
+        "match_status": "matched",
+        "match_method": "exact",
+        "match_score": 1.0,
+        "osm_name": "宝带桥公园",
+        "osm_type": "node",
+        "osm_id": 10120115430,
+        "osm_class": "leisure:park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6437471,
+          31.2519466
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "宝带桥南站",
+        "place_type": "transport",
+        "source": "seed",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.889,
+        "osm_name": "宝带桥南",
+        "osm_type": "node",
+        "osm_id": 11049376100,
+        "osm_class": "named"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6439485,
+          31.2520388
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "宝带桥南",
+        "place_type": "transport",
+        "source": "seed",
+        "match_status": "matched",
+        "match_method": "exact",
+        "match_score": 1.0,
+        "osm_name": "宝带桥南",
+        "osm_type": "node",
+        "osm_id": 2969859603,
+        "osm_class": "railway:station"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6402801,
+          31.252537
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "以宝带桥社区",
+        "place_type": "community",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.833,
+        "osm_name": "宝带桥社区",
+        "osm_type": "node",
+        "osm_id": 5403148866,
+        "osm_class": "named"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6387431,
+          31.2673537
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "概述宝带桥社区",
+        "place_type": "community",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.727,
+        "osm_name": "宝带社区",
+        "osm_type": "node",
+        "osm_id": 5261903450,
+        "osm_class": "named"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6227052,
+          31.2594673
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "龙南社区",
+        "place_type": "community",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "exact",
+        "match_score": 1.0,
+        "osm_name": "龙南社区",
+        "osm_type": "node",
+        "osm_id": 5403148868,
+        "osm_class": "named"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6569172,
+          31.1275905
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "京杭大运河边所筑纤道中断于澹台湖",
+        "place_type": "water",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.312,
+        "osm_name": "京杭大运河",
+        "osm_type": "way",
+        "osm_id": 148701483,
+        "osm_class": "waterway:canal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6052798,
+          31.2540483
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "先锋社区",
+        "place_type": "community",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "exact",
+        "match_score": 1.0,
+        "osm_name": "先锋社区",
+        "osm_type": "relation",
+        "osm_id": 7778474,
+        "osm_class": "named"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6252043,
+          31.2617963
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "长桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "exact",
+        "match_score": 1.0,
+        "osm_name": "长桥",
+        "osm_type": "way",
+        "osm_id": 538305826,
+        "osm_class": "named"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "重修宝带桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.75,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "保护宝带桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.75,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6214017,
+          31.2781
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "宝南小学",
+        "place_type": "education",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.75,
+        "osm_name": "沧南小学",
+        "osm_type": "way",
+        "osm_id": 806341952,
+        "osm_class": "amenity:school"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6378519,
+          31.2524076
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "碧波小学",
+        "place_type": "education",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.75,
+        "osm_name": "碧波中学",
+        "osm_type": "way",
+        "osm_id": 449710711,
+        "osm_class": "amenity:school"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6468,
+          31.2436335
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "境域新建宝通路",
+        "place_type": "road",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.429,
+        "osm_name": "宝通路",
+        "osm_type": "way",
+        "osm_id": 343176077,
+        "osm_class": "highway:tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6374388,
+          31.2416867
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "新建宝丰路",
+        "place_type": "road",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.6,
+        "osm_name": "宝丰路",
+        "osm_type": "way",
+        "osm_id": 523332285,
+        "osm_class": "highway:tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6254096,
+          31.2555327
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "地处石湖东路",
+        "place_type": "road",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.8,
+        "osm_name": "石湖东路",
+        "osm_type": "node",
+        "osm_id": 2716415625,
+        "osm_class": "railway:station"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "中共宝带桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.75,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "下辖宝带桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.75,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "宝带桥桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.857,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "成为宝带桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.75,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6387431,
+          31.2673537
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "成立宝带桥社区",
+        "place_type": "community",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.727,
+        "osm_name": "宝带社区",
+        "osm_type": "node",
+        "osm_id": 5261903450,
+        "osm_class": "named"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6505396,
+          31.2635548
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "宝带桥旁建起宝带桥公园",
+        "place_type": "park",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.455,
+        "osm_name": "宝带桥公园",
+        "osm_type": "node",
+        "osm_id": 10120115430,
+        "osm_class": "leisure:park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6254096,
+          31.2555327
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "动员石湖东路",
+        "place_type": "road",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.8,
+        "osm_name": "石湖东路",
+        "osm_type": "node",
+        "osm_id": 2716415625,
+        "osm_class": "railway:station"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "授予宝带桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.75,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6319613,
+          31.2648652
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "·澹台湖景区",
+        "place_type": "scenic",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.8,
+        "osm_name": "澹台湖社区",
+        "osm_type": "node",
+        "osm_id": 5261903451,
+        "osm_class": "named"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "成立宝带桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.75,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6252043,
+          31.2617963
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "设长桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.8,
+        "osm_name": "长桥",
+        "osm_type": "way",
+        "osm_id": 538305826,
+        "osm_class": "named"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6457856,
+          31.2578039
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "湖澹台湖",
+        "place_type": "water",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.75,
+        "osm_name": "澹台湖",
+        "osm_type": "relation",
+        "osm_id": 7359510,
+        "osm_class": "natural:water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6569172,
+          31.1275905
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "汇入京杭大运河",
+        "place_type": "waterway",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.714,
+        "osm_name": "京杭大运河",
+        "osm_type": "way",
+        "osm_id": 148701483,
+        "osm_class": "waterway:canal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "改称宝带桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.75,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6411052,
+          31.2536204
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "宝南花园",
+        "place_type": "residential",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "exact",
+        "match_score": 1.0,
+        "osm_name": "宝南花园",
+        "osm_type": "way",
+        "osm_id": 1267623063,
+        "osm_class": "landuse:residential"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6411052,
+          31.2536204
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "拟新建宝南花园",
+        "place_type": "residential",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.571,
+        "osm_name": "宝南花园",
+        "osm_type": "way",
+        "osm_id": 1267623063,
+        "osm_class": "landuse:residential"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6387431,
+          31.2673537
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "人口宝带桥社区",
+        "place_type": "community",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.727,
+        "osm_name": "宝带社区",
+        "osm_type": "node",
+        "osm_id": 5261903450,
+        "osm_class": "named"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "桥以宝带桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.75,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "又与宝带桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.75,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6505396,
+          31.2635548
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "建造宝带桥公园",
+        "place_type": "park",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.714,
+        "osm_name": "宝带桥公园",
+        "osm_type": "node",
+        "osm_id": 10120115430,
+        "osm_class": "leisure:park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "节宝带桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.857,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "概貌宝带桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.75,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6569172,
+          31.1275905
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "位于京杭大运河与澹台湖（太湖岔港",
+        "place_type": "waterway",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.333,
+        "osm_name": "京杭大运河",
+        "osm_type": "way",
+        "osm_id": 148701483,
+        "osm_class": "waterway:canal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6569172,
+          31.1275905
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "它与京杭大运河",
+        "place_type": "waterway",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.714,
+        "osm_name": "京杭大运河",
+        "osm_type": "way",
+        "osm_id": 148701483,
+        "osm_class": "waterway:canal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "修缮宝带桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.75,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "重建宝带桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.75,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "宝带桥的桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.75,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "苏州宝带桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.75,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6569172,
+          31.1275905
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "同京杭大运河",
+        "place_type": "waterway",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.833,
+        "osm_name": "京杭大运河",
+        "osm_type": "way",
+        "osm_id": 148701483,
+        "osm_class": "waterway:canal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "又于宝带桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.75,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6569172,
+          31.1275905
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "北至京杭大运河",
+        "place_type": "waterway",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.714,
+        "osm_name": "京杭大运河",
+        "osm_type": "way",
+        "osm_id": 148701483,
+        "osm_class": "waterway:canal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6254096,
+          31.2555327
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "南抵石湖东路",
+        "place_type": "road",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.8,
+        "osm_name": "石湖东路",
+        "osm_type": "node",
+        "osm_id": 2716415625,
+        "osm_class": "railway:station"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6449042,
+          31.2770083
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "运河",
+        "place_type": "waterway",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.667,
+        "osm_name": "大运河",
+        "osm_type": "way",
+        "osm_id": 293947723,
+        "osm_class": "waterway:river"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6517697,
+          31.260518
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "新斜港大桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.889,
+        "osm_name": "斜港大桥",
+        "osm_type": "way",
+        "osm_id": 538305813,
+        "osm_class": "named"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6423923,
+          31.3143708
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "上层与东环快速路",
+        "place_type": "road",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.769,
+        "osm_name": "东环快速路",
+        "osm_type": "relation",
+        "osm_id": 15846407,
+        "osm_class": "named"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6363249,
+          31.2628772
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "澹台湖大桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "exact",
+        "match_score": 1.0,
+        "osm_name": "澹台湖大桥",
+        "osm_type": "way",
+        "osm_id": 802150315,
+        "osm_class": "highway:secondary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6569172,
+          31.1275905
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "跨越京杭大运河",
+        "place_type": "waterway",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.714,
+        "osm_name": "京杭大运河",
+        "osm_type": "way",
+        "osm_id": 148701483,
+        "osm_class": "waterway:canal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.644873,
+          31.273709
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "东至冬青路",
+        "place_type": "road",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.6,
+        "osm_name": "冬青路",
+        "osm_type": "way",
+        "osm_id": 423183750,
+        "osm_class": "highway:secondary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "但因宝带桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.75,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "则是宝带桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.75,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "说到宝带桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.75,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "宝带一长桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.75,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "（宝带桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "exact",
+        "match_score": 1.0,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "于宝带桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.857,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6449042,
+          31.2770083
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "但大运河",
+        "place_type": "waterway",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.75,
+        "osm_name": "大运河",
+        "osm_type": "way",
+        "osm_id": 293947723,
+        "osm_class": "waterway:river"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "度宝带桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.857,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "也给宝带桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.75,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "使宝带桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.857,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "古宝带桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.857,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "那时宝带桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.75,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "使得宝带桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.75,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "走上宝带桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.75,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "赏月宝带桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.75,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6434843,
+          31.2839565
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "环桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.8,
+        "osm_name": "南环桥",
+        "osm_type": "relation",
+        "osm_id": 12440888,
+        "osm_class": "named"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "写宝带桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.857,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "建造宝带桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.75,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "宝带桥全桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.75,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "老宝带桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.857,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6457856,
+          31.2578039
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "围澹台湖",
+        "place_type": "water",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.75,
+        "osm_name": "澹台湖",
+        "osm_type": "relation",
+        "osm_id": 7359510,
+        "osm_class": "natural:water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "时间宝带桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.75,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "停办宝带桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.75,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6323266,
+          31.2473515
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "位于天灵路",
+        "place_type": "road",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.6,
+        "osm_name": "天灵路",
+        "osm_type": "way",
+        "osm_id": 343176075,
+        "osm_class": "highway:secondary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6367146,
+          31.2541242
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "位于迎春南路",
+        "place_type": "road",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.667,
+        "osm_name": "迎春南路",
+        "osm_type": "way",
+        "osm_id": 523621575,
+        "osm_class": "highway:tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6254096,
+          31.2555327
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "位于石湖东路",
+        "place_type": "road",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.8,
+        "osm_name": "石湖东路",
+        "osm_type": "node",
+        "osm_id": 2716415625,
+        "osm_class": "railway:station"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6527833,
+          31.2247729
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "交通公路",
+        "place_type": "road",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.857,
+        "osm_name": "交通路",
+        "osm_type": "way",
+        "osm_id": 503535613,
+        "osm_class": "highway:trunk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6374388,
+          31.2416867
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "宝丰路等3条公路",
+        "place_type": "road",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.375,
+        "osm_name": "宝丰路",
+        "osm_type": "way",
+        "osm_id": 523332285,
+        "osm_class": "highway:tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6323266,
+          31.2473515
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "东西宝通路天灵路",
+        "place_type": "road",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.375,
+        "osm_name": "天灵路",
+        "osm_type": "way",
+        "osm_id": 343176075,
+        "osm_class": "highway:secondary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6323266,
+          31.2473515
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "天灵路西1号桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.429,
+        "osm_name": "天灵路",
+        "osm_type": "way",
+        "osm_id": 343176075,
+        "osm_class": "highway:secondary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6323266,
+          31.2473515
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "天灵路东2号桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.429,
+        "osm_name": "天灵路",
+        "osm_type": "way",
+        "osm_id": 343176075,
+        "osm_class": "highway:secondary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6468,
+          31.2436335
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "宝通路北4号桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.429,
+        "osm_name": "宝通路",
+        "osm_type": "way",
+        "osm_id": 343176077,
+        "osm_class": "highway:tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6374388,
+          31.2416867
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "宝丰路9号桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.5,
+        "osm_name": "宝丰路",
+        "osm_type": "way",
+        "osm_id": 523332285,
+        "osm_class": "highway:tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6140829,
+          31.2868694
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "兴隆桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.75,
+        "osm_name": "兴隆桥社区",
+        "osm_type": "relation",
+        "osm_id": 7772491,
+        "osm_class": "named"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6252582,
+          31.2638651
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "境内在东吴南路",
+        "place_type": "road",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.571,
+        "osm_name": "东吴南路",
+        "osm_type": "way",
+        "osm_id": 147991185,
+        "osm_class": "highway:primary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "宝带桥大厦",
+        "place_type": "commercial",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.75,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6254096,
+          31.2555327
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "迁移石湖东路",
+        "place_type": "road",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.8,
+        "osm_name": "石湖东路",
+        "osm_type": "node",
+        "osm_id": 2716415625,
+        "osm_class": "railway:station"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6387431,
+          31.2673537
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "宝带桥社区老村",
+        "place_type": "settlement",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.727,
+        "osm_name": "宝带社区",
+        "osm_type": "node",
+        "osm_id": 5261903450,
+        "osm_class": "named"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6387431,
+          31.2673537
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "中共宝带桥社区",
+        "place_type": "community",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.727,
+        "osm_name": "宝带社区",
+        "osm_type": "node",
+        "osm_id": 5261903450,
+        "osm_class": "named"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6252043,
+          31.2617963
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "称长桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.8,
+        "osm_name": "长桥",
+        "osm_type": "way",
+        "osm_id": 538305826,
+        "osm_class": "named"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "撤销宝带桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.75,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6338417,
+          31.2413776
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "新建碧波实验小学（含幼儿园",
+        "place_type": "place",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.72,
+        "osm_name": "碧波实验小学附属城南幼儿园",
+        "osm_type": "way",
+        "osm_id": 1171628023,
+        "osm_class": "amenity:kindergarten"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6378519,
+          31.2524076
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "境域新建碧波中学",
+        "place_type": "education",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.5,
+        "osm_name": "碧波中学",
+        "osm_type": "way",
+        "osm_id": 449710711,
+        "osm_class": "amenity:school"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6387431,
+          31.2673537
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "口述宝带桥社区",
+        "place_type": "community",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.727,
+        "osm_name": "宝带社区",
+        "osm_type": "node",
+        "osm_id": 5261903450,
+        "osm_class": "named"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6387431,
+          31.2673537
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "现在宝带桥社区",
+        "place_type": "community",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.727,
+        "osm_name": "宝带社区",
+        "osm_type": "node",
+        "osm_id": 5261903450,
+        "osm_class": "named"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6387431,
+          31.2673537
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "我在宝带桥社区",
+        "place_type": "community",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.727,
+        "osm_name": "宝带社区",
+        "osm_type": "node",
+        "osm_id": 5261903450,
+        "osm_class": "named"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6338417,
+          31.2413776
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "碧波实验小学（含幼儿园",
+        "place_type": "place",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.783,
+        "osm_name": "碧波实验小学附属城南幼儿园",
+        "osm_type": "way",
+        "osm_id": 1171628023,
+        "osm_class": "amenity:kindergarten"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6338417,
+          31.2413776
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "碧波实验小学附属幼儿园",
+        "place_type": "place",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.917,
+        "osm_name": "碧波实验小学附属城南幼儿园",
+        "osm_type": "way",
+        "osm_id": 1171628023,
+        "osm_class": "amenity:kindergarten"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6214017,
+          31.2781
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "龙南小学",
+        "place_type": "education",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.75,
+        "osm_name": "沧南小学",
+        "osm_type": "way",
+        "osm_id": 806341952,
+        "osm_class": "amenity:school"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6378519,
+          31.2524076
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "程飞任碧波中学",
+        "place_type": "education",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.571,
+        "osm_name": "碧波中学",
+        "osm_type": "way",
+        "osm_id": 449710711,
+        "osm_class": "amenity:school"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6378519,
+          31.2524076
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "张国英任碧波中学",
+        "place_type": "education",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.5,
+        "osm_name": "碧波中学",
+        "osm_type": "way",
+        "osm_id": 449710711,
+        "osm_class": "amenity:school"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6378519,
+          31.2524076
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "曾红任碧波中学",
+        "place_type": "education",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.571,
+        "osm_name": "碧波中学",
+        "osm_type": "way",
+        "osm_id": 449710711,
+        "osm_class": "amenity:school"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6378519,
+          31.2524076
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "柳月明任碧波中学",
+        "place_type": "education",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.5,
+        "osm_name": "碧波中学",
+        "osm_type": "way",
+        "osm_id": 449710711,
+        "osm_class": "amenity:school"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6378519,
+          31.2524076
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "顾叶红任碧波中学",
+        "place_type": "education",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.5,
+        "osm_name": "碧波中学",
+        "osm_type": "way",
+        "osm_id": 449710711,
+        "osm_class": "amenity:school"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6378519,
+          31.2524076
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "杨耀中任碧波中学",
+        "place_type": "education",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.5,
+        "osm_name": "碧波中学",
+        "osm_type": "way",
+        "osm_id": 449710711,
+        "osm_class": "amenity:school"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6378519,
+          31.2524076
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "唐淑英任碧波中学",
+        "place_type": "education",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.5,
+        "osm_name": "碧波中学",
+        "osm_type": "way",
+        "osm_id": 449710711,
+        "osm_class": "amenity:school"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6378519,
+          31.2524076
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "张美元任碧波中学",
+        "place_type": "education",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.5,
+        "osm_name": "碧波中学",
+        "osm_type": "way",
+        "osm_id": 449710711,
+        "osm_class": "amenity:school"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "去宝带桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.857,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6402801,
+          31.252537
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "底宝带桥社区",
+        "place_type": "community",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.833,
+        "osm_name": "宝带桥社区",
+        "osm_type": "node",
+        "osm_id": 5403148866,
+        "osm_class": "named"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6443158,
+          31.2679102
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "班长何会相文曲路",
+        "place_type": "road",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.375,
+        "osm_name": "文曲路",
+        "osm_type": "way",
+        "osm_id": 147991169,
+        "osm_class": "highway:tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6542346,
+          31.240877
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "尹山桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.857,
+        "osm_name": "尹山大桥",
+        "osm_type": "way",
+        "osm_id": 538305793,
+        "osm_class": "named"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6457856,
+          31.2578039
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "澹台湖公园",
+        "place_type": "park",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.75,
+        "osm_name": "澹台湖",
+        "osm_type": "relation",
+        "osm_id": 7359510,
+        "osm_class": "natural:water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6569172,
+          31.1275905
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "北临京杭大运河",
+        "place_type": "waterway",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.714,
+        "osm_name": "京杭大运河",
+        "osm_type": "way",
+        "osm_id": 148701483,
+        "osm_class": "waterway:canal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6362454,
+          31.2628486
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "西靠澹台湖大桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.833,
+        "osm_name": "澹台湖大桥",
+        "osm_type": "way",
+        "osm_id": 538305821,
+        "osm_class": "named"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6505396,
+          31.2635548
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "东面宝带桥公园",
+        "place_type": "park",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.714,
+        "osm_name": "宝带桥公园",
+        "osm_type": "node",
+        "osm_id": 10120115430,
+        "osm_class": "leisure:park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6254096,
+          31.2555327
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "进入石湖东路",
+        "place_type": "road",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.8,
+        "osm_name": "石湖东路",
+        "osm_type": "node",
+        "osm_id": 2716415625,
+        "osm_class": "railway:station"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "皆去宝带桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.75,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6569172,
+          31.1275905
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "东临京杭大运河",
+        "place_type": "waterway",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.714,
+        "osm_name": "京杭大运河",
+        "osm_type": "way",
+        "osm_id": 148701483,
+        "osm_class": "waterway:canal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.649476,
+          31.2587641
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "好似宝带桥",
+        "place_type": "bridge",
+        "source": "regex",
+        "match_status": "review",
+        "match_method": "fuzzy",
+        "match_score": 0.75,
+        "osm_name": "宝带桥",
+        "osm_type": "way",
+        "osm_id": 460257370,
+        "osm_class": "tourism:attraction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6505396,
+          31.2635548
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "北至宝带桥公园",
+        "place_type": "park",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.714,
+        "osm_name": "宝带桥公园",
+        "osm_type": "node",
+        "osm_id": 10120115430,
+        "osm_class": "leisure:park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6402801,
+          31.252537
+        ]
+      },
+      "properties": {
+        "gazetteer_name": "于宝带桥社区",
+        "place_type": "community",
+        "source": "regex",
+        "match_status": "matched",
+        "match_method": "contains",
+        "match_score": 0.833,
+        "osm_name": "宝带桥社区",
+        "osm_type": "node",
+        "osm_id": 5403148866,
+        "osm_class": "named"
+      }
+    }
+  ]
+}

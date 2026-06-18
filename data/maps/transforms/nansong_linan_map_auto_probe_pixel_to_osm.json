@@ -1,0 +1,340 @@
+{
+  "map_id": "nansong_linan_map_auto_probe",
+  "crs": "EPSG:3857",
+  "method": "affine_pixel_to_map",
+  "pixel_space": "1937_original_image_pixels",
+  "coefficients": {
+    "x_origin": 13373382.20803137,
+    "pixel_width": 4.289119785356995,
+    "x_rotation": -0.581872794783515,
+    "y_origin": 3537793.1933704144,
+    "y_rotation": -3.888004099263865,
+    "pixel_height": 0.5932547447293917
+  },
+  "accuracy": {
+    "control_point_count": 8,
+    "rmse_m": 1548.487,
+    "mean_error_m": 1403.316,
+    "max_error_m": 2919.87,
+    "residuals": [
+      {
+        "id": "cp_001",
+        "name": "太学",
+        "pixel": [
+          746.0,
+          560.5
+        ],
+        "map": [
+          13375830.0,
+          3534970.0
+        ],
+        "fitted_map": [
+          13376255.752,
+          3535225.262
+        ],
+        "dx_m": 425.752,
+        "dy_m": 255.262,
+        "error_m": 496.41,
+        "weight": 1.0,
+        "source_ocr_id": "nansong_linan_map_rapidocr_0072",
+        "osm_reference": "linan_places_master",
+        "notes": "Review on source image before setting enabled=true."
+      },
+      {
+        "id": "cp_002",
+        "name": "大常寺",
+        "pixel": [
+          783.5,
+          953.0
+        ],
+        "map": [
+          13376953.9,
+          3538130.0
+        ],
+        "fitted_map": [
+          13376188.209,
+          3535312.314
+        ],
+        "dx_m": -765.691,
+        "dy_m": -2817.686,
+        "error_m": 2919.87,
+        "weight": 1.0,
+        "source_ocr_id": "nansong_linan_map_rapidocr_0023",
+        "osm_reference": "linan_places_master",
+        "notes": "Review on source image before setting enabled=true."
+      },
+      {
+        "id": "cp_003",
+        "name": "孤山",
+        "pixel": [
+          337.17,
+          728.835
+        ],
+        "map": [
+          13374740.0,
+          3535870.0
+        ],
+        "fitted_map": [
+          13374404.281,
+          3536914.66
+        ],
+        "dx_m": -335.719,
+        "dy_m": 1044.66,
+        "error_m": 1097.279,
+        "weight": 1.0,
+        "source_ocr_id": "nansong_linan_map_rapidocr_0050",
+        "osm_reference": "linan_places_master",
+        "notes": "Review on source image before setting enabled=true."
+      },
+      {
+        "id": "cp_004",
+        "name": "清河坊",
+        "pixel": [
+          871.0,
+          1022.0
+        ],
+        "map": [
+          13376040.0,
+          3533470.0
+        ],
+        "fitted_map": [
+          13376523.357,
+          3535013.048
+        ],
+        "dx_m": 483.357,
+        "dy_m": 1543.048,
+        "error_m": 1616.982,
+        "weight": 1.0,
+        "source_ocr_id": "nansong_linan_map_rapidocr_0010",
+        "osm_reference": "linan_places_master",
+        "notes": "Review on source image before setting enabled=true."
+      },
+      {
+        "id": "cp_005",
+        "name": "清波門",
+        "pixel": [
+          640.335,
+          1074.17
+        ],
+        "map": [
+          13375550.1,
+          3534472.5
+        ],
+        "fitted_map": [
+          13375503.651,
+          3535940.825
+        ],
+        "dx_m": -46.449,
+        "dy_m": 1468.325,
+        "error_m": 1469.059,
+        "weight": 1.0,
+        "source_ocr_id": "nansong_linan_map_rapidocr_0064",
+        "osm_reference": "linan_places_master",
+        "notes": "Review on source image before setting enabled=true."
+      },
+      {
+        "id": "cp_006",
+        "name": "石佛寺",
+        "pixel": [
+          656.5,
+          1545.0
+        ],
+        "map": [
+          13374870.0,
+          3537270.0
+        ],
+        "fitted_map": [
+          13375299.022,
+          3536157.297
+        ],
+        "dx_m": 429.022,
+        "dy_m": -1112.703,
+        "error_m": 1192.546,
+        "weight": 1.0,
+        "source_ocr_id": "nansong_linan_map_rapidocr_0015",
+        "osm_reference": "linan_places_master",
+        "notes": "Review on source image before setting enabled=true."
+      },
+      {
+        "id": "cp_007",
+        "name": "钱塘門",
+        "pixel": [
+          635.5,
+          607.5
+        ],
+        "map": [
+          13375514.8,
+          3537034.4
+        ],
+        "fitted_map": [
+          13375754.456,
+          3535682.769
+        ],
+        "dx_m": 239.656,
+        "dy_m": -1351.631,
+        "error_m": 1372.713,
+        "weight": 1.0,
+        "source_ocr_id": "nansong_linan_map_rapidocr_0066",
+        "osm_reference": "linan_places_master",
+        "notes": "Review on source image before setting enabled=true."
+      },
+      {
+        "id": "cp_008",
+        "name": "水安保",
+        "pixel": [
+          999.5,
+          1202.0
+        ],
+        "map": [
+          13377399.7,
+          3533649.5
+        ],
+        "fitted_map": [
+          13376969.772,
+          3534620.225
+        ],
+        "dx_m": -429.928,
+        "dy_m": 970.725,
+        "error_m": 1061.671,
+        "weight": 1.0,
+        "source_ocr_id": "nansong_linan_map_rapidocr_0027",
+        "osm_reference": "linan_places_master",
+        "notes": "Review on source image before setting enabled=true."
+      }
+    ],
+    "accepted": false,
+    "max_rmse_threshold_m": 120.0,
+    "max_point_error_threshold_m": 300.0
+  },
+  "control_points": [
+    {
+      "id": "cp_001",
+      "name": "太学",
+      "pixel": [
+        746.0,
+        560.5
+      ],
+      "map": [
+        13375830.0,
+        3534970.0
+      ],
+      "weight": 1.0,
+      "source_ocr_id": "nansong_linan_map_rapidocr_0072",
+      "osm_reference": "linan_places_master",
+      "notes": "Review on source image before setting enabled=true."
+    },
+    {
+      "id": "cp_002",
+      "name": "大常寺",
+      "pixel": [
+        783.5,
+        953.0
+      ],
+      "map": [
+        13376953.9,
+        3538130.0
+      ],
+      "weight": 1.0,
+      "source_ocr_id": "nansong_linan_map_rapidocr_0023",
+      "osm_reference": "linan_places_master",
+      "notes": "Review on source image before setting enabled=true."
+    },
+    {
+      "id": "cp_003",
+      "name": "孤山",
+      "pixel": [
+        337.17,
+        728.835
+      ],
+      "map": [
+        13374740.0,
+        3535870.0
+      ],
+      "weight": 1.0,
+      "source_ocr_id": "nansong_linan_map_rapidocr_0050",
+      "osm_reference": "linan_places_master",
+      "notes": "Review on source image before setting enabled=true."
+    },
+    {
+      "id": "cp_004",
+      "name": "清河坊",
+      "pixel": [
+        871.0,
+        1022.0
+      ],
+      "map": [
+        13376040.0,
+        3533470.0
+      ],
+      "weight": 1.0,
+      "source_ocr_id": "nansong_linan_map_rapidocr_0010",
+      "osm_reference": "linan_places_master",
+      "notes": "Review on source image before setting enabled=true."
+    },
+    {
+      "id": "cp_005",
+      "name": "清波門",
+      "pixel": [
+        640.335,
+        1074.17
+      ],
+      "map": [
+        13375550.1,
+        3534472.5
+      ],
+      "weight": 1.0,
+      "source_ocr_id": "nansong_linan_map_rapidocr_0064",
+      "osm_reference": "linan_places_master",
+      "notes": "Review on source image before setting enabled=true."
+    },
+    {
+      "id": "cp_006",
+      "name": "石佛寺",
+      "pixel": [
+        656.5,
+        1545.0
+      ],
+      "map": [
+        13374870.0,
+        3537270.0
+      ],
+      "weight": 1.0,
+      "source_ocr_id": "nansong_linan_map_rapidocr_0015",
+      "osm_reference": "linan_places_master",
+      "notes": "Review on source image before setting enabled=true."
+    },
+    {
+      "id": "cp_007",
+      "name": "钱塘門",
+      "pixel": [
+        635.5,
+        607.5
+      ],
+      "map": [
+        13375514.8,
+        3537034.4
+      ],
+      "weight": 1.0,
+      "source_ocr_id": "nansong_linan_map_rapidocr_0066",
+      "osm_reference": "linan_places_master",
+      "notes": "Review on source image before setting enabled=true."
+    },
+    {
+      "id": "cp_008",
+      "name": "水安保",
+      "pixel": [
+        999.5,
+        1202.0
+      ],
+      "map": [
+        13377399.7,
+        3533649.5
+      ],
+      "weight": 1.0,
+      "source_ocr_id": "nansong_linan_map_rapidocr_0027",
+      "osm_reference": "linan_places_master",
+      "notes": "Review on source image before setting enabled=true."
+    }
+  ],
+  "notes": "Fitted from original 1937 image pixel coordinates to OSM/EPSG:3857 map coordinates."
+}

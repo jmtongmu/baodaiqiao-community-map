@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "name": "baodaiqiao_3d_scene_stage",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.62190022333158,
+              31.23633952534829
+            ],
+            [
+              120.66148147666843,
+              31.23633952534829
+            ],
+            [
+              120.66148147666843,
+              31.27908157465171
+            ],
+            [
+              120.62190022333158,
+              31.27908157465171
+            ],
+            [
+              120.62190022333158,
+              31.23633952534829
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "scene_name": "宝带桥社区3D叙事底座",
+        "scene_class": "stage",
+        "height_m": 0.2,
+        "base_m": -0.3,
+        "color": "#eadfca",
+        "opacity": 0.42,
+        "label": "宝带桥社区发展叙事舞台",
+        "note": "演示用底座，后续可替换为真实社区边界。"
+      }
+    }
+  ]
+}

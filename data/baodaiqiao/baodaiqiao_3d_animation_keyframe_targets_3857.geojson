@@ -1,0 +1,194 @@
+{
+  "type": "FeatureCollection",
+  "name": "baodaiqiao_3d_animation_keyframe_targets_3857",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:3857"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13430158.697,
+          3665698.773
+        ]
+      },
+      "properties": {
+        "keyframe": "K0",
+        "time_s": 0,
+        "shot_name": "全域开场",
+        "camera_distance_m": 2600,
+        "pitch_deg": 48,
+        "heading_deg": 315,
+        "duration_hint_s": 3,
+        "visible_focus": "底座、水系、全部里程碑光柱",
+        "narration": "宝带桥社区的时间叙事从水网和古桥展开。",
+        "target_lon": "120.6451683",
+        "target_lat": "31.2533762",
+        "target_x_3857": "13430158.697",
+        "target_y_3857": "3665698.773",
+        "label": "K0 0s 全域开场"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13431107.378,
+          3666119.87
+        ]
+      },
+      "properties": {
+        "keyframe": "K1",
+        "time_s": 3,
+        "shot_name": "古桥起点",
+        "camera_distance_m": 900,
+        "pitch_deg": 42,
+        "heading_deg": 300,
+        "duration_hint_s": 3,
+        "visible_focus": "宝带桥、816/1831/1872/2014光柱",
+        "narration": "宝带桥奠定社区最核心的历史地标。",
+        "target_lon": "120.6536904",
+        "target_lat": "31.2566100",
+        "target_x_3857": "13431107.378",
+        "target_y_3857": "3666119.870",
+        "label": "K1 3s 古桥起点"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13430081.891,
+          3665306.694
+        ]
+      },
+      "properties": {
+        "keyframe": "K2",
+        "time_s": 6,
+        "shot_name": "基层治理与农业",
+        "camera_distance_m": 1150,
+        "pitch_deg": 44,
+        "heading_deg": 330,
+        "duration_hint_s": 3,
+        "visible_focus": "1949、1956、1962节点",
+        "narration": "解放、通电和农业示范把地方社会推向新的治理与生产阶段。",
+        "target_lon": "120.6444783",
+        "target_lat": "31.2503652",
+        "target_x_3857": "13430081.891",
+        "target_y_3857": "3665306.694",
+        "label": "K2 6s 基层治理与农业"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13430366.925,
+          3666670.211
+        ]
+      },
+      "properties": {
+        "keyframe": "K3",
+        "time_s": 9,
+        "shot_name": "开发区建设",
+        "camera_distance_m": 1500,
+        "pitch_deg": 40,
+        "heading_deg": 20,
+        "duration_hint_s": 4,
+        "visible_focus": "1992道路桥梁、宝尹花园、钱家新村",
+        "narration": "1992年后，空间开发、道路桥梁和旧村改造加速展开。",
+        "target_lon": "120.6470388",
+        "target_lat": "31.2608361",
+        "target_x_3857": "13430366.925",
+        "target_y_3857": "3666670.211",
+        "label": "K3 9s 开发区建设"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13430490.924,
+          3665242.539
+        ]
+      },
+      "properties": {
+        "keyframe": "K4",
+        "time_s": 13,
+        "shot_name": "轨交接入",
+        "camera_distance_m": 900,
+        "pitch_deg": 42,
+        "heading_deg": 350,
+        "duration_hint_s": 3,
+        "visible_focus": "宝带桥南站、2011节点",
+        "narration": "轨交宝带桥南站改变社区出行和空间组织。",
+        "target_lon": "120.6481527",
+        "target_lat": "31.2498725",
+        "target_x_3857": "13430490.924",
+        "target_y_3857": "3665242.539",
+        "label": "K4 13s 轨交接入"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13430695.829,
+          3665993.96
+        ]
+      },
+      "properties": {
+        "keyframe": "K5",
+        "time_s": 16,
+        "shot_name": "澹台湖文旅更新",
+        "camera_distance_m": 1200,
+        "pitch_deg": 38,
+        "heading_deg": 280,
+        "duration_hint_s": 2,
+        "visible_focus": "澹台湖、2016景区一期节点",
+        "narration": "古桥、运河与湖景被组织为新的公共景观空间。",
+        "target_lon": "120.6499934",
+        "target_lat": "31.2556431",
+        "target_x_3857": "13430695.829",
+        "target_y_3857": "3665993.960",
+        "label": "K5 16s 澹台湖文旅更新"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13430519.989,
+          3665734.93
+        ]
+      },
+      "properties": {
+        "keyframe": "K6",
+        "time_s": 20,
+        "shot_name": "文化展示收束",
+        "camera_distance_m": 1050,
+        "pitch_deg": 40,
+        "heading_deg": 305,
+        "duration_hint_s": 4,
+        "visible_focus": "吴文化博物馆、2020核心展示园节点",
+        "narration": "社区南堍成为吴地文化展示和大运河文旅叙事节点。",
+        "target_lon": "120.6484138",
+        "target_lat": "31.2536539",
+        "target_x_3857": "13430519.989",
+        "target_y_3857": "3665734.930",
+        "label": "K6 20s 文化展示收束"
+      }
+    }
+  ]
+}

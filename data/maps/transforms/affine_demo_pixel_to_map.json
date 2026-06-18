@@ -1,0 +1,37 @@
+{
+  "map_id": "affine_demo",
+  "crs": "EPSG:3857",
+  "method": "affine_pixel_to_map",
+  "pixel_space": "ocr_image_pixels",
+  "coefficients": {
+    "x_origin": null,
+    "pixel_width": null,
+    "x_rotation": 0,
+    "y_origin": null,
+    "y_rotation": 0,
+    "pixel_height": null
+  },
+  "control_points": [
+    {
+      "name": "左上控制点",
+      "pixel": [0, 0],
+      "map": [13375000, 3539000]
+    },
+    {
+      "name": "右上控制点",
+      "pixel": [1000, 0],
+      "map": [13380000, 3539000]
+    },
+    {
+      "name": "左下控制点",
+      "pixel": [0, 1000],
+      "map": [13375000, 3534000]
+    },
+    {
+      "name": "右下控制点",
+      "pixel": [1000, 1000],
+      "map": [13380000, 3534000]
+    }
+  ],
+  "notes": "示例转换：x=13375000+5*px, y=3539000-5*py。残差应接近 0。"
+}

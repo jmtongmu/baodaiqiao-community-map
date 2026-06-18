@@ -1,0 +1,8618 @@
+{
+  "map_id": "1937",
+  "source_map": "assets/maps/1937.jpg",
+  "image_width": 1080,
+  "image_height": 1485,
+  "engine": "rapidocr-onnxruntime",
+  "coordinate_space": "image_pixel",
+  "note": "OCR candidates are in original image pixel coordinates and are not georeferenced.",
+  "raw_candidate_count": 385,
+  "candidate_count": 106,
+  "variants": [
+    "original",
+    "gray3x_sharp",
+    "adaptive3x"
+  ],
+  "candidates": [
+    {
+      "ocr_id": "1937_rapidocr_0041",
+      "text": "家塘",
+      "ocr_text_raw_order": "塘家",
+      "reading_rule": "reverse_suffix_first",
+      "raw_text": "塘家",
+      "bbox_pixel": [
+        1037.33,
+        62.0,
+        1079.0,
+        81.67
+      ],
+      "quad_pixel": [
+        [
+          1038.0,
+          62.0
+        ],
+        [
+          1079.0,
+          62.67
+        ],
+        [
+          1078.67,
+          81.67
+        ],
+        [
+          1037.33,
+          80.67
+        ]
+      ],
+      "confidence": 0.650831,
+      "quality": 0.780831,
+      "orientation": "horizontal",
+      "category": "ocr_水系",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 613.33,
+      "tile_y": 0.0,
+      "text_len": 2,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "家塘",
+          "confidence": 0.663577,
+          "quality": 0.763577,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            1037.33,
+            61.33,
+            1079.67,
+            81.67
+          ]
+        },
+        {
+          "text": "酒家塘",
+          "confidence": 0.623838,
+          "quality": 0.733838,
+          "source_stage": "rapidocr_original_full",
+          "bbox_pixel": [
+            1036.0,
+            58.0,
+            1079.0,
+            85.0
+          ]
+        },
+        {
+          "text": "酒家塘",
+          "confidence": 0.576318,
+          "quality": 0.716318,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            1036.0,
+            57.0,
+            1079.0,
+            84.0
+          ]
+        }
+      ],
+      "alternative_texts": "酒家塘",
+      "alternative_count": 3
+    },
+    {
+      "ocr_id": "1937_rapidocr_0032",
+      "text": "三授营",
+      "ocr_text_raw_order": "营授三",
+      "reading_rule": "reverse_suffix_first",
+      "raw_text": "营授三",
+      "bbox_pixel": [
+        656.67,
+        89.33,
+        707.33,
+        115.67
+      ],
+      "quad_pixel": [
+        [
+          656.67,
+          99.67
+        ],
+        [
+          703.67,
+          89.33
+        ],
+        [
+          707.33,
+          105.33
+        ],
+        [
+          660.0,
+          115.67
+        ]
+      ],
+      "confidence": 0.654865,
+      "quality": 0.794865,
+      "orientation": "horizontal",
+      "category": "ocr_城防官署",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_adaptive3x_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "adaptive3x",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 613.33,
+      "tile_y": 0.0,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "三授营",
+          "confidence": 0.645295,
+          "quality": 0.755295,
+          "source_stage": "rapidocr_adaptive3x_full",
+          "bbox_pixel": [
+            655.67,
+            89.33,
+            707.33,
+            116.67
+          ]
+        },
+        {
+          "text": "三授营",
+          "confidence": 0.582541,
+          "quality": 0.722541,
+          "source_stage": "rapidocr_adaptive3x_tile",
+          "bbox_pixel": [
+            657.33,
+            89.33,
+            707.33,
+            116.0
+          ]
+        }
+      ],
+      "alternative_texts": "",
+      "alternative_count": 2
+    },
+    {
+      "ocr_id": "1937_rapidocr_0062",
+      "text": "火葉局",
+      "ocr_text_raw_order": "局葉火",
+      "reading_rule": "reverse_suffix_first",
+      "raw_text": "局葉火",
+      "bbox_pixel": [
+        488.33,
+        99.0,
+        535.0,
+        116.0
+      ],
+      "quad_pixel": [
+        [
+          488.33,
+          100.33
+        ],
+        [
+          534.67,
+          99.0
+        ],
+        [
+          535.0,
+          115.0
+        ],
+        [
+          488.67,
+          116.0
+        ]
+      ],
+      "confidence": 0.580218,
+      "quality": 0.720218,
+      "orientation": "horizontal",
+      "category": "ocr_城防官署",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 393.33,
+      "tile_y": 0.0,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "火葉局",
+          "confidence": 0.592745,
+          "quality": 0.702745,
+          "source_stage": "rapidocr_original_full",
+          "bbox_pixel": [
+            485.0,
+            96.0,
+            537.0,
+            121.0
+          ]
+        },
+        {
+          "text": "火葉局",
+          "confidence": 0.580815,
+          "quality": 0.690815,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            487.67,
+            99.0,
+            535.0,
+            116.33
+          ]
+        },
+        {
+          "text": "火葉局",
+          "confidence": 0.539795,
+          "quality": 0.679795,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            485.0,
+            95.0,
+            538.0,
+            120.0
+          ]
+        },
+        {
+          "text": "火葉局",
+          "confidence": 0.528789,
+          "quality": 0.668789,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            485.0,
+            98.0,
+            538.0,
+            120.0
+          ]
+        },
+        {
+          "text": "火菜局",
+          "confidence": 0.523841,
+          "quality": 0.633841,
+          "source_stage": "rapidocr_adaptive3x_full",
+          "bbox_pixel": [
+            488.33,
+            98.67,
+            534.67,
+            116.67
+          ]
+        }
+      ],
+      "alternative_texts": "火菜局",
+      "alternative_count": 5
+    },
+    {
+      "ocr_id": "1937_rapidocr_0085",
+      "text": "武林",
+      "ocr_text_raw_order": "武林",
+      "reading_rule": "as_detected",
+      "raw_text": "武林",
+      "bbox_pixel": [
+        183.33,
+        140.0,
+        196.67,
+        164.67
+      ],
+      "quad_pixel": [
+        [
+          183.33,
+          140.67
+        ],
+        [
+          195.33,
+          140.0
+        ],
+        [
+          196.67,
+          164.0
+        ],
+        [
+          184.67,
+          164.67
+        ]
+      ],
+      "confidence": 0.644229,
+      "quality": 0.664229,
+      "orientation": "vertical",
+      "category": "ocr_文字",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_full",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "full",
+      "scale": 3.0,
+      "tile_x": 0.0,
+      "tile_y": 0.0,
+      "text_len": 2,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternative_texts": "",
+      "alternative_count": 0
+    },
+    {
+      "ocr_id": "1937_rapidocr_0019",
+      "text": "工兵营",
+      "ocr_text_raw_order": "工兵营",
+      "reading_rule": "as_detected",
+      "raw_text": "工兵营",
+      "bbox_pixel": [
+        668.0,
+        154.0,
+        686.0,
+        203.0
+      ],
+      "quad_pixel": [
+        [
+          668.0,
+          154.0
+        ],
+        [
+          686.0,
+          154.0
+        ],
+        [
+          686.0,
+          203.0
+        ],
+        [
+          668.0,
+          203.0
+        ]
+      ],
+      "confidence": 0.688039,
+      "quality": 0.828039,
+      "orientation": "vertical",
+      "category": "ocr_城防官署",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_original_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "original",
+      "ocr_pass": "tile",
+      "scale": 1.0,
+      "tile_x": 180.0,
+      "tile_y": 0.0,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "工兵营",
+          "confidence": 0.66645,
+          "quality": 0.80645,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            667.0,
+            155.67,
+            685.0,
+            202.67
+          ]
+        },
+        {
+          "text": "工兵营",
+          "confidence": 0.645442,
+          "quality": 0.785442,
+          "source_stage": "rapidocr_adaptive3x_tile",
+          "bbox_pixel": [
+            668.33,
+            156.67,
+            684.33,
+            202.67
+          ]
+        },
+        {
+          "text": "工兵管",
+          "confidence": 0.643086,
+          "quality": 0.783086,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            667.33,
+            155.67,
+            684.67,
+            203.0
+          ]
+        },
+        {
+          "text": "工兵营",
+          "confidence": 0.669875,
+          "quality": 0.779875,
+          "source_stage": "rapidocr_original_full",
+          "bbox_pixel": [
+            664.0,
+            152.0,
+            689.0,
+            205.0
+          ]
+        },
+        {
+          "text": "工兵营",
+          "confidence": 0.625812,
+          "quality": 0.765812,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            667.0,
+            152.0,
+            688.0,
+            205.0
+          ]
+        },
+        {
+          "text": "工兵营",
+          "confidence": 0.629153,
+          "quality": 0.739153,
+          "source_stage": "rapidocr_adaptive3x_full",
+          "bbox_pixel": [
+            667.67,
+            156.0,
+            684.67,
+            202.33
+          ]
+        },
+        {
+          "text": "工兵营",
+          "confidence": 0.549857,
+          "quality": 0.689857,
+          "source_stage": "rapidocr_adaptive3x_tile",
+          "bbox_pixel": [
+            668.33,
+            156.33,
+            684.33,
+            202.33
+          ]
+        },
+        {
+          "text": "工兵营",
+          "confidence": 0.530335,
+          "quality": 0.640335,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            667.67,
+            155.0,
+            684.67,
+            203.0
+          ]
+        }
+      ],
+      "alternative_texts": "工兵管",
+      "alternative_count": 8
+    },
+    {
+      "ocr_id": "1937_rapidocr_0073",
+      "text": "桶水天",
+      "ocr_text_raw_order": "桶水天",
+      "reading_rule": "as_detected",
+      "raw_text": "桶水天",
+      "bbox_pixel": [
+        388.0,
+        180.33,
+        428.0,
+        193.0
+      ],
+      "quad_pixel": [
+        [
+          388.0,
+          180.33
+        ],
+        [
+          428.0,
+          180.33
+        ],
+        [
+          428.0,
+          193.0
+        ],
+        [
+          388.0,
+          193.0
+        ]
+      ],
+      "confidence": 0.628688,
+      "quality": 0.688688,
+      "orientation": "horizontal",
+      "category": "ocr_文字",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 0.0,
+      "tile_y": 0.0,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "桶水天",
+          "confidence": 0.64637,
+          "quality": 0.67637,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            388.33,
+            180.67,
+            427.67,
+            192.33
+          ]
+        },
+        {
+          "text": "橘水天",
+          "confidence": 0.577315,
+          "quality": 0.637315,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            389.0,
+            180.0,
+            422.0,
+            195.0
+          ]
+        },
+        {
+          "text": "橘水天",
+          "confidence": 0.583934,
+          "quality": 0.613934,
+          "source_stage": "rapidocr_original_full",
+          "bbox_pixel": [
+            389.0,
+            180.0,
+            422.0,
+            195.0
+          ]
+        },
+        {
+          "text": "橘水天",
+          "confidence": 0.547111,
+          "quality": 0.607111,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            390.0,
+            180.0,
+            423.0,
+            195.0
+          ]
+        },
+        {
+          "text": "弱水天",
+          "confidence": 0.535689,
+          "quality": 0.595689,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            393.33,
+            179.67,
+            422.33,
+            193.33
+          ]
+        }
+      ],
+      "alternative_texts": "橘水天 | 弱水天",
+      "alternative_count": 5
+    },
+    {
+      "ocr_id": "1937_rapidocr_0043",
+      "text": "福高东梅",
+      "ocr_text_raw_order": "福高东梅",
+      "reading_rule": "as_detected",
+      "raw_text": "福高东梅",
+      "bbox_pixel": [
+        565.0,
+        196.67,
+        608.67,
+        210.33
+      ],
+      "quad_pixel": [
+        [
+          565.33,
+          196.67
+        ],
+        [
+          608.67,
+          197.33
+        ],
+        [
+          608.33,
+          210.33
+        ],
+        [
+          565.0,
+          209.67
+        ]
+      ],
+      "confidence": 0.737692,
+      "quality": 0.777692,
+      "orientation": "horizontal",
+      "category": "ocr_文字",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_full",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "full",
+      "scale": 3.0,
+      "tile_x": 0.0,
+      "tile_y": 0.0,
+      "text_len": 4,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "福高东梅",
+          "confidence": 0.666092,
+          "quality": 0.736092,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            563.67,
+            198.0,
+            608.0,
+            210.0
+          ]
+        }
+      ],
+      "alternative_texts": "",
+      "alternative_count": 1
+    },
+    {
+      "ocr_id": "1937_rapidocr_0065",
+      "text": "林武",
+      "ocr_text_raw_order": "林武",
+      "reading_rule": "as_detected",
+      "raw_text": "林武",
+      "bbox_pixel": [
+        280.0,
+        204.33,
+        313.67,
+        226.67
+      ],
+      "quad_pixel": [
+        [
+          280.0,
+          208.0
+        ],
+        [
+          311.33,
+          204.33
+        ],
+        [
+          313.67,
+          222.67
+        ],
+        [
+          282.33,
+          226.67
+        ]
+      ],
+      "confidence": 0.658793,
+      "quality": 0.708793,
+      "orientation": "horizontal",
+      "category": "ocr_文字",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 0.0,
+      "tile_y": 0.0,
+      "text_len": 2,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "武林門",
+          "confidence": 0.55022,
+          "quality": 0.69022,
+          "source_stage": "rapidocr_adaptive3x_tile",
+          "bbox_pixel": [
+            268.67,
+            205.67,
+            312.0,
+            224.33
+          ]
+        },
+        {
+          "text": "林武",
+          "confidence": 0.655916,
+          "quality": 0.675916,
+          "source_stage": "rapidocr_adaptive3x_full",
+          "bbox_pixel": [
+            282.0,
+            207.67,
+            310.67,
+            222.0
+          ]
+        },
+        {
+          "text": "林武",
+          "confidence": 0.645488,
+          "quality": 0.665488,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            281.67,
+            206.33,
+            311.67,
+            223.0
+          ]
+        }
+      ],
+      "alternative_texts": "武林門",
+      "alternative_count": 3
+    },
+    {
+      "ocr_id": "1937_rapidocr_0038",
+      "text": "奥福寺巷",
+      "ocr_text_raw_order": "巷寺福奥",
+      "reading_rule": "reverse_suffix_first",
+      "raw_text": "巷寺福奥",
+      "bbox_pixel": [
+        348.0,
+        209.33,
+        447.67,
+        237.33
+      ],
+      "quad_pixel": [
+        [
+          348.0,
+          220.67
+        ],
+        [
+          446.0,
+          209.33
+        ],
+        [
+          447.67,
+          225.67
+        ],
+        [
+          350.0,
+          237.33
+        ]
+      ],
+      "confidence": 0.634854,
+      "quality": 0.784854,
+      "orientation": "horizontal",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 0.0,
+      "tile_y": 0.0,
+      "text_len": 4,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "地興福寺巷",
+          "confidence": 0.561968,
+          "quality": 0.691968,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            348.0,
+            210.0,
+            448.33,
+            237.33
+          ]
+        },
+        {
+          "text": "梦寺福",
+          "confidence": 0.514572,
+          "quality": 0.654572,
+          "source_stage": "rapidocr_adaptive3x_tile",
+          "bbox_pixel": [
+            348.0,
+            213.67,
+            412.67,
+            237.33
+          ]
+        }
+      ],
+      "alternative_texts": "地興福寺巷 | 梦寺福",
+      "alternative_count": 2
+    },
+    {
+      "ocr_id": "1937_rapidocr_0036",
+      "text": "道街",
+      "ocr_text_raw_order": "街道",
+      "reading_rule": "reverse_suffix_first",
+      "raw_text": "街道",
+      "bbox_pixel": [
+        246.33,
+        210.0,
+        271.0,
+        226.0
+      ],
+      "quad_pixel": [
+        [
+          246.33,
+          212.0
+        ],
+        [
+          270.0,
+          210.0
+        ],
+        [
+          271.0,
+          224.0
+        ],
+        [
+          247.33,
+          226.0
+        ]
+      ],
+      "confidence": 0.656975,
+      "quality": 0.786975,
+      "orientation": "horizontal",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 0.0,
+      "tile_y": 0.0,
+      "text_len": 2,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "道街",
+          "confidence": 0.502528,
+          "quality": 0.602528,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            244.67,
+            210.0,
+            271.0,
+            226.0
+          ]
+        }
+      ],
+      "alternative_texts": "",
+      "alternative_count": 1
+    },
+    {
+      "ocr_id": "1937_rapidocr_0034",
+      "text": "大营",
+      "ocr_text_raw_order": "营大",
+      "reading_rule": "reverse_suffix_first",
+      "raw_text": "营大",
+      "bbox_pixel": [
+        624.67,
+        215.0,
+        672.33,
+        231.33
+      ],
+      "quad_pixel": [
+        [
+          624.67,
+          215.0
+        ],
+        [
+          672.33,
+          215.0
+        ],
+        [
+          672.33,
+          231.33
+        ],
+        [
+          624.67,
+          231.33
+        ]
+      ],
+      "confidence": 0.661381,
+      "quality": 0.791381,
+      "orientation": "horizontal",
+      "category": "ocr_城防官署",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_adaptive3x_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "adaptive3x",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 613.33,
+      "tile_y": 0.0,
+      "text_len": 2,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "盘营大",
+          "confidence": 0.558811,
+          "quality": 0.698811,
+          "source_stage": "rapidocr_adaptive3x_tile",
+          "bbox_pixel": [
+            624.33,
+            214.33,
+            672.67,
+            231.33
+          ]
+        },
+        {
+          "text": "盈营大",
+          "confidence": 0.570563,
+          "quality": 0.680563,
+          "source_stage": "rapidocr_adaptive3x_full",
+          "bbox_pixel": [
+            624.67,
+            215.0,
+            673.33,
+            231.0
+          ]
+        }
+      ],
+      "alternative_texts": "盘营大 | 盈营大",
+      "alternative_count": 2
+    },
+    {
+      "ocr_id": "1937_rapidocr_0012",
+      "text": "大友巷",
+      "ocr_text_raw_order": "大友巷",
+      "reading_rule": "as_detected",
+      "raw_text": "大友巷",
+      "bbox_pixel": [
+        292.0,
+        219.0,
+        319.33,
+        286.67
+      ],
+      "quad_pixel": [
+        [
+          292.0,
+          221.33
+        ],
+        [
+          310.0,
+          219.0
+        ],
+        [
+          319.33,
+          284.33
+        ],
+        [
+          301.0,
+          286.67
+        ]
+      ],
+      "confidence": 0.720605,
+      "quality": 0.860605,
+      "orientation": "vertical",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 0.0,
+      "tile_y": 0.0,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "大打友巷",
+          "confidence": 0.668103,
+          "quality": 0.818103,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            287.0,
+            217.0,
+            322.0,
+            286.0
+          ]
+        },
+        {
+          "text": "大打友巷",
+          "confidence": 0.694927,
+          "quality": 0.814927,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            291.67,
+            219.0,
+            319.33,
+            286.33
+          ]
+        },
+        {
+          "text": "大打友巷",
+          "confidence": 0.646812,
+          "quality": 0.796812,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            288.0,
+            217.0,
+            323.0,
+            288.0
+          ]
+        },
+        {
+          "text": "大友巷",
+          "confidence": 0.626858,
+          "quality": 0.736858,
+          "source_stage": "rapidocr_original_full",
+          "bbox_pixel": [
+            288.0,
+            217.0,
+            322.0,
+            287.0
+          ]
+        },
+        {
+          "text": "大行友巷",
+          "confidence": 0.553145,
+          "quality": 0.673145,
+          "source_stage": "rapidocr_adaptive3x_full",
+          "bbox_pixel": [
+            290.0,
+            220.33,
+            320.33,
+            285.67
+          ]
+        }
+      ],
+      "alternative_texts": "大打友巷 | 大行友巷",
+      "alternative_count": 5
+    },
+    {
+      "ocr_id": "1937_rapidocr_0060",
+      "text": "兄理街",
+      "ocr_text_raw_order": "兄理街",
+      "reading_rule": "as_detected",
+      "raw_text": "兄理街",
+      "bbox_pixel": [
+        482.0,
+        220.0,
+        512.0,
+        280.0
+      ],
+      "quad_pixel": [
+        [
+          482.0,
+          223.0
+        ],
+        [
+          507.0,
+          220.0
+        ],
+        [
+          512.0,
+          278.0
+        ],
+        [
+          488.0,
+          280.0
+        ]
+      ],
+      "confidence": 0.581818,
+      "quality": 0.721818,
+      "orientation": "vertical",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_original_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "original",
+      "ocr_pass": "tile",
+      "scale": 1.0,
+      "tile_x": 0.0,
+      "tile_y": 0.0,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternative_texts": "",
+      "alternative_count": 0
+    },
+    {
+      "ocr_id": "1937_rapidocr_0004",
+      "text": "中正河下街",
+      "ocr_text_raw_order": "中正河下街",
+      "reading_rule": "as_detected",
+      "raw_text": "中正河下街",
+      "bbox_pixel": [
+        248.67,
+        223.0,
+        276.0,
+        286.33
+      ],
+      "quad_pixel": [
+        [
+          248.67,
+          226.0
+        ],
+        [
+          266.0,
+          223.0
+        ],
+        [
+          276.0,
+          283.67
+        ],
+        [
+          258.67,
+          286.33
+        ]
+      ],
+      "confidence": 0.751108,
+      "quality": 0.911108,
+      "orientation": "vertical",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 0.0,
+      "tile_y": 0.0,
+      "text_len": 5,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "中正河",
+          "confidence": 0.735755,
+          "quality": 0.875755,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            249.0,
+            222.0,
+            272.0,
+            267.0
+          ]
+        },
+        {
+          "text": "中正河",
+          "confidence": 0.723601,
+          "quality": 0.833601,
+          "source_stage": "rapidocr_original_full",
+          "bbox_pixel": [
+            247.0,
+            222.0,
+            275.0,
+            271.0
+          ]
+        },
+        {
+          "text": "中正河",
+          "confidence": 0.702279,
+          "quality": 0.812279,
+          "source_stage": "rapidocr_adaptive3x_full",
+          "bbox_pixel": [
+            250.67,
+            230.33,
+            272.0,
+            269.0
+          ]
+        },
+        {
+          "text": "中正河下街",
+          "confidence": 0.659903,
+          "quality": 0.789903,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            247.0,
+            221.67,
+            280.0,
+            296.67
+          ]
+        }
+      ],
+      "alternative_texts": "中正河",
+      "alternative_count": 4
+    },
+    {
+      "ocr_id": "1937_rapidocr_0068",
+      "text": "中正",
+      "ocr_text_raw_order": "中正",
+      "reading_rule": "as_detected",
+      "raw_text": "中正",
+      "bbox_pixel": [
+        249.0,
+        223.0,
+        271.0,
+        259.0
+      ],
+      "quad_pixel": [
+        [
+          249.0,
+          224.0
+        ],
+        [
+          268.0,
+          223.0
+        ],
+        [
+          271.0,
+          257.0
+        ],
+        [
+          252.0,
+          259.0
+        ]
+      ],
+      "confidence": 0.649929,
+      "quality": 0.699929,
+      "orientation": "vertical",
+      "category": "ocr_文字",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_original_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "original",
+      "ocr_pass": "tile",
+      "scale": 1.0,
+      "tile_x": 180.0,
+      "tile_y": 0.0,
+      "text_len": 2,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternative_texts": "",
+      "alternative_count": 0
+    },
+    {
+      "ocr_id": "1937_rapidocr_0045",
+      "text": "瑞兵辣",
+      "ocr_text_raw_order": "瑞兵辣",
+      "reading_rule": "as_detected",
+      "raw_text": "瑞兵辣",
+      "bbox_pixel": [
+        632.67,
+        232.67,
+        683.33,
+        246.0
+      ],
+      "quad_pixel": [
+        [
+          632.67,
+          233.67
+        ],
+        [
+          683.0,
+          232.67
+        ],
+        [
+          683.33,
+          245.0
+        ],
+        [
+          633.0,
+          246.0
+        ]
+      ],
+      "confidence": 0.633382,
+      "quality": 0.773382,
+      "orientation": "horizontal",
+      "category": "ocr_城防官署",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 613.33,
+      "tile_y": 0.0,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "瑞兵辣",
+          "confidence": 0.629657,
+          "quality": 0.769657,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            633.33,
+            232.67,
+            683.33,
+            246.33
+          ]
+        },
+        {
+          "text": "场兵辣",
+          "confidence": 0.600886,
+          "quality": 0.740886,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            631.0,
+            231.0,
+            685.0,
+            248.0
+          ]
+        },
+        {
+          "text": "瑞兵辣",
+          "confidence": 0.617053,
+          "quality": 0.727053,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            633.33,
+            233.33,
+            683.67,
+            245.67
+          ]
+        },
+        {
+          "text": "辣兵",
+          "confidence": 0.586118,
+          "quality": 0.686118,
+          "source_stage": "rapidocr_original_full",
+          "bbox_pixel": [
+            632.0,
+            231.0,
+            687.0,
+            248.0
+          ]
+        }
+      ],
+      "alternative_texts": "场兵辣 | 辣兵",
+      "alternative_count": 4
+    },
+    {
+      "ocr_id": "1937_rapidocr_0017",
+      "text": "龍张御史巷",
+      "ocr_text_raw_order": "巷史御张龍",
+      "reading_rule": "reverse_suffix_first",
+      "raw_text": "巷史御张龍",
+      "bbox_pixel": [
+        678.33,
+        257.33,
+        754.33,
+        275.33
+      ],
+      "quad_pixel": [
+        [
+          678.33,
+          259.33
+        ],
+        [
+          754.0,
+          257.33
+        ],
+        [
+          754.33,
+          273.33
+        ],
+        [
+          678.67,
+          275.33
+        ]
+      ],
+      "confidence": 0.684059,
+      "quality": 0.844059,
+      "orientation": "horizontal",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 393.33,
+      "tile_y": 0.0,
+      "text_len": 5,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "强御史巷",
+          "confidence": 0.661006,
+          "quality": 0.811006,
+          "source_stage": "rapidocr_adaptive3x_tile",
+          "bbox_pixel": [
+            676.33,
+            257.33,
+            741.33,
+            275.33
+          ]
+        },
+        {
+          "text": "张御史巷",
+          "confidence": 0.682113,
+          "quality": 0.802113,
+          "source_stage": "rapidocr_original_full",
+          "bbox_pixel": [
+            679.0,
+            258.0,
+            740.0,
+            275.0
+          ]
+        },
+        {
+          "text": "龍张御史巷",
+          "confidence": 0.629448,
+          "quality": 0.789448,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            678.0,
+            256.67,
+            755.0,
+            275.33
+          ]
+        },
+        {
+          "text": "强御史巷",
+          "confidence": 0.609125,
+          "quality": 0.759125,
+          "source_stage": "rapidocr_adaptive3x_tile",
+          "bbox_pixel": [
+            676.33,
+            257.67,
+            739.33,
+            275.33
+          ]
+        },
+        {
+          "text": "强御史巷",
+          "confidence": 0.6212,
+          "quality": 0.7412,
+          "source_stage": "rapidocr_adaptive3x_full",
+          "bbox_pixel": [
+            674.67,
+            257.67,
+            741.0,
+            275.33
+          ]
+        },
+        {
+          "text": "史巷",
+          "confidence": 0.599882,
+          "quality": 0.729882,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            681.0,
+            257.0,
+            713.0,
+            275.0
+          ]
+        },
+        {
+          "text": "史巷",
+          "confidence": 0.57546,
+          "quality": 0.70546,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            680.0,
+            259.0,
+            710.0,
+            273.0
+          ]
+        },
+        {
+          "text": "龍张御史巷",
+          "confidence": 0.574512,
+          "quality": 0.704512,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            678.67,
+            256.67,
+            755.0,
+            275.67
+          ]
+        }
+      ],
+      "alternative_texts": "强御史巷 | 张御史巷 | 史巷",
+      "alternative_count": 8
+    },
+    {
+      "ocr_id": "1937_rapidocr_0104",
+      "text": "御张",
+      "ocr_text_raw_order": "御张",
+      "reading_rule": "as_detected",
+      "raw_text": "御张",
+      "bbox_pixel": [
+        707.0,
+        258.0,
+        737.0,
+        273.0
+      ],
+      "quad_pixel": [
+        [
+          707.0,
+          258.0
+        ],
+        [
+          737.0,
+          258.0
+        ],
+        [
+          737.0,
+          273.0
+        ],
+        [
+          707.0,
+          273.0
+        ]
+      ],
+      "confidence": 0.521595,
+      "quality": 0.571595,
+      "orientation": "horizontal",
+      "category": "ocr_文字",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_original_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "original",
+      "ocr_pass": "tile",
+      "scale": 1.0,
+      "tile_x": 0.0,
+      "tile_y": 0.0,
+      "text_len": 2,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternative_texts": "",
+      "alternative_count": 0
+    },
+    {
+      "ocr_id": "1937_rapidocr_0055",
+      "text": "大樹巷",
+      "ocr_text_raw_order": "巷樹大",
+      "reading_rule": "reverse_suffix_first",
+      "raw_text": "巷樹大",
+      "bbox_pixel": [
+        809.67,
+        259.33,
+        851.0,
+        274.33
+      ],
+      "quad_pixel": [
+        [
+          809.67,
+          259.33
+        ],
+        [
+          851.0,
+          259.33
+        ],
+        [
+          851.0,
+          274.33
+        ],
+        [
+          809.67,
+          274.33
+        ]
+      ],
+      "confidence": 0.603637,
+      "quality": 0.743637,
+      "orientation": "horizontal",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 613.33,
+      "tile_y": 0.0,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "大樹巷",
+          "confidence": 0.616981,
+          "quality": 0.726981,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            807.67,
+            259.67,
+            850.67,
+            274.67
+          ]
+        },
+        {
+          "text": "大樹巷",
+          "confidence": 0.573069,
+          "quality": 0.713069,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            808.67,
+            259.33,
+            850.0,
+            274.33
+          ]
+        },
+        {
+          "text": "大树巷",
+          "confidence": 0.531879,
+          "quality": 0.671879,
+          "source_stage": "rapidocr_adaptive3x_tile",
+          "bbox_pixel": [
+            810.67,
+            259.33,
+            849.67,
+            274.33
+          ]
+        },
+        {
+          "text": "大榭巷",
+          "confidence": 0.545497,
+          "quality": 0.655497,
+          "source_stage": "rapidocr_adaptive3x_full",
+          "bbox_pixel": [
+            810.0,
+            259.67,
+            848.33,
+            275.0
+          ]
+        }
+      ],
+      "alternative_texts": "大树巷 | 大榭巷",
+      "alternative_count": 4
+    },
+    {
+      "ocr_id": "1937_rapidocr_0088",
+      "text": "台马打",
+      "ocr_text_raw_order": "台马打",
+      "reading_rule": "as_detected",
+      "raw_text": "台马打",
+      "bbox_pixel": [
+        1025.67,
+        262.33,
+        1077.33,
+        280.33
+      ],
+      "quad_pixel": [
+        [
+          1025.67,
+          262.33
+        ],
+        [
+          1077.33,
+          262.33
+        ],
+        [
+          1077.33,
+          280.33
+        ],
+        [
+          1025.67,
+          280.33
+        ]
+      ],
+      "confidence": 0.592815,
+      "quality": 0.652815,
+      "orientation": "horizontal",
+      "category": "ocr_文字",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 613.33,
+      "tile_y": 0.0,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "台马打",
+          "confidence": 0.594565,
+          "quality": 0.624565,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            1026.0,
+            262.0,
+            1077.67,
+            280.67
+          ]
+        },
+        {
+          "text": "台馬打",
+          "confidence": 0.551572,
+          "quality": 0.611572,
+          "source_stage": "rapidocr_adaptive3x_tile",
+          "bbox_pixel": [
+            1013.33,
+            260.67,
+            1078.0,
+            282.0
+          ]
+        },
+        {
+          "text": "台馬打",
+          "confidence": 0.576789,
+          "quality": 0.606789,
+          "source_stage": "rapidocr_original_full",
+          "bbox_pixel": [
+            1024.0,
+            260.0,
+            1077.0,
+            282.0
+          ]
+        }
+      ],
+      "alternative_texts": "台馬打",
+      "alternative_count": 3
+    },
+    {
+      "ocr_id": "1937_rapidocr_0025",
+      "text": "房国街",
+      "ocr_text_raw_order": "街国房",
+      "reading_rule": "reverse_suffix_first",
+      "raw_text": "街国房",
+      "bbox_pixel": [
+        496.33,
+        272.67,
+        539.0,
+        285.33
+      ],
+      "quad_pixel": [
+        [
+          496.33,
+          272.67
+        ],
+        [
+          539.0,
+          272.67
+        ],
+        [
+          539.0,
+          285.33
+        ],
+        [
+          496.33,
+          285.33
+        ]
+      ],
+      "confidence": 0.671671,
+      "quality": 0.811671,
+      "orientation": "horizontal",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 393.33,
+      "tile_y": 0.0,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "出房国街",
+          "confidence": 0.566757,
+          "quality": 0.686757,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            497.0,
+            271.0,
+            550.67,
+            286.67
+          ]
+        },
+        {
+          "text": "社房国街",
+          "confidence": 0.52172,
+          "quality": 0.67172,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            496.0,
+            269.0,
+            548.0,
+            287.0
+          ]
+        },
+        {
+          "text": "国街",
+          "confidence": 0.536028,
+          "quality": 0.636028,
+          "source_stage": "rapidocr_original_full",
+          "bbox_pixel": [
+            499.0,
+            269.0,
+            529.0,
+            288.0
+          ]
+        }
+      ],
+      "alternative_texts": "出房国街 | 社房国街 | 国街",
+      "alternative_count": 3
+    },
+    {
+      "ocr_id": "1937_rapidocr_0003",
+      "text": "百井坊巷",
+      "ocr_text_raw_order": "巷坊井百",
+      "reading_rule": "reverse_suffix_first",
+      "raw_text": "巷坊井百",
+      "bbox_pixel": [
+        370.0,
+        273.33,
+        432.0,
+        294.33
+      ],
+      "quad_pixel": [
+        [
+          370.0,
+          278.33
+        ],
+        [
+          430.67,
+          273.33
+        ],
+        [
+          432.0,
+          289.33
+        ],
+        [
+          371.33,
+          294.33
+        ]
+      ],
+      "confidence": 0.775137,
+      "quality": 0.925137,
+      "orientation": "horizontal",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 0.0,
+      "tile_y": 0.0,
+      "text_len": 4,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "百井坊巷",
+          "confidence": 0.75093,
+          "quality": 0.90093,
+          "source_stage": "rapidocr_adaptive3x_tile",
+          "bbox_pixel": [
+            361.67,
+            273.67,
+            433.33,
+            294.67
+          ]
+        },
+        {
+          "text": "百井坊巷",
+          "confidence": 0.747135,
+          "quality": 0.867135,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            369.67,
+            274.0,
+            431.67,
+            294.0
+          ]
+        },
+        {
+          "text": "百井坊巷",
+          "confidence": 0.730205,
+          "quality": 0.850205,
+          "source_stage": "rapidocr_adaptive3x_full",
+          "bbox_pixel": [
+            361.67,
+            274.0,
+            433.0,
+            294.0
+          ]
+        },
+        {
+          "text": "百井坊巷",
+          "confidence": 0.699594,
+          "quality": 0.849594,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            368.0,
+            271.0,
+            435.0,
+            297.0
+          ]
+        },
+        {
+          "text": "百井坊巷",
+          "confidence": 0.670731,
+          "quality": 0.820731,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            368.0,
+            271.0,
+            425.0,
+            297.0
+          ]
+        },
+        {
+          "text": "百井坊巷",
+          "confidence": 0.670912,
+          "quality": 0.790912,
+          "source_stage": "rapidocr_original_full",
+          "bbox_pixel": [
+            368.0,
+            271.0,
+            425.0,
+            297.0
+          ]
+        },
+        {
+          "text": "井百",
+          "confidence": 0.563685,
+          "quality": 0.693685,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            393.33,
+            273.0,
+            433.0,
+            294.33
+          ]
+        },
+        {
+          "text": "进百",
+          "confidence": 0.519901,
+          "quality": 0.569901,
+          "source_stage": "rapidocr_adaptive3x_tile",
+          "bbox_pixel": [
+            394.67,
+            273.33,
+            434.0,
+            292.67
+          ]
+        }
+      ],
+      "alternative_texts": "井百 | 进百",
+      "alternative_count": 8
+    },
+    {
+      "ocr_id": "1937_rapidocr_0051",
+      "text": "水庙巷",
+      "ocr_text_raw_order": "巷庙水",
+      "reading_rule": "reverse_suffix_first",
+      "raw_text": "巷庙水",
+      "bbox_pixel": [
+        680.67,
+        287.33,
+        727.67,
+        306.0
+      ],
+      "quad_pixel": [
+        [
+          680.67,
+          289.67
+        ],
+        [
+          726.67,
+          287.33
+        ],
+        [
+          727.67,
+          304.0
+        ],
+        [
+          681.33,
+          306.0
+        ]
+      ],
+      "confidence": 0.616914,
+      "quality": 0.756914,
+      "orientation": "horizontal",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 613.33,
+      "tile_y": 0.0,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "巷庙",
+          "confidence": 0.622563,
+          "quality": 0.752563,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            680.0,
+            287.0,
+            717.0,
+            308.0
+          ]
+        },
+        {
+          "text": "水庙巷",
+          "confidence": 0.598352,
+          "quality": 0.738352,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            681.33,
+            288.0,
+            728.0,
+            305.67
+          ]
+        },
+        {
+          "text": "港庙",
+          "confidence": 0.589299,
+          "quality": 0.719299,
+          "source_stage": "rapidocr_adaptive3x_tile",
+          "bbox_pixel": [
+            681.0,
+            289.33,
+            712.33,
+            305.67
+          ]
+        },
+        {
+          "text": "巷庙",
+          "confidence": 0.569147,
+          "quality": 0.699147,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            682.0,
+            288.0,
+            717.0,
+            307.0
+          ]
+        },
+        {
+          "text": "水庙巷",
+          "confidence": 0.578248,
+          "quality": 0.688248,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            680.67,
+            288.0,
+            728.33,
+            306.33
+          ]
+        },
+        {
+          "text": "港庙",
+          "confidence": 0.544828,
+          "quality": 0.644828,
+          "source_stage": "rapidocr_adaptive3x_full",
+          "bbox_pixel": [
+            680.0,
+            288.67,
+            713.33,
+            306.0
+          ]
+        },
+        {
+          "text": "巷庙",
+          "confidence": 0.539509,
+          "quality": 0.639509,
+          "source_stage": "rapidocr_original_full",
+          "bbox_pixel": [
+            680.0,
+            288.0,
+            722.0,
+            310.0
+          ]
+        }
+      ],
+      "alternative_texts": "巷庙 | 港庙",
+      "alternative_count": 7
+    },
+    {
+      "ocr_id": "1937_rapidocr_0023",
+      "text": "余官巷",
+      "ocr_text_raw_order": "余官巷",
+      "reading_rule": "as_detected",
+      "raw_text": "余官巷",
+      "bbox_pixel": [
+        424.0,
+        293.0,
+        451.0,
+        350.0
+      ],
+      "quad_pixel": [
+        [
+          424.0,
+          295.0
+        ],
+        [
+          446.0,
+          293.0
+        ],
+        [
+          451.0,
+          348.0
+        ],
+        [
+          430.0,
+          350.0
+        ]
+      ],
+      "confidence": 0.680911,
+      "quality": 0.820911,
+      "orientation": "vertical",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_original_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "original",
+      "ocr_pass": "tile",
+      "scale": 1.0,
+      "tile_x": 180.0,
+      "tile_y": 0.0,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "徐官巷",
+          "confidence": 0.609433,
+          "quality": 0.749433,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            426.67,
+            300.33,
+            448.0,
+            347.67
+          ]
+        },
+        {
+          "text": "余官港",
+          "confidence": 0.608486,
+          "quality": 0.748486,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            425.0,
+            294.0,
+            449.0,
+            350.0
+          ]
+        },
+        {
+          "text": "徐官巷",
+          "confidence": 0.572473,
+          "quality": 0.712473,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            427.33,
+            301.0,
+            447.67,
+            347.67
+          ]
+        },
+        {
+          "text": "余官巷",
+          "confidence": 0.597539,
+          "quality": 0.707539,
+          "source_stage": "rapidocr_original_full",
+          "bbox_pixel": [
+            424.0,
+            293.0,
+            450.0,
+            351.0
+          ]
+        },
+        {
+          "text": "余官巷",
+          "confidence": 0.570598,
+          "quality": 0.680598,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            427.67,
+            300.0,
+            446.33,
+            347.0
+          ]
+        }
+      ],
+      "alternative_texts": "徐官巷 | 余官港",
+      "alternative_count": 5
+    },
+    {
+      "ocr_id": "1937_rapidocr_0099",
+      "text": "大束",
+      "ocr_text_raw_order": "大束",
+      "reading_rule": "as_detected",
+      "raw_text": "大束",
+      "bbox_pixel": [
+        683.0,
+        311.0,
+        708.33,
+        364.33
+      ],
+      "quad_pixel": [
+        [
+          683.0,
+          313.67
+        ],
+        [
+          701.67,
+          311.0
+        ],
+        [
+          708.33,
+          362.0
+        ],
+        [
+          689.67,
+          364.33
+        ]
+      ],
+      "confidence": 0.557042,
+      "quality": 0.607042,
+      "orientation": "vertical",
+      "category": "ocr_文字",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 393.33,
+      "tile_y": 0.0,
+      "text_len": 2,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternative_texts": "",
+      "alternative_count": 0
+    },
+    {
+      "ocr_id": "1937_rapidocr_0042",
+      "text": "文龍港",
+      "ocr_text_raw_order": "港龍文",
+      "reading_rule": "reverse_suffix_first",
+      "raw_text": "港龍文",
+      "bbox_pixel": [
+        605.0,
+        312.33,
+        651.0,
+        329.67
+      ],
+      "quad_pixel": [
+        [
+          605.0,
+          313.33
+        ],
+        [
+          650.67,
+          312.33
+        ],
+        [
+          651.0,
+          328.67
+        ],
+        [
+          605.33,
+          329.67
+        ]
+      ],
+      "confidence": 0.637771,
+      "quality": 0.777771,
+      "orientation": "horizontal",
+      "category": "ocr_水系",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 393.33,
+      "tile_y": 0.0,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "文龍港",
+          "confidence": 0.601901,
+          "quality": 0.711901,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            605.33,
+            313.0,
+            652.0,
+            329.33
+          ]
+        },
+        {
+          "text": "文龍巷",
+          "confidence": 0.522286,
+          "quality": 0.662286,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            604.0,
+            310.0,
+            654.0,
+            332.0
+          ]
+        },
+        {
+          "text": "文巷",
+          "confidence": 0.51479,
+          "quality": 0.64479,
+          "source_stage": "rapidocr_adaptive3x_tile",
+          "bbox_pixel": [
+            605.33,
+            312.67,
+            651.0,
+            330.0
+          ]
+        },
+        {
+          "text": "文龍巷",
+          "confidence": 0.504158,
+          "quality": 0.644158,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            605.0,
+            310.0,
+            654.0,
+            332.0
+          ]
+        },
+        {
+          "text": "文龍巷",
+          "confidence": 0.502649,
+          "quality": 0.612649,
+          "source_stage": "rapidocr_original_full",
+          "bbox_pixel": [
+            606.0,
+            311.0,
+            654.0,
+            332.0
+          ]
+        },
+        {
+          "text": "龍文",
+          "confidence": 0.502251,
+          "quality": 0.552251,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            613.33,
+            312.67,
+            651.0,
+            329.0
+          ]
+        }
+      ],
+      "alternative_texts": "文龍巷 | 文巷 | 龍文",
+      "alternative_count": 6
+    },
+    {
+      "ocr_id": "1937_rapidocr_0079",
+      "text": "孤兄院",
+      "ocr_text_raw_order": "孤兄院",
+      "reading_rule": "as_detected",
+      "raw_text": "孤兄院",
+      "bbox_pixel": [
+        212.0,
+        352.0,
+        230.0,
+        394.0
+      ],
+      "quad_pixel": [
+        [
+          212.0,
+          352.0
+        ],
+        [
+          230.0,
+          352.0
+        ],
+        [
+          230.0,
+          394.0
+        ],
+        [
+          212.0,
+          394.0
+        ]
+      ],
+      "confidence": 0.533419,
+      "quality": 0.673419,
+      "orientation": "vertical",
+      "category": "ocr_寺观",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_original_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "original",
+      "ocr_pass": "tile",
+      "scale": 1.0,
+      "tile_x": 0.0,
+      "tile_y": 0.0,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternative_texts": "",
+      "alternative_count": 0
+    },
+    {
+      "ocr_id": "1937_rapidocr_0037",
+      "text": "文星巷",
+      "ocr_text_raw_order": "巷星文",
+      "reading_rule": "reverse_suffix_first",
+      "raw_text": "巷星文",
+      "bbox_pixel": [
+        636.67,
+        357.0,
+        682.67,
+        371.0
+      ],
+      "quad_pixel": [
+        [
+          636.67,
+          357.0
+        ],
+        [
+          682.67,
+          357.0
+        ],
+        [
+          682.67,
+          371.0
+        ],
+        [
+          636.67,
+          371.0
+        ]
+      ],
+      "confidence": 0.64683,
+      "quality": 0.78683,
+      "orientation": "horizontal",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 613.33,
+      "tile_y": 0.0,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "星巷",
+          "confidence": 0.649353,
+          "quality": 0.779353,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            634.0,
+            354.0,
+            667.0,
+            372.0
+          ]
+        },
+        {
+          "text": "文星巷",
+          "confidence": 0.609355,
+          "quality": 0.749355,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            635.67,
+            356.0,
+            681.33,
+            372.0
+          ]
+        },
+        {
+          "text": "星巷",
+          "confidence": 0.599164,
+          "quality": 0.729164,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            634.0,
+            356.0,
+            667.0,
+            371.0
+          ]
+        },
+        {
+          "text": "交星巷",
+          "confidence": 0.612146,
+          "quality": 0.722146,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            634.33,
+            355.33,
+            683.67,
+            372.67
+          ]
+        },
+        {
+          "text": "文星巷",
+          "confidence": 0.585452,
+          "quality": 0.695452,
+          "source_stage": "rapidocr_original_full",
+          "bbox_pixel": [
+            632.0,
+            354.0,
+            685.0,
+            375.0
+          ]
+        }
+      ],
+      "alternative_texts": "星巷 | 交星巷",
+      "alternative_count": 5
+    },
+    {
+      "ocr_id": "1937_rapidocr_0010",
+      "text": "石板巷",
+      "ocr_text_raw_order": "巷板石",
+      "reading_rule": "reverse_suffix_first",
+      "raw_text": "巷板石",
+      "bbox_pixel": [
+        811.0,
+        363.0,
+        850.0,
+        380.0
+      ],
+      "quad_pixel": [
+        [
+          811.0,
+          363.0
+        ],
+        [
+          850.0,
+          363.0
+        ],
+        [
+          850.0,
+          380.0
+        ],
+        [
+          811.0,
+          380.0
+        ]
+      ],
+      "confidence": 0.724272,
+      "quality": 0.864272,
+      "orientation": "horizontal",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_original_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "original",
+      "ocr_pass": "tile",
+      "scale": 1.0,
+      "tile_x": 180.0,
+      "tile_y": 0.0,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "石板巷",
+          "confidence": 0.695824,
+          "quality": 0.835824,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            806.33,
+            363.0,
+            849.0,
+            379.0
+          ]
+        },
+        {
+          "text": "石板巷",
+          "confidence": 0.694248,
+          "quality": 0.834248,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            806.67,
+            363.33,
+            849.0,
+            379.0
+          ]
+        },
+        {
+          "text": "石板巷",
+          "confidence": 0.68189,
+          "quality": 0.79189,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            806.33,
+            362.67,
+            849.67,
+            379.0
+          ]
+        },
+        {
+          "text": "石板港",
+          "confidence": 0.593067,
+          "quality": 0.733067,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            805.0,
+            358.0,
+            852.0,
+            382.0
+          ]
+        },
+        {
+          "text": "板石",
+          "confidence": 0.659328,
+          "quality": 0.679328,
+          "source_stage": "rapidocr_adaptive3x_full",
+          "bbox_pixel": [
+            821.67,
+            363.67,
+            847.67,
+            377.33
+          ]
+        }
+      ],
+      "alternative_texts": "石板港 | 板石",
+      "alternative_count": 5
+    },
+    {
+      "ocr_id": "1937_rapidocr_0092",
+      "text": "林道",
+      "ocr_text_raw_order": "林道",
+      "reading_rule": "as_detected",
+      "raw_text": "林道",
+      "bbox_pixel": [
+        659.33,
+        373.0,
+        709.33,
+        395.33
+      ],
+      "quad_pixel": [
+        [
+          659.33,
+          376.0
+        ],
+        [
+          708.33,
+          373.0
+        ],
+        [
+          709.33,
+          392.33
+        ],
+        [
+          660.33,
+          395.33
+        ]
+      ],
+      "confidence": 0.589318,
+      "quality": 0.639318,
+      "orientation": "horizontal",
+      "category": "ocr_文字",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 613.33,
+      "tile_y": 0.0,
+      "text_len": 2,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternative_texts": "",
+      "alternative_count": 0
+    },
+    {
+      "ocr_id": "1937_rapidocr_0020",
+      "text": "青雲街",
+      "ocr_text_raw_order": "青雲街",
+      "reading_rule": "as_detected",
+      "raw_text": "青雲街",
+      "bbox_pixel": [
+        573.0,
+        373.33,
+        589.67,
+        421.67
+      ],
+      "quad_pixel": [
+        [
+          573.0,
+          374.0
+        ],
+        [
+          587.0,
+          373.33
+        ],
+        [
+          589.67,
+          420.67
+        ],
+        [
+          576.0,
+          421.67
+        ]
+      ],
+      "confidence": 0.686889,
+      "quality": 0.826889,
+      "orientation": "vertical",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 393.33,
+      "tile_y": 0.0,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "青雲街",
+          "confidence": 0.6735,
+          "quality": 0.7835,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            573.0,
+            371.67,
+            590.0,
+            421.67
+          ]
+        },
+        {
+          "text": "青云街",
+          "confidence": 0.614901,
+          "quality": 0.754901,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            569.0,
+            369.0,
+            594.0,
+            424.0
+          ]
+        },
+        {
+          "text": "青雪街",
+          "confidence": 0.589524,
+          "quality": 0.729524,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            570.0,
+            365.0,
+            594.0,
+            424.0
+          ]
+        },
+        {
+          "text": "青营街",
+          "confidence": 0.614224,
+          "quality": 0.724224,
+          "source_stage": "rapidocr_original_full",
+          "bbox_pixel": [
+            570.0,
+            369.0,
+            594.0,
+            425.0
+          ]
+        }
+      ],
+      "alternative_texts": "青云街 | 青雪街 | 青营街",
+      "alternative_count": 4
+    },
+    {
+      "ocr_id": "1937_rapidocr_0061",
+      "text": "照废寺",
+      "ocr_text_raw_order": "寺废照",
+      "reading_rule": "reverse_suffix_first",
+      "raw_text": "寺废照",
+      "bbox_pixel": [
+        75.0,
+        384.67,
+        113.33,
+        399.0
+      ],
+      "quad_pixel": [
+        [
+          75.0,
+          385.33
+        ],
+        [
+          113.0,
+          384.67
+        ],
+        [
+          113.33,
+          398.33
+        ],
+        [
+          75.33,
+          399.0
+        ]
+      ],
+      "confidence": 0.611089,
+      "quality": 0.721089,
+      "orientation": "horizontal",
+      "category": "ocr_寺观",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_full",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "full",
+      "scale": 3.0,
+      "tile_x": 0.0,
+      "tile_y": 0.0,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "照度寺",
+          "confidence": 0.572856,
+          "quality": 0.712856,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            75.0,
+            384.67,
+            113.0,
+            399.0
+          ]
+        }
+      ],
+      "alternative_texts": "照度寺",
+      "alternative_count": 1
+    },
+    {
+      "ocr_id": "1937_rapidocr_0080",
+      "text": "20街",
+      "ocr_text_raw_order": "街02",
+      "reading_rule": "reverse_suffix_first",
+      "raw_text": "街02",
+      "bbox_pixel": [
+        689.0,
+        386.33,
+        730.33,
+        415.33
+      ],
+      "quad_pixel": [
+        [
+          689.0,
+          392.67
+        ],
+        [
+          726.67,
+          386.33
+        ],
+        [
+          730.33,
+          409.0
+        ],
+        [
+          692.67,
+          415.33
+        ]
+      ],
+      "confidence": 0.551195,
+      "quality": 0.671195,
+      "orientation": "horizontal",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_adaptive3x_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "adaptive3x",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 393.33,
+      "tile_y": 0.0,
+      "text_len": 1,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternative_texts": "",
+      "alternative_count": 0
+    },
+    {
+      "ocr_id": "1937_rapidocr_0069",
+      "text": "黄巷",
+      "ocr_text_raw_order": "巷黄",
+      "reading_rule": "reverse_suffix_first",
+      "raw_text": "巷黄",
+      "bbox_pixel": [
+        416.0,
+        388.0,
+        453.0,
+        407.0
+      ],
+      "quad_pixel": [
+        [
+          416.0,
+          388.0
+        ],
+        [
+          453.0,
+          388.0
+        ],
+        [
+          453.0,
+          407.0
+        ],
+        [
+          416.0,
+          407.0
+        ]
+      ],
+      "confidence": 0.569547,
+      "quality": 0.699547,
+      "orientation": "horizontal",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_original_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "original",
+      "ocr_pass": "tile",
+      "scale": 1.0,
+      "tile_x": 0.0,
+      "tile_y": 0.0,
+      "text_len": 2,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "黄巷",
+          "confidence": 0.553642,
+          "quality": 0.653642,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            415.33,
+            387.67,
+            451.33,
+            407.0
+          ]
+        },
+        {
+          "text": "黄巷",
+          "confidence": 0.522587,
+          "quality": 0.652587,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            415.33,
+            387.67,
+            452.33,
+            407.33
+          ]
+        }
+      ],
+      "alternative_texts": "",
+      "alternative_count": 2
+    },
+    {
+      "ocr_id": "1937_rapidocr_0054",
+      "text": "同街六克巷",
+      "ocr_text_raw_order": "同街六克巷",
+      "reading_rule": "as_detected",
+      "raw_text": "同街六克巷",
+      "bbox_pixel": [
+        654.0,
+        390.67,
+        681.33,
+        536.0
+      ],
+      "quad_pixel": [
+        [
+          657.67,
+          390.67
+        ],
+        [
+          681.33,
+          391.33
+        ],
+        [
+          677.33,
+          536.0
+        ],
+        [
+          654.0,
+          535.33
+        ]
+      ],
+      "confidence": 0.613799,
+      "quality": 0.743799,
+      "orientation": "vertical",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_full",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "full",
+      "scale": 3.0,
+      "tile_x": 0.0,
+      "tile_y": 0.0,
+      "text_len": 5,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternative_texts": "",
+      "alternative_count": 0
+    },
+    {
+      "ocr_id": "1937_rapidocr_0029",
+      "text": "楼牌西",
+      "ocr_text_raw_order": "楼牌西",
+      "reading_rule": "as_detected",
+      "raw_text": "楼牌西",
+      "bbox_pixel": [
+        285.0,
+        398.33,
+        330.33,
+        421.33
+      ],
+      "quad_pixel": [
+        [
+          285.0,
+          405.0
+        ],
+        [
+          327.67,
+          398.33
+        ],
+        [
+          330.33,
+          414.33
+        ],
+        [
+          287.33,
+          421.33
+        ]
+      ],
+      "confidence": 0.742256,
+      "quality": 0.802256,
+      "orientation": "horizontal",
+      "category": "ocr_文字",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 0.0,
+      "tile_y": 393.33,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "楼牌西",
+          "confidence": 0.740539,
+          "quality": 0.800539,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            284.67,
+            397.67,
+            330.33,
+            421.67
+          ]
+        },
+        {
+          "text": "楼牌西",
+          "confidence": 0.721881,
+          "quality": 0.751881,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            284.0,
+            397.33,
+            331.33,
+            422.0
+          ]
+        },
+        {
+          "text": "楼牌西",
+          "confidence": 0.697376,
+          "quality": 0.727376,
+          "source_stage": "rapidocr_original_full",
+          "bbox_pixel": [
+            282.0,
+            396.0,
+            334.0,
+            425.0
+          ]
+        },
+        {
+          "text": "楼牌西",
+          "confidence": 0.664614,
+          "quality": 0.724614,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            282.0,
+            396.0,
+            334.0,
+            425.0
+          ]
+        },
+        {
+          "text": "楼牌西",
+          "confidence": 0.606001,
+          "quality": 0.666001,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            282.0,
+            396.0,
+            334.0,
+            425.0
+          ]
+        }
+      ],
+      "alternative_texts": "",
+      "alternative_count": 5
+    },
+    {
+      "ocr_id": "1937_rapidocr_0074",
+      "text": "池塘",
+      "ocr_text_raw_order": "塘池",
+      "reading_rule": "reverse_suffix_first",
+      "raw_text": "塘池",
+      "bbox_pixel": [
+        614.0,
+        410.0,
+        656.33,
+        433.33
+      ],
+      "quad_pixel": [
+        [
+          614.33,
+          410.0
+        ],
+        [
+          656.33,
+          411.0
+        ],
+        [
+          655.67,
+          433.33
+        ],
+        [
+          614.0,
+          432.33
+        ]
+      ],
+      "confidence": 0.551918,
+      "quality": 0.681918,
+      "orientation": "horizontal",
+      "category": "ocr_水系",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 613.33,
+      "tile_y": 393.33,
+      "text_len": 2,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternative_texts": "",
+      "alternative_count": 0
+    },
+    {
+      "ocr_id": "1937_rapidocr_0022",
+      "text": "孩兒巷",
+      "ocr_text_raw_order": "巷兒孩",
+      "reading_rule": "reverse_suffix_first",
+      "raw_text": "巷兒孩",
+      "bbox_pixel": [
+        403.0,
+        417.67,
+        462.33,
+        460.67
+      ],
+      "quad_pixel": [
+        [
+          411.0,
+          417.67
+        ],
+        [
+          462.33,
+          445.67
+        ],
+        [
+          454.33,
+          460.67
+        ],
+        [
+          403.0,
+          432.67
+        ]
+      ],
+      "confidence": 0.68448,
+      "quality": 0.82448,
+      "orientation": "diagonal",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 0.0,
+      "tile_y": 0.0,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "孩兒巷",
+          "confidence": 0.658629,
+          "quality": 0.798629,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            403.0,
+            418.33,
+            467.0,
+            462.67
+          ]
+        },
+        {
+          "text": "孩兒巷",
+          "confidence": 0.649567,
+          "quality": 0.789567,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            402.67,
+            418.33,
+            461.33,
+            460.0
+          ]
+        },
+        {
+          "text": "孩兒巷",
+          "confidence": 0.626678,
+          "quality": 0.766678,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            402.0,
+            418.33,
+            459.67,
+            458.0
+          ]
+        },
+        {
+          "text": "孩兒巷",
+          "confidence": 0.634539,
+          "quality": 0.744539,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            402.0,
+            417.67,
+            463.33,
+            460.67
+          ]
+        },
+        {
+          "text": "孩兒港",
+          "confidence": 0.552517,
+          "quality": 0.692517,
+          "source_stage": "rapidocr_adaptive3x_tile",
+          "bbox_pixel": [
+            402.0,
+            416.67,
+            464.67,
+            461.0
+          ]
+        },
+        {
+          "text": "孩兒港",
+          "confidence": 0.555249,
+          "quality": 0.665249,
+          "source_stage": "rapidocr_adaptive3x_full",
+          "bbox_pixel": [
+            401.67,
+            417.33,
+            461.67,
+            459.33
+          ]
+        }
+      ],
+      "alternative_texts": "孩兒港",
+      "alternative_count": 6
+    },
+    {
+      "ocr_id": "1937_rapidocr_0014",
+      "text": "下刀茅巷",
+      "ocr_text_raw_order": "下刀茅巷",
+      "reading_rule": "as_detected",
+      "raw_text": "下刀茅巷",
+      "bbox_pixel": [
+        931.33,
+        427.33,
+        954.67,
+        499.33
+      ],
+      "quad_pixel": [
+        [
+          936.33,
+          427.33
+        ],
+        [
+          954.67,
+          428.67
+        ],
+        [
+          949.67,
+          499.33
+        ],
+        [
+          931.33,
+          498.0
+        ]
+      ],
+      "confidence": 0.725969,
+      "quality": 0.845969,
+      "orientation": "vertical",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_full",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "full",
+      "scale": 3.0,
+      "tile_x": 0.0,
+      "tile_y": 0.0,
+      "text_len": 4,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "刀茅巷",
+          "confidence": 0.674097,
+          "quality": 0.814097,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            931.67,
+            443.33,
+            952.33,
+            498.67
+          ]
+        },
+        {
+          "text": "下刀巷",
+          "confidence": 0.6475,
+          "quality": 0.7575,
+          "source_stage": "rapidocr_adaptive3x_full",
+          "bbox_pixel": [
+            931.0,
+            428.33,
+            954.67,
+            499.0
+          ]
+        },
+        {
+          "text": "下刀苯巷",
+          "confidence": 0.569177,
+          "quality": 0.719177,
+          "source_stage": "rapidocr_adaptive3x_tile",
+          "bbox_pixel": [
+            930.67,
+            427.67,
+            955.0,
+            499.33
+          ]
+        },
+        {
+          "text": "下刀茅",
+          "confidence": 0.531879,
+          "quality": 0.561879,
+          "source_stage": "rapidocr_original_full",
+          "bbox_pixel": [
+            930.0,
+            426.0,
+            956.0,
+            487.0
+          ]
+        }
+      ],
+      "alternative_texts": "刀茅巷 | 下刀巷 | 下刀苯巷 | 下刀茅",
+      "alternative_count": 4
+    },
+    {
+      "ocr_id": "1937_rapidocr_0018",
+      "text": "柳营巷",
+      "ocr_text_raw_order": "柳营巷",
+      "reading_rule": "as_detected",
+      "raw_text": "柳营巷",
+      "bbox_pixel": [
+        625.33,
+        433.67,
+        645.33,
+        482.33
+      ],
+      "quad_pixel": [
+        [
+          625.33,
+          434.67
+        ],
+        [
+          643.0,
+          433.67
+        ],
+        [
+          645.33,
+          481.33
+        ],
+        [
+          628.0,
+          482.33
+        ]
+      ],
+      "confidence": 0.702128,
+      "quality": 0.842128,
+      "orientation": "vertical",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 393.33,
+      "tile_y": 393.33,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "柳营巷",
+          "confidence": 0.674197,
+          "quality": 0.814197,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            625.33,
+            434.0,
+            644.67,
+            482.0
+          ]
+        },
+        {
+          "text": "柳营巷",
+          "confidence": 0.619167,
+          "quality": 0.759167,
+          "source_stage": "rapidocr_adaptive3x_tile",
+          "bbox_pixel": [
+            628.0,
+            434.67,
+            641.67,
+            481.33
+          ]
+        },
+        {
+          "text": "柳营巷",
+          "confidence": 0.648606,
+          "quality": 0.758606,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            626.0,
+            434.33,
+            645.0,
+            481.67
+          ]
+        },
+        {
+          "text": "柳营巷",
+          "confidence": 0.582108,
+          "quality": 0.722108,
+          "source_stage": "rapidocr_adaptive3x_tile",
+          "bbox_pixel": [
+            627.0,
+            434.33,
+            644.0,
+            482.67
+          ]
+        }
+      ],
+      "alternative_texts": "",
+      "alternative_count": 4
+    },
+    {
+      "ocr_id": "1937_rapidocr_0078",
+      "text": "翼事领本日",
+      "ocr_text_raw_order": "翼事领本日",
+      "reading_rule": "as_detected",
+      "raw_text": "翼事领本日",
+      "bbox_pixel": [
+        44.33,
+        461.67,
+        102.67,
+        478.0
+      ],
+      "quad_pixel": [
+        [
+          44.33,
+          466.0
+        ],
+        [
+          101.67,
+          461.67
+        ],
+        [
+          102.67,
+          474.0
+        ],
+        [
+          45.33,
+          478.0
+        ]
+      ],
+      "confidence": 0.59564,
+      "quality": 0.67564,
+      "orientation": "horizontal",
+      "category": "ocr_文字",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 0.0,
+      "tile_y": 393.33,
+      "text_len": 5,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "雾事领本日",
+          "confidence": 0.584532,
+          "quality": 0.634532,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            44.33,
+            461.67,
+            103.33,
+            478.0
+          ]
+        }
+      ],
+      "alternative_texts": "雾事领本日",
+      "alternative_count": 1
+    },
+    {
+      "ocr_id": "1937_rapidocr_0039",
+      "text": "潮喝寺巷",
+      "ocr_text_raw_order": "巷寺喝潮",
+      "reading_rule": "reverse_suffix_first",
+      "raw_text": "巷寺喝潮",
+      "bbox_pixel": [
+        793.0,
+        462.67,
+        853.67,
+        481.33
+      ],
+      "quad_pixel": [
+        [
+          793.33,
+          462.67
+        ],
+        [
+          853.67,
+          463.67
+        ],
+        [
+          853.33,
+          481.33
+        ],
+        [
+          793.0,
+          480.0
+        ]
+      ],
+      "confidence": 0.664497,
+      "quality": 0.784497,
+      "orientation": "horizontal",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_full",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "full",
+      "scale": 3.0,
+      "tile_x": 0.0,
+      "tile_y": 0.0,
+      "text_len": 4,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "潮喝寺巷",
+          "confidence": 0.578493,
+          "quality": 0.728493,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            793.33,
+            463.0,
+            853.0,
+            481.0
+          ]
+        },
+        {
+          "text": "潮鸣寺巷",
+          "confidence": 0.546446,
+          "quality": 0.696446,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            793.33,
+            463.67,
+            852.67,
+            480.67
+          ]
+        }
+      ],
+      "alternative_texts": "潮鸣寺巷",
+      "alternative_count": 2
+    },
+    {
+      "ocr_id": "1937_rapidocr_0077",
+      "text": "花烟巷",
+      "ocr_text_raw_order": "花烟巷",
+      "reading_rule": "as_detected",
+      "raw_text": "花烟巷",
+      "bbox_pixel": [
+        774.33,
+        477.33,
+        791.67,
+        525.0
+      ],
+      "quad_pixel": [
+        [
+          775.67,
+          477.33
+        ],
+        [
+          791.67,
+          477.67
+        ],
+        [
+          790.33,
+          525.0
+        ],
+        [
+          774.33,
+          524.67
+        ]
+      ],
+      "confidence": 0.535832,
+      "quality": 0.675832,
+      "orientation": "vertical",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 393.33,
+      "tile_y": 393.33,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "花烟巷",
+          "confidence": 0.500682,
+          "quality": 0.640682,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            774.0,
+            477.67,
+            791.33,
+            525.0
+          ]
+        }
+      ],
+      "alternative_texts": "",
+      "alternative_count": 1
+    },
+    {
+      "ocr_id": "1937_rapidocr_0049",
+      "text": "克巷",
+      "ocr_text_raw_order": "克巷",
+      "reading_rule": "as_detected",
+      "raw_text": "克巷",
+      "bbox_pixel": [
+        657.67,
+        485.67,
+        676.0,
+        532.0
+      ],
+      "quad_pixel": [
+        [
+          657.67,
+          486.0
+        ],
+        [
+          675.33,
+          485.67
+        ],
+        [
+          676.0,
+          531.67
+        ],
+        [
+          658.67,
+          532.0
+        ]
+      ],
+      "confidence": 0.632782,
+      "quality": 0.762782,
+      "orientation": "vertical",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 393.33,
+      "tile_y": 393.33,
+      "text_len": 2,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "克巷",
+          "confidence": 0.632611,
+          "quality": 0.762611,
+          "source_stage": "rapidocr_adaptive3x_tile",
+          "bbox_pixel": [
+            657.67,
+            486.67,
+            677.33,
+            533.67
+          ]
+        },
+        {
+          "text": "克巷",
+          "confidence": 0.615714,
+          "quality": 0.745714,
+          "source_stage": "rapidocr_adaptive3x_tile",
+          "bbox_pixel": [
+            656.67,
+            486.33,
+            677.0,
+            534.0
+          ]
+        },
+        {
+          "text": "克巷",
+          "confidence": 0.632332,
+          "quality": 0.732332,
+          "source_stage": "rapidocr_adaptive3x_full",
+          "bbox_pixel": [
+            657.33,
+            487.67,
+            677.33,
+            535.33
+          ]
+        },
+        {
+          "text": "克巷",
+          "confidence": 0.580108,
+          "quality": 0.710108,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            656.33,
+            485.67,
+            676.33,
+            532.67
+          ]
+        }
+      ],
+      "alternative_texts": "",
+      "alternative_count": 4
+    },
+    {
+      "ocr_id": "1937_rapidocr_0066",
+      "text": "楚妃巷",
+      "ocr_text_raw_order": "楚妃巷",
+      "reading_rule": "as_detected",
+      "raw_text": "楚妃巷",
+      "bbox_pixel": [
+        512.67,
+        492.0,
+        530.67,
+        541.33
+      ],
+      "quad_pixel": [
+        [
+          512.67,
+          493.0
+        ],
+        [
+          527.67,
+          492.0
+        ],
+        [
+          530.67,
+          540.67
+        ],
+        [
+          515.67,
+          541.33
+        ]
+      ],
+      "confidence": 0.597986,
+      "quality": 0.707986,
+      "orientation": "vertical",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_full",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "full",
+      "scale": 3.0,
+      "tile_x": 0.0,
+      "tile_y": 0.0,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "楚妮巷",
+          "confidence": 0.535583,
+          "quality": 0.675583,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            510.0,
+            488.0,
+            534.0,
+            545.0
+          ]
+        },
+        {
+          "text": "楚巷",
+          "confidence": 0.524905,
+          "quality": 0.654905,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            512.0,
+            491.0,
+            530.67,
+            541.33
+          ]
+        },
+        {
+          "text": "楚旭巷",
+          "confidence": 0.506659,
+          "quality": 0.616659,
+          "source_stage": "rapidocr_original_full",
+          "bbox_pixel": [
+            510.0,
+            489.0,
+            535.0,
+            545.0
+          ]
+        }
+      ],
+      "alternative_texts": "楚妮巷 | 楚巷 | 楚旭巷",
+      "alternative_count": 3
+    },
+    {
+      "ocr_id": "1937_rapidocr_0076",
+      "text": "忠清巷燕",
+      "ocr_text_raw_order": "忠清巷燕",
+      "reading_rule": "as_detected",
+      "raw_text": "忠清巷燕",
+      "bbox_pixel": [
+        681.67,
+        494.0,
+        701.67,
+        584.0
+      ],
+      "quad_pixel": [
+        [
+          681.67,
+          494.33
+        ],
+        [
+          699.67,
+          494.0
+        ],
+        [
+          701.67,
+          583.67
+        ],
+        [
+          683.33,
+          584.0
+        ]
+      ],
+      "confidence": 0.558599,
+      "quality": 0.678599,
+      "orientation": "vertical",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_full",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "full",
+      "scale": 3.0,
+      "tile_x": 0.0,
+      "tile_y": 0.0,
+      "text_len": 4,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternative_texts": "",
+      "alternative_count": 0
+    },
+    {
+      "ocr_id": "1937_rapidocr_0035",
+      "text": "法院",
+      "ocr_text_raw_order": "院法",
+      "reading_rule": "reverse_suffix_first",
+      "raw_text": "院法",
+      "bbox_pixel": [
+        320.67,
+        502.0,
+        344.0,
+        518.0
+      ],
+      "quad_pixel": [
+        [
+          321.67,
+          502.0
+        ],
+        [
+          344.0,
+          504.0
+        ],
+        [
+          342.67,
+          518.0
+        ],
+        [
+          320.67,
+          516.0
+        ]
+      ],
+      "confidence": 0.660201,
+      "quality": 0.790201,
+      "orientation": "horizontal",
+      "category": "ocr_寺观",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_adaptive3x_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "adaptive3x",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 0.0,
+      "tile_y": 393.33,
+      "text_len": 2,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "法院",
+          "confidence": 0.655247,
+          "quality": 0.785247,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            320.0,
+            502.33,
+            344.33,
+            517.33
+          ]
+        },
+        {
+          "text": "法院",
+          "confidence": 0.662312,
+          "quality": 0.762312,
+          "source_stage": "rapidocr_adaptive3x_full",
+          "bbox_pixel": [
+            320.0,
+            502.33,
+            344.0,
+            517.33
+          ]
+        },
+        {
+          "text": "法院",
+          "confidence": 0.658955,
+          "quality": 0.758955,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            320.33,
+            503.0,
+            344.33,
+            517.0
+          ]
+        }
+      ],
+      "alternative_texts": "",
+      "alternative_count": 3
+    },
+    {
+      "ocr_id": "1937_rapidocr_0091",
+      "text": "上清营花",
+      "ocr_text_raw_order": "上清营花",
+      "reading_rule": "as_detected",
+      "raw_text": "上清营花",
+      "bbox_pixel": [
+        1033.67,
+        516.67,
+        1050.67,
+        568.0
+      ],
+      "quad_pixel": [
+        [
+          1033.67,
+          517.33
+        ],
+        [
+          1048.67,
+          516.67
+        ],
+        [
+          1050.67,
+          567.33
+        ],
+        [
+          1035.67,
+          568.0
+        ]
+      ],
+      "confidence": 0.522552,
+      "quality": 0.642552,
+      "orientation": "vertical",
+      "category": "ocr_城防官署",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_full",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "full",
+      "scale": 3.0,
+      "tile_x": 0.0,
+      "tile_y": 0.0,
+      "text_len": 4,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternative_texts": "",
+      "alternative_count": 0
+    },
+    {
+      "ocr_id": "1937_rapidocr_0097",
+      "text": "梅限公限",
+      "ocr_text_raw_order": "梅限公限",
+      "reading_rule": "as_detected",
+      "raw_text": "梅限公限",
+      "bbox_pixel": [
+        59.33,
+        520.33,
+        76.0,
+        568.33
+      ],
+      "quad_pixel": [
+        [
+          59.33,
+          521.0
+        ],
+        [
+          74.33,
+          520.33
+        ],
+        [
+          76.0,
+          568.0
+        ],
+        [
+          61.0,
+          568.33
+        ]
+      ],
+      "confidence": 0.575802,
+      "quality": 0.615802,
+      "orientation": "vertical",
+      "category": "ocr_文字",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_full",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "full",
+      "scale": 3.0,
+      "tile_x": 0.0,
+      "tile_y": 0.0,
+      "text_len": 4,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "梅限公限",
+          "confidence": 0.501535,
+          "quality": 0.571535,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            60.33,
+            520.33,
+            75.33,
+            567.67
+          ]
+        }
+      ],
+      "alternative_texts": "",
+      "alternative_count": 1
+    },
+    {
+      "ocr_id": "1937_rapidocr_0086",
+      "text": "度春门",
+      "ocr_text_raw_order": "门春度",
+      "reading_rule": "reverse_suffix_first",
+      "raw_text": "门春度",
+      "bbox_pixel": [
+        965.0,
+        536.0,
+        1006.0,
+        558.0
+      ],
+      "quad_pixel": [
+        [
+          965.0,
+          540.0
+        ],
+        [
+          1004.0,
+          536.0
+        ],
+        [
+          1006.0,
+          554.0
+        ],
+        [
+          967.0,
+          558.0
+        ]
+      ],
+      "confidence": 0.547931,
+      "quality": 0.657931,
+      "orientation": "horizontal",
+      "category": "ocr_城防官署",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_original_full",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "original",
+      "ocr_pass": "full",
+      "scale": 1.0,
+      "tile_x": 0.0,
+      "tile_y": 0.0,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternative_texts": "",
+      "alternative_count": 0
+    },
+    {
+      "ocr_id": "1937_rapidocr_0016",
+      "text": "延定港",
+      "ocr_text_raw_order": "延定港",
+      "reading_rule": "as_detected",
+      "raw_text": "延定港",
+      "bbox_pixel": [
+        516.0,
+        555.0,
+        541.0,
+        608.0
+      ],
+      "quad_pixel": [
+        [
+          516.0,
+          557.0
+        ],
+        [
+          537.0,
+          555.0
+        ],
+        [
+          541.0,
+          607.0
+        ],
+        [
+          520.0,
+          608.0
+        ]
+      ],
+      "confidence": 0.704416,
+      "quality": 0.844416,
+      "orientation": "vertical",
+      "category": "ocr_水系",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_original_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "original",
+      "ocr_pass": "tile",
+      "scale": 1.0,
+      "tile_x": 0.0,
+      "tile_y": 0.0,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "延定港",
+          "confidence": 0.688877,
+          "quality": 0.828877,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            516.0,
+            556.0,
+            541.0,
+            609.0
+          ]
+        },
+        {
+          "text": "延定港",
+          "confidence": 0.655171,
+          "quality": 0.795171,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            517.33,
+            558.0,
+            538.0,
+            606.67
+          ]
+        },
+        {
+          "text": "延定巷",
+          "confidence": 0.614065,
+          "quality": 0.754065,
+          "source_stage": "rapidocr_adaptive3x_tile",
+          "bbox_pixel": [
+            518.33,
+            559.0,
+            538.33,
+            611.0
+          ]
+        },
+        {
+          "text": "延定港",
+          "confidence": 0.633696,
+          "quality": 0.743696,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            517.33,
+            557.67,
+            538.67,
+            606.33
+          ]
+        },
+        {
+          "text": "延定港",
+          "confidence": 0.570299,
+          "quality": 0.680299,
+          "source_stage": "rapidocr_adaptive3x_full",
+          "bbox_pixel": [
+            516.67,
+            557.67,
+            540.0,
+            610.0
+          ]
+        },
+        {
+          "text": "延定巷",
+          "confidence": 0.539104,
+          "quality": 0.649104,
+          "source_stage": "rapidocr_original_full",
+          "bbox_pixel": [
+            513.0,
+            553.0,
+            544.0,
+            612.0
+          ]
+        }
+      ],
+      "alternative_texts": "延定巷",
+      "alternative_count": 6
+    },
+    {
+      "ocr_id": "1937_rapidocr_0098",
+      "text": "政财",
+      "ocr_text_raw_order": "政财",
+      "reading_rule": "as_detected",
+      "raw_text": "政财",
+      "bbox_pixel": [
+        863.67,
+        573.67,
+        897.0,
+        587.67
+      ],
+      "quad_pixel": [
+        [
+          864.0,
+          573.67
+        ],
+        [
+          897.0,
+          575.0
+        ],
+        [
+          896.67,
+          587.67
+        ],
+        [
+          863.67,
+          586.33
+        ]
+      ],
+      "confidence": 0.594229,
+      "quality": 0.614229,
+      "orientation": "horizontal",
+      "category": "ocr_文字",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_adaptive3x_full",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "adaptive3x",
+      "ocr_pass": "full",
+      "scale": 3.0,
+      "tile_x": 0.0,
+      "tile_y": 0.0,
+      "text_len": 2,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "航政财",
+          "confidence": 0.533647,
+          "quality": 0.563647,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            863.0,
+            572.67,
+            898.0,
+            588.67
+          ]
+        }
+      ],
+      "alternative_texts": "航政财",
+      "alternative_count": 1
+    },
+    {
+      "ocr_id": "1937_rapidocr_0050",
+      "text": "紫金冠巷",
+      "ocr_text_raw_order": "紫金冠巷",
+      "reading_rule": "as_detected",
+      "raw_text": "紫金冠巷",
+      "bbox_pixel": [
+        621.0,
+        611.0,
+        646.0,
+        673.0
+      ],
+      "quad_pixel": [
+        [
+          621.0,
+          613.0
+        ],
+        [
+          642.0,
+          611.0
+        ],
+        [
+          646.0,
+          672.0
+        ],
+        [
+          625.0,
+          673.0
+        ]
+      ],
+      "confidence": 0.610602,
+      "quality": 0.760602,
+      "orientation": "vertical",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_original_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "original",
+      "ocr_pass": "tile",
+      "scale": 1.0,
+      "tile_x": 0.0,
+      "tile_y": 0.0,
+      "text_len": 4,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "佛金冠巷",
+          "confidence": 0.59674,
+          "quality": 0.74674,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            620.0,
+            609.0,
+            647.0,
+            674.0
+          ]
+        },
+        {
+          "text": "冰金冠港",
+          "confidence": 0.585617,
+          "quality": 0.735617,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            621.33,
+            611.0,
+            645.0,
+            675.67
+          ]
+        },
+        {
+          "text": "徐金冠巷",
+          "confidence": 0.573848,
+          "quality": 0.723848,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            620.0,
+            610.0,
+            647.0,
+            672.0
+          ]
+        },
+        {
+          "text": "金冠",
+          "confidence": 0.660203,
+          "quality": 0.710203,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            624.0,
+            623.0,
+            645.0,
+            658.0
+          ]
+        },
+        {
+          "text": "徐金冠港",
+          "confidence": 0.583891,
+          "quality": 0.703891,
+          "source_stage": "rapidocr_original_full",
+          "bbox_pixel": [
+            620.0,
+            609.0,
+            649.0,
+            678.0
+          ]
+        },
+        {
+          "text": "朱金冠港",
+          "confidence": 0.541894,
+          "quality": 0.691894,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            623.67,
+            612.33,
+            643.33,
+            672.67
+          ]
+        },
+        {
+          "text": "东金冠巷",
+          "confidence": 0.534017,
+          "quality": 0.654017,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            621.33,
+            611.67,
+            644.67,
+            673.33
+          ]
+        }
+      ],
+      "alternative_texts": "佛金冠巷 | 冰金冠港 | 徐金冠巷 | 金冠 | 徐金冠港 | 朱金冠港 | 东金冠巷",
+      "alternative_count": 7
+    },
+    {
+      "ocr_id": "1937_rapidocr_0075",
+      "text": "颂码四第",
+      "ocr_text_raw_order": "颂码四第",
+      "reading_rule": "as_detected",
+      "raw_text": "颂码四第",
+      "bbox_pixel": [
+        215.33,
+        635.67,
+        260.67,
+        649.33
+      ],
+      "quad_pixel": [
+        [
+          215.33,
+          636.67
+        ],
+        [
+          260.33,
+          635.67
+        ],
+        [
+          260.67,
+          648.0
+        ],
+        [
+          215.67,
+          649.33
+        ]
+      ],
+      "confidence": 0.609709,
+      "quality": 0.679709,
+      "orientation": "horizontal",
+      "category": "ocr_文字",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 0.0,
+      "tile_y": 393.33,
+      "text_len": 4,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "顺码四第",
+          "confidence": 0.582344,
+          "quality": 0.622344,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            215.0,
+            635.67,
+            260.0,
+            649.0
+          ]
+        },
+        {
+          "text": "溪四第",
+          "confidence": 0.51794,
+          "quality": 0.57794,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            213.0,
+            633.0,
+            264.0,
+            652.0
+          ]
+        }
+      ],
+      "alternative_texts": "顺码四第 | 溪四第",
+      "alternative_count": 2
+    },
+    {
+      "ocr_id": "1937_rapidocr_0070",
+      "text": "頭磊三第",
+      "ocr_text_raw_order": "頭磊三第",
+      "reading_rule": "as_detected",
+      "raw_text": "頭磊三第",
+      "bbox_pixel": [
+        233.0,
+        671.0,
+        283.0,
+        688.0
+      ],
+      "quad_pixel": [
+        [
+          233.0,
+          671.0
+        ],
+        [
+          283.0,
+          671.0
+        ],
+        [
+          283.0,
+          688.0
+        ],
+        [
+          233.0,
+          688.0
+        ]
+      ],
+      "confidence": 0.65792,
+      "quality": 0.69792,
+      "orientation": "horizontal",
+      "category": "ocr_文字",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_original_full",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "original",
+      "ocr_pass": "full",
+      "scale": 1.0,
+      "tile_x": 0.0,
+      "tile_y": 0.0,
+      "text_len": 4,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "頭磊三第",
+          "confidence": 0.624966,
+          "quality": 0.694966,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            233.0,
+            671.0,
+            281.0,
+            688.0
+          ]
+        },
+        {
+          "text": "頭础三第",
+          "confidence": 0.609919,
+          "quality": 0.679919,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            233.0,
+            669.0,
+            283.0,
+            690.0
+          ]
+        },
+        {
+          "text": "頭碍三第",
+          "confidence": 0.597569,
+          "quality": 0.667569,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            233.0,
+            669.0,
+            282.0,
+            689.0
+          ]
+        },
+        {
+          "text": "頭研二第",
+          "confidence": 0.59234,
+          "quality": 0.66234,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            234.67,
+            672.33,
+            279.67,
+            686.33
+          ]
+        },
+        {
+          "text": "頭研二第",
+          "confidence": 0.607542,
+          "quality": 0.647542,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            234.33,
+            672.0,
+            279.67,
+            686.33
+          ]
+        },
+        {
+          "text": "頭磊三第",
+          "confidence": 0.563476,
+          "quality": 0.633476,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            233.0,
+            670.0,
+            282.0,
+            689.0
+          ]
+        },
+        {
+          "text": "頭在三",
+          "confidence": 0.530233,
+          "quality": 0.560233,
+          "source_stage": "rapidocr_adaptive3x_full",
+          "bbox_pixel": [
+            235.0,
+            673.67,
+            269.33,
+            686.0
+          ]
+        }
+      ],
+      "alternative_texts": "頭础三第 | 頭碍三第 | 頭研二第 | 頭在三",
+      "alternative_count": 7
+    },
+    {
+      "ocr_id": "1937_rapidocr_0024",
+      "text": "大塔兑巷",
+      "ocr_text_raw_order": "巷兑塔大",
+      "reading_rule": "reverse_suffix_first",
+      "raw_text": "巷兑塔大",
+      "bbox_pixel": [
+        595.0,
+        698.0,
+        653.0,
+        721.0
+      ],
+      "quad_pixel": [
+        [
+          595.0,
+          698.0
+        ],
+        [
+          653.0,
+          700.0
+        ],
+        [
+          652.0,
+          721.0
+        ],
+        [
+          595.0,
+          719.0
+        ]
+      ],
+      "confidence": 0.661856,
+      "quality": 0.811856,
+      "orientation": "horizontal",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_original_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "original",
+      "ocr_pass": "tile",
+      "scale": 1.0,
+      "tile_x": 180.0,
+      "tile_y": 0.0,
+      "text_len": 4,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "大塔兑巷",
+          "confidence": 0.640488,
+          "quality": 0.790488,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            594.0,
+            698.0,
+            653.0,
+            723.0
+          ]
+        },
+        {
+          "text": "华巷克塔大",
+          "confidence": 0.620123,
+          "quality": 0.780123,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            579.67,
+            701.33,
+            651.0,
+            719.67
+          ]
+        },
+        {
+          "text": "大塔兑巷",
+          "confidence": 0.640558,
+          "quality": 0.760558,
+          "source_stage": "rapidocr_original_full",
+          "bbox_pixel": [
+            597.0,
+            701.0,
+            652.0,
+            722.0
+          ]
+        },
+        {
+          "text": "华巷克塔大",
+          "confidence": 0.615491,
+          "quality": 0.745491,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            579.67,
+            702.0,
+            652.0,
+            719.67
+          ]
+        },
+        {
+          "text": "华巷兄塔大",
+          "confidence": 0.536759,
+          "quality": 0.696759,
+          "source_stage": "rapidocr_adaptive3x_tile",
+          "bbox_pixel": [
+            579.33,
+            700.67,
+            651.33,
+            720.0
+          ]
+        },
+        {
+          "text": "华巷兄塔大",
+          "confidence": 0.561986,
+          "quality": 0.691986,
+          "source_stage": "rapidocr_adaptive3x_full",
+          "bbox_pixel": [
+            580.0,
+            701.33,
+            654.33,
+            719.67
+          ]
+        },
+        {
+          "text": "兄塔大",
+          "confidence": 0.594028,
+          "quality": 0.654028,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            613.67,
+            701.33,
+            652.0,
+            720.33
+          ]
+        },
+        {
+          "text": "兄塔",
+          "confidence": 0.593777,
+          "quality": 0.643777,
+          "source_stage": "rapidocr_adaptive3x_tile",
+          "bbox_pixel": [
+            613.33,
+            700.33,
+            652.0,
+            721.0
+          ]
+        }
+      ],
+      "alternative_texts": "华巷克塔大 | 华巷兄塔大 | 兄塔大 | 兄塔",
+      "alternative_count": 8
+    },
+    {
+      "ocr_id": "1937_rapidocr_0071",
+      "text": "頭码第",
+      "ocr_text_raw_order": "頭码第",
+      "reading_rule": "as_detected",
+      "raw_text": "頭码第",
+      "bbox_pixel": [
+        251.0,
+        708.0,
+        301.0,
+        725.0
+      ],
+      "quad_pixel": [
+        [
+          251.0,
+          708.0
+        ],
+        [
+          301.0,
+          708.0
+        ],
+        [
+          301.0,
+          725.0
+        ],
+        [
+          251.0,
+          725.0
+        ]
+      ],
+      "confidence": 0.632165,
+      "quality": 0.692165,
+      "orientation": "horizontal",
+      "category": "ocr_文字",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_original_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "original",
+      "ocr_pass": "tile",
+      "scale": 1.0,
+      "tile_x": 0.0,
+      "tile_y": 585.0,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "頭码第",
+          "confidence": 0.659267,
+          "quality": 0.689267,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            252.0,
+            708.0,
+            299.33,
+            722.67
+          ]
+        },
+        {
+          "text": "頭码第",
+          "confidence": 0.610908,
+          "quality": 0.670908,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            250.0,
+            708.0,
+            302.0,
+            725.0
+          ]
+        }
+      ],
+      "alternative_texts": "",
+      "alternative_count": 2
+    },
+    {
+      "ocr_id": "1937_rapidocr_0008",
+      "text": "南板巷",
+      "ocr_text_raw_order": "巷板南",
+      "reading_rule": "reverse_suffix_first",
+      "raw_text": "巷板南",
+      "bbox_pixel": [
+        680.67,
+        781.0,
+        733.33,
+        809.33
+      ],
+      "quad_pixel": [
+        [
+          684.67,
+          781.0
+        ],
+        [
+          733.33,
+          793.33
+        ],
+        [
+          729.0,
+          809.33
+        ],
+        [
+          680.67,
+          797.33
+        ]
+      ],
+      "confidence": 0.741819,
+      "quality": 0.881819,
+      "orientation": "horizontal",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 613.33,
+      "tile_y": 393.33,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "南板巷",
+          "confidence": 0.717342,
+          "quality": 0.857342,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            672.67,
+            786.67,
+            734.0,
+            810.67
+          ]
+        },
+        {
+          "text": "南板巷",
+          "confidence": 0.744392,
+          "quality": 0.854392,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            680.0,
+            780.67,
+            734.33,
+            810.67
+          ]
+        },
+        {
+          "text": "南板巷",
+          "confidence": 0.710899,
+          "quality": 0.850899,
+          "source_stage": "rapidocr_adaptive3x_tile",
+          "bbox_pixel": [
+            678.33,
+            780.67,
+            733.67,
+            808.67
+          ]
+        },
+        {
+          "text": "南板巷",
+          "confidence": 0.709602,
+          "quality": 0.849602,
+          "source_stage": "rapidocr_adaptive3x_tile",
+          "bbox_pixel": [
+            679.0,
+            781.0,
+            733.67,
+            809.0
+          ]
+        },
+        {
+          "text": "南板巷",
+          "confidence": 0.723789,
+          "quality": 0.833789,
+          "source_stage": "rapidocr_adaptive3x_full",
+          "bbox_pixel": [
+            674.67,
+            779.67,
+            732.67,
+            809.33
+          ]
+        },
+        {
+          "text": "南板巷",
+          "confidence": 0.64235,
+          "quality": 0.78235,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            680.33,
+            781.33,
+            733.33,
+            809.67
+          ]
+        },
+        {
+          "text": "板巷",
+          "confidence": 0.65143,
+          "quality": 0.78143,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            679.0,
+            780.0,
+            717.0,
+            806.0
+          ]
+        },
+        {
+          "text": "黄板南",
+          "confidence": 0.526948,
+          "quality": 0.586948,
+          "source_stage": "rapidocr_adaptive3x_tile",
+          "bbox_pixel": [
+            688.67,
+            787.0,
+            729.67,
+            807.0
+          ]
+        }
+      ],
+      "alternative_texts": "板巷 | 黄板南",
+      "alternative_count": 8
+    },
+    {
+      "ocr_id": "1937_rapidocr_0046",
+      "text": "束平巷",
+      "ocr_text_raw_order": "巷平束",
+      "reading_rule": "reverse_suffix_first",
+      "raw_text": "巷平束",
+      "bbox_pixel": [
+        474.0,
+        790.0,
+        515.0,
+        804.0
+      ],
+      "quad_pixel": [
+        [
+          474.0,
+          790.0
+        ],
+        [
+          515.0,
+          790.0
+        ],
+        [
+          515.0,
+          804.0
+        ],
+        [
+          474.0,
+          804.0
+        ]
+      ],
+      "confidence": 0.632485,
+      "quality": 0.772485,
+      "orientation": "horizontal",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_original_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "original",
+      "ocr_pass": "tile",
+      "scale": 1.0,
+      "tile_x": 180.0,
+      "tile_y": 0.0,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "束平巷",
+          "confidence": 0.603644,
+          "quality": 0.713644,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            471.67,
+            788.67,
+            517.0,
+            806.0
+          ]
+        },
+        {
+          "text": "束平巷",
+          "confidence": 0.562649,
+          "quality": 0.702649,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            472.0,
+            789.0,
+            516.0,
+            806.0
+          ]
+        },
+        {
+          "text": "束平巷",
+          "confidence": 0.540547,
+          "quality": 0.680547,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            472.33,
+            789.0,
+            516.67,
+            805.33
+          ]
+        }
+      ],
+      "alternative_texts": "",
+      "alternative_count": 3
+    },
+    {
+      "ocr_id": "1937_rapidocr_0030",
+      "text": "石牌楼行",
+      "ocr_text_raw_order": "石牌楼行",
+      "reading_rule": "as_detected",
+      "raw_text": "石牌楼行",
+      "bbox_pixel": [
+        774.67,
+        797.0,
+        801.67,
+        872.0
+      ],
+      "quad_pixel": [
+        [
+          777.33,
+          797.0
+        ],
+        [
+          801.67,
+          798.0
+        ],
+        [
+          798.67,
+          872.0
+        ],
+        [
+          774.67,
+          871.0
+        ]
+      ],
+      "confidence": 0.729148,
+      "quality": 0.799148,
+      "orientation": "vertical",
+      "category": "ocr_文字",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 393.33,
+      "tile_y": 786.67,
+      "text_len": 4,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "石牌楼",
+          "confidence": 0.724055,
+          "quality": 0.784055,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            776.0,
+            797.33,
+            802.0,
+            853.0
+          ]
+        },
+        {
+          "text": "石牌楼行",
+          "confidence": 0.695972,
+          "quality": 0.765972,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            775.33,
+            797.0,
+            801.0,
+            871.0
+          ]
+        },
+        {
+          "text": "石牌楼",
+          "confidence": 0.680034,
+          "quality": 0.740034,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            775.67,
+            797.33,
+            802.33,
+            852.33
+          ]
+        },
+        {
+          "text": "石牌檬行",
+          "confidence": 0.534607,
+          "quality": 0.574607,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            774.0,
+            795.67,
+            802.0,
+            872.0
+          ]
+        }
+      ],
+      "alternative_texts": "石牌楼 | 石牌檬行",
+      "alternative_count": 4
+    },
+    {
+      "ocr_id": "1937_rapidocr_0089",
+      "text": "長明寿港",
+      "ocr_text_raw_order": "長明寿港",
+      "reading_rule": "as_detected",
+      "raw_text": "長明寿港",
+      "bbox_pixel": [
+        841.33,
+        804.0,
+        863.33,
+        859.0
+      ],
+      "quad_pixel": [
+        [
+          845.0,
+          804.0
+        ],
+        [
+          863.33,
+          805.33
+        ],
+        [
+          859.67,
+          859.0
+        ],
+        [
+          841.33,
+          857.67
+        ]
+      ],
+      "confidence": 0.50073,
+      "quality": 0.65073,
+      "orientation": "vertical",
+      "category": "ocr_水系",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 613.33,
+      "tile_y": 786.67,
+      "text_len": 4,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternative_texts": "",
+      "alternative_count": 0
+    },
+    {
+      "ocr_id": "1937_rapidocr_0063",
+      "text": "三禾港",
+      "ocr_text_raw_order": "三禾港",
+      "reading_rule": "as_detected",
+      "raw_text": "三禾港",
+      "bbox_pixel": [
+        680.33,
+        810.67,
+        693.67,
+        846.67
+      ],
+      "quad_pixel": [
+        [
+          680.33,
+          810.67
+        ],
+        [
+          692.67,
+          810.67
+        ],
+        [
+          693.67,
+          846.33
+        ],
+        [
+          681.0,
+          846.67
+        ]
+      ],
+      "confidence": 0.579916,
+      "quality": 0.719916,
+      "orientation": "vertical",
+      "category": "ocr_水系",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_adaptive3x_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "adaptive3x",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 613.33,
+      "tile_y": 393.33,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "禾港",
+          "confidence": 0.506779,
+          "quality": 0.636779,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            678.33,
+            804.0,
+            698.33,
+            857.33
+          ]
+        }
+      ],
+      "alternative_texts": "禾港",
+      "alternative_count": 1
+    },
+    {
+      "ocr_id": "1937_rapidocr_0027",
+      "text": "中孝巷",
+      "ocr_text_raw_order": "中孝巷",
+      "reading_rule": "as_detected",
+      "raw_text": "中孝巷",
+      "bbox_pixel": [
+        611.0,
+        812.0,
+        629.0,
+        860.0
+      ],
+      "quad_pixel": [
+        [
+          611.0,
+          812.0
+        ],
+        [
+          629.0,
+          812.0
+        ],
+        [
+          629.0,
+          860.0
+        ],
+        [
+          611.0,
+          860.0
+        ]
+      ],
+      "confidence": 0.666774,
+      "quality": 0.806774,
+      "orientation": "vertical",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_original_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "original",
+      "ocr_pass": "tile",
+      "scale": 1.0,
+      "tile_x": 180.0,
+      "tile_y": 0.0,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "中孝巷",
+          "confidence": 0.522458,
+          "quality": 0.662458,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            610.67,
+            812.67,
+            628.67,
+            859.33
+          ]
+        }
+      ],
+      "alternative_texts": "",
+      "alternative_count": 1
+    },
+    {
+      "ocr_id": "1937_rapidocr_0053",
+      "text": "黑拔港",
+      "ocr_text_raw_order": "黑拔港",
+      "reading_rule": "as_detected",
+      "raw_text": "黑拔港",
+      "bbox_pixel": [
+        878.67,
+        812.33,
+        901.67,
+        870.0
+      ],
+      "quad_pixel": [
+        [
+          883.0,
+          812.33
+        ],
+        [
+          901.67,
+          813.67
+        ],
+        [
+          897.33,
+          870.0
+        ],
+        [
+          878.67,
+          868.67
+        ]
+      ],
+      "confidence": 0.637012,
+      "quality": 0.747012,
+      "orientation": "vertical",
+      "category": "ocr_水系",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_full",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "full",
+      "scale": 3.0,
+      "tile_x": 0.0,
+      "tile_y": 0.0,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "黑拔港",
+          "confidence": 0.602504,
+          "quality": 0.742504,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            879.0,
+            812.67,
+            902.67,
+            869.67
+          ]
+        }
+      ],
+      "alternative_texts": "",
+      "alternative_count": 1
+    },
+    {
+      "ocr_id": "1937_rapidocr_0028",
+      "text": "高香巷",
+      "ocr_text_raw_order": "高香巷",
+      "reading_rule": "as_detected",
+      "raw_text": "高香巷",
+      "bbox_pixel": [
+        634.33,
+        816.0,
+        651.67,
+        861.0
+      ],
+      "quad_pixel": [
+        [
+          634.33,
+          816.67
+        ],
+        [
+          649.67,
+          816.0
+        ],
+        [
+          651.67,
+          860.33
+        ],
+        [
+          636.33,
+          861.0
+        ]
+      ],
+      "confidence": 0.663894,
+      "quality": 0.803894,
+      "orientation": "vertical",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 393.33,
+      "tile_y": 786.67,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "高香巷",
+          "confidence": 0.640845,
+          "quality": 0.780845,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            635.0,
+            815.67,
+            651.67,
+            859.67
+          ]
+        },
+        {
+          "text": "高香巷",
+          "confidence": 0.628918,
+          "quality": 0.768918,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            635.0,
+            815.33,
+            652.0,
+            859.67
+          ]
+        },
+        {
+          "text": "高香巷",
+          "confidence": 0.626892,
+          "quality": 0.736892,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            634.0,
+            815.67,
+            652.0,
+            861.33
+          ]
+        },
+        {
+          "text": "香巷",
+          "confidence": 0.581506,
+          "quality": 0.711506,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            637.0,
+            830.0,
+            652.0,
+            857.0
+          ]
+        },
+        {
+          "text": "香巷",
+          "confidence": 0.575447,
+          "quality": 0.705447,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            637.0,
+            830.0,
+            652.0,
+            860.0
+          ]
+        },
+        {
+          "text": "高香巷",
+          "confidence": 0.542668,
+          "quality": 0.682668,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            636.0,
+            817.33,
+            650.67,
+            861.33
+          ]
+        },
+        {
+          "text": "高香巷",
+          "confidence": 0.513073,
+          "quality": 0.653073,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            634.0,
+            813.0,
+            654.0,
+            863.0
+          ]
+        },
+        {
+          "text": "高香巷",
+          "confidence": 0.512956,
+          "quality": 0.652956,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            634.0,
+            814.0,
+            655.0,
+            863.0
+          ]
+        }
+      ],
+      "alternative_texts": "香巷",
+      "alternative_count": 8
+    },
+    {
+      "ocr_id": "1937_rapidocr_0083",
+      "text": "棋焦",
+      "ocr_text_raw_order": "棋焦",
+      "reading_rule": "as_detected",
+      "raw_text": "棋焦",
+      "bbox_pixel": [
+        718.67,
+        855.67,
+        760.67,
+        871.33
+      ],
+      "quad_pixel": [
+        [
+          718.67,
+          856.33
+        ],
+        [
+          760.33,
+          855.67
+        ],
+        [
+          760.67,
+          870.67
+        ],
+        [
+          719.0,
+          871.33
+        ]
+      ],
+      "confidence": 0.64698,
+      "quality": 0.66698,
+      "orientation": "horizontal",
+      "category": "ocr_文字",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_full",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "full",
+      "scale": 3.0,
+      "tile_x": 0.0,
+      "tile_y": 0.0,
+      "text_len": 2,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "棋焦",
+          "confidence": 0.616058,
+          "quality": 0.666058,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            719.33,
+            855.33,
+            766.67,
+            871.67
+          ]
+        },
+        {
+          "text": "棋焦",
+          "confidence": 0.515715,
+          "quality": 0.565715,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            718.67,
+            854.0,
+            772.0,
+            872.33
+          ]
+        }
+      ],
+      "alternative_texts": "",
+      "alternative_count": 2
+    },
+    {
+      "ocr_id": "1937_rapidocr_0105",
+      "text": "新开",
+      "ocr_text_raw_order": "新开",
+      "reading_rule": "as_detected",
+      "raw_text": "新开",
+      "bbox_pixel": [
+        817.33,
+        877.33,
+        851.33,
+        920.67
+      ],
+      "quad_pixel": [
+        [
+          833.67,
+          877.33
+        ],
+        [
+          851.33,
+          885.67
+        ],
+        [
+          835.0,
+          920.67
+        ],
+        [
+          817.33,
+          912.33
+        ]
+      ],
+      "confidence": 0.517645,
+      "quality": 0.567645,
+      "orientation": "vertical",
+      "category": "ocr_文字",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 393.33,
+      "tile_y": 786.67,
+      "text_len": 2,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternative_texts": "",
+      "alternative_count": 0
+    },
+    {
+      "ocr_id": "1937_rapidocr_0047",
+      "text": "民巷",
+      "ocr_text_raw_order": "巷民",
+      "reading_rule": "reverse_suffix_first",
+      "raw_text": "巷民",
+      "bbox_pixel": [
+        766.0,
+        885.0,
+        793.0,
+        899.0
+      ],
+      "quad_pixel": [
+        [
+          766.0,
+          885.0
+        ],
+        [
+          793.0,
+          885.0
+        ],
+        [
+          793.0,
+          899.0
+        ],
+        [
+          766.0,
+          899.0
+        ]
+      ],
+      "confidence": 0.641123,
+      "quality": 0.771123,
+      "orientation": "horizontal",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_original_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "original",
+      "ocr_pass": "tile",
+      "scale": 1.0,
+      "tile_x": 180.0,
+      "tile_y": 0.0,
+      "text_len": 2,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "民巷",
+          "confidence": 0.635022,
+          "quality": 0.765022,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            762.33,
+            882.67,
+            793.67,
+            905.33
+          ]
+        },
+        {
+          "text": "民巷",
+          "confidence": 0.653921,
+          "quality": 0.753921,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            761.67,
+            882.0,
+            794.33,
+            905.67
+          ]
+        },
+        {
+          "text": "民巷",
+          "confidence": 0.523936,
+          "quality": 0.653936,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            761.67,
+            882.33,
+            794.0,
+            905.0
+          ]
+        }
+      ],
+      "alternative_texts": "",
+      "alternative_count": 3
+    },
+    {
+      "ocr_id": "1937_rapidocr_0058",
+      "text": "園市街",
+      "ocr_text_raw_order": "街市園",
+      "reading_rule": "reverse_suffix_first",
+      "raw_text": "街市園",
+      "bbox_pixel": [
+        308.33,
+        895.0,
+        386.33,
+        923.33
+      ],
+      "quad_pixel": [
+        [
+          311.0,
+          895.0
+        ],
+        [
+          386.33,
+          906.33
+        ],
+        [
+          384.0,
+          923.33
+        ],
+        [
+          308.33,
+          912.0
+        ]
+      ],
+      "confidence": 0.616666,
+      "quality": 0.726666,
+      "orientation": "horizontal",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_full",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "full",
+      "scale": 3.0,
+      "tile_x": 0.0,
+      "tile_y": 0.0,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "園市道街",
+          "confidence": 0.554132,
+          "quality": 0.704132,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            306.0,
+            893.33,
+            384.67,
+            923.67
+          ]
+        }
+      ],
+      "alternative_texts": "園市道街",
+      "alternative_count": 1
+    },
+    {
+      "ocr_id": "1937_rapidocr_0031",
+      "text": "管庙",
+      "ocr_text_raw_order": "庙管",
+      "reading_rule": "reverse_suffix_first",
+      "raw_text": "庙管",
+      "bbox_pixel": [
+        1038.0,
+        912.0,
+        1079.0,
+        940.0
+      ],
+      "quad_pixel": [
+        [
+          1038.0,
+          912.0
+        ],
+        [
+          1079.0,
+          912.0
+        ],
+        [
+          1079.0,
+          940.0
+        ],
+        [
+          1038.0,
+          940.0
+        ]
+      ],
+      "confidence": 0.66601,
+      "quality": 0.79601,
+      "orientation": "horizontal",
+      "category": "ocr_寺观",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_original_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "original",
+      "ocr_pass": "tile",
+      "scale": 1.0,
+      "tile_x": 180.0,
+      "tile_y": 585.0,
+      "text_len": 2,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "管庙",
+          "confidence": 0.665319,
+          "quality": 0.795319,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            1039.33,
+            915.33,
+            1077.67,
+            937.33
+          ]
+        },
+        {
+          "text": "管庙",
+          "confidence": 0.665206,
+          "quality": 0.795206,
+          "source_stage": "rapidocr_adaptive3x_tile",
+          "bbox_pixel": [
+            1038.33,
+            914.33,
+            1079.0,
+            937.67
+          ]
+        },
+        {
+          "text": "管庙",
+          "confidence": 0.666108,
+          "quality": 0.766108,
+          "source_stage": "rapidocr_original_full",
+          "bbox_pixel": [
+            1036.0,
+            911.0,
+            1079.0,
+            941.0
+          ]
+        },
+        {
+          "text": "管庙",
+          "confidence": 0.665715,
+          "quality": 0.765715,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            1039.0,
+            914.67,
+            1078.0,
+            937.0
+          ]
+        },
+        {
+          "text": "管庙",
+          "confidence": 0.657709,
+          "quality": 0.757709,
+          "source_stage": "rapidocr_adaptive3x_full",
+          "bbox_pixel": [
+            1038.67,
+            915.0,
+            1079.0,
+            937.0
+          ]
+        }
+      ],
+      "alternative_texts": "",
+      "alternative_count": 5
+    },
+    {
+      "ocr_id": "1937_rapidocr_0001",
+      "text": "浙江病院",
+      "ocr_text_raw_order": "浙江病院",
+      "reading_rule": "as_detected",
+      "raw_text": "浙江病院",
+      "bbox_pixel": [
+        291.0,
+        917.0,
+        308.0,
+        965.0
+      ],
+      "quad_pixel": [
+        [
+          291.0,
+          917.0
+        ],
+        [
+          308.0,
+          917.0
+        ],
+        [
+          308.0,
+          965.0
+        ],
+        [
+          291.0,
+          965.0
+        ]
+      ],
+      "confidence": 0.786453,
+      "quality": 0.936453,
+      "orientation": "vertical",
+      "category": "ocr_寺观",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_original_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "original",
+      "ocr_pass": "tile",
+      "scale": 1.0,
+      "tile_x": 0.0,
+      "tile_y": 585.0,
+      "text_len": 4,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "浙江病院",
+          "confidence": 0.769257,
+          "quality": 0.889257,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            290.0,
+            916.33,
+            307.0,
+            976.0
+          ]
+        },
+        {
+          "text": "浙江病院目",
+          "confidence": 0.668011,
+          "quality": 0.828011,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            290.0,
+            917.0,
+            309.0,
+            973.0
+          ]
+        },
+        {
+          "text": "浙江病院巴",
+          "confidence": 0.665522,
+          "quality": 0.795522,
+          "source_stage": "rapidocr_original_full",
+          "bbox_pixel": [
+            288.0,
+            914.0,
+            309.0,
+            979.0
+          ]
+        },
+        {
+          "text": "浙江病院包",
+          "confidence": 0.631101,
+          "quality": 0.791101,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            291.0,
+            916.0,
+            306.67,
+            975.33
+          ]
+        },
+        {
+          "text": "浙江病院",
+          "confidence": 0.631249,
+          "quality": 0.781249,
+          "source_stage": "rapidocr_adaptive3x_tile",
+          "bbox_pixel": [
+            290.33,
+            914.33,
+            307.33,
+            964.67
+          ]
+        }
+      ],
+      "alternative_texts": "浙江病院目 | 浙江病院巴 | 浙江病院包",
+      "alternative_count": 5
+    },
+    {
+      "ocr_id": "1937_rapidocr_0052",
+      "text": "保佑坊",
+      "ocr_text_raw_order": "保佑坊",
+      "reading_rule": "as_detected",
+      "raw_text": "保佑坊",
+      "bbox_pixel": [
+        528.33,
+        924.0,
+        550.33,
+        987.67
+      ],
+      "quad_pixel": [
+        [
+          528.33,
+          924.67
+        ],
+        [
+          548.33,
+          924.0
+        ],
+        [
+          550.33,
+          987.0
+        ],
+        [
+          530.33,
+          987.67
+        ]
+      ],
+      "confidence": 0.614036,
+      "quality": 0.754036,
+      "orientation": "vertical",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 393.33,
+      "tile_y": 786.67,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "保佑坊",
+          "confidence": 0.610583,
+          "quality": 0.720583,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            528.67,
+            923.33,
+            550.33,
+            987.33
+          ]
+        },
+        {
+          "text": "保佑",
+          "confidence": 0.523737,
+          "quality": 0.543737,
+          "source_stage": "rapidocr_original_full",
+          "bbox_pixel": [
+            530.0,
+            922.0,
+            550.0,
+            970.0
+          ]
+        }
+      ],
+      "alternative_texts": "保佑",
+      "alternative_count": 2
+    },
+    {
+      "ocr_id": "1937_rapidocr_0021",
+      "text": "火药后街",
+      "ocr_text_raw_order": "火药后街",
+      "reading_rule": "as_detected",
+      "raw_text": "火药后街",
+      "bbox_pixel": [
+        452.0,
+        925.0,
+        478.0,
+        997.0
+      ],
+      "quad_pixel": [
+        [
+          457.0,
+          925.0
+        ],
+        [
+          478.0,
+          926.0
+        ],
+        [
+          473.0,
+          997.0
+        ],
+        [
+          452.0,
+          996.0
+        ]
+      ],
+      "confidence": 0.706608,
+      "quality": 0.826608,
+      "orientation": "vertical",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_original_full",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "original",
+      "ocr_pass": "full",
+      "scale": 1.0,
+      "tile_x": 0.0,
+      "tile_y": 0.0,
+      "text_len": 4,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "火药后街",
+          "confidence": 0.697002,
+          "quality": 0.817002,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            454.0,
+            928.33,
+            474.0,
+            995.33
+          ]
+        },
+        {
+          "text": "药后街",
+          "confidence": 0.647654,
+          "quality": 0.787654,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            453.0,
+            928.33,
+            474.67,
+            994.33
+          ]
+        }
+      ],
+      "alternative_texts": "药后街",
+      "alternative_count": 2
+    },
+    {
+      "ocr_id": "1937_rapidocr_0100",
+      "text": "火药",
+      "ocr_text_raw_order": "火药",
+      "reading_rule": "as_detected",
+      "raw_text": "火药",
+      "bbox_pixel": [
+        458.0,
+        931.0,
+        473.0,
+        963.0
+      ],
+      "quad_pixel": [
+        [
+          458.0,
+          931.0
+        ],
+        [
+          473.0,
+          931.0
+        ],
+        [
+          473.0,
+          963.0
+        ],
+        [
+          458.0,
+          963.0
+        ]
+      ],
+      "confidence": 0.545006,
+      "quality": 0.595006,
+      "orientation": "vertical",
+      "category": "ocr_文字",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_original_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "original",
+      "ocr_pass": "tile",
+      "scale": 1.0,
+      "tile_x": 0.0,
+      "tile_y": 585.0,
+      "text_len": 2,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternative_texts": "",
+      "alternative_count": 0
+    },
+    {
+      "ocr_id": "1937_rapidocr_0015",
+      "text": "金刷寺巷",
+      "ocr_text_raw_order": "巷寺刷金",
+      "reading_rule": "reverse_suffix_first",
+      "raw_text": "巷寺刷金",
+      "bbox_pixel": [
+        729.33,
+        965.33,
+        796.33,
+        1007.67
+      ],
+      "quad_pixel": [
+        [
+          736.33,
+          965.33
+        ],
+        [
+          796.33,
+          992.0
+        ],
+        [
+          789.33,
+          1007.67
+        ],
+        [
+          729.33,
+          981.0
+        ]
+      ],
+      "confidence": 0.695255,
+      "quality": 0.845255,
+      "orientation": "diagonal",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 393.33,
+      "tile_y": 786.67,
+      "text_len": 4,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "金刷寺巷",
+          "confidence": 0.68582,
+          "quality": 0.83582,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            730.33,
+            965.33,
+            795.67,
+            1007.33
+          ]
+        },
+        {
+          "text": "金刷寺巷",
+          "confidence": 0.65296,
+          "quality": 0.77296,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            730.67,
+            965.33,
+            796.33,
+            1007.67
+          ]
+        }
+      ],
+      "alternative_texts": "",
+      "alternative_count": 2
+    },
+    {
+      "ocr_id": "1937_rapidocr_0103",
+      "text": "性事同柜计",
+      "ocr_text_raw_order": "性事同柜计",
+      "reading_rule": "as_detected",
+      "raw_text": "性事同柜计",
+      "bbox_pixel": [
+        263.0,
+        973.0,
+        283.0,
+        1040.0
+      ],
+      "quad_pixel": [
+        [
+          263.0,
+          973.0
+        ],
+        [
+          283.0,
+          973.0
+        ],
+        [
+          283.0,
+          1040.0
+        ],
+        [
+          263.0,
+          1040.0
+        ]
+      ],
+      "confidence": 0.527174,
+      "quality": 0.577174,
+      "orientation": "vertical",
+      "category": "ocr_文字",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_original_full",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "original",
+      "ocr_pass": "full",
+      "scale": 1.0,
+      "tile_x": 0.0,
+      "tile_y": 0.0,
+      "text_len": 5,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternative_texts": "",
+      "alternative_count": 0
+    },
+    {
+      "ocr_id": "1937_rapidocr_0093",
+      "text": "站州杭",
+      "ocr_text_raw_order": "站州杭",
+      "reading_rule": "as_detected",
+      "raw_text": "站州杭",
+      "bbox_pixel": [
+        859.33,
+        973.0,
+        890.33,
+        984.0
+      ],
+      "quad_pixel": [
+        [
+          859.33,
+          973.67
+        ],
+        [
+          890.0,
+          973.0
+        ],
+        [
+          890.33,
+          983.0
+        ],
+        [
+          859.33,
+          984.0
+        ]
+      ],
+      "confidence": 0.576661,
+      "quality": 0.636661,
+      "orientation": "horizontal",
+      "category": "ocr_文字",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 613.33,
+      "tile_y": 786.67,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "站州杭",
+          "confidence": 0.524339,
+          "quality": 0.554339,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            859.67,
+            973.0,
+            890.67,
+            983.67
+          ]
+        }
+      ],
+      "alternative_texts": "",
+      "alternative_count": 1
+    },
+    {
+      "ocr_id": "1937_rapidocr_0087",
+      "text": "钱王间",
+      "ocr_text_raw_order": "钱王间",
+      "reading_rule": "as_detected",
+      "raw_text": "钱王间",
+      "bbox_pixel": [
+        196.0,
+        974.0,
+        215.33,
+        1013.0
+      ],
+      "quad_pixel": [
+        [
+          196.0,
+          974.67
+        ],
+        [
+          213.67,
+          974.0
+        ],
+        [
+          215.33,
+          1012.0
+        ],
+        [
+          197.67,
+          1013.0
+        ]
+      ],
+      "confidence": 0.597502,
+      "quality": 0.657502,
+      "orientation": "vertical",
+      "category": "ocr_文字",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 0.0,
+      "tile_y": 786.67,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternative_texts": "",
+      "alternative_count": 0
+    },
+    {
+      "ocr_id": "1937_rapidocr_0056",
+      "text": "高量测革",
+      "ocr_text_raw_order": "高量测革",
+      "reading_rule": "as_detected",
+      "raw_text": "高量测革",
+      "bbox_pixel": [
+        358.67,
+        974.67,
+        417.0,
+        987.0
+      ],
+      "quad_pixel": [
+        [
+          358.67,
+          974.67
+        ],
+        [
+          417.0,
+          974.67
+        ],
+        [
+          417.0,
+          987.0
+        ],
+        [
+          358.67,
+          987.0
+        ]
+      ],
+      "confidence": 0.696626,
+      "quality": 0.736626,
+      "orientation": "horizontal",
+      "category": "ocr_文字",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_full",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "full",
+      "scale": 3.0,
+      "tile_x": 0.0,
+      "tile_y": 0.0,
+      "text_len": 4,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "高量测革隆",
+          "confidence": 0.64484,
+          "quality": 0.72484,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            358.67,
+            974.67,
+            416.33,
+            987.0
+          ]
+        }
+      ],
+      "alternative_texts": "高量测革隆",
+      "alternative_count": 1
+    },
+    {
+      "ocr_id": "1937_rapidocr_0002",
+      "text": "址亭水巷",
+      "ocr_text_raw_order": "址亭水巷",
+      "reading_rule": "as_detected",
+      "raw_text": "址亭水巷",
+      "bbox_pixel": [
+        595.33,
+        975.0,
+        675.0,
+        994.33
+      ],
+      "quad_pixel": [
+        [
+          596.0,
+          975.0
+        ],
+        [
+          675.0,
+          977.33
+        ],
+        [
+          674.33,
+          994.33
+        ],
+        [
+          595.33,
+          992.0
+        ]
+      ],
+      "confidence": 0.783923,
+      "quality": 0.933923,
+      "orientation": "horizontal",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 393.33,
+      "tile_y": 786.67,
+      "text_len": 4,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "址亭水巷",
+          "confidence": 0.740506,
+          "quality": 0.860506,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            595.67,
+            976.0,
+            674.67,
+            994.0
+          ]
+        }
+      ],
+      "alternative_texts": "",
+      "alternative_count": 1
+    },
+    {
+      "ocr_id": "1937_rapidocr_0106",
+      "text": "址亭开",
+      "ocr_text_raw_order": "址亭开",
+      "reading_rule": "as_detected",
+      "raw_text": "址亭开",
+      "bbox_pixel": [
+        596.0,
+        976.67,
+        634.0,
+        993.67
+      ],
+      "quad_pixel": [
+        [
+          596.0,
+          979.67
+        ],
+        [
+          632.67,
+          976.67
+        ],
+        [
+          634.0,
+          990.67
+        ],
+        [
+          597.33,
+          993.67
+        ]
+      ],
+      "confidence": 0.520989,
+      "quality": 0.550989,
+      "orientation": "horizontal",
+      "category": "ocr_文字",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_adaptive3x_full",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "adaptive3x",
+      "ocr_pass": "full",
+      "scale": 3.0,
+      "tile_x": 0.0,
+      "tile_y": 0.0,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternative_texts": "",
+      "alternative_count": 0
+    },
+    {
+      "ocr_id": "1937_rapidocr_0090",
+      "text": "下河",
+      "ocr_text_raw_order": "河下",
+      "reading_rule": "reverse_suffix_first",
+      "raw_text": "河下",
+      "bbox_pixel": [
+        323.0,
+        992.0,
+        341.0,
+        1028.0
+      ],
+      "quad_pixel": [
+        [
+          323.0,
+          992.0
+        ],
+        [
+          341.0,
+          992.0
+        ],
+        [
+          341.0,
+          1028.0
+        ],
+        [
+          323.0,
+          1028.0
+        ]
+      ],
+      "confidence": 0.546032,
+      "quality": 0.646032,
+      "orientation": "vertical",
+      "category": "ocr_水系",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_original_full",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "original",
+      "ocr_pass": "full",
+      "scale": 1.0,
+      "tile_x": 0.0,
+      "tile_y": 0.0,
+      "text_len": 2,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternative_texts": "",
+      "alternative_count": 0
+    },
+    {
+      "ocr_id": "1937_rapidocr_0009",
+      "text": "郭通园巷",
+      "ocr_text_raw_order": "巷园通郭",
+      "reading_rule": "reverse_suffix_first",
+      "raw_text": "巷园通郭",
+      "bbox_pixel": [
+        715.67,
+        992.0,
+        785.0,
+        1038.33
+      ],
+      "quad_pixel": [
+        [
+          723.33,
+          992.0
+        ],
+        [
+          785.0,
+          1023.0
+        ],
+        [
+          777.33,
+          1038.33
+        ],
+        [
+          715.67,
+          1007.0
+        ]
+      ],
+      "confidence": 0.716263,
+      "quality": 0.866263,
+      "orientation": "diagonal",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 613.33,
+      "tile_y": 786.67,
+      "text_len": 4,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "郭通园巷",
+          "confidence": 0.696228,
+          "quality": 0.846228,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            717.0,
+            993.0,
+            786.33,
+            1039.33
+          ]
+        },
+        {
+          "text": "郭通园巷",
+          "confidence": 0.693031,
+          "quality": 0.813031,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            714.67,
+            991.0,
+            786.67,
+            1039.33
+          ]
+        },
+        {
+          "text": "通园巷",
+          "confidence": 0.569697,
+          "quality": 0.709697,
+          "source_stage": "rapidocr_adaptive3x_tile",
+          "bbox_pixel": [
+            714.33,
+            991.67,
+            769.0,
+            1029.67
+          ]
+        },
+        {
+          "text": "通园巷",
+          "confidence": 0.581655,
+          "quality": 0.691655,
+          "source_stage": "rapidocr_adaptive3x_full",
+          "bbox_pixel": [
+            712.33,
+            990.33,
+            768.67,
+            1029.33
+          ]
+        }
+      ],
+      "alternative_texts": "通园巷",
+      "alternative_count": 4
+    },
+    {
+      "ocr_id": "1937_rapidocr_0101",
+      "text": "梅龙码",
+      "ocr_text_raw_order": "梅龙码",
+      "reading_rule": "as_detected",
+      "raw_text": "梅龙码",
+      "bbox_pixel": [
+        640.0,
+        1000.67,
+        666.0,
+        1054.0
+      ],
+      "quad_pixel": [
+        [
+          646.33,
+          1000.67
+        ],
+        [
+          666.0,
+          1003.33
+        ],
+        [
+          659.67,
+          1054.0
+        ],
+        [
+          640.0,
+          1051.67
+        ]
+      ],
+      "confidence": 0.560818,
+      "quality": 0.590818,
+      "orientation": "vertical",
+      "category": "ocr_文字",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_full",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "full",
+      "scale": 3.0,
+      "tile_x": 0.0,
+      "tile_y": 0.0,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "梅龙硬",
+          "confidence": 0.517067,
+          "quality": 0.577067,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            641.0,
+            1002.33,
+            665.0,
+            1053.0
+          ]
+        },
+        {
+          "text": "梅龙硬",
+          "confidence": 0.507849,
+          "quality": 0.567849,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            640.0,
+            1001.33,
+            666.33,
+            1054.0
+          ]
+        }
+      ],
+      "alternative_texts": "梅龙硬",
+      "alternative_count": 2
+    },
+    {
+      "ocr_id": "1937_rapidocr_0033",
+      "text": "海巷",
+      "ocr_text_raw_order": "海巷",
+      "reading_rule": "as_detected",
+      "raw_text": "海巷",
+      "bbox_pixel": [
+        596.0,
+        1014.0,
+        614.0,
+        1048.0
+      ],
+      "quad_pixel": [
+        [
+          596.0,
+          1014.0
+        ],
+        [
+          614.0,
+          1014.0
+        ],
+        [
+          614.0,
+          1048.0
+        ],
+        [
+          596.0,
+          1048.0
+        ]
+      ],
+      "confidence": 0.663317,
+      "quality": 0.793317,
+      "orientation": "vertical",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_original_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "original",
+      "ocr_pass": "tile",
+      "scale": 1.0,
+      "tile_x": 180.0,
+      "tile_y": 585.0,
+      "text_len": 2,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "海巷",
+          "confidence": 0.658665,
+          "quality": 0.788665,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            595.33,
+            1018.33,
+            613.33,
+            1048.67
+          ]
+        },
+        {
+          "text": "海巷",
+          "confidence": 0.655775,
+          "quality": 0.755775,
+          "source_stage": "rapidocr_original_full",
+          "bbox_pixel": [
+            597.0,
+            1000.0,
+            614.0,
+            1050.0
+          ]
+        },
+        {
+          "text": "凝海巷",
+          "confidence": 0.580415,
+          "quality": 0.720415,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            594.67,
+            999.67,
+            612.67,
+            1047.33
+          ]
+        },
+        {
+          "text": "海巷",
+          "confidence": 0.567655,
+          "quality": 0.697655,
+          "source_stage": "rapidocr_adaptive3x_tile",
+          "bbox_pixel": [
+            595.0,
+            1018.33,
+            613.33,
+            1048.33
+          ]
+        },
+        {
+          "text": "淮海巷",
+          "confidence": 0.555323,
+          "quality": 0.695323,
+          "source_stage": "rapidocr_adaptive3x_tile",
+          "bbox_pixel": [
+            595.33,
+            998.33,
+            612.67,
+            1048.0
+          ]
+        },
+        {
+          "text": "凝海巷",
+          "confidence": 0.572513,
+          "quality": 0.682513,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            594.33,
+            999.0,
+            613.0,
+            1047.67
+          ]
+        }
+      ],
+      "alternative_texts": "凝海巷 | 淮海巷",
+      "alternative_count": 6
+    },
+    {
+      "ocr_id": "1937_rapidocr_0006",
+      "text": "東太平巷",
+      "ocr_text_raw_order": "東太平巷",
+      "reading_rule": "as_detected",
+      "raw_text": "東太平巷",
+      "bbox_pixel": [
+        458.67,
+        1025.33,
+        476.0,
+        1078.0
+      ],
+      "quad_pixel": [
+        [
+          458.67,
+          1025.67
+        ],
+        [
+          474.67,
+          1025.33
+        ],
+        [
+          476.0,
+          1077.67
+        ],
+        [
+          459.67,
+          1078.0
+        ]
+      ],
+      "confidence": 0.735802,
+      "quality": 0.885802,
+      "orientation": "vertical",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 393.33,
+      "tile_y": 1018.33,
+      "text_len": 4,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "東太平巷",
+          "confidence": 0.707567,
+          "quality": 0.827567,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            459.67,
+            1026.0,
+            476.0,
+            1078.67
+          ]
+        },
+        {
+          "text": "東太平巷",
+          "confidence": 0.662091,
+          "quality": 0.812091,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            459.0,
+            1025.67,
+            476.67,
+            1078.0
+          ]
+        },
+        {
+          "text": "東太平巷",
+          "confidence": 0.548587,
+          "quality": 0.668587,
+          "source_stage": "rapidocr_original_full",
+          "bbox_pixel": [
+            458.0,
+            1025.0,
+            478.0,
+            1075.0
+          ]
+        }
+      ],
+      "alternative_texts": "",
+      "alternative_count": 3
+    },
+    {
+      "ocr_id": "1937_rapidocr_0013",
+      "text": "姚国寺巷",
+      "ocr_text_raw_order": "巷寺国姚",
+      "reading_rule": "reverse_suffix_first",
+      "raw_text": "巷寺国姚",
+      "bbox_pixel": [
+        686.67,
+        1038.33,
+        764.0,
+        1091.67
+      ],
+      "quad_pixel": [
+        [
+          696.0,
+          1038.33
+        ],
+        [
+          764.0,
+          1073.33
+        ],
+        [
+          754.67,
+          1091.67
+        ],
+        [
+          686.67,
+          1056.33
+        ]
+      ],
+      "confidence": 0.701155,
+      "quality": 0.851155,
+      "orientation": "diagonal",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 393.33,
+      "tile_y": 1018.33,
+      "text_len": 4,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "姚国寺巷",
+          "confidence": 0.653412,
+          "quality": 0.803412,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            686.33,
+            1038.33,
+            762.67,
+            1091.0
+          ]
+        },
+        {
+          "text": "姚园寺巷",
+          "confidence": 0.646852,
+          "quality": 0.796852,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            688.0,
+            1039.33,
+            763.33,
+            1090.67
+          ]
+        },
+        {
+          "text": "姚园寺巷",
+          "confidence": 0.621758,
+          "quality": 0.771758,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            689.0,
+            1039.33,
+            762.33,
+            1090.67
+          ]
+        },
+        {
+          "text": "姚国寺巷",
+          "confidence": 0.651022,
+          "quality": 0.771022,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            686.67,
+            1038.0,
+            764.0,
+            1092.0
+          ]
+        },
+        {
+          "text": "姚国寺巷",
+          "confidence": 0.575043,
+          "quality": 0.725043,
+          "source_stage": "rapidocr_adaptive3x_tile",
+          "bbox_pixel": [
+            692.33,
+            1041.67,
+            761.33,
+            1089.0
+          ]
+        },
+        {
+          "text": "姚国寺巷",
+          "confidence": 0.502975,
+          "quality": 0.622975,
+          "source_stage": "rapidocr_adaptive3x_full",
+          "bbox_pixel": [
+            690.33,
+            1041.0,
+            761.0,
+            1089.0
+          ]
+        }
+      ],
+      "alternative_texts": "姚园寺巷",
+      "alternative_count": 6
+    },
+    {
+      "ocr_id": "1937_rapidocr_0095",
+      "text": "上精营新",
+      "ocr_text_raw_order": "上精营新",
+      "reading_rule": "as_detected",
+      "raw_text": "上精营新",
+      "bbox_pixel": [
+        560.67,
+        1067.67,
+        619.33,
+        1082.33
+      ],
+      "quad_pixel": [
+        [
+          560.67,
+          1067.67
+        ],
+        [
+          619.33,
+          1067.67
+        ],
+        [
+          619.33,
+          1082.33
+        ],
+        [
+          560.67,
+          1082.33
+        ]
+      ],
+      "confidence": 0.502269,
+      "quality": 0.622269,
+      "orientation": "horizontal",
+      "category": "ocr_城防官署",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_full",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "full",
+      "scale": 3.0,
+      "tile_x": 0.0,
+      "tile_y": 0.0,
+      "text_len": 4,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternative_texts": "",
+      "alternative_count": 0
+    },
+    {
+      "ocr_id": "1937_rapidocr_0048",
+      "text": "河坊",
+      "ocr_text_raw_order": "河坊",
+      "reading_rule": "as_detected",
+      "raw_text": "河坊",
+      "bbox_pixel": [
+        532.67,
+        1073.67,
+        552.67,
+        1117.33
+      ],
+      "quad_pixel": [
+        [
+          532.67,
+          1074.67
+        ],
+        [
+          550.0,
+          1073.67
+        ],
+        [
+          552.67,
+          1116.33
+        ],
+        [
+          535.0,
+          1117.33
+        ]
+      ],
+      "confidence": 0.63762,
+      "quality": 0.76762,
+      "orientation": "vertical",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 393.33,
+      "tile_y": 1018.33,
+      "text_len": 2,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "清河坊",
+          "confidence": 0.650924,
+          "quality": 0.760924,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            532.33,
+            1062.0,
+            554.33,
+            1118.0
+          ]
+        },
+        {
+          "text": "清河坊",
+          "confidence": 0.563857,
+          "quality": 0.703857,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            530.33,
+            1056.0,
+            554.0,
+            1118.0
+          ]
+        }
+      ],
+      "alternative_texts": "清河坊",
+      "alternative_count": 2
+    },
+    {
+      "ocr_id": "1937_rapidocr_0044",
+      "text": "前院",
+      "ocr_text_raw_order": "前院",
+      "reading_rule": "as_detected",
+      "raw_text": "前院",
+      "bbox_pixel": [
+        283.67,
+        1076.33,
+        365.67,
+        1110.67
+      ],
+      "quad_pixel": [
+        [
+          283.67,
+          1091.33
+        ],
+        [
+          361.67,
+          1076.33
+        ],
+        [
+          365.67,
+          1095.33
+        ],
+        [
+          287.33,
+          1110.67
+        ]
+      ],
+      "confidence": 0.644707,
+      "quality": 0.774707,
+      "orientation": "horizontal",
+      "category": "ocr_寺观",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 0.0,
+      "tile_y": 1018.33,
+      "text_len": 2,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternative_texts": "",
+      "alternative_count": 0
+    },
+    {
+      "ocr_id": "1937_rapidocr_0096",
+      "text": "福板酒",
+      "ocr_text_raw_order": "福板酒",
+      "reading_rule": "as_detected",
+      "raw_text": "福板酒",
+      "bbox_pixel": [
+        837.0,
+        1076.33,
+        869.67,
+        1089.0
+      ],
+      "quad_pixel": [
+        [
+          837.0,
+          1076.33
+        ],
+        [
+          869.67,
+          1076.33
+        ],
+        [
+          869.67,
+          1089.0
+        ],
+        [
+          837.0,
+          1089.0
+        ]
+      ],
+      "confidence": 0.56069,
+      "quality": 0.62069,
+      "orientation": "horizontal",
+      "category": "ocr_文字",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 613.33,
+      "tile_y": 786.67,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "福板酒",
+          "confidence": 0.558293,
+          "quality": 0.588293,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            836.33,
+            1076.0,
+            869.0,
+            1089.0
+          ]
+        },
+        {
+          "text": "福板酒",
+          "confidence": 0.525266,
+          "quality": 0.585266,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            836.33,
+            1075.67,
+            869.33,
+            1089.33
+          ]
+        }
+      ],
+      "alternative_texts": "",
+      "alternative_count": 2
+    },
+    {
+      "ocr_id": "1937_rapidocr_0007",
+      "text": "街前府",
+      "ocr_text_raw_order": "街前府",
+      "reading_rule": "as_detected",
+      "raw_text": "街前府",
+      "bbox_pixel": [
+        227.67,
+        1095.0,
+        285.33,
+        1115.67
+      ],
+      "quad_pixel": [
+        [
+          227.67,
+          1097.67
+        ],
+        [
+          284.33,
+          1095.0
+        ],
+        [
+          285.33,
+          1113.33
+        ],
+        [
+          228.67,
+          1115.67
+        ]
+      ],
+      "confidence": 0.743975,
+      "quality": 0.883975,
+      "orientation": "horizontal",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 0.0,
+      "tile_y": 1018.33,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "街前府",
+          "confidence": 0.735349,
+          "quality": 0.845349,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            230.0,
+            1095.33,
+            285.33,
+            1115.33
+          ]
+        },
+        {
+          "text": "街前府",
+          "confidence": 0.657749,
+          "quality": 0.797749,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            228.33,
+            1096.0,
+            285.33,
+            1115.67
+          ]
+        },
+        {
+          "text": "街府",
+          "confidence": 0.625169,
+          "quality": 0.755169,
+          "source_stage": "rapidocr_adaptive3x_tile",
+          "bbox_pixel": [
+            229.0,
+            1089.0,
+            327.67,
+            1117.67
+          ]
+        },
+        {
+          "text": "街前府",
+          "confidence": 0.584616,
+          "quality": 0.724616,
+          "source_stage": "rapidocr_adaptive3x_tile",
+          "bbox_pixel": [
+            230.0,
+            1094.33,
+            306.33,
+            1115.67
+          ]
+        },
+        {
+          "text": "前街",
+          "confidence": 0.530185,
+          "quality": 0.630185,
+          "source_stage": "rapidocr_original_full",
+          "bbox_pixel": [
+            232.0,
+            1100.0,
+            268.0,
+            1114.0
+          ]
+        }
+      ],
+      "alternative_texts": "街府 | 前街",
+      "alternative_count": 5
+    },
+    {
+      "ocr_id": "1937_rapidocr_0082",
+      "text": "内黔士桥",
+      "ocr_text_raw_order": "内黔士桥",
+      "reading_rule": "as_detected",
+      "raw_text": "内黔士桥",
+      "bbox_pixel": [
+        131.0,
+        1124.67,
+        146.67,
+        1175.0
+      ],
+      "quad_pixel": [
+        [
+          131.0,
+          1125.0
+        ],
+        [
+          145.67,
+          1124.67
+        ],
+        [
+          146.67,
+          1174.67
+        ],
+        [
+          131.67,
+          1175.0
+        ]
+      ],
+      "confidence": 0.520004,
+      "quality": 0.670004,
+      "orientation": "vertical",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_adaptive3x_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "adaptive3x",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 0.0,
+      "tile_y": 786.67,
+      "text_len": 4,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "内翠士桥",
+          "confidence": 0.533618,
+          "quality": 0.653618,
+          "source_stage": "rapidocr_adaptive3x_full",
+          "bbox_pixel": [
+            131.33,
+            1123.33,
+            146.67,
+            1175.33
+          ]
+        },
+        {
+          "text": "丙學士",
+          "confidence": 0.550141,
+          "quality": 0.610141,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            131.0,
+            1125.0,
+            147.67,
+            1177.0
+          ]
+        },
+        {
+          "text": "丙摩士情",
+          "confidence": 0.534629,
+          "quality": 0.604629,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            131.0,
+            1124.67,
+            147.67,
+            1177.0
+          ]
+        },
+        {
+          "text": "内學士橘",
+          "confidence": 0.507052,
+          "quality": 0.577052,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            131.0,
+            1122.0,
+            149.0,
+            1179.0
+          ]
+        }
+      ],
+      "alternative_texts": "内翠士桥 | 丙學士 | 丙摩士情 | 内學士橘",
+      "alternative_count": 4
+    },
+    {
+      "ocr_id": "1937_rapidocr_0072",
+      "text": "牌楼",
+      "ocr_text_raw_order": "牌楼",
+      "reading_rule": "as_detected",
+      "raw_text": "牌楼",
+      "bbox_pixel": [
+        303.0,
+        1132.0,
+        327.67,
+        1208.0
+      ],
+      "quad_pixel": [
+        [
+          307.33,
+          1132.0
+        ],
+        [
+          327.67,
+          1133.33
+        ],
+        [
+          323.33,
+          1208.0
+        ],
+        [
+          303.0,
+          1206.67
+        ]
+      ],
+      "confidence": 0.64115,
+      "quality": 0.69115,
+      "orientation": "vertical",
+      "category": "ocr_文字",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 0.0,
+      "tile_y": 1018.33,
+      "text_len": 2,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "牌楼",
+          "confidence": 0.63881,
+          "quality": 0.68881,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            303.33,
+            1132.0,
+            328.33,
+            1207.0
+          ]
+        },
+        {
+          "text": "牌楼",
+          "confidence": 0.583922,
+          "quality": 0.603922,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            302.33,
+            1131.67,
+            328.0,
+            1207.67
+          ]
+        }
+      ],
+      "alternative_texts": "",
+      "alternative_count": 2
+    },
+    {
+      "ocr_id": "1937_rapidocr_0067",
+      "text": "隆官巷",
+      "ocr_text_raw_order": "隆官巷",
+      "reading_rule": "as_detected",
+      "raw_text": "隆官巷",
+      "bbox_pixel": [
+        278.67,
+        1135.33,
+        297.67,
+        1188.67
+      ],
+      "quad_pixel": [
+        [
+          278.67,
+          1135.67
+        ],
+        [
+          297.0,
+          1135.33
+        ],
+        [
+          297.67,
+          1188.67
+        ],
+        [
+          279.33,
+          1188.67
+        ]
+      ],
+      "confidence": 0.567596,
+      "quality": 0.707596,
+      "orientation": "vertical",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 0.0,
+      "tile_y": 786.67,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "陆官巷",
+          "confidence": 0.550697,
+          "quality": 0.660697,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            278.0,
+            1136.0,
+            296.67,
+            1189.33
+          ]
+        }
+      ],
+      "alternative_texts": "陆官巷",
+      "alternative_count": 1
+    },
+    {
+      "ocr_id": "1937_rapidocr_0005",
+      "text": "十五奎巷",
+      "ocr_text_raw_order": "巷奎五十",
+      "reading_rule": "reverse_suffix_first",
+      "raw_text": "巷奎五十",
+      "bbox_pixel": [
+        473.33,
+        1154.67,
+        537.0,
+        1198.33
+      ],
+      "quad_pixel": [
+        [
+          473.33,
+          1182.67
+        ],
+        [
+          529.0,
+          1154.67
+        ],
+        [
+          537.0,
+          1170.0
+        ],
+        [
+          481.0,
+          1198.33
+        ]
+      ],
+      "confidence": 0.74823,
+      "quality": 0.89823,
+      "orientation": "diagonal",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 393.33,
+      "tile_y": 786.67,
+      "text_len": 4,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "十五奎巷",
+          "confidence": 0.74704,
+          "quality": 0.86704,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            473.33,
+            1154.33,
+            536.33,
+            1198.67
+          ]
+        },
+        {
+          "text": "十五奎巷",
+          "confidence": 0.607532,
+          "quality": 0.757532,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            481.33,
+            1155.67,
+            535.67,
+            1193.0
+          ]
+        }
+      ],
+      "alternative_texts": "",
+      "alternative_count": 2
+    },
+    {
+      "ocr_id": "1937_rapidocr_0059",
+      "text": "清波门",
+      "ocr_text_raw_order": "清波门",
+      "reading_rule": "as_detected",
+      "raw_text": "清波门",
+      "bbox_pixel": [
+        202.33,
+        1164.33,
+        217.33,
+        1201.0
+      ],
+      "quad_pixel": [
+        [
+          202.33,
+          1164.33
+        ],
+        [
+          217.33,
+          1164.33
+        ],
+        [
+          217.33,
+          1201.0
+        ],
+        [
+          202.33,
+          1201.0
+        ]
+      ],
+      "confidence": 0.586631,
+      "quality": 0.726631,
+      "orientation": "vertical",
+      "category": "ocr_城防官署",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 0.0,
+      "tile_y": 786.67,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "清波门",
+          "confidence": 0.608772,
+          "quality": 0.718772,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            201.67,
+            1164.33,
+            218.33,
+            1202.67
+          ]
+        },
+        {
+          "text": "清波门",
+          "confidence": 0.554073,
+          "quality": 0.694073,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            201.0,
+            1164.67,
+            218.0,
+            1201.67
+          ]
+        }
+      ],
+      "alternative_texts": "",
+      "alternative_count": 2
+    },
+    {
+      "ocr_id": "1937_rapidocr_0026",
+      "text": "外学士桥",
+      "ocr_text_raw_order": "桥士学外",
+      "reading_rule": "reverse_suffix_first",
+      "raw_text": "桥士学外",
+      "bbox_pixel": [
+        60.0,
+        1174.33,
+        126.0,
+        1193.67
+      ],
+      "quad_pixel": [
+        [
+          60.0,
+          1174.33
+        ],
+        [
+          126.0,
+          1174.33
+        ],
+        [
+          126.0,
+          1193.67
+        ],
+        [
+          60.0,
+          1193.67
+        ]
+      ],
+      "confidence": 0.66117,
+      "quality": 0.81117,
+      "orientation": "horizontal",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 0.0,
+      "tile_y": 786.67,
+      "text_len": 4,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "外学士桥",
+          "confidence": 0.632735,
+          "quality": 0.782735,
+          "source_stage": "rapidocr_original_tile",
+          "bbox_pixel": [
+            60.0,
+            1176.0,
+            126.0,
+            1193.0
+          ]
+        },
+        {
+          "text": "外学士桥",
+          "confidence": 0.638262,
+          "quality": 0.758262,
+          "source_stage": "rapidocr_original_full",
+          "bbox_pixel": [
+            61.0,
+            1175.0,
+            126.0,
+            1192.0
+          ]
+        },
+        {
+          "text": "外学士桥",
+          "confidence": 0.600852,
+          "quality": 0.720852,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            61.0,
+            1177.0,
+            123.33,
+            1190.67
+          ]
+        },
+        {
+          "text": "橘士学外",
+          "confidence": 0.515342,
+          "quality": 0.585342,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            61.33,
+            1176.0,
+            124.33,
+            1190.33
+          ]
+        }
+      ],
+      "alternative_texts": "橘士学外",
+      "alternative_count": 4
+    },
+    {
+      "ocr_id": "1937_rapidocr_0040",
+      "text": "前街",
+      "ocr_text_raw_order": "前街",
+      "reading_rule": "as_detected",
+      "raw_text": "前街",
+      "bbox_pixel": [
+        540.67,
+        1183.67,
+        560.33,
+        1217.33
+      ],
+      "quad_pixel": [
+        [
+          545.0,
+          1183.67
+        ],
+        [
+          560.33,
+          1186.0
+        ],
+        [
+          555.67,
+          1217.33
+        ],
+        [
+          540.67,
+          1215.0
+        ]
+      ],
+      "confidence": 0.65146,
+      "quality": 0.78146,
+      "orientation": "vertical",
+      "category": "ocr_街巷道路",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_adaptive3x_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "adaptive3x",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 393.33,
+      "tile_y": 1018.33,
+      "text_len": 2,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "师前街",
+          "confidence": 0.534698,
+          "quality": 0.674698,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            539.67,
+            1168.33,
+            561.33,
+            1227.0
+          ]
+        }
+      ],
+      "alternative_texts": "师前街",
+      "alternative_count": 1
+    },
+    {
+      "ocr_id": "1937_rapidocr_0102",
+      "text": "江部",
+      "ocr_text_raw_order": "江部",
+      "reading_rule": "as_detected",
+      "raw_text": "江部",
+      "bbox_pixel": [
+        741.67,
+        1221.33,
+        765.0,
+        1233.33
+      ],
+      "quad_pixel": [
+        [
+          741.67,
+          1221.33
+        ],
+        [
+          765.0,
+          1221.33
+        ],
+        [
+          765.0,
+          1233.33
+        ],
+        [
+          741.67,
+          1233.33
+        ]
+      ],
+      "confidence": 0.530692,
+      "quality": 0.580692,
+      "orientation": "horizontal",
+      "category": "ocr_文字",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 613.33,
+      "tile_y": 1018.33,
+      "text_len": 2,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternative_texts": "",
+      "alternative_count": 0
+    },
+    {
+      "ocr_id": "1937_rapidocr_0084",
+      "text": "紫陽山",
+      "ocr_text_raw_order": "紫陽山",
+      "reading_rule": "as_detected",
+      "raw_text": "紫陽山",
+      "bbox_pixel": [
+        417.0,
+        1248.0,
+        442.33,
+        1320.67
+      ],
+      "quad_pixel": [
+        [
+          417.0,
+          1248.0
+        ],
+        [
+          442.33,
+          1248.0
+        ],
+        [
+          442.33,
+          1320.67
+        ],
+        [
+          417.0,
+          1320.67
+        ]
+      ],
+      "confidence": 0.524553,
+      "quality": 0.664553,
+      "orientation": "vertical",
+      "category": "ocr_山体",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 393.33,
+      "tile_y": 1018.33,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternative_texts": "",
+      "alternative_count": 0
+    },
+    {
+      "ocr_id": "1937_rapidocr_0057",
+      "text": "护安保",
+      "ocr_text_raw_order": "护安保",
+      "reading_rule": "as_detected",
+      "raw_text": "护安保",
+      "bbox_pixel": [
+        616.0,
+        1263.33,
+        650.33,
+        1277.0
+      ],
+      "quad_pixel": [
+        [
+          616.0,
+          1265.33
+        ],
+        [
+          649.67,
+          1263.33
+        ],
+        [
+          650.33,
+          1275.0
+        ],
+        [
+          616.67,
+          1277.0
+        ]
+      ],
+      "confidence": 0.673608,
+      "quality": 0.733608,
+      "orientation": "horizontal",
+      "category": "ocr_文字",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_adaptive3x_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "adaptive3x",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 393.33,
+      "tile_y": 1018.33,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "安保",
+          "confidence": 0.64336,
+          "quality": 0.69336,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            614.33,
+            1263.0,
+            650.67,
+            1277.33
+          ]
+        },
+        {
+          "text": "安保",
+          "confidence": 0.607545,
+          "quality": 0.657545,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            613.67,
+            1261.33,
+            651.33,
+            1278.33
+          ]
+        },
+        {
+          "text": "持安保",
+          "confidence": 0.588564,
+          "quality": 0.618564,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            614.67,
+            1263.67,
+            651.0,
+            1276.33
+          ]
+        },
+        {
+          "text": "护安保",
+          "confidence": 0.534465,
+          "quality": 0.594465,
+          "source_stage": "rapidocr_adaptive3x_tile",
+          "bbox_pixel": [
+            617.0,
+            1265.33,
+            647.67,
+            1275.67
+          ]
+        }
+      ],
+      "alternative_texts": "安保 | 持安保",
+      "alternative_count": 4
+    },
+    {
+      "ocr_id": "1937_rapidocr_0094",
+      "text": "苔峰雷",
+      "ocr_text_raw_order": "苔峰雷",
+      "reading_rule": "as_detected",
+      "raw_text": "苔峰雷",
+      "bbox_pixel": [
+        0.0,
+        1311.0,
+        34.33,
+        1327.0
+      ],
+      "quad_pixel": [
+        [
+          0.0,
+          1311.67
+        ],
+        [
+          34.0,
+          1311.0
+        ],
+        [
+          34.33,
+          1326.0
+        ],
+        [
+          0.0,
+          1327.0
+        ]
+      ],
+      "confidence": 0.576148,
+      "quality": 0.636148,
+      "orientation": "horizontal",
+      "category": "ocr_文字",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 0.0,
+      "tile_y": 1018.33,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "苔峰雷",
+          "confidence": 0.520255,
+          "quality": 0.550255,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            0.0,
+            1310.67,
+            34.67,
+            1327.0
+          ]
+        }
+      ],
+      "alternative_texts": "",
+      "alternative_count": 1
+    },
+    {
+      "ocr_id": "1937_rapidocr_0081",
+      "text": "精駕车",
+      "ocr_text_raw_order": "精駕车",
+      "reading_rule": "as_detected",
+      "raw_text": "精駕车",
+      "bbox_pixel": [
+        596.33,
+        1339.33,
+        634.67,
+        1354.33
+      ],
+      "quad_pixel": [
+        [
+          596.33,
+          1340.33
+        ],
+        [
+          634.33,
+          1339.33
+        ],
+        [
+          634.67,
+          1353.33
+        ],
+        [
+          596.67,
+          1354.33
+        ]
+      ],
+      "confidence": 0.641013,
+      "quality": 0.671013,
+      "orientation": "horizontal",
+      "category": "ocr_文字",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_full",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "full",
+      "scale": 3.0,
+      "tile_x": 0.0,
+      "tile_y": 0.0,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "精駕车",
+          "confidence": 0.608055,
+          "quality": 0.668055,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            597.33,
+            1339.67,
+            635.0,
+            1354.67
+          ]
+        }
+      ],
+      "alternative_texts": "",
+      "alternative_count": 1
+    },
+    {
+      "ocr_id": "1937_rapidocr_0011",
+      "text": "海潮寺",
+      "ocr_text_raw_order": "寺潮海",
+      "reading_rule": "reverse_suffix_first",
+      "raw_text": "寺潮海",
+      "bbox_pixel": [
+        796.33,
+        1342.67,
+        833.0,
+        1358.0
+      ],
+      "quad_pixel": [
+        [
+          796.67,
+          1342.67
+        ],
+        [
+          833.0,
+          1344.0
+        ],
+        [
+          832.33,
+          1358.0
+        ],
+        [
+          796.33,
+          1356.67
+        ]
+      ],
+      "confidence": 0.722531,
+      "quality": 0.862531,
+      "orientation": "horizontal",
+      "category": "ocr_寺观",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 393.33,
+      "tile_y": 1018.33,
+      "text_len": 3,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "海潮寺",
+          "confidence": 0.710071,
+          "quality": 0.850071,
+          "source_stage": "rapidocr_gray3x_sharp_tile",
+          "bbox_pixel": [
+            796.33,
+            1342.67,
+            833.0,
+            1358.0
+          ]
+        },
+        {
+          "text": "海潮寺",
+          "confidence": 0.724548,
+          "quality": 0.834548,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            796.67,
+            1343.33,
+            833.0,
+            1358.33
+          ]
+        }
+      ],
+      "alternative_texts": "",
+      "alternative_count": 2
+    },
+    {
+      "ocr_id": "1937_rapidocr_0064",
+      "text": "屏南",
+      "ocr_text_raw_order": "屏南",
+      "reading_rule": "as_detected",
+      "raw_text": "屏南",
+      "bbox_pixel": [
+        0.0,
+        1354.67,
+        29.0,
+        1369.67
+      ],
+      "quad_pixel": [
+        [
+          0.0,
+          1355.67
+        ],
+        [
+          28.67,
+          1354.67
+        ],
+        [
+          29.0,
+          1369.0
+        ],
+        [
+          0.0,
+          1369.67
+        ]
+      ],
+      "confidence": 0.662946,
+      "quality": 0.712946,
+      "orientation": "horizontal",
+      "category": "ocr_文字",
+      "source_map": "1937.jpg",
+      "source_stage": "rapidocr_gray3x_sharp_tile",
+      "engine": "rapidocr-onnxruntime",
+      "ocr_variant": "gray3x_sharp",
+      "ocr_pass": "tile",
+      "scale": 3.0,
+      "tile_x": 0.0,
+      "tile_y": 1018.33,
+      "text_len": 2,
+      "reference_logic": "原图像素坐标；未做现代地图锚定",
+      "notes": "",
+      "alternatives": [
+        {
+          "text": "屏南",
+          "confidence": 0.649188,
+          "quality": 0.669188,
+          "source_stage": "rapidocr_gray3x_sharp_full",
+          "bbox_pixel": [
+            0.33,
+            1355.33,
+            29.0,
+            1369.67
+          ]
+        }
+      ],
+      "alternative_texts": "",
+      "alternative_count": 1
+    }
+  ]
+}

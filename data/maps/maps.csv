@@ -1,0 +1,4 @@
+map_id,title,file_path,map_type,crs,status,notes
+jingchengtu,京城图,assets/maps/京城图.png,source_image,,raw,旧南宋都城地图识别输入
+linan_reference,临安复原参考图,assets/maps/临安.png,reference_image,,raw,复原视觉参考
+linan_nansong_modified,南宋临安配准底图,qgis/linan_nansong_modified.tif,georeferenced_raster,EPSG:3857,ready,QGIS 工程引用的栅格底图

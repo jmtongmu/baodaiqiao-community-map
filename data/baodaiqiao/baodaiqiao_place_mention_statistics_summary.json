@@ -1,0 +1,79 @@
+{
+  "total_places": 1275,
+  "curated_places": 188,
+  "top_limit_for_map": 80,
+  "top_mapped": 29,
+  "top_missing": 51,
+  "top_10": [
+    {
+      "rank": 1,
+      "name": "宝带桥",
+      "count": 455,
+      "raw_surface_count": 825,
+      "coordinate_quality": "已匹配坐标"
+    },
+    {
+      "rank": 2,
+      "name": "宝尹花园",
+      "count": 302,
+      "raw_surface_count": 398,
+      "coordinate_quality": "可用坐标_需复核"
+    },
+    {
+      "rank": 3,
+      "name": "宝带桥社区",
+      "count": 247,
+      "raw_surface_count": 255,
+      "coordinate_quality": "已匹配坐标"
+    },
+    {
+      "rank": 4,
+      "name": "下田",
+      "count": 193,
+      "raw_surface_count": 702,
+      "coordinate_quality": "可用坐标_需复核"
+    },
+    {
+      "rank": 5,
+      "name": "钱家新村",
+      "count": 148,
+      "raw_surface_count": 289,
+      "coordinate_quality": "可用坐标_需复核"
+    },
+    {
+      "rank": 6,
+      "name": "澹台湖",
+      "count": 137,
+      "raw_surface_count": 214,
+      "coordinate_quality": "已匹配坐标"
+    },
+    {
+      "rank": 7,
+      "name": "金星大队",
+      "count": 106,
+      "raw_surface_count": 119,
+      "coordinate_quality": "缺坐标"
+    },
+    {
+      "rank": 8,
+      "name": "新华大队",
+      "count": 103,
+      "raw_surface_count": 124,
+      "coordinate_quality": "缺坐标"
+    },
+    {
+      "rank": 9,
+      "name": "小村",
+      "count": 89,
+      "raw_surface_count": 105,
+      "coordinate_quality": "缺坐标"
+    },
+    {
+      "rank": 10,
+      "name": "朱塔浜",
+      "count": 71,
+      "raw_surface_count": 92,
+      "coordinate_quality": "缺坐标"
+    }
+  ]
+}

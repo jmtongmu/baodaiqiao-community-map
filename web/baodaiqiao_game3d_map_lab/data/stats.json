@@ -1,0 +1,1115 @@
+{
+  "rankings_mapped": [
+    {
+      "rank": 1,
+      "name": "宝带桥",
+      "count": 455,
+      "level": "极高频",
+      "reason": "它是社区志的核心命名地标，也是运河交通、古桥营造、历代修缮、文物保护和大运河申遗叙事的中心对象。",
+      "coordinate_quality": "已匹配坐标",
+      "lon": 120.6536904,
+      "lat": 31.25661
+    },
+    {
+      "rank": 2,
+      "name": "宝尹花园",
+      "count": 302,
+      "level": "极高频",
+      "reason": "它代表旧村改造和居民安置后的现代居住空间，在社区管理、人口居住和小区治理内容中频繁出现。",
+      "coordinate_quality": "可用坐标_需复核",
+      "lon": 120.6414136,
+      "lat": 31.2690988
+    },
+    {
+      "rank": 3,
+      "name": "宝带桥社区",
+      "count": 247,
+      "level": "极高频",
+      "reason": "它是志书叙事主体，前言、建置沿革、组织治理、社区建设和新时代发展章节都会反复出现。",
+      "coordinate_quality": "已匹配坐标",
+      "lon": 120.6444783,
+      "lat": 31.2503652
+    },
+    {
+      "rank": 4,
+      "name": "下田",
+      "count": 193,
+      "level": "高频",
+      "reason": "它既是历史自然村名称，又常出现在下田村、西下田、学校和村庄建置叙述中，是基层地名网络中的高频节点。",
+      "coordinate_quality": "可用坐标_需复核",
+      "lon": 120.6469495,
+      "lat": 31.2522801
+    },
+    {
+      "rank": 5,
+      "name": "钱家新村",
+      "count": 148,
+      "level": "高频",
+      "reason": "它是动迁安置和居民生活小区的重要空间，常与旧村改造、搬迁、居民生活管理相关。",
+      "coordinate_quality": "可用坐标_需复核",
+      "lon": 120.6578035,
+      "lat": 31.2723691
+    },
+    {
+      "rank": 6,
+      "name": "澹台湖",
+      "count": 137,
+      "level": "高频",
+      "reason": "它与宝带桥共同构成社区最重要的自然和景观空间，贯穿地名来源、湖桥关系、景区建设和文旅更新。",
+      "coordinate_quality": "已匹配坐标",
+      "lon": 120.6499934,
+      "lat": 31.2556431
+    },
+    {
+      "rank": 15,
+      "name": "迎春南路",
+      "count": 55,
+      "level": "中高频",
+      "reason": "该地名属于道路，在志书中约出现55次，主要关联交通水系、基层治理；主要时间锚点为1992年。",
+      "coordinate_quality": "已匹配坐标",
+      "lon": 120.6409075,
+      "lat": 31.2519478
+    },
+    {
+      "rank": 22,
+      "name": "大运河",
+      "count": 39,
+      "level": "中高频",
+      "reason": "该地名属于运河河道，在志书中约出现39次，主要关联交通水系、遗产文化；主要时间锚点为1987年。",
+      "coordinate_quality": "已匹配坐标",
+      "lon": 120.6536904,
+      "lat": 31.25661
+    },
+    {
+      "rank": 23,
+      "name": "石湖东路",
+      "count": 37,
+      "level": "中高频",
+      "reason": "该地名属于道路，在志书中约出现37次，主要关联交通水系、基层治理；主要时间锚点为1992年。",
+      "coordinate_quality": "已匹配坐标",
+      "lon": 120.6480306,
+      "lat": 31.2499288
+    },
+    {
+      "rank": 25,
+      "name": "宝带桥·澹台湖景区",
+      "count": 25,
+      "level": "中频",
+      "reason": "该地名属于景区，在志书中约出现25次，主要关联交通水系、遗产文化；主要时间锚点为2016年。",
+      "coordinate_quality": "推导坐标_需复核",
+      "lon": 120.6518419,
+      "lat": 31.2561265
+    },
+    {
+      "rank": 28,
+      "name": "碧波中学",
+      "count": 19,
+      "level": "中频",
+      "reason": "该地名属于教育设施，在志书中约出现19次，主要关联教育民生、开发建设；主要时间锚点为2000年。",
+      "coordinate_quality": "已匹配坐标",
+      "lon": 120.6420464,
+      "lat": 31.2502321
+    },
+    {
+      "rank": 29,
+      "name": "古运河",
+      "count": 18,
+      "level": "中频",
+      "reason": "该地名属于运河河道，在志书中约出现18次，主要关联交通水系、遗产文化；主要时间锚点为816年。",
+      "coordinate_quality": "可用坐标_需复核",
+      "lon": 120.6536904,
+      "lat": 31.25661
+    },
+    {
+      "rank": 34,
+      "name": "京杭大运河",
+      "count": 11,
+      "level": "中频",
+      "reason": "该地名属于运河河道，在志书中约出现11次，主要关联交通水系、遗产文化；主要时间锚点为1987年。",
+      "coordinate_quality": "已匹配坐标",
+      "lon": 120.6536904,
+      "lat": 31.25661
+    },
+    {
+      "rank": 35,
+      "name": "宝南小学",
+      "count": 11,
+      "level": "中频",
+      "reason": "该地名属于教育设施，在志书中约出现11次，主要关联教育民生、基层治理；主要时间锚点为1980年。",
+      "coordinate_quality": "可用坐标_需复核",
+      "lon": 120.6255782,
+      "lat": 31.2759153
+    },
+    {
+      "rank": 38,
+      "name": "澹台湖公园",
+      "count": 11,
+      "level": "中频",
+      "reason": "该地名属于公园，在志书中约出现11次，主要关联交通水系、遗产文化；主要时间锚点为1996年。",
+      "coordinate_quality": "可用坐标_需复核",
+      "lon": 120.6499934,
+      "lat": 31.2556431
+    },
+    {
+      "rank": 39,
+      "name": "澹台湖大桥",
+      "count": 11,
+      "level": "中频",
+      "reason": "该地名属于桥梁，在志书中约出现11次，主要关联交通水系、遗产文化；主要时间锚点为2004年。",
+      "coordinate_quality": "可用坐标_需复核",
+      "lon": 120.640518,
+      "lat": 31.260704
+    },
+    {
+      "rank": 41,
+      "name": "天灵路",
+      "count": 10,
+      "level": "中频",
+      "reason": "该地名属于道路，在志书中约出现10次，主要关联交通水系、开发建设；主要时间锚点为1992年。",
+      "coordinate_quality": "已匹配坐标",
+      "lon": 120.6365128,
+      "lat": 31.2451661
+    },
+    {
+      "rank": 42,
+      "name": "东吴南路",
+      "count": 9,
+      "level": "低频",
+      "reason": "该地名属于道路，在志书中约出现9次，主要关联交通水系、开发建设；主要时间锚点为1992年。",
+      "coordinate_quality": "已匹配坐标",
+      "lon": 120.6294373,
+      "lat": 31.2616784
+    },
+    {
+      "rank": 51,
+      "name": "宝南花园",
+      "count": 6,
+      "level": "低频",
+      "reason": "该地名属于居住小区，在志书中约出现6次，主要关联基层治理、教育民生；主要时间锚点为2013年。",
+      "coordinate_quality": "可用坐标_需复核",
+      "lon": 120.6453048,
+      "lat": 31.2514503
+    },
+    {
+      "rank": 53,
+      "name": "江南运河",
+      "count": 6,
+      "level": "低频",
+      "reason": "该地名属于运河河道，在志书中约出现6次，主要关联交通水系、遗产文化；未提取到明确时间锚点。",
+      "coordinate_quality": "可用坐标_需复核",
+      "lon": 120.6536904,
+      "lat": 31.25661
+    },
+    {
+      "rank": 54,
+      "name": "苏南运河",
+      "count": 6,
+      "level": "低频",
+      "reason": "该地名属于运河河道，在志书中约出现6次，主要关联交通水系、基层治理；未提取到明确时间锚点。",
+      "coordinate_quality": "可用坐标_需复核",
+      "lon": 120.6536904,
+      "lat": 31.25661
+    },
+    {
+      "rank": 56,
+      "name": "金家桥",
+      "count": 6,
+      "level": "低频",
+      "reason": "该地名属于桥梁，在志书中约出现6次，主要关联交通水系、基层治理；主要时间锚点为1992年。",
+      "coordinate_quality": "可用坐标_需复核",
+      "lon": 120.6459546,
+      "lat": 31.2414082
+    },
+    {
+      "rank": 61,
+      "name": "碧波小学",
+      "count": 5,
+      "level": "低频",
+      "reason": "该地名属于教育设施，在志书中约出现5次，主要关联教育民生、交通水系；主要时间锚点为1996年。",
+      "coordinate_quality": "可用坐标_需复核",
+      "lon": 120.6420464,
+      "lat": 31.2502321
+    },
+    {
+      "rank": 67,
+      "name": "吴中博物馆",
+      "count": 4,
+      "level": "低频",
+      "reason": "该地名属于文化设施，在志书中约出现4次，主要关联交通水系、遗产文化；主要时间锚点为2020年。",
+      "coordinate_quality": "可用坐标_需复核",
+      "lon": 120.6484138,
+      "lat": 31.2536539
+    },
+    {
+      "rank": 68,
+      "name": "宝丰路",
+      "count": 4,
+      "level": "低频",
+      "reason": "该地名属于道路，在志书中约出现4次，主要关联交通水系、基层治理；主要时间锚点为1992年。",
+      "coordinate_quality": "已匹配坐标",
+      "lon": 120.6416318,
+      "lat": 31.2395058
+    },
+    {
+      "rank": 70,
+      "name": "宝带桥公园",
+      "count": 4,
+      "level": "低频",
+      "reason": "该地名属于公园，在志书中约出现4次，主要关联交通水系、遗产文化；主要时间锚点为2009年。",
+      "coordinate_quality": "已匹配坐标",
+      "lon": 120.6547564,
+      "lat": 31.2614046
+    },
+    {
+      "rank": 71,
+      "name": "宝通路",
+      "count": 4,
+      "level": "低频",
+      "reason": "该地名属于道路，在志书中约出现4次，主要关联交通水系、开发建设；主要时间锚点为1992年。",
+      "coordinate_quality": "已匹配坐标",
+      "lon": 120.6510084,
+      "lat": 31.2414682
+    },
+    {
+      "rank": 73,
+      "name": "澄湖中路",
+      "count": 4,
+      "level": "低频",
+      "reason": "该地名属于道路，在志书中约出现4次，主要关联交通水系、开发建设；主要时间锚点为1992年。",
+      "coordinate_quality": "已匹配坐标",
+      "lon": 120.6423644,
+      "lat": 31.2414273
+    },
+    {
+      "rank": 79,
+      "name": "龙南社区",
+      "count": 4,
+      "level": "低频",
+      "reason": "该地名属于行政背景，在志书中约出现4次，主要关联交通水系、基层治理；未提取到明确时间锚点。",
+      "coordinate_quality": "可用坐标_需复核",
+      "lon": 120.6268814,
+      "lat": 31.257276
+    }
+  ],
+  "top_stats": [
+    {
+      "rank": 1,
+      "name": "宝带桥",
+      "count": 455,
+      "raw_count": 825,
+      "place_type": "heritage_bridge",
+      "level": "极高频",
+      "has_coord": "1",
+      "coordinate_quality": "已匹配坐标",
+      "reason": "它是社区志的核心命名地标，也是运河交通、古桥营造、历代修缮、文物保护和大运河申遗叙事的中心对象。",
+      "top_themes": "基层治理:38；交通水系:35；遗产文化:5"
+    },
+    {
+      "rank": 2,
+      "name": "宝尹花园",
+      "count": 302,
+      "raw_count": 398,
+      "place_type": "residential",
+      "level": "极高频",
+      "has_coord": "1",
+      "coordinate_quality": "可用坐标_需复核",
+      "reason": "它代表旧村改造和居民安置后的现代居住空间，在社区管理、人口居住和小区治理内容中频繁出现。",
+      "top_themes": "基层治理:74；开发建设:39；交通水系:35"
+    },
+    {
+      "rank": 3,
+      "name": "宝带桥社区",
+      "count": 247,
+      "raw_count": 255,
+      "place_type": "community",
+      "level": "极高频",
+      "has_coord": "1",
+      "coordinate_quality": "已匹配坐标",
+      "reason": "它是志书叙事主体，前言、建置沿革、组织治理、社区建设和新时代发展章节都会反复出现。",
+      "top_themes": "基层治理:47；交通水系:30；教育民生:9"
+    },
+    {
+      "rank": 4,
+      "name": "下田",
+      "count": 193,
+      "raw_count": 702,
+      "place_type": "historic_settlement",
+      "level": "高频",
+      "has_coord": "1",
+      "coordinate_quality": "可用坐标_需复核",
+      "reason": "它既是历史自然村名称，又常出现在下田村、西下田、学校和村庄建置叙述中，是基层地名网络中的高频节点。",
+      "top_themes": "基层治理:37；交通水系:35；教育民生:22"
+    },
+    {
+      "rank": 5,
+      "name": "钱家新村",
+      "count": 148,
+      "raw_count": 289,
+      "place_type": "residential",
+      "level": "高频",
+      "has_coord": "1",
+      "coordinate_quality": "可用坐标_需复核",
+      "reason": "它是动迁安置和居民生活小区的重要空间，常与旧村改造、搬迁、居民生活管理相关。",
+      "top_themes": "基层治理:71；教育民生:35；开发建设:31"
+    },
+    {
+      "rank": 6,
+      "name": "澹台湖",
+      "count": 137,
+      "raw_count": 214,
+      "place_type": "water",
+      "level": "高频",
+      "has_coord": "1",
+      "coordinate_quality": "已匹配坐标",
+      "reason": "它与宝带桥共同构成社区最重要的自然和景观空间，贯穿地名来源、湖桥关系、景区建设和文旅更新。",
+      "top_themes": "交通水系:65；基层治理:13；遗产文化:7"
+    },
+    {
+      "rank": 7,
+      "name": "金星大队",
+      "count": 106,
+      "raw_count": 119,
+      "place_type": "historic_admin",
+      "level": "高频",
+      "has_coord": "0",
+      "coordinate_quality": "缺坐标",
+      "reason": "该地名属于历史行政/集体组织，在志书中约出现106次，主要关联基层治理、交通水系；主要时间锚点为1958年。",
+      "top_themes": "基层治理:52；交通水系:18；教育民生:8"
+    },
+    {
+      "rank": 8,
+      "name": "新华大队",
+      "count": 103,
+      "raw_count": 124,
+      "place_type": "historic_admin",
+      "level": "高频",
+      "has_coord": "0",
+      "coordinate_quality": "缺坐标",
+      "reason": "该地名属于历史行政/集体组织，在志书中约出现103次，主要关联基层治理、农业工业；主要时间锚点为1958年。",
+      "top_themes": "基层治理:48；农业工业:11；教育民生:10"
+    },
+    {
+      "rank": 9,
+      "name": "小村",
+      "count": 89,
+      "raw_count": 105,
+      "place_type": "historic_settlement",
+      "level": "高频",
+      "has_coord": "0",
+      "coordinate_quality": "缺坐标",
+      "reason": "该地名属于历史自然村，在志书中约出现89次，主要关联基层治理、交通水系；主要时间锚点为1950年。",
+      "top_themes": "基层治理:95；交通水系:78；开发建设:19"
+    },
+    {
+      "rank": 10,
+      "name": "朱塔浜",
+      "count": 71,
+      "raw_count": 92,
+      "place_type": "historic_settlement",
+      "level": "中高频",
+      "has_coord": "0",
+      "coordinate_quality": "缺坐标",
+      "reason": "该地名属于历史自然村，在志书中约出现71次，主要关联交通水系、基层治理；主要时间锚点为1950年。",
+      "top_themes": "交通水系:58；基层治理:40；教育民生:27"
+    },
+    {
+      "rank": 11,
+      "name": "钱家村",
+      "count": 68,
+      "raw_count": 83,
+      "place_type": "historic_settlement",
+      "level": "中高频",
+      "has_coord": "0",
+      "coordinate_quality": "缺坐标",
+      "reason": "该地名属于历史自然村，在志书中约出现68次，主要关联交通水系、基层治理；主要时间锚点为1950年。",
+      "top_themes": "交通水系:83；基层治理:76；农业工业:9"
+    },
+    {
+      "rank": 12,
+      "name": "沉家浜",
+      "count": 62,
+      "raw_count": 66,
+      "place_type": "historic_settlement",
+      "level": "中高频",
+      "has_coord": "0",
+      "coordinate_quality": "缺坐标",
+      "reason": "该地名属于历史自然村，在志书中约出现62次，主要关联基层治理、交通水系；主要时间锚点为1950年。",
+      "top_themes": "基层治理:78；交通水系:76；教育民生:8"
+    },
+    {
+      "rank": 13,
+      "name": "王家浜",
+      "count": 59,
+      "raw_count": 71,
+      "place_type": "historic_settlement",
+      "level": "中高频",
+      "has_coord": "0",
+      "coordinate_quality": "缺坐标",
+      "reason": "该地名属于历史自然村，在志书中约出现59次，主要关联交通水系、基层治理；主要时间锚点为1950年。",
+      "top_themes": "交通水系:89；基层治理:81；教育民生:12"
+    },
+    {
+      "rank": 14,
+      "name": "金家村",
+      "count": 56,
+      "raw_count": 74,
+      "place_type": "historic_settlement",
+      "level": "中高频",
+      "has_coord": "0",
+      "coordinate_quality": "缺坐标",
+      "reason": "该地名属于历史自然村，在志书中约出现56次，主要关联交通水系、基层治理；主要时间锚点为1950年。",
+      "top_themes": "交通水系:72；基层治理:50；农业工业:15"
+    },
+    {
+      "rank": 15,
+      "name": "迎春南路",
+      "count": 55,
+      "raw_count": 66,
+      "place_type": "road",
+      "level": "中高频",
+      "has_coord": "1",
+      "coordinate_quality": "已匹配坐标",
+      "reason": "该地名属于道路，在志书中约出现55次，主要关联交通水系、基层治理；主要时间锚点为1992年。",
+      "top_themes": "交通水系:20；基层治理:11；教育民生:6"
+    },
+    {
+      "rank": 16,
+      "name": "太湖",
+      "count": 52,
+      "raw_count": 58,
+      "place_type": "water",
+      "level": "中高频",
+      "has_coord": "0",
+      "coordinate_quality": "缺坐标",
+      "reason": "该地名属于湖泊水面，在志书中约出现52次，主要关联交通水系、基层治理；主要时间锚点为-190年。",
+      "top_themes": "交通水系:34；基层治理:8；教育民生:6"
+    },
+    {
+      "rank": 17,
+      "name": "西下田",
+      "count": 48,
+      "raw_count": 197,
+      "place_type": "historic_settlement",
+      "level": "中高频",
+      "has_coord": "0",
+      "coordinate_quality": "缺坐标",
+      "reason": "该地名属于历史自然村，在志书中约出现48次，主要关联基层治理、交通水系；主要时间锚点为1950年。",
+      "top_themes": "基层治理:63；交通水系:40；开发建设:27"
+    },
+    {
+      "rank": 18,
+      "name": "牛桩浜",
+      "count": 46,
+      "raw_count": 58,
+      "place_type": "historic_settlement",
+      "level": "中高频",
+      "has_coord": "0",
+      "coordinate_quality": "缺坐标",
+      "reason": "该地名属于历史自然村，在志书中约出现46次，主要关联交通水系、基层治理；主要时间锚点为1950年。",
+      "top_themes": "交通水系:97；基层治理:81；教育民生:14"
+    },
+    {
+      "rank": 19,
+      "name": "宝南村",
+      "count": 44,
+      "raw_count": 91,
+      "place_type": "historic_admin",
+      "level": "中高频",
+      "has_coord": "0",
+      "coordinate_quality": "缺坐标",
+      "reason": "该地名属于历史行政/集体组织，在志书中约出现44次，主要关联基层治理、交通水系；主要时间锚点为1956年。",
+      "top_themes": "基层治理:58；交通水系:24；农业工业:12"
+    },
+    {
+      "rank": 20,
+      "name": "宝尹村",
+      "count": 41,
+      "raw_count": 77,
+      "place_type": "historic_admin",
+      "level": "中高频",
+      "has_coord": "0",
+      "coordinate_quality": "缺坐标",
+      "reason": "该地名属于历史行政/集体组织，在志书中约出现41次，主要关联基层治理、交通水系；主要时间锚点为1983年。",
+      "top_themes": "基层治理:47；交通水系:28；农业工业:8"
+    },
+    {
+      "rank": 21,
+      "name": "港南浜",
+      "count": 41,
+      "raw_count": 45,
+      "place_type": "historic_settlement",
+      "level": "中高频",
+      "has_coord": "0",
+      "coordinate_quality": "缺坐标",
+      "reason": "该地名属于历史自然村，在志书中约出现41次，主要关联交通水系、基层治理；主要时间锚点为1950年。",
+      "top_themes": "交通水系:88；基层治理:84；教育民生:6"
+    },
+    {
+      "rank": 22,
+      "name": "大运河",
+      "count": 39,
+      "raw_count": 63,
+      "place_type": "waterway",
+      "level": "中高频",
+      "has_coord": "1",
+      "coordinate_quality": "已匹配坐标",
+      "reason": "该地名属于运河河道，在志书中约出现39次，主要关联交通水系、遗产文化；主要时间锚点为1987年。",
+      "top_themes": "交通水系:65；遗产文化:47；基层治理:20"
+    },
+    {
+      "rank": 23,
+      "name": "石湖东路",
+      "count": 37,
+      "raw_count": 42,
+      "place_type": "road",
+      "level": "中高频",
+      "has_coord": "1",
+      "coordinate_quality": "已匹配坐标",
+      "reason": "该地名属于道路，在志书中约出现37次，主要关联交通水系、基层治理；主要时间锚点为1992年。",
+      "top_themes": "交通水系:70；基层治理:17；开发建设:13"
+    },
+    {
+      "rank": 24,
+      "name": "宝南",
+      "count": 25,
+      "raw_count": 615,
+      "place_type": "place",
+      "level": "中频",
+      "has_coord": "0",
+      "coordinate_quality": "缺坐标",
+      "reason": "该地名属于地方简称，在志书中约出现25次，主要关联基层治理、农业工业；主要时间锚点为1950年。",
+      "top_themes": "基层治理:62；农业工业:29；交通水系:26"
+    },
+    {
+      "rank": 25,
+      "name": "宝带桥·澹台湖景区",
+      "count": 25,
+      "raw_count": 31,
+      "place_type": "scenic_area",
+      "level": "中频",
+      "has_coord": "1",
+      "coordinate_quality": "推导坐标_需复核",
+      "reason": "该地名属于景区，在志书中约出现25次，主要关联交通水系、遗产文化；主要时间锚点为2016年。",
+      "top_themes": "交通水系:67；遗产文化:39；基层治理:19"
+    },
+    {
+      "rank": 26,
+      "name": "碧波实验小学",
+      "count": 20,
+      "raw_count": 19,
+      "place_type": "education",
+      "level": "中频",
+      "has_coord": "0",
+      "coordinate_quality": "缺坐标",
+      "reason": "该地名属于教育设施，在志书中约出现20次，主要关联教育民生、基层治理；主要时间锚点为1995年。",
+      "top_themes": "教育民生:73；基层治理:8；开发建设:4"
+    },
+    {
+      "rank": 27,
+      "name": "郭巷人民公社",
+      "count": 20,
+      "raw_count": 19,
+      "place_type": "historic_admin",
+      "level": "中频",
+      "has_coord": "0",
+      "coordinate_quality": "缺坐标",
+      "reason": "该地名属于历史行政/集体组织，在志书中约出现20次，主要关联基层治理、农业工业；主要时间锚点为1958年。",
+      "top_themes": "基层治理:83；农业工业:46；交通水系:24"
+    },
+    {
+      "rank": 28,
+      "name": "碧波中学",
+      "count": 19,
+      "raw_count": 18,
+      "place_type": "education",
+      "level": "中频",
+      "has_coord": "1",
+      "coordinate_quality": "已匹配坐标",
+      "reason": "该地名属于教育设施，在志书中约出现19次，主要关联教育民生、开发建设；主要时间锚点为2000年。",
+      "top_themes": "教育民生:55；开发建设:12；基层治理:7"
+    },
+    {
+      "rank": 29,
+      "name": "古运河",
+      "count": 18,
+      "raw_count": 22,
+      "place_type": "waterway",
+      "level": "中频",
+      "has_coord": "1",
+      "coordinate_quality": "可用坐标_需复核",
+      "reason": "该地名属于运河河道，在志书中约出现18次，主要关联交通水系、遗产文化；主要时间锚点为816年。",
+      "top_themes": "交通水系:65；遗产文化:9；基层治理:4"
+    },
+    {
+      "rank": 30,
+      "name": "长桥人民公社",
+      "count": 15,
+      "raw_count": 15,
+      "place_type": "historic_admin",
+      "level": "中频",
+      "has_coord": "0",
+      "coordinate_quality": "缺坐标",
+      "reason": "该地名属于历史行政/集体组织，在志书中约出现15次，主要关联基层治理、交通水系；主要时间锚点为1965年。",
+      "top_themes": "基层治理:99；交通水系:38；农业工业:12"
+    },
+    {
+      "rank": 31,
+      "name": "宝尹",
+      "count": 14,
+      "raw_count": 994,
+      "place_type": "place",
+      "level": "中频",
+      "has_coord": "0",
+      "coordinate_quality": "缺坐标",
+      "reason": "该地名属于地方简称，在志书中约出现14次，主要关联基层治理、交通水系；主要时间锚点为1950年。",
+      "top_themes": "基层治理:49；交通水系:14；农业工业:8"
+    },
+    {
+      "rank": 32,
+      "name": "宝南大队",
+      "count": 13,
+      "raw_count": 16,
+      "place_type": "historic_admin",
+      "level": "中频",
+      "has_coord": "0",
+      "coordinate_quality": "缺坐标",
+      "reason": "该地名属于历史行政/集体组织，在志书中约出现13次，主要关联基层治理、农业工业；主要时间锚点为1980年。",
+      "top_themes": "基层治理:87；农业工业:8；开发建设:3"
+    },
+    {
+      "rank": 33,
+      "name": "碧波幼儿园",
+      "count": 12,
+      "raw_count": 11,
+      "place_type": "education",
+      "level": "中频",
+      "has_coord": "0",
+      "coordinate_quality": "缺坐标",
+      "reason": "该地名属于教育设施，在志书中约出现12次，主要关联教育民生、基层治理；主要时间锚点为1998年。",
+      "top_themes": "教育民生:66；基层治理:10"
+    },
+    {
+      "rank": 34,
+      "name": "京杭大运河",
+      "count": 11,
+      "raw_count": 21,
+      "place_type": "waterway",
+      "level": "中频",
+      "has_coord": "1",
+      "coordinate_quality": "已匹配坐标",
+      "reason": "该地名属于运河河道，在志书中约出现11次，主要关联交通水系、遗产文化；主要时间锚点为1987年。",
+      "top_themes": "交通水系:89；遗产文化:37；基层治理:14"
+    },
+    {
+      "rank": 35,
+      "name": "宝南小学",
+      "count": 11,
+      "raw_count": 11,
+      "place_type": "education",
+      "level": "中频",
+      "has_coord": "1",
+      "coordinate_quality": "可用坐标_需复核",
+      "reason": "该地名属于教育设施，在志书中约出现11次，主要关联教育民生、基层治理；主要时间锚点为1980年。",
+      "top_themes": "教育民生:45；基层治理:13；交通水系:4"
+    },
+    {
+      "rank": 36,
+      "name": "宝尹大队",
+      "count": 11,
+      "raw_count": 15,
+      "place_type": "historic_admin",
+      "level": "中频",
+      "has_coord": "0",
+      "coordinate_quality": "缺坐标",
+      "reason": "该地名属于历史行政/集体组织，在志书中约出现11次，主要关联基层治理、农业工业；主要时间锚点为1980年。",
+      "top_themes": "基层治理:75；农业工业:12；交通水系:9"
+    },
+    {
+      "rank": 37,
+      "name": "泥河田",
+      "count": 11,
+      "raw_count": 141,
+      "place_type": "historic_settlement",
+      "level": "中频",
+      "has_coord": "0",
+      "coordinate_quality": "缺坐标",
+      "reason": "该地名属于历史自然村，在志书中约出现11次，主要关联交通水系、基层治理；主要时间锚点为1950年。",
+      "top_themes": "交通水系:47；基层治理:44；教育民生:16"
+    },
+    {
+      "rank": 38,
+      "name": "澹台湖公园",
+      "count": 11,
+      "raw_count": 12,
+      "place_type": "park",
+      "level": "中频",
+      "has_coord": "1",
+      "coordinate_quality": "可用坐标_需复核",
+      "reason": "该地名属于公园，在志书中约出现11次，主要关联交通水系、遗产文化；主要时间锚点为1996年。",
+      "top_themes": "交通水系:74；遗产文化:31；开发建设:3"
+    },
+    {
+      "rank": 39,
+      "name": "澹台湖大桥",
+      "count": 11,
+      "raw_count": 11,
+      "place_type": "bridge",
+      "level": "中频",
+      "has_coord": "1",
+      "coordinate_quality": "可用坐标_需复核",
+      "reason": "该地名属于桥梁，在志书中约出现11次，主要关联交通水系、遗产文化；主要时间锚点为2004年。",
+      "top_themes": "交通水系:101；遗产文化:21；开发建设:7"
+    },
+    {
+      "rank": 40,
+      "name": "党群服务中心",
+      "count": 10,
+      "raw_count": 9,
+      "place_type": "service_facility",
+      "level": "中频",
+      "has_coord": "0",
+      "coordinate_quality": "缺坐标",
+      "reason": "该地名属于社区服务设施，在志书中约出现10次，主要关联教育民生、基层治理；主要时间锚点为2008年。",
+      "top_themes": "教育民生:35；基层治理:27；交通水系:19"
+    },
+    {
+      "rank": 41,
+      "name": "天灵路",
+      "count": 10,
+      "raw_count": 15,
+      "place_type": "road",
+      "level": "中频",
+      "has_coord": "1",
+      "coordinate_quality": "已匹配坐标",
+      "reason": "该地名属于道路，在志书中约出现10次，主要关联交通水系、开发建设；主要时间锚点为1992年。",
+      "top_themes": "交通水系:47；开发建设:11；农业工业:11"
+    },
+    {
+      "rank": 42,
+      "name": "东吴南路",
+      "count": 9,
+      "raw_count": 11,
+      "place_type": "road",
+      "level": "低频",
+      "has_coord": "1",
+      "coordinate_quality": "已匹配坐标",
+      "reason": "该地名属于道路，在志书中约出现9次，主要关联交通水系、开发建设；主要时间锚点为1992年。",
+      "top_themes": "交通水系:54；开发建设:10；基层治理:9"
+    },
+    {
+      "rank": 43,
+      "name": "吴中经济开发区",
+      "count": 9,
+      "raw_count": 15,
+      "place_type": "admin_context",
+      "level": "低频",
+      "has_coord": "0",
+      "coordinate_quality": "缺坐标",
+      "reason": "该地名属于行政背景，在志书中约出现9次，主要关联基层治理、开发建设；主要时间锚点为1992年。",
+      "top_themes": "基层治理:44；开发建设:36；交通水系:30"
+    },
+    {
+      "rank": 44,
+      "name": "泥河田港",
+      "count": 9,
+      "raw_count": 12,
+      "place_type": "waterway",
+      "level": "低频",
+      "has_coord": "0",
+      "coordinate_quality": "缺坐标",
+      "reason": "该地名属于运河河道，在志书中约出现9次，主要关联交通水系、基层治理；主要时间锚点为1967年。",
+      "top_themes": "交通水系:70；基层治理:36；农业工业:9"
+    },
+    {
+      "rank": 45,
+      "name": "金家村河",
+      "count": 9,
+      "raw_count": 8,
+      "place_type": "waterway",
+      "level": "低频",
+      "has_coord": "0",
+      "coordinate_quality": "缺坐标",
+      "reason": "该地名属于运河河道，在志书中约出现9次，主要关联交通水系、基层治理；主要时间锚点为1972年。",
+      "top_themes": "交通水系:44；基层治理:19；开发建设:7"
+    },
+    {
+      "rank": 46,
+      "name": "吴家角",
+      "count": 8,
+      "raw_count": 42,
+      "place_type": "historic_settlement",
+      "level": "低频",
+      "has_coord": "0",
+      "coordinate_quality": "缺坐标",
+      "reason": "该地名属于历史自然村，在志书中约出现8次，主要关联基层治理、交通水系；主要时间锚点为1950年。",
+      "top_themes": "基层治理:88；交通水系:82；教育民生:9"
+    },
+    {
+      "rank": 47,
+      "name": "跃进河",
+      "count": 8,
+      "raw_count": 7,
+      "place_type": "waterway",
+      "level": "低频",
+      "has_coord": "0",
+      "coordinate_quality": "缺坐标",
+      "reason": "该地名属于运河河道，在志书中约出现8次，主要关联交通水系、基层治理；主要时间锚点为1991年。",
+      "top_themes": "交通水系:43；基层治理:15；开发建设:8"
+    },
+    {
+      "rank": 48,
+      "name": "古塘河",
+      "count": 7,
+      "raw_count": 10,
+      "place_type": "waterway",
+      "level": "低频",
+      "has_coord": "0",
+      "coordinate_quality": "缺坐标",
+      "reason": "该地名属于运河河道，在志书中约出现7次，主要关联交通水系、基层治理；主要时间锚点为1992年。",
+      "top_themes": "交通水系:86；基层治理:18；开发建设:8"
+    },
+    {
+      "rank": 49,
+      "name": "石湖",
+      "count": 7,
+      "raw_count": 50,
+      "place_type": "water",
+      "level": "低频",
+      "has_coord": "0",
+      "coordinate_quality": "缺坐标",
+      "reason": "该地名属于湖泊水面，在志书中约出现7次，主要关联交通水系、基层治理；主要时间锚点为1189年。",
+      "top_themes": "交通水系:71；基层治理:19；开发建设:11"
+    },
+    {
+      "rank": 50,
+      "name": "城南街道",
+      "count": 6,
+      "raw_count": 48,
+      "place_type": "admin_context",
+      "level": "低频",
+      "has_coord": "0",
+      "coordinate_quality": "缺坐标",
+      "reason": "该地名属于行政背景，在志书中约出现6次，主要关联基层治理、交通水系；主要时间锚点为2004年。",
+      "top_themes": "基层治理:49；交通水系:43；遗产文化:18"
+    }
+  ],
+  "missing_top": [
+    {
+      "rank": 7,
+      "name": "金星大队",
+      "count": 106,
+      "place_type": "historic_admin",
+      "reason": "该地名属于历史行政/集体组织，在志书中约出现106次，主要关联基层治理、交通水系；主要时间锚点为1958年。"
+    },
+    {
+      "rank": 8,
+      "name": "新华大队",
+      "count": 103,
+      "place_type": "historic_admin",
+      "reason": "该地名属于历史行政/集体组织，在志书中约出现103次，主要关联基层治理、农业工业；主要时间锚点为1958年。"
+    },
+    {
+      "rank": 9,
+      "name": "小村",
+      "count": 89,
+      "place_type": "historic_settlement",
+      "reason": "该地名属于历史自然村，在志书中约出现89次，主要关联基层治理、交通水系；主要时间锚点为1950年。"
+    },
+    {
+      "rank": 10,
+      "name": "朱塔浜",
+      "count": 71,
+      "place_type": "historic_settlement",
+      "reason": "该地名属于历史自然村，在志书中约出现71次，主要关联交通水系、基层治理；主要时间锚点为1950年。"
+    },
+    {
+      "rank": 11,
+      "name": "钱家村",
+      "count": 68,
+      "place_type": "historic_settlement",
+      "reason": "该地名属于历史自然村，在志书中约出现68次，主要关联交通水系、基层治理；主要时间锚点为1950年。"
+    },
+    {
+      "rank": 12,
+      "name": "沉家浜",
+      "count": 62,
+      "place_type": "historic_settlement",
+      "reason": "该地名属于历史自然村，在志书中约出现62次，主要关联基层治理、交通水系；主要时间锚点为1950年。"
+    },
+    {
+      "rank": 13,
+      "name": "王家浜",
+      "count": 59,
+      "place_type": "historic_settlement",
+      "reason": "该地名属于历史自然村，在志书中约出现59次，主要关联交通水系、基层治理；主要时间锚点为1950年。"
+    },
+    {
+      "rank": 14,
+      "name": "金家村",
+      "count": 56,
+      "place_type": "historic_settlement",
+      "reason": "该地名属于历史自然村，在志书中约出现56次，主要关联交通水系、基层治理；主要时间锚点为1950年。"
+    },
+    {
+      "rank": 16,
+      "name": "太湖",
+      "count": 52,
+      "place_type": "water",
+      "reason": "该地名属于湖泊水面，在志书中约出现52次，主要关联交通水系、基层治理；主要时间锚点为-190年。"
+    },
+    {
+      "rank": 17,
+      "name": "西下田",
+      "count": 48,
+      "place_type": "historic_settlement",
+      "reason": "该地名属于历史自然村，在志书中约出现48次，主要关联基层治理、交通水系；主要时间锚点为1950年。"
+    },
+    {
+      "rank": 18,
+      "name": "牛桩浜",
+      "count": 46,
+      "place_type": "historic_settlement",
+      "reason": "该地名属于历史自然村，在志书中约出现46次，主要关联交通水系、基层治理；主要时间锚点为1950年。"
+    },
+    {
+      "rank": 19,
+      "name": "宝南村",
+      "count": 44,
+      "place_type": "historic_admin",
+      "reason": "该地名属于历史行政/集体组织，在志书中约出现44次，主要关联基层治理、交通水系；主要时间锚点为1956年。"
+    },
+    {
+      "rank": 20,
+      "name": "宝尹村",
+      "count": 41,
+      "place_type": "historic_admin",
+      "reason": "该地名属于历史行政/集体组织，在志书中约出现41次，主要关联基层治理、交通水系；主要时间锚点为1983年。"
+    },
+    {
+      "rank": 21,
+      "name": "港南浜",
+      "count": 41,
+      "place_type": "historic_settlement",
+      "reason": "该地名属于历史自然村，在志书中约出现41次，主要关联交通水系、基层治理；主要时间锚点为1950年。"
+    },
+    {
+      "rank": 24,
+      "name": "宝南",
+      "count": 25,
+      "place_type": "place",
+      "reason": "该地名属于地方简称，在志书中约出现25次，主要关联基层治理、农业工业；主要时间锚点为1950年。"
+    },
+    {
+      "rank": 26,
+      "name": "碧波实验小学",
+      "count": 20,
+      "place_type": "education",
+      "reason": "该地名属于教育设施，在志书中约出现20次，主要关联教育民生、基层治理；主要时间锚点为1995年。"
+    },
+    {
+      "rank": 27,
+      "name": "郭巷人民公社",
+      "count": 20,
+      "place_type": "historic_admin",
+      "reason": "该地名属于历史行政/集体组织，在志书中约出现20次，主要关联基层治理、农业工业；主要时间锚点为1958年。"
+    },
+    {
+      "rank": 30,
+      "name": "长桥人民公社",
+      "count": 15,
+      "place_type": "historic_admin",
+      "reason": "该地名属于历史行政/集体组织，在志书中约出现15次，主要关联基层治理、交通水系；主要时间锚点为1965年。"
+    },
+    {
+      "rank": 31,
+      "name": "宝尹",
+      "count": 14,
+      "place_type": "place",
+      "reason": "该地名属于地方简称，在志书中约出现14次，主要关联基层治理、交通水系；主要时间锚点为1950年。"
+    },
+    {
+      "rank": 32,
+      "name": "宝南大队",
+      "count": 13,
+      "place_type": "historic_admin",
+      "reason": "该地名属于历史行政/集体组织，在志书中约出现13次，主要关联基层治理、农业工业；主要时间锚点为1980年。"
+    },
+    {
+      "rank": 33,
+      "name": "碧波幼儿园",
+      "count": 12,
+      "place_type": "education",
+      "reason": "该地名属于教育设施，在志书中约出现12次，主要关联教育民生、基层治理；主要时间锚点为1998年。"
+    },
+    {
+      "rank": 36,
+      "name": "宝尹大队",
+      "count": 11,
+      "place_type": "historic_admin",
+      "reason": "该地名属于历史行政/集体组织，在志书中约出现11次，主要关联基层治理、农业工业；主要时间锚点为1980年。"
+    },
+    {
+      "rank": 37,
+      "name": "泥河田",
+      "count": 11,
+      "place_type": "historic_settlement",
+      "reason": "该地名属于历史自然村，在志书中约出现11次，主要关联交通水系、基层治理；主要时间锚点为1950年。"
+    },
+    {
+      "rank": 40,
+      "name": "党群服务中心",
+      "count": 10,
+      "place_type": "service_facility",
+      "reason": "该地名属于社区服务设施，在志书中约出现10次，主要关联教育民生、基层治理；主要时间锚点为2008年。"
+    },
+    {
+      "rank": 43,
+      "name": "吴中经济开发区",
+      "count": 9,
+      "place_type": "admin_context",
+      "reason": "该地名属于行政背景，在志书中约出现9次，主要关联基层治理、开发建设；主要时间锚点为1992年。"
+    },
+    {
+      "rank": 44,
+      "name": "泥河田港",
+      "count": 9,
+      "place_type": "waterway",
+      "reason": "该地名属于运河河道，在志书中约出现9次，主要关联交通水系、基层治理；主要时间锚点为1967年。"
+    },
+    {
+      "rank": 45,
+      "name": "金家村河",
+      "count": 9,
+      "place_type": "waterway",
+      "reason": "该地名属于运河河道，在志书中约出现9次，主要关联交通水系、基层治理；主要时间锚点为1972年。"
+    },
+    {
+      "rank": 46,
+      "name": "吴家角",
+      "count": 8,
+      "place_type": "historic_settlement",
+      "reason": "该地名属于历史自然村，在志书中约出现8次，主要关联基层治理、交通水系；主要时间锚点为1950年。"
+    },
+    {
+      "rank": 47,
+      "name": "跃进河",
+      "count": 8,
+      "place_type": "waterway",
+      "reason": "该地名属于运河河道，在志书中约出现8次，主要关联交通水系、基层治理；主要时间锚点为1991年。"
+    },
+    {
+      "rank": 48,
+      "name": "古塘河",
+      "count": 7,
+      "place_type": "waterway",
+      "reason": "该地名属于运河河道，在志书中约出现7次，主要关联交通水系、基层治理；主要时间锚点为1992年。"
+    }
+  ],
+  "summary": {
+    "mapped_columns": 29,
+    "curated_places": 188,
+    "missing_top_count": 51,
+    "top_name": "宝带桥",
+    "top_count": 455
+  }
+}

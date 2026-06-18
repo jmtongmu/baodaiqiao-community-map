@@ -1,0 +1,28 @@
+# OS / editor noise
+Thumbs.db
+.DS_Store
+*.tmp
+*.log
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Generated release packages
+dist/
+*.zip
+*.rar
+
+# Heavy OCR/intermediate artifacts
+data/ocr/preprocessed/
+data/ocr/previews/
+tools/tessdata/
+
+# Local QGIS project inspection dumps
+data/qgis_project_inspect/unzipped/
+
+# Local browser/test screenshots
+*.png.tmp

@@ -1,0 +1,7 @@
+event_id,title,start_year,end_year,period_label,event_type,place_id,x,y,z,camera_target,visual_action,source_text,source_ref,confidence,duration_s,narration
+cm_001,待填里程碑一,,,,construction,,,,,,highlight,,,medium,2.5,
+cm_002,待填里程碑二,,,,service,,,,,,reveal,,,medium,2.5,
+cm_003,待填里程碑三,,,,economy,,,,,,grow,,,medium,2.5,
+cm_004,待填里程碑四,,,,governance,,,,,,path,,,medium,2.5,
+cm_005,待填里程碑五,,,,culture,,,,,,compare,,,medium,2.5,
+cm_006,待填里程碑六,,,,construction,,,,,,highlight,,,medium,2.5,

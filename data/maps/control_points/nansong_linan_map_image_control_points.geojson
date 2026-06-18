@@ -1,0 +1,342 @@
+{
+  "type": "FeatureCollection",
+  "name": "nansong_linan_map_image_control_points",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:3857"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "control_id": "cp_001",
+        "enabled": "false",
+        "map_id": "nansong_linan_map",
+        "name": "太学",
+        "matched_standard_name": "太学",
+        "match_type": "normalized_exact",
+        "match_score": "1.000",
+        "role": "ocr_文字",
+        "source_ocr_id": "nansong_linan_map_rapidocr_0072",
+        "source_text": "太学",
+        "candidate_texts": "太学",
+        "ocr_confidence": "0.629057",
+        "quality": "0.679057",
+        "osm_reference": "linan_places_master",
+        "weight": "1.0",
+        "notes": "Review on source image before setting enabled=true.",
+        "enabled_bool": false,
+        "control_space": "image_pixel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          746.0,
+          -560.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "control_id": "cp_002",
+        "enabled": "false",
+        "map_id": "nansong_linan_map",
+        "name": "大常寺",
+        "matched_standard_name": "太常寺",
+        "match_type": "normalized_exact",
+        "match_score": "1.000",
+        "role": "ocr_寺观",
+        "source_ocr_id": "nansong_linan_map_rapidocr_0023",
+        "source_text": "太常寺",
+        "candidate_texts": "大常寺 | 太常寺 | 大常卡",
+        "ocr_confidence": "0.675656",
+        "quality": "0.815656",
+        "osm_reference": "linan_places_master",
+        "weight": "1.0",
+        "notes": "Review on source image before setting enabled=true.",
+        "enabled_bool": false,
+        "control_space": "image_pixel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          783.5,
+          -953.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "control_id": "cp_003",
+        "enabled": "false",
+        "map_id": "nansong_linan_map",
+        "name": "孤山",
+        "matched_standard_name": "孤山",
+        "match_type": "normalized_exact",
+        "match_score": "1.000",
+        "role": "ocr_山体",
+        "source_ocr_id": "nansong_linan_map_rapidocr_0050",
+        "source_text": "孤山",
+        "candidate_texts": "孤山 | 山孤",
+        "ocr_confidence": "0.609522",
+        "quality": "0.739522",
+        "osm_reference": "linan_places_master",
+        "weight": "1.0",
+        "notes": "Review on source image before setting enabled=true.",
+        "enabled_bool": false,
+        "control_space": "image_pixel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          337.17,
+          -728.835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "control_id": "cp_004",
+        "enabled": "false",
+        "map_id": "nansong_linan_map",
+        "name": "清河坊",
+        "matched_standard_name": "清河坊",
+        "match_type": "normalized_exact",
+        "match_score": "1.000",
+        "role": "ocr_街巷道路",
+        "source_ocr_id": "nansong_linan_map_rapidocr_0010",
+        "source_text": "清河坊",
+        "candidate_texts": "清河坊 | 坊河清",
+        "ocr_confidence": "0.722404",
+        "quality": "0.862404",
+        "osm_reference": "linan_places_master",
+        "weight": "1.0",
+        "notes": "Review on source image before setting enabled=true.",
+        "enabled_bool": false,
+        "control_space": "image_pixel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          871.0,
+          -1022.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "control_id": "cp_005",
+        "enabled": "false",
+        "map_id": "nansong_linan_map",
+        "name": "清波門",
+        "matched_standard_name": "清波门",
+        "match_type": "normalized_exact",
+        "match_score": "1.000",
+        "role": "ocr_城防官署",
+        "source_ocr_id": "nansong_linan_map_rapidocr_0064",
+        "source_text": "清波門",
+        "candidate_texts": "清波門 | 門波清 | 波清",
+        "ocr_confidence": "0.553859",
+        "quality": "0.693859",
+        "osm_reference": "linan_places_master",
+        "weight": "1.0",
+        "notes": "Review on source image before setting enabled=true.",
+        "enabled_bool": false,
+        "control_space": "image_pixel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          640.335,
+          -1074.17
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "control_id": "cp_006",
+        "enabled": "false",
+        "map_id": "nansong_linan_map",
+        "name": "石佛寺",
+        "matched_standard_name": "石佛寺",
+        "match_type": "normalized_exact",
+        "match_score": "1.000",
+        "role": "ocr_寺观",
+        "source_ocr_id": "nansong_linan_map_rapidocr_0015",
+        "source_text": "石佛寺",
+        "candidate_texts": "石佛寺 | 石佛",
+        "ocr_confidence": "0.708143",
+        "quality": "0.848143",
+        "osm_reference": "linan_places_master",
+        "weight": "1.0",
+        "notes": "Review on source image before setting enabled=true.",
+        "enabled_bool": false,
+        "control_space": "image_pixel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          656.5,
+          -1545.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "control_id": "cp_007",
+        "enabled": "false",
+        "map_id": "nansong_linan_map",
+        "name": "钱塘門",
+        "matched_standard_name": "钱塘门",
+        "match_type": "normalized_exact",
+        "match_score": "1.000",
+        "role": "ocr_水系",
+        "source_ocr_id": "nansong_linan_map_rapidocr_0066",
+        "source_text": "钱塘門",
+        "candidate_texts": "钱塘門 | 門塘钱",
+        "ocr_confidence": "0.551017",
+        "quality": "0.691017",
+        "osm_reference": "linan_places_master",
+        "weight": "1.0",
+        "notes": "Review on source image before setting enabled=true.",
+        "enabled_bool": false,
+        "control_space": "image_pixel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          635.5,
+          -607.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "control_id": "cp_008",
+        "enabled": "false",
+        "map_id": "nansong_linan_map",
+        "name": "水安保",
+        "matched_standard_name": "保安门",
+        "match_type": "special_historical_gate",
+        "match_score": "0.940",
+        "role": "ocr_文字",
+        "source_ocr_id": "nansong_linan_map_rapidocr_0027",
+        "source_text": "水安保",
+        "candidate_texts": "水安保 | 保安水门 | 朗水安保 | 明水安保",
+        "ocr_confidence": "0.741778",
+        "quality": "0.801778",
+        "osm_reference": "linan_places_master",
+        "weight": "1.0",
+        "notes": "Review on source image before setting enabled=true.",
+        "enabled_bool": false,
+        "control_space": "image_pixel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          999.5,
+          -1202.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "control_id": "cp_009",
+        "enabled": "false",
+        "map_id": "nansong_linan_map",
+        "name": "净慈毂恩寺",
+        "matched_standard_name": "净慈寺",
+        "match_type": "special寺名夹字",
+        "match_score": "0.900",
+        "role": "ocr_寺观",
+        "source_ocr_id": "nansong_linan_map_rapidocr_0013",
+        "source_text": "净慈毂恩寺",
+        "candidate_texts": "净慈毂恩寺 | 寺恩毂慈净 | 净慈恩寺 | 慈報恩寺 | 净慈報恩寺 | 慈教恩寺",
+        "ocr_confidence": "0.68958",
+        "quality": "0.84958",
+        "osm_reference": "linan_places_master",
+        "weight": "0.7",
+        "notes": "Needs manual verification; OCR/name match is not strong enough for automatic fitting.",
+        "enabled_bool": false,
+        "control_space": "image_pixel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          432.5,
+          -1272.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "control_id": "cp_010",
+        "enabled": "false",
+        "map_id": "nansong_linan_map",
+        "name": "址塔圣雷",
+        "matched_standard_name": "雷峰塔",
+        "match_type": "special_partial_tower",
+        "match_score": "0.820",
+        "role": "ocr_文字",
+        "source_ocr_id": "nansong_linan_map_rapidocr_0053",
+        "source_text": "址塔圣雷",
+        "candidate_texts": "址塔圣雷 | 址塔室雷 | 址塔奎雷 | 址塔室雷真 | 址塔拳雷东",
+        "ocr_confidence": "0.657914",
+        "quality": "0.727914",
+        "osm_reference": "linan_places_master",
+        "weight": "0.7",
+        "notes": "Needs manual verification; OCR/name match is not strong enough for automatic fitting.",
+        "enabled_bool": false,
+        "control_space": "image_pixel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          427.165,
+          -1180.665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "control_id": "cp_011",
+        "enabled": "false",
+        "map_id": "nansong_linan_map",
+        "name": "塔保",
+        "matched_standard_name": "保俶塔",
+        "match_type": "special_partial_tower",
+        "match_score": "0.780",
+        "role": "ocr_文字",
+        "source_ocr_id": "nansong_linan_map_rapidocr_0055",
+        "source_text": "塔保",
+        "candidate_texts": "塔保 | 塔做保",
+        "ocr_confidence": "0.665059",
+        "quality": "0.715059",
+        "osm_reference": "linan_places_master",
+        "weight": "0.7",
+        "notes": "Needs manual verification; OCR/name match is not strong enough for automatic fitting.",
+        "enabled_bool": false,
+        "control_space": "image_pixel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          489.665,
+          -504.165
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1953 @@
+{
+  "map_id": "jingchengtu_windows_ocr",
+  "image_file": "\\\\10.100.66.31\\tongmu_file\\2025\\AIwork\\地方志\\社区志\\assets\\maps\\京城图.png",
+  "crs": "EPSG:3857",
+  "ocr_engine": "Windows.Media.Ocr zh-Hans-CN",
+  "extraction": {
+    "mode": "tiled_scaled",
+    "tile_width": 360,
+    "tile_height": 260,
+    "overlap": 90,
+    "scale": 3,
+    "raw_candidate_count": 144,
+    "deduped_candidate_count": 121
+  },
+  "candidates": [
+    {
+      "text": "觀",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        40,
+        163,
+        52,
+        175
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_1; kind=line",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "山",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        100.33,
+        156.67,
+        118.33,
+        174.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_1; kind=line",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "丿寶寶杰英黑",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        217.33,
+        135.67,
+        354,
+        159.33
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_1; kind=line",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "丿",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        217.33,
+        137.33,
+        229.33,
+        146.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_1; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "寶",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        250.33,
+        139.67,
+        261.33,
+        152.33
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_1; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "寶",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        282.33,
+        145,
+        293.33,
+        159.33
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_1; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "杰",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        295.67,
+        135.67,
+        307.33,
+        155.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_1; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "英",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        321,
+        141,
+        336.67,
+        155.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_1; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "黑",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        341.67,
+        137.33,
+        354,
+        149.33
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_1; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "礻承城",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        298,
+        190.33,
+        341.33,
+        204.33
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_1; kind=line",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "礻",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        298,
+        192,
+        303.33,
+        204
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_1; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "承",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        312.67,
+        192,
+        325.67,
+        204
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_1; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "城",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        327.67,
+        190.33,
+        341.33,
+        204.33
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_1; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "寶类黑毛",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        282.33,
+        136,
+        393.33,
+        159.33
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_2; kind=line",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "类",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        321,
+        141,
+        337,
+        155.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_2; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "毛",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        381.33,
+        136,
+        393.33,
+        145.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_2; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "礻承城太坊",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        297.67,
+        190,
+        396.33,
+        211
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_2; kind=line",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "太",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        363,
+        200.33,
+        374,
+        211
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_2; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "坊",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        383.67,
+        190.67,
+        396.33,
+        202.33
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_2; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "歲南山",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        362.33,
+        211,
+        421.67,
+        223.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_2; kind=line",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "歲",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        362.33,
+        211,
+        374.33,
+        221.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_2; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "南",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        397.33,
+        211.67,
+        407,
+        223
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_2; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "山",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        411,
+        212.67,
+        421.67,
+        223.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_2; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "水",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        655.33,
+        27,
+        665,
+        38
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_3; kind=line",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "水水楊",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        701,
+        28,
+        748.33,
+        39.33
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_3; kind=line",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "水",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        701,
+        28,
+        712.33,
+        39
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_3; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "水",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        728,
+        28.33,
+        737.67,
+        39
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_3; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "楊",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        737,
+        28.67,
+        748.33,
+        39.33
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_3; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "司山池水營",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        282,
+        272,
+        358.33,
+        290
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_5; kind=line",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "司",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        282,
+        278.33,
+        291.33,
+        289.33
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_5; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "山",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        305.33,
+        275.67,
+        315.67,
+        284.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_5; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "池",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        320.67,
+        278.33,
+        331.33,
+        289.33
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_5; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "水",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        332.67,
+        278,
+        343.33,
+        290
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_5; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "營",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        347.33,
+        272,
+        358.33,
+        285.33
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_5; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "太司",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        322.33,
+        339,
+        347,
+        352
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_5; kind=line",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "太",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        322.33,
+        339.33,
+        334,
+        351.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_5; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "司",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        338.33,
+        339,
+        347,
+        352
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_5; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "醫山池水營康",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        280,
+        267.67,
+        376.67,
+        290
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_6; kind=line",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "醫",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        280,
+        268,
+        293.33,
+        289.33
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_6; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "康",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        365.67,
+        267.67,
+        376.67,
+        280.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_6; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "軍片",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        280.67,
+        301.33,
+        354.67,
+        315
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_6; kind=line",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "軍",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        280.67,
+        301.33,
+        292.67,
+        315
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_6; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "片",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        345.67,
+        304,
+        354.67,
+        315
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_6; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "太司將軍",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        322.67,
+        339,
+        375.67,
+        352
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_6; kind=line",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "將",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        350.33,
+        339.67,
+        361.67,
+        351.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_6; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "軍",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        365,
+        339,
+        375.67,
+        351.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_6; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "府作器訁",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        321.67,
+        352.33,
+        383.33,
+        365.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_6; kind=line",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "府",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        321.67,
+        353,
+        334,
+        365.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_6; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "作",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        350.33,
+        352.33,
+        361.67,
+        365.33
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_6; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "器",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        366,
+        352.67,
+        375.33,
+        364.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_6; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "訁",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        378.33,
+        354.33,
+        383.33,
+        364
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_6; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "南山",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        397.33,
+        211.67,
+        421.67,
+        223.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_6; kind=line",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "相令",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        691.67,
+        203,
+        774.33,
+        216
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_7; kind=line",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "相",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        691.67,
+        203,
+        705,
+        216
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_7; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "令",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        765.33,
+        203,
+        774.33,
+        211.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_7; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "毛万坊俯方片",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        633.67,
+        272,
+        737.33,
+        284
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_7; kind=line",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "毛",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        633.67,
+        275,
+        645.67,
+        283.33
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_7; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "万",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        665,
+        275,
+        673.67,
+        283.33
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_7; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "坊",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        696.33,
+        273,
+        707,
+        283.33
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_7; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "俯",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        706.67,
+        272,
+        716.67,
+        283
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_7; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "方",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        719.67,
+        273,
+        728,
+        284
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_7; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "片",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        728.33,
+        272.33,
+        737.33,
+        284
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_7; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "待孝閤曉六三封玉壽白瑞太五真",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        159.33,
+        453,
+        359.33,
+        476.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=line",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "待",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        159.33,
+        453,
+        173.67,
+        468.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "孝",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        173.67,
+        454,
+        184.67,
+        469.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "閤",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        186.33,
+        456,
+        196.33,
+        473.33
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "曉",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        198.33,
+        454.33,
+        210,
+        468.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "六",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        211.67,
+        456.67,
+        226.33,
+        472.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "三",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        227,
+        458,
+        243,
+        473.33
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "封",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        242.67,
+        455.67,
+        256.33,
+        470.33
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "玉",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        256.67,
+        456.33,
+        269.33,
+        467.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "壽",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        270,
+        455.67,
+        282.33,
+        470.33
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "白",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        285.33,
+        455.67,
+        296,
+        469
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "瑞",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        297.33,
+        455,
+        310.33,
+        469.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "太",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        312.67,
+        456.67,
+        330,
+        476.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "五",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        330.33,
+        459.33,
+        348.67,
+        476
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "真",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        348.33,
+        455.33,
+        359.33,
+        470.33
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "班仁示樁牒域馬石",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        159.33,
+        470.67,
+        309,
+        486.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=line",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "班",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        159.33,
+        470.67,
+        172.67,
+        484.33
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "仁",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        173,
+        471.33,
+        185.33,
+        485.33
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "示",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        197.67,
+        471.67,
+        209.67,
+        484.33
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "樁",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        242.33,
+        471.67,
+        255.67,
+        486
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "牒",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        256,
+        471.33,
+        269,
+        485.33
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "域",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        269.33,
+        471.67,
+        283.33,
+        486.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "馬",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        284.33,
+        472.33,
+        295.67,
+        486.33
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "石",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        296.67,
+        473.33,
+        309,
+        485
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "閤亭部省庫所坊廟泉廟府廟",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        160,
+        479.33,
+        358,
+        503
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=line",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "閤",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        160,
+        487,
+        171,
+        501.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "亭",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        197.33,
+        486.67,
+        208.67,
+        502.33
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "部",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        209.67,
+        479.33,
+        225,
+        501
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "省",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        226,
+        480.67,
+        240.67,
+        500.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "庫",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        242,
+        488.33,
+        254.33,
+        502.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "所",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        255.67,
+        488.33,
+        268.67,
+        502.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "坊",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        269.33,
+        488.33,
+        282.67,
+        502.33
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "廟",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        283,
+        488,
+        295.33,
+        502.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "泉",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        297.67,
+        487.67,
+        310.33,
+        503
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "廟",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        310.67,
+        482,
+        327,
+        503
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "府",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        329.67,
+        482,
+        347,
+        503
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "廟",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        347.33,
+        488.67,
+        358,
+        502.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_9; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "白瑞太五算天焘",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        288.67,
+        427.67,
+        395.67,
+        455.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_10; kind=line",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "白",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        288.67,
+        427.67,
+        299.33,
+        441.33
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_10; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "瑞",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        300.33,
+        429,
+        313.33,
+        444
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_10; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "太",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        314.33,
+        432.67,
+        331.33,
+        453.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_10; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "五",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        332,
+        438,
+        349.67,
+        454.33
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_10; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "算",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        350.67,
+        435.67,
+        362,
+        450.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_10; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "天",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        362,
+        439,
+        373,
+        452
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_10; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "焘",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        385,
+        441.67,
+        395.67,
+        455.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_10; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "蕃導哮",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        282,
+        714.67,
+        343.33,
+        729.33
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_13; kind=line",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "蕃",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        282,
+        714.67,
+        293.67,
+        725.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_13; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "導",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        293.67,
+        714.67,
+        301,
+        726.33
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_13; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "哮",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        330.33,
+        717.67,
+        343.33,
+        729.33
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_13; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "哮艹",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        329,
+        705.67,
+        369,
+        719.33
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_14; kind=line",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "哮",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        329,
+        705.67,
+        342,
+        717.33
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_14; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "艹",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        342.33,
+        706,
+        369,
+        719.33
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_14; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "#嚀吉軍",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        806.67,
+        561.33,
+        867.67,
+        584.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_15; kind=line",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "#",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        806.67,
+        561.33,
+        820,
+        584.33
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_15; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "嚀",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        826.33,
+        574,
+        840,
+        583.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_15; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "吉",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        844.33,
+        570.67,
+        855,
+        584.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_15; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "軍",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        857,
+        571.67,
+        867.67,
+        584
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_15; kind=word",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "f哮",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        270,
+        710.33,
+        346,
+        723.67
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_18; kind=line",
+      "notes": "raw_ocr_asset"
+    },
+    {
+      "text": "f",
+      "category": "ocr_text",
+      "bbox_pixel": [
+        270,
+        710.33,
+        276.33,
+        723
+      ],
+      "orientation": "unknown",
+      "confidence": "medium",
+      "source_map": "jingchengtu_windows_ocr",
+      "source_stage": "windows_ocr_tiles",
+      "reference_logic": "Windows OCR tiled extraction from jingchengtu_windows_ocr; tile=tile_18; kind=word",
+      "notes": "raw_ocr_asset"
+    }
+  ]
+}

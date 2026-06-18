@@ -1,0 +1,3 @@
+﻿place_id,name,category,target_layer,display_layer,qgis_geometry,semantic_geometry,geometry_level,x,y,confidence,version,source_map,source_stage,reference_logic,notes
+affine_demo_001,示例城门,城门,places_city_gate,临安_城门,Polygon,point,symbolic,13375500.000,3538000.000,high,import_v1,affine_demo,ai_ocr_import,"仿射转换测试点，中心像素为 [100, 200]","{""bbox_pixel"":[90,190,110,210],""orientation"":""vertical"",""notes"":""""}"
+affine_demo_002,示例寺观,寺观,places_temple,临安_寺观,Polygon,point,symbolic,13377000.000,3536500.000,medium,import_v1,affine_demo,ai_ocr_import,"仿射转换测试点，中心像素为 [400, 500]","{""bbox_pixel"":[390,490,410,510],""orientation"":""vertical"",""notes"":""""}"
