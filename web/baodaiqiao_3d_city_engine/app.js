@@ -12,6 +12,7 @@ const state = {
   milestones: [],
   placeMeshes: [],
   milestoneMeshes: [],
+  buildingMeshes: [],
   labels: [],
   timelineMeshes: [],
   selectedTimeType: "全部",
@@ -147,6 +148,53 @@ function makeStandardMaterial(scene, name, color, options = {}) {
   if (options.emissive) {
     material.emissiveColor = BABYLON.Color3.FromHexString(color).scale(options.emissive);
   }
+  return material;
+}
+
+function makeFacadeMaterial(scene, name, config) {
+  const texture = new BABYLON.DynamicTexture(`facade-${name}`, { width: 512, height: 512 }, scene, true);
+  const ctx = texture.getContext();
+  const gradient = ctx.createLinearGradient(0, 0, 512, 512);
+  gradient.addColorStop(0, config.top);
+  gradient.addColorStop(0.55, config.base);
+  gradient.addColorStop(1, config.bottom);
+  ctx.fillStyle = gradient;
+  ctx.fillRect(0, 0, 512, 512);
+
+  ctx.globalAlpha = 0.18;
+  ctx.strokeStyle = "#dce8e8";
+  ctx.lineWidth = 2;
+  for (let x = 44; x < 512; x += config.columnGap) {
+    ctx.beginPath();
+    ctx.moveTo(x, 0);
+    ctx.lineTo(x, 512);
+    ctx.stroke();
+  }
+  ctx.globalAlpha = 1;
+
+  const rows = config.rows;
+  const cols = config.cols;
+  const cellW = 512 / cols;
+  const cellH = 512 / rows;
+  for (let row = 0; row < rows; row += 1) {
+    for (let col = 0; col < cols; col += 1) {
+      const lit = (row * 17 + col * 11 + config.seed) % 9 < config.litModulo;
+      ctx.fillStyle = lit ? config.lit : config.window;
+      ctx.globalAlpha = lit ? 0.95 : 0.48;
+      const x = col * cellW + cellW * 0.24;
+      const y = row * cellH + cellH * 0.28;
+      ctx.fillRect(x, y, cellW * 0.46, Math.max(3, cellH * 0.28));
+    }
+  }
+  ctx.globalAlpha = 1;
+  texture.update();
+
+  const material = new BABYLON.StandardMaterial(`mat-facade-${name}`, scene);
+  material.diffuseTexture = texture;
+  material.emissiveTexture = texture;
+  material.diffuseColor = BABYLON.Color3.White();
+  material.emissiveColor = BABYLON.Color3.FromHexString(config.emissive || "#2a3236");
+  material.specularColor = BABYLON.Color3.FromHexString(config.specular || "#2b3336");
   return material;
 }
 
@@ -487,6 +535,189 @@ function addPathLightDots(scene, path, material, count, y = 0.62) {
   }
 }
 
+function localOffset(rotation, x, z) {
+  return new BABYLON.Vector3(
+    Math.cos(rotation) * x + Math.sin(rotation) * z,
+    0,
+    -Math.sin(rotation) * x + Math.cos(rotation) * z,
+  );
+}
+
+function createBuildingPart(scene, name, base, size, local, rotation, material) {
+  const mesh = BABYLON.MeshBuilder.CreateBox(name, size, scene);
+  const offset = localOffset(rotation, local.x || 0, local.z || 0);
+  mesh.position = new BABYLON.Vector3(base.x + offset.x, (local.y || 0) + size.height / 2, base.z + offset.z);
+  mesh.rotation.y = rotation;
+  mesh.material = material;
+  mesh.isPickable = false;
+  state.buildingMeshes.push(mesh);
+  return mesh;
+}
+
+function addRoof(scene, name, base, size, local, rotation, material) {
+  return createBuildingPart(
+    scene,
+    `${name}-roof`,
+    base,
+    { width: size.width * 0.96, height: 0.16, depth: size.depth * 0.96 },
+    { x: local.x || 0, y: (local.y || 0) + size.height + 0.05, z: local.z || 0 },
+    rotation,
+    material,
+  );
+}
+
+function addBalconyStripes(scene, name, base, size, local, rotation, material, count = 5) {
+  for (let index = 1; index <= count; index += 1) {
+    createBuildingPart(
+      scene,
+      `${name}-stripe-${index}`,
+      base,
+      { width: size.width * 1.03, height: 0.08, depth: 0.08 },
+      {
+        x: local.x || 0,
+        y: (local.y || 0) + (size.height * index) / (count + 1),
+        z: (local.z || 0) - size.depth * 0.52,
+      },
+      rotation,
+      material,
+    );
+  }
+}
+
+function nearestPathDistance(x, z, paths) {
+  return Math.min(...paths.map((path) => distanceToPath(x, z, path.points)));
+}
+
+function chooseBuildingType(index, random, x, z, paths) {
+  const roadDistance = nearestPathDistance(x, z, paths.roads);
+  const waterDistance = nearestPathDistance(x, z, paths.water);
+  const roll = random();
+  if (roadDistance < 6 && roll > 0.48) return "commercial";
+  if (waterDistance < 9 && roll > 0.52) return "waterfront";
+  if (index % 41 === 0) return "school";
+  if (index % 53 === 0) return "community";
+  if (roll > 0.68) return "residentialTower";
+  if (roll > 0.32) return "slabApartment";
+  return "lowRise";
+}
+
+function createModernBuilding(scene, spec, materials, random) {
+  const base = new BABYLON.Vector3(spec.x, 0, spec.z);
+  const rotation = spec.rotation;
+  const width = spec.width;
+  const depth = spec.depth;
+  const height = spec.height;
+
+  if (spec.type === "commercial") {
+    const podiumHeight = Math.min(3.2, height * 0.32);
+    createBuildingPart(scene, `${spec.id}-podium`, base, { width, height: podiumHeight, depth }, { y: 0.42 }, rotation, materials.commercialPodium);
+    const towerSize = {
+      width: width * (0.48 + random() * 0.16),
+      height: Math.max(height, 9.5),
+      depth: depth * (0.5 + random() * 0.18),
+    };
+    createBuildingPart(scene, `${spec.id}-tower`, base, towerSize, { y: podiumHeight + 0.42 }, rotation, materials.glassFacade);
+    addRoof(scene, spec.id, base, towerSize, { y: podiumHeight + 0.42 }, rotation, materials.roofBright);
+    createBuildingPart(scene, `${spec.id}-lobby-light`, base, { width: width * 0.64, height: 0.22, depth: depth * 0.08 }, { y: 1.1, z: -depth * 0.52 }, rotation, materials.lobbyLight);
+    return;
+  }
+
+  if (spec.type === "residentialTower") {
+    const podiumHeight = 1.1 + random() * 1.2;
+    createBuildingPart(scene, `${spec.id}-podium`, base, { width, height: podiumHeight, depth }, { y: 0.42 }, rotation, materials.residentialPodium);
+    const towerCount = width > 6.5 && random() > 0.38 ? 2 : 1;
+    for (let index = 0; index < towerCount; index += 1) {
+      const localX = towerCount === 1 ? 0 : (index === 0 ? -width * 0.22 : width * 0.22);
+      const towerSize = {
+        width: width * (towerCount === 1 ? 0.62 : 0.38),
+        height: Math.max(5.2, height + random() * 4),
+        depth: depth * 0.72,
+      };
+      createBuildingPart(
+        scene,
+        `${spec.id}-res-tower-${index}`,
+        base,
+        towerSize,
+        { x: localX, y: podiumHeight + 0.42, z: 0 },
+        rotation,
+        materials.residentialFacade,
+      );
+      addRoof(scene, `${spec.id}-res-tower-${index}`, base, towerSize, { x: localX, y: podiumHeight + 0.42, z: 0 }, rotation, materials.roof);
+      addBalconyStripes(
+        scene,
+        `${spec.id}-balcony-${index}`,
+        base,
+        towerSize,
+        { x: localX, y: podiumHeight + 0.42, z: 0 },
+        rotation,
+        materials.balcony,
+        4,
+      );
+    }
+    return;
+  }
+
+  if (spec.type === "slabApartment") {
+    const slab = { width, height: Math.max(3.6, height * 0.78), depth: depth * 0.62 };
+    createBuildingPart(scene, `${spec.id}-slab`, base, slab, { y: 0.42 }, rotation, materials.apartmentFacade);
+    addRoof(scene, spec.id, base, slab, { y: 0.42 }, rotation, materials.roof);
+    addBalconyStripes(scene, `${spec.id}-slab`, base, slab, { y: 0.42 }, rotation, materials.balcony, 3);
+    return;
+  }
+
+  if (spec.type === "school") {
+    const wingHeight = 2.8 + random() * 1.6;
+    createBuildingPart(scene, `${spec.id}-school-main`, base, { width, height: wingHeight, depth: depth * 0.34 }, { y: 0.42 }, rotation, materials.schoolFacade);
+    createBuildingPart(
+      scene,
+      `${spec.id}-school-wing-a`,
+      base,
+      { width: width * 0.25, height: wingHeight * 0.88, depth },
+      { x: -width * 0.36, y: 0.42 },
+      rotation,
+      materials.schoolFacade,
+    );
+    createBuildingPart(
+      scene,
+      `${spec.id}-school-wing-b`,
+      base,
+      { width: width * 0.25, height: wingHeight * 0.88, depth },
+      { x: width * 0.36, y: 0.42 },
+      rotation,
+      materials.schoolFacade,
+    );
+    addRoof(scene, spec.id, base, { width, height: wingHeight, depth: depth * 0.34 }, { y: 0.42 }, rotation, materials.roofBright);
+    return;
+  }
+
+  if (spec.type === "community") {
+    const civicHeight = 2.4 + random() * 2.2;
+    createBuildingPart(scene, `${spec.id}-civic`, base, { width, height: civicHeight, depth }, { y: 0.42 }, rotation, materials.communityFacade);
+    createBuildingPart(
+      scene,
+      `${spec.id}-civic-hall`,
+      base,
+      { width: width * 0.44, height: civicHeight + 1.4, depth: depth * 0.52 },
+      { y: civicHeight * 0.18, z: -depth * 0.08 },
+      rotation,
+      materials.glassFacade,
+    );
+    addRoof(scene, spec.id, base, { width, height: civicHeight, depth }, { y: 0.42 }, rotation, materials.roofBright);
+    return;
+  }
+
+  if (spec.type === "waterfront") {
+    const waterfront = { width, height: 2.2 + random() * 4.2, depth: depth * 0.82 };
+    createBuildingPart(scene, `${spec.id}-waterfront`, base, waterfront, { y: 0.42 }, rotation, materials.waterfrontFacade);
+    addRoof(scene, spec.id, base, waterfront, { y: 0.42 }, rotation, materials.roofBright);
+    return;
+  }
+
+  const lowRise = { width, height: Math.max(1.1, height * 0.45), depth };
+  createBuildingPart(scene, `${spec.id}-low-rise`, base, lowRise, { y: 0.42 }, rotation, materials.lowRiseFacade);
+  addRoof(scene, spec.id, base, lowRise, { y: 0.42 }, rotation, materials.roof);
+}
+
 function createBridge(scene, name, position, rotation, width, length, materials) {
   const deck = BABYLON.MeshBuilder.CreateBox(`${name}-deck`, { width, height: 0.42, depth: length }, scene);
   deck.position = new BABYLON.Vector3(position.x, 1.05, position.z);
@@ -542,7 +773,6 @@ function createContextCity(scene, world, materials) {
   });
 
   const random = deterministicRandom(20260618);
-  const buildingMaterials = [materials.block, materials.blockCool, materials.blockWarm, materials.blockDark];
   for (let index = 0; index < 860; index += 1) {
     let x = 0;
     let z = 0;
@@ -558,17 +788,21 @@ function createContextCity(scene, world, materials) {
     const width = 1.2 + random() * 6.4;
     const depth = 1.2 + random() * 5.8;
     const height = 0.45 + Math.pow(random(), 2.0) * 10.4;
-    const block = BABYLON.MeshBuilder.CreateBox(`context-block-${index}`, { width, height, depth }, scene);
-    block.position = new BABYLON.Vector3(x, height / 2 + 0.45, z);
-    block.rotation.y = (random() - 0.5) * 0.58;
-    block.material = buildingMaterials[index % buildingMaterials.length];
-
-    if (index % 5 === 0) {
-      const roof = BABYLON.MeshBuilder.CreateBox(`context-roof-${index}`, { width: width * 0.92, height: 0.08, depth: depth * 0.92 }, scene);
-      roof.position = new BABYLON.Vector3(x, height + 0.52, z);
-      roof.rotation.y = block.rotation.y;
-      roof.material = materials.roof;
-    }
+    createModernBuilding(
+      scene,
+      {
+        id: `modern-building-${index}`,
+        x,
+        z,
+        width,
+        depth,
+        height,
+        rotation: (random() - 0.5) * 0.58,
+        type: chooseBuildingType(index, random, x, z, paths),
+      },
+      materials,
+      random,
+    );
   }
 
   createBridge(scene, "baodaiqiao-bridge", world.center.add(new BABYLON.Vector3(-1, 0, 1)), -0.52, 7.2, 22, materials);
@@ -708,11 +942,106 @@ function createScene(columns, milestones) {
   const materials = {
     water: makeStandardMaterial(scene, "mat-water", "#0b5d6b", { alpha: 0.56, emissive: 0.08 }),
     road: makeStandardMaterial(scene, "mat-road", "#52666b", { alpha: 0.88, emissive: 0.04 }),
-    block: makeStandardMaterial(scene, "mat-block", "#263b42", { alpha: 0.95 }),
-    blockCool: makeStandardMaterial(scene, "mat-block-cool", "#304953", { alpha: 0.95 }),
-    blockWarm: makeStandardMaterial(scene, "mat-block-warm", "#485848", { alpha: 0.92 }),
-    blockDark: makeStandardMaterial(scene, "mat-block-dark", "#18272e", { alpha: 0.96 }),
-    roof: makeStandardMaterial(scene, "mat-roof", "#70857b", { alpha: 0.88, emissive: 0.03 }),
+    residentialFacade: makeFacadeMaterial(scene, "residential", {
+      top: "#405963",
+      base: "#263c45",
+      bottom: "#182932",
+      window: "#6f848c",
+      lit: "#ffd27c",
+      rows: 16,
+      cols: 7,
+      columnGap: 72,
+      seed: 4,
+      litModulo: 3,
+      emissive: "#242b2c",
+      specular: "#4b5a5c",
+    }),
+    apartmentFacade: makeFacadeMaterial(scene, "apartment", {
+      top: "#52675f",
+      base: "#344945",
+      bottom: "#202f31",
+      window: "#7b8f8d",
+      lit: "#ffc86e",
+      rows: 10,
+      cols: 12,
+      columnGap: 54,
+      seed: 12,
+      litModulo: 2,
+      emissive: "#262c29",
+      specular: "#43504d",
+    }),
+    glassFacade: makeFacadeMaterial(scene, "commercial-glass", {
+      top: "#6f98a6",
+      base: "#335665",
+      bottom: "#132832",
+      window: "#8bc5d3",
+      lit: "#f6e0a3",
+      rows: 18,
+      cols: 8,
+      columnGap: 62,
+      seed: 21,
+      litModulo: 4,
+      emissive: "#273a40",
+      specular: "#7aa2a8",
+    }),
+    schoolFacade: makeFacadeMaterial(scene, "school", {
+      top: "#6a775f",
+      base: "#46584e",
+      bottom: "#26342f",
+      window: "#98a59a",
+      lit: "#ffd589",
+      rows: 6,
+      cols: 12,
+      columnGap: 64,
+      seed: 31,
+      litModulo: 2,
+      emissive: "#222a23",
+    }),
+    communityFacade: makeFacadeMaterial(scene, "community", {
+      top: "#7b7661",
+      base: "#4c5042",
+      bottom: "#262e29",
+      window: "#abb0a2",
+      lit: "#ffd88a",
+      rows: 7,
+      cols: 8,
+      columnGap: 72,
+      seed: 41,
+      litModulo: 3,
+      emissive: "#25261f",
+    }),
+    waterfrontFacade: makeFacadeMaterial(scene, "waterfront", {
+      top: "#667b78",
+      base: "#334b4e",
+      bottom: "#1c3036",
+      window: "#8bb4b2",
+      lit: "#f7d58a",
+      rows: 8,
+      cols: 10,
+      columnGap: 58,
+      seed: 51,
+      litModulo: 3,
+      emissive: "#213032",
+    }),
+    lowRiseFacade: makeFacadeMaterial(scene, "low-rise", {
+      top: "#56665b",
+      base: "#34433f",
+      bottom: "#1b292a",
+      window: "#87938d",
+      lit: "#eabf72",
+      rows: 5,
+      cols: 7,
+      columnGap: 78,
+      seed: 61,
+      litModulo: 2,
+      emissive: "#1f2522",
+    }),
+    residentialPodium: makeStandardMaterial(scene, "mat-residential-podium", "#334349", { alpha: 0.95, emissive: 0.03 }),
+    commercialPodium: makeStandardMaterial(scene, "mat-commercial-podium", "#394f56", { alpha: 0.95, emissive: 0.05 }),
+    roof: makeStandardMaterial(scene, "mat-roof", "#788b81", { alpha: 0.9, emissive: 0.04 }),
+    roofBright: makeStandardMaterial(scene, "mat-roof-bright", "#a3ad9a", { alpha: 0.92, emissive: 0.07 }),
+    balcony: makeStandardMaterial(scene, "mat-balcony", "#dce6dc", { alpha: 0.52, emissive: 0.08 }),
+    lobbyLight: makeStandardMaterial(scene, "mat-lobby-light", "#ffd183", { alpha: 0.72, emissive: 0.62 }),
     bridge: makeStandardMaterial(scene, "mat-bridge", "#d8b46e", { alpha: 0.96, emissive: 0.1 }),
     bridgeRail: makeStandardMaterial(scene, "mat-bridge-rail", "#ffe2a0", { alpha: 0.9, emissive: 0.16 }),
     streetLight: makeStandardMaterial(scene, "mat-street-light", "#ffd783", { emissive: 0.9 }),
@@ -870,6 +1199,7 @@ function updateVisibility() {
   const showPlaces = $("togglePlaces").checked;
   const showMilestones = $("toggleMilestones").checked;
   const showTimeline = $("toggleTimeline").checked;
+  const showBuildings = $("toggleBuildings").checked;
   const showLabels = $("toggleLabels").checked;
   const year = Math.round(state.currentYear);
 
@@ -885,6 +1215,7 @@ function updateVisibility() {
   });
 
   state.timelineMeshes.forEach((mesh) => mesh.setEnabled(showTimeline));
+  state.buildingMeshes.forEach((mesh) => mesh.setEnabled(showBuildings));
   state.labels.forEach((mesh) => mesh.setEnabled(showLabels));
 }
 
@@ -926,7 +1257,7 @@ function renderMilestoneInspector(item) {
 }
 
 function initControls() {
-  ["togglePlaces", "toggleMilestones", "toggleTimeline", "toggleLabels"].forEach((id) => {
+  ["togglePlaces", "toggleMilestones", "toggleTimeline", "toggleBuildings", "toggleLabels"].forEach((id) => {
     $(id).addEventListener("change", updateVisibility);
   });
 
